@@ -1,6 +1,6 @@
 {
   "name": "mui-undraw",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Material UI Undraw Components",
   "main": "lib/index.js",
   "repository": "https://github.com/mikebarkmin/react-mui-undraw",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3"
   }
