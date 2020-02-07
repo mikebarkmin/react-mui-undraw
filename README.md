@@ -2,6 +2,10 @@
 
 Most of the [undraw](https://undraw.co) illustrations are support (See src folder).
 
+`npm install mui-undraw`
+
+`import XReact from mui-undraw/lib/XReact`
+
 ## Name changes
 
 Illustrations beginning with a number were converted for example from
