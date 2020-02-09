@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Delivery = ({ color, style }) => {
+const SvgDelivery = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,219 +13,132 @@ const Delivery = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="a2be76dc-ded0-4276-979b-9321ffa4ea47"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="896.26"
-      height="886.06"
       viewBox="0 0 896.26 886.06"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="a2b2d1fc-0308-42ae-9fb3-5a28a5ecf355"
-          x1="654.31"
-          y1="787.12"
-          x2="654.31"
-          y2="483.17"
+          id="Delivery_svg__a"
+          x1={654.31}
+          y1={787.12}
+          x2={654.31}
+          y2={483.17}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="d3ada255-7071-4392-8697-9e7bf8640a14"
-          x1="310.24"
-          y1="813.28"
-          x2="310.24"
-          y2="53.35"
-          xlink:href="#a2b2d1fc-0308-42ae-9fb3-5a28a5ecf355"
+          id="Delivery_svg__c"
+          x1={310.24}
+          y1={813.28}
+          x2={310.24}
+          y2={53.35}
+          xlinkHref="#Delivery_svg__a"
         />
-        <clipPath
-          id="ad42cf0d-12b9-4ed3-b81e-3fe00c5fae65"
-          transform="translate(-103.74 -16.68)"
+        <linearGradient
+          id="Delivery_svg__b"
+          x1={413.1}
+          y1={523.43}
+          x2={413.1}
+          y2={308.51}
+          gradientUnits="userSpaceOnUse"
         >
-          <rect
-            id="a4571f71-7401-4714-9f7d-472da655db57"
+          <stop offset={0} stopOpacity={0.12} />
+          <stop offset={0.55} stopOpacity={0.09} />
+          <stop offset={1} stopOpacity={0.02} />
+        </linearGradient>
+        <linearGradient
+          id="Delivery_svg__e"
+          x1={309.36}
+          y1={376.83}
+          x2={309.36}
+          y2={335.13}
+          xlinkHref="#Delivery_svg__b"
+        />
+        <clipPath id="Delivery_svg__d" transform="translate(-103.74 -16.68)">
+          <path
             data-name="&lt;Rectangle&gt;"
-            x="256.61"
-            y="133.55"
-            width="312.75"
-            height="588.49"
             fill={color}
+            d="M256.61 133.55h312.75v588.49H256.61z"
           />
         </clipPath>
-        <linearGradient
-          id="ccece478-ff56-431e-aa3f-34a39bd33814"
-          x1="413.1"
-          y1="523.43"
-          x2="413.1"
-          y2="308.51"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0" stop-opacity="0.12" />
-          <stop offset="0.55" stop-opacity="0.09" />
-          <stop offset="1" stop-opacity="0.02" />
-        </linearGradient>
-        <linearGradient
-          id="3dafc59e-19bf-4cbd-8b3f-7488466527c3"
-          x1="309.36"
-          y1="376.83"
-          x2="309.36"
-          y2="335.13"
-          xlink:href="#ccece478-ff56-431e-aa3f-34a39bd33814"
-        />
       </defs>
-      <title>mail1</title>
-      <rect
-        x="412.36"
-        y="483.17"
-        width="483.89"
-        height="303.95"
-        fill="url(#a2b2d1fc-0308-42ae-9fb3-5a28a5ecf355)"
+      <path
+        fill="url(#Delivery_svg__a)"
+        d="M412.36 483.17h483.89v303.95H412.36z"
       />
-      <rect x="412.36" y="490.73" width="477.81" height="283.67" fill="#fff" />
-      <g opacity="0.6">
-        <rect x="808.72" y="512.34" width="60.79" height="44.98" fill={color} />
-        <rect
-          x="586.23"
-          y="630.28"
-          width="233.43"
-          height="14.59"
-          fill={color}
-        />
-        <rect x="586.23" y="666.75" width="170.21" height="9.73" fill={color} />
+      <path fill="#fff" d="M412.36 490.73h477.81V774.4H412.36z" />
+      <g opacity={0.6} fill={color}>
+        <path d="M808.72 512.34h60.79v44.98h-60.79zM586.23 630.28h233.43v14.59H586.23zM586.23 666.75h170.21v9.73H586.23z" />
       </g>
       <rect
-        x="96.26"
-        y="53.35"
-        width="427.96"
-        height="759.94"
-        rx="10"
-        ry="10"
-        fill="url(#d3ada255-7071-4392-8697-9e7bf8640a14)"
+        x={96.26}
+        y={53.35}
+        width={427.96}
+        height={759.94}
+        rx={10}
+        ry={10}
+        fill="url(#Delivery_svg__c)"
       />
       <rect
-        x="107.25"
-        y="65.74"
-        width="403.97"
-        height="723.15"
-        rx="10"
-        ry="10"
+        x={107.25}
+        y={65.74}
+        width={403.97}
+        height={723.15}
+        rx={10}
+        ry={10}
         fill="#fff"
       />
-      <rect
-        id="c7b02336-9701-4e2a-9a3b-1f471733f396"
+      <path
         data-name="&lt;Rectangle&gt;"
-        x="152.86"
-        y="116.86"
-        width="312.75"
-        height="588.49"
         fill={color}
+        d="M152.86 116.86h312.75v588.49H152.86z"
       />
-      <g clip-path="url(#ad42cf0d-12b9-4ed3-b81e-3fe00c5fae65)">
-        <line
-          x1="28.17"
-          y1="477.63"
-          x2="652.82"
-          y2="176.11"
-          fill="#2196f3"
-          stroke="#fff"
-          stroke-miterlimit="10"
-          strokeWidth="7"
-        />
-        <line
-          x1="195.68"
-          y1="2.11"
-          x2="414.35"
-          y2="291.22"
-          fill="#2196f3"
-          stroke="#fff"
-          stroke-miterlimit="10"
-          strokeWidth="7"
-        />
-        <line
-          x1="15.2"
-          y1="105.86"
-          x2="241.32"
-          y2="374.74"
-          fill="#2196f3"
-          stroke="#fff"
-          stroke-miterlimit="10"
-          strokeWidth="7"
-        />
-        <line
-          x1="176.63"
-          y1="405.97"
-          x2="530.7"
-          y2="883.98"
-          fill="#2196f3"
-          stroke="#fff"
-          stroke-miterlimit="10"
-          strokeWidth="7"
-        />
-        <line
-          x1="2.23"
-          y1="813.73"
-          x2="297.46"
-          y2="569.09"
-          fill="#2196f3"
-          stroke="#fff"
-          stroke-miterlimit="10"
-          strokeWidth="7"
-        />
-        <line
-          x1="575.01"
-          y1="433.32"
-          x2="353.05"
-          y2="644.14"
-          fill="#2196f3"
-          stroke="#fff"
-          stroke-miterlimit="10"
-          strokeWidth="7"
-        />
+      <g
+        clipPath="url(#Delivery_svg__d)"
+        fill="#2196f3"
+        stroke="#fff"
+        strokeMiterlimit={10}
+        strokeWidth={7}
+      >
+        <path d="M28.17 477.63l624.65-301.52M195.68 2.11l218.67 289.11M15.2 105.86l226.12 268.88M176.63 405.97L530.7 883.98M2.23 813.73l295.23-244.64M575.01 433.32L353.05 644.14" />
       </g>
-      <circle cx="309.24" cy="747.75" r="24.94" fill="#dbdbdb" />
-      <circle cx="261.86" cy="89.43" r="4.99" fill="#dbdbdb" />
+      <circle cx={309.24} cy={747.75} r={24.94} fill="#dbdbdb" />
+      <circle cx={261.86} cy={89.43} r={4.99} fill="#dbdbdb" />
       <rect
-        x="284.3"
-        y="85.69"
-        width="77.3"
-        height="7.48"
-        rx="1.5"
-        ry="1.5"
+        x={284.3}
+        y={85.69}
+        width={77.3}
+        height={7.48}
+        rx={1.5}
+        ry={1.5}
         fill="#dbdbdb"
       />
       <path
-        d="M482.07,377.47c0,38.09-69,146-69,146s-69-107.86-69-146a69,69,0,1,1,137.93,0Z"
+        d="M482.07 377.47c0 38.09-69 146-69 146s-69-107.86-69-146a69 69 0 11137.93 0z"
         transform="translate(-103.74 -16.68)"
-        fill="url(#ccece478-ff56-431e-aa3f-34a39bd33814)"
+        fill="url(#Delivery_svg__b)"
       />
-      <circle
-        cx="309.36"
-        cy="355.98"
-        r="20.85"
-        fill="url(#3dafc59e-19bf-4cbd-8b3f-7488466527c3)"
-      />
+      <circle cx={309.36} cy={355.98} r={20.85} fill="url(#Delivery_svg__e)" />
       <path
-        d="M466.85,386c0,29.68-53.75,113.74-53.75,113.74S359.35,415.65,359.35,386a53.75,53.75,0,1,1,107.49,0Z"
-        transform="translate(-103.74 -16.68)"
+        d="M363.11 369.32c0 29.68-53.75 113.74-53.75 113.74s-53.75-84.09-53.75-113.74a53.75 53.75 0 11107.49 0z"
         fill="#ff5252"
       />
-      <circle cx="309.36" cy="365.54" r="16.25" fill="#fff" />
+      <circle cx={309.36} cy={365.54} r={16.25} fill="#fff" />
     </svg>
   );
 };
 
-Delivery.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgDelivery.propTypes = {
+  color: PropTypes.string
 };
-
-Delivery.defaultProps = {
-  color: "primary",
-  style: {}
+SvgDelivery.defaultProps = {
+  color: "primary"
 };
-
-export default Delivery;
+const MemoSvgDelivery = React.memo(SvgDelivery);
+export default MemoSvgDelivery;

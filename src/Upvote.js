@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Upvote = ({ color, style }) => {
+const SvgUpvote = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,155 +13,121 @@ const Upvote = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="a1c85ec2-14a6-4651-ae43-a1d11b962a73"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="884.93"
-      height="613.66"
       viewBox="0 0 884.93 613.66"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="573ecdfd-5ff6-4890-b409-fb0c4abc2893"
-          x1="442.47"
-          y1="613.66"
-          x2="442.47"
+          id="Upvote_svg__a"
+          x1={442.47}
+          y1={613.66}
+          x2={442.47}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
       </defs>
-      <title>upvote</title>
-      <g opacity="0.5">
-        <polygon
-          points="0 0 0 30.96 0 613.66 884.93 613.66 884.93 30.96 884.93 0 0 0"
-          fill="url(#573ecdfd-5ff6-4890-b409-fb0c4abc2893)"
-        />
-      </g>
-      <rect x="13.13" y="38.18" width="862.43" height="564.57" fill="#fff" />
-      <rect x="13.13" y="11.33" width="862.43" height="41.54" fill="#f5f5f5" />
-      <circle cx="45.95" cy="31.47" r="10.07" fill="#ff5252" />
-      <circle cx="73.64" cy="31.47" r="10.07" fill="#ff0" />
-      <circle cx="101.33" cy="31.47" r="10.07" fill="#69f0ae" />
-      <rect x="180.54" y="158.51" width="289.13" height="28.28" fill={color} />
-      <rect x="179.49" y="219.26" width="645.3" height="28.28" fill="#e0e0e0" />
-      <rect x="179.49" y="280.02" width="645.3" height="28.28" fill="#e0e0e0" />
-      <rect
-        x="180.54"
-        y="338.91"
-        width="289.13"
-        height="28.28"
-        fill={color}
-        opacity="0.5"
+      <path
+        fill="url(#Upvote_svg__a)"
+        d="M0 0V613.66h884.93V0H0z"
+        opacity={0.5}
       />
-      <rect
-        x="179.49"
-        y="399.67"
-        width="645.3"
-        height="28.28"
-        fill={color}
-        opacity="0.5"
+      <path fill="#fff" d="M13.13 38.18h862.43v564.57H13.13z" />
+      <path fill="#f5f5f5" d="M13.13 11.33h862.43v41.54H13.13z" />
+      <circle cx={45.95} cy={31.47} r={10.07} fill="#ff5252" />
+      <circle cx={73.64} cy={31.47} r={10.07} fill="#ff0" />
+      <circle cx={101.33} cy={31.47} r={10.07} fill="#69f0ae" />
+      <path fill={color} d="M180.54 158.51h289.13v28.28H180.54z" />
+      <path
+        fill="#e0e0e0"
+        d="M179.49 219.26h645.3v28.28h-645.3zM179.49 280.02h645.3v28.28h-645.3z"
       />
-      <rect x="179.49" y="460.42" width="645.3" height="28.28" fill="#e0e0e0" />
-      <line
-        x1="131.11"
-        y1="158.33"
-        x2="131.11"
-        y2="183.99"
+      <path
+        fill={color}
+        opacity={0.5}
+        d="M180.54 338.91h289.13v28.28H180.54zM179.49 399.67h645.3v28.28h-645.3z"
+      />
+      <path fill="#e0e0e0" d="M179.49 460.42h645.3v28.28h-645.3z" />
+      <path
         fill="none"
         stroke="#3ad29f"
-        stroke-miterlimit="10"
-        strokeWidth="6"
+        strokeMiterlimit={10}
+        strokeWidth={6}
+        d="M131.11 158.33v25.66"
       />
-      <polygon
-        points="120.94 170.28 131.11 160.11 141.28 170.28 141.28 161.65 131.11 151.47 120.94 161.65 120.94 170.28"
+      <path
         fill="#3ad29f"
+        d="M120.94 170.28l10.17-10.17 10.17 10.17v-8.63l-10.17-10.18-10.17 10.18v8.63z"
       />
-      <line
-        x1="131.11"
-        y1="223.37"
-        x2="131.11"
-        y2="249.02"
+      <path
         fill="none"
         stroke="#e0e0e0"
-        stroke-miterlimit="10"
-        strokeWidth="6"
+        strokeMiterlimit={10}
+        strokeWidth={6}
+        d="M131.11 223.37v25.65"
       />
-      <polygon
-        points="120.94 235.32 131.11 225.14 141.28 235.32 141.28 226.68 131.11 216.51 120.94 226.68 120.94 235.32"
+      <path
         fill="#e0e0e0"
+        d="M120.94 235.32l10.17-10.18 10.17 10.18v-8.64l-10.17-10.17-10.17 10.17v8.64z"
       />
-      <line
-        x1="131.11"
-        y1="288.4"
-        x2="131.11"
-        y2="314.06"
+      <path
         fill="none"
         stroke="#e0e0e0"
-        stroke-miterlimit="10"
-        strokeWidth="6"
+        strokeMiterlimit={10}
+        strokeWidth={6}
+        d="M131.11 288.4v25.66"
       />
-      <polygon
-        points="120.94 300.35 131.11 290.17 141.28 300.35 141.28 291.71 131.11 281.54 120.94 291.71 120.94 300.35"
+      <path
         fill="#e0e0e0"
+        d="M120.94 300.35l10.17-10.18 10.17 10.18v-8.64l-10.17-10.17-10.17 10.17v8.64z"
       />
-      <line
-        x1="131.11"
-        y1="342.59"
-        x2="131.11"
-        y2="368.25"
+      <path
         fill="none"
         stroke="#e0e0e0"
-        stroke-miterlimit="10"
-        strokeWidth="6"
+        strokeMiterlimit={10}
+        strokeWidth={6}
+        d="M131.11 342.59v25.66"
       />
-      <polygon
-        points="120.94 354.54 131.11 344.37 141.28 354.54 141.28 345.91 131.11 335.74 120.94 345.91 120.94 354.54"
+      <path
         fill="#e0e0e0"
+        d="M120.94 354.54l10.17-10.17 10.17 10.17v-8.63l-10.17-10.17-10.17 10.17v8.63z"
       />
-      <line
-        x1="131.11"
-        y1="407.62"
-        x2="131.11"
-        y2="433.28"
+      <path
         fill="none"
         stroke="#e0e0e0"
-        stroke-miterlimit="10"
-        strokeWidth="6"
+        strokeMiterlimit={10}
+        strokeWidth={6}
+        d="M131.11 407.62v25.66"
       />
-      <polygon
-        points="120.94 419.58 131.11 409.4 141.28 419.58 141.28 410.94 131.11 400.77 120.94 410.94 120.94 419.58"
+      <path
         fill="#e0e0e0"
+        d="M120.94 419.58l10.17-10.18 10.17 10.18v-8.64l-10.17-10.17-10.17 10.17v8.64z"
       />
-      <line
-        x1="131.11"
-        y1="472.66"
-        x2="131.11"
-        y2="498.32"
+      <path
         fill="none"
         stroke="#e0e0e0"
-        stroke-miterlimit="10"
-        strokeWidth="6"
+        strokeMiterlimit={10}
+        strokeWidth={6}
+        d="M131.11 472.66v25.66"
       />
-      <polygon
-        points="120.94 484.61 131.11 474.43 141.28 484.61 141.28 475.97 131.11 465.8 120.94 475.97 120.94 484.61"
+      <path
         fill="#e0e0e0"
+        d="M120.94 484.61l10.17-10.18 10.17 10.18v-8.64l-10.17-10.17-10.17 10.17v8.64z"
       />
     </svg>
   );
 };
 
-Upvote.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgUpvote.propTypes = {
+  color: PropTypes.string
 };
-
-Upvote.defaultProps = {
-  color: "primary",
-  style: {}
+SvgUpvote.defaultProps = {
+  color: "primary"
 };
-
-export default Upvote;
+const MemoSvgUpvote = React.memo(SvgUpvote);
+export default MemoSvgUpvote;

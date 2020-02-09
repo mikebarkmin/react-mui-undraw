@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const CreationProcess = ({ color, style }) => {
+const SvgCreationProcess = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,545 +13,330 @@ const CreationProcess = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="e35aa0bb-a640-4331-9239-0651161b835c"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="888"
-      height="617.49306"
-      viewBox="0 0 888 617.49306"
+      viewBox="0 0 888 617.493"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="b95f881a-d54d-4793-b39d-fd8d178292d1"
-          x1="444"
-          y1="377.20785"
-          x2="444"
+          id="CreationProcess_svg__a"
+          x1={444}
+          y1={377.208}
+          x2={444}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.53514" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="bf3ac460-e980-4a56-bf10-7e8f45fba3a4"
-          x1="565.57775"
-          y1="184.62916"
-          x2="565.57775"
-          y2="139.96647"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__b"
+          x1={565.578}
+          y1={184.629}
+          x2={565.578}
+          y2={139.966}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="b00b2116-0e12-434e-959a-85c093d94590"
-          x1="296.26627"
-          y1="331.11277"
-          x2="296.26627"
-          y2="286.45007"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__c"
+          x1={296.266}
+          y1={331.113}
+          x2={296.266}
+          y2={286.45}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="eb777225-ba4b-43a3-8f36-ede016b06cb0"
-          x1="698.58019"
-          y1="174.12897"
-          x2="698.58019"
-          y2="129.46627"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__d"
+          x1={698.58}
+          y1={174.129}
+          x2={698.58}
+          y2={129.466}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="a5536af8-f538-4f5c-bd4b-f0de679d4e6e"
-          x1="565.74412"
-          y1="302.41586"
-          x2="565.74412"
-          y2="257.75316"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__e"
+          x1={565.744}
+          y1={302.416}
+          x2={565.744}
+          y2={257.753}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="f89f6c0b-50e3-4377-a82a-6d71d8d7a732"
-          x1="272.77691"
-          y1="77.68635"
-          x2="272.77691"
-          y2="33.02365"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__f"
+          x1={272.777}
+          y1={77.686}
+          x2={272.777}
+          y2={33.024}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="b8b49c0e-c264-4775-aa6e-2a14b987a2d6"
-          x1="721.32609"
-          y1="67.67815"
-          x2="721.32609"
-          y2="23.01545"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__g"
+          x1={721.326}
+          y1={67.678}
+          x2={721.326}
+          y2={23.015}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="a32cc75e-d258-4708-866c-2eb46f780a0f"
-          x1="830.50642"
-          y1="228.71914"
-          x2="830.50642"
-          y2="184.05644"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__h"
+          x1={830.506}
+          y1={228.719}
+          x2={830.506}
+          y2={184.056}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="b200c498-46e8-4ae5-8985-5e2f3d61fee6"
-          x1="107.18675"
-          y1="61.3093"
-          x2="107.18675"
-          y2="16.6466"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__i"
+          x1={107.187}
+          y1={61.309}
+          x2={107.187}
+          y2={16.647}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="b3829c89-4915-4f55-9cb4-28d414033534"
-          x1="627.60666"
-          y1="100.82207"
-          x2="627.60666"
-          y2="56.15937"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__j"
+          x1={627.607}
+          y1={100.822}
+          x2={627.607}
+          y2={56.159}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="a6787d5e-d3ff-4ff7-a9c8-8f7152892aef"
-          x1="348.28699"
-          y1="195.44502"
-          x2="348.28699"
-          y2="150.78232"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__k"
+          x1={348.287}
+          y1={195.445}
+          x2={348.287}
+          y2={150.782}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="ba11985d-29a3-423e-b59d-ce2d3bc97e11"
-          x1="503.86896"
-          y1="244.57617"
-          x2="503.86896"
-          y2="199.91347"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__l"
+          x1={503.869}
+          y1={244.576}
+          x2={503.869}
+          y2={199.913}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="e142e87e-1316-43eb-97ff-e25a5f9aee53"
-          x1="557.79983"
-          y1="77.88172"
-          x2="557.79983"
-          y2="33.21902"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__m"
+          x1={557.8}
+          y1={77.882}
+          x2={557.8}
+          y2={33.219}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="af03e972-8795-4f82-a4ce-7a326cc80323"
-          x1="638.77524"
-          y1="273.49647"
-          x2="638.77524"
-          y2="228.83378"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__n"
+          x1={638.775}
+          y1={273.496}
+          x2={638.775}
+          y2={228.834}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="aeab9009-66c2-4437-abf0-c21a97ad1ce9"
-          x1="360.3654"
-          y1="77.88172"
-          x2="360.3654"
-          y2="33.21902"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__o"
+          x1={360.365}
+          y1={77.882}
+          x2={360.365}
+          y2={33.219}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="a99e06ce-daa7-472a-954a-1f510efeba2a"
-          x1="421.32442"
-          y1="321.71779"
-          x2="421.32442"
-          y2="277.05509"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__p"
+          x1={421.324}
+          y1={321.718}
+          x2={421.324}
+          y2={277.055}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="b8c44bde-4016-4e5e-a844-edaf1cdd8ad8"
-          x1="494.79867"
-          y1="139.12833"
-          x2="494.79867"
-          y2="94.46563"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__q"
+          x1={494.799}
+          y1={139.128}
+          x2={494.799}
+          y2={94.466}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="e9fd1ed7-6864-4b08-a5ca-c03436a79804"
-          x1="261.88064"
-          y1="153.68571"
-          x2="261.88064"
-          y2="109.02301"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__r"
+          x1={261.881}
+          y1={153.686}
+          x2={261.881}
+          y2={109.023}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="a6f6dfe2-34cd-4380-ac25-8987790e5589"
-          x1="830.52818"
-          y1="110.92341"
-          x2="830.52818"
-          y2="66.26071"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__s"
+          x1={830.528}
+          y1={110.923}
+          x2={830.528}
+          y2={66.261}
+          xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="b0f139fd-d6c3-4e79-943e-84b96cc8b419"
-          x1="744.09375"
-          y1="322.00538"
-          x2="744.09375"
-          y2="277.34268"
-          xlink:href="#b95f881a-d54d-4793-b39d-fd8d178292d1"
+          id="CreationProcess_svg__t"
+          x1={744.094}
+          y1={322.005}
+          x2={744.094}
+          y2={277.343}
+          xlinkHref="#CreationProcess_svg__a"
         />
       </defs>
-      <title>Creation process</title>
-      <rect
-        width="888"
-        height="377.20785"
-        fill="url(#b95f881a-d54d-4793-b39d-fd8d178292d1)"
+      <path fill="url(#CreationProcess_svg__a)" d="M0 0h888v377.208H0z" />
+      <path fill="#eee" d="M9.925 2.66h869.394v370.042H9.925z" />
+      <path
+        fill="url(#CreationProcess_svg__b)"
+        d="M542.513 139.966h46.13v44.663h-46.13z"
       />
-      <rect
-        x="9.92528"
-        y="2.66006"
-        width="869.39429"
-        height="370.04155"
-        fill="#eee"
+      <path fill="#f5f5f5" d="M543.307 140.736h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__c)"
+        d="M273.201 286.45h46.13v44.663h-46.13z"
       />
-      <rect
-        x="542.51281"
-        y="139.96647"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#bf3ac460-e980-4a56-bf10-7e8f45fba3a4)"
+      <path fill="#f5f5f5" d="M273.996 287.219h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__d)"
+        d="M675.515 129.466h46.13v44.663h-46.13z"
       />
-      <rect
-        x="543.30715"
-        y="140.73554"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#f5f5f5" d="M676.31 130.235h44.541v43.125H676.31z" />
+      <path
+        fill="url(#CreationProcess_svg__e)"
+        d="M542.679 257.753h46.13v44.663h-46.13z"
       />
-      <rect
-        x="273.20133"
-        y="286.45007"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#b00b2116-0e12-434e-959a-85c093d94590)"
+      <path fill="#f5f5f5" d="M543.474 258.522h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__f)"
+        d="M249.712 33.024h46.13v44.663h-46.13z"
       />
-      <rect
-        x="273.99567"
-        y="287.21914"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#f5f5f5" d="M250.506 33.793h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__g)"
+        d="M698.261 23.015h46.13v44.663h-46.13z"
       />
-      <rect
-        x="675.51525"
-        y="129.46627"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#eb777225-ba4b-43a3-8f36-ede016b06cb0)"
+      <path fill="#f5f5f5" d="M699.055 23.785h44.541V66.91h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__h)"
+        d="M807.441 184.056h46.13v44.663h-46.13z"
       />
-      <rect
-        x="676.30959"
-        y="130.23535"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#f5f5f5" d="M808.236 184.826h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__i)"
+        d="M84.122 16.647h46.13V61.31h-46.13z"
       />
-      <rect
-        x="542.67918"
-        y="257.75316"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#a5536af8-f538-4f5c-bd4b-f0de679d4e6e)"
+      <path fill="#f5f5f5" d="M84.916 17.416h44.541v43.125H84.916z" />
+      <path
+        fill="url(#CreationProcess_svg__j)"
+        d="M604.542 56.159h46.13v44.663h-46.13z"
       />
-      <rect
-        x="543.47352"
-        y="258.52223"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#7cfcff" d="M605.336 56.928h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__k)"
+        d="M325.222 150.782h46.13v44.663h-46.13z"
       />
-      <rect
-        x="249.71197"
-        y="33.02365"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#f89f6c0b-50e3-4377-a82a-6d71d8d7a732)"
+      <path fill="#7cfcff" d="M326.016 151.551h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__l)"
+        d="M480.804 199.913h46.13v44.663h-46.13z"
       />
-      <rect
-        x="250.50631"
-        y="33.79272"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#7cfcff" d="M481.598 200.683h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__m)"
+        d="M534.735 33.219h46.13v44.663h-46.13z"
       />
-      <rect
-        x="698.26115"
-        y="23.01545"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#b8b49c0e-c264-4775-aa6e-2a14b987a2d6)"
+      <path fill="#ffffa5" d="M535.529 33.988h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__n)"
+        d="M615.71 228.834h46.13v44.663h-46.13z"
       />
-      <rect
-        x="699.05549"
-        y="23.78453"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#ffffa5" d="M616.505 229.603h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__o)"
+        d="M337.3 33.219h46.13v44.663H337.3z"
       />
-      <rect
-        x="807.44148"
-        y="184.05644"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#a32cc75e-d258-4708-866c-2eb46f780a0f)"
+      <path fill="#ffffa5" d="M338.095 33.988h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__p)"
+        d="M398.259 277.055h46.13v44.663h-46.13z"
       />
-      <rect
-        x="808.23582"
-        y="184.82551"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#ffffa5" d="M399.054 277.824h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__q)"
+        d="M471.734 94.466h46.13v44.663h-46.13z"
       />
-      <rect
-        x="84.12181"
-        y="16.6466"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#b200c498-46e8-4ae5-8985-5e2f3d61fee6)"
+      <path fill="#ff69b4" d="M472.528 95.235h44.541v43.125h-44.541z" />
+      <path opacity={0.1} d="M244.275 112.662h46.13v44.663h-46.13z" />
+      <path
+        fill="url(#CreationProcess_svg__r)"
+        d="M238.816 109.023h46.13v44.663h-46.13z"
       />
-      <rect
-        x="84.91614"
-        y="17.41567"
-        width="44.54121"
-        height="43.12455"
-        fill="#f5f5f5"
+      <path fill="#ff69b4" d="M239.61 109.792h44.541v43.125H239.61z" />
+      <path
+        fill="url(#CreationProcess_svg__s)"
+        d="M807.463 66.261h46.13v44.663h-46.13z"
       />
-      <rect
-        x="604.54173"
-        y="56.15937"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#b3829c89-4915-4f55-9cb4-28d414033534)"
+      <path fill="#ff69b4" d="M808.258 67.03h44.541v43.125h-44.541z" />
+      <path
+        fill="url(#CreationProcess_svg__t)"
+        d="M721.029 277.343h46.13v44.663h-46.13z"
       />
-      <rect
-        x="605.33606"
-        y="56.92844"
-        width="44.54121"
-        height="43.12455"
-        fill="#7cfcff"
-      />
-      <rect
-        x="325.22205"
-        y="150.78232"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#a6787d5e-d3ff-4ff7-a9c8-8f7152892aef)"
-      />
-      <rect
-        x="326.01639"
-        y="151.5514"
-        width="44.54121"
-        height="43.12455"
-        fill="#7cfcff"
-      />
-      <rect
-        x="480.80402"
-        y="199.91347"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#ba11985d-29a3-423e-b59d-ce2d3bc97e11)"
-      />
-      <rect
-        x="481.59836"
-        y="200.68254"
-        width="44.54121"
-        height="43.12455"
-        fill="#7cfcff"
-      />
-      <rect
-        x="534.73489"
-        y="33.21902"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#e142e87e-1316-43eb-97ff-e25a5f9aee53)"
-      />
-      <rect
-        x="535.52922"
-        y="33.98809"
-        width="44.54121"
-        height="43.12455"
-        fill="#ffffa5"
-      />
-      <rect
-        x="615.7103"
-        y="228.83378"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#af03e972-8795-4f82-a4ce-7a326cc80323)"
-      />
-      <rect
-        x="616.50463"
-        y="229.60285"
-        width="44.54121"
-        height="43.12455"
-        fill="#ffffa5"
-      />
-      <rect
-        x="337.30046"
-        y="33.21902"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#aeab9009-66c2-4437-abf0-c21a97ad1ce9)"
-      />
-      <rect
-        x="338.0948"
-        y="33.98809"
-        width="44.54121"
-        height="43.12455"
-        fill="#ffffa5"
-      />
-      <rect
-        x="398.25948"
-        y="277.05509"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#a99e06ce-daa7-472a-954a-1f510efeba2a)"
-      />
-      <rect
-        x="399.05382"
-        y="277.82416"
-        width="44.54121"
-        height="43.12455"
-        fill="#ffffa5"
-      />
-      <rect
-        x="471.73373"
-        y="94.46563"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#b8c44bde-4016-4e5e-a844-edaf1cdd8ad8)"
-      />
-      <rect
-        x="472.52807"
-        y="95.2347"
-        width="44.54121"
-        height="43.12455"
-        fill="#ff69b4"
-      />
-      <rect
-        x="244.27471"
-        y="112.66235"
-        width="46.12987"
-        height="44.66271"
-        opacity="0.1"
-      />
-      <rect
-        x="238.8157"
-        y="109.02301"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#e9fd1ed7-6864-4b08-a5ca-c03436a79804)"
-      />
-      <rect
-        x="239.61004"
-        y="109.79208"
-        width="44.54121"
-        height="43.12455"
-        fill="#ff69b4"
-      />
-      <rect
-        x="807.46324"
-        y="66.26071"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#a6f6dfe2-34cd-4380-ac25-8987790e5589)"
-      />
-      <rect
-        x="808.25758"
-        y="67.02979"
-        width="44.54121"
-        height="43.12455"
-        fill="#ff69b4"
-      />
-      <rect
-        x="721.02881"
-        y="277.34268"
-        width="46.12988"
-        height="44.6627"
-        fill="url(#b0f139fd-d6c3-4e79-943e-84b96cc8b419)"
-      />
-      <rect
-        x="721.82315"
-        y="278.11175"
-        width="44.54121"
-        height="43.12455"
-        fill="#ff69b4"
-      />
-      <polygon
-        points="113.125 185.611 108.132 200.26 159.439 198.421 139.731 186.596 113.125 185.611"
+      <path fill="#ff69b4" d="M721.823 278.112h44.541v43.125h-44.541z" />
+      <path
         fill="#edeef9"
-      />
-      <polygon
-        points="243.527 200.392 246.155 197.107 268.491 210.246 268.491 216.158 243.527 200.392"
-        fill="#edeef9"
+        d="M113.125 185.611l-4.993 14.649 51.307-1.839-19.708-11.825-26.606-.985zM243.527 200.392l2.628-3.285 22.336 13.139v5.912l-24.964-15.766z"
       />
       <path
-        d="M344.545,314.0159l20-21s22-33,38-24-23,30-23,30l-20,33Z"
-        transform="translate(-156 -141.25347)"
+        d="M188.545 172.762l20-21s22-33 38-24-23 30-23 30l-20 33z"
         fill="#a0616a"
       />
       <path
-        d="M281.545,721.0159s-15,29-4,31,65,5,66,2,9-13,3-17-30-7-30-7l-8-8Z"
-        transform="translate(-156 -141.25347)"
+        d="M125.545 579.762s-15 29-4 31 65 5 66 2 9-13 3-17-30-7-30-7l-8-8z"
         fill="#2f2e41"
       />
       <path
-        d="M273.545,438.0159s-32,40-6,81l6,69s-11,95,3,127l2,11h35l-9-84s1-10,4-12,52-110,52-110-8-15-5-18-3-63-6-65S273.545,438.0159,273.545,438.0159Z"
-        transform="translate(-156 -141.25347)"
+        d="M117.545 296.762s-32 40-6 81l6 69s-11 95 3 127l2 11h35l-9-84s1-10 4-12 52-110 52-110-8-15-5-18-3-63-6-65-76 1-76 1z"
         fill="#2f2e41"
       />
-      <polygon
-        points="174.545 570.762 178.545 593.762 139.545 591.762 144.545 566.762 174.545 570.762"
-        fill="#a0616a"
-      />
-      <circle cx="167.54501" cy="132.76244" r="30" fill="#a0616a" />
+      <path fill="#a0616a" d="M174.545 570.762l4 23-39-2 5-25 30 4z" />
+      <circle cx={167.545} cy={132.762} r={30} fill="#a0616a" />
       <path
-        d="M296.545,279.0159l-3,36,32,15s-5.5-33.5-1.5-42.5Z"
-        transform="translate(-156 -141.25347)"
+        d="M140.545 137.762l-3 36 32 15s-5.5-33.5-1.5-42.5z"
         fill="#a0616a"
       />
       <path
-        d="M329.545,328.0159l-3-12-41-15s-4,0-3,7,1,6,1,6-14,6-15,16-17,13-16,28,6,23,6,23-5,12,3,19c0,0,8,14,4,24s-9,27,2,24,87-8,87-8,11-41-1-56c0,0,0-9-9-27S329.545,328.0159,329.545,328.0159Z"
-        transform="translate(-156 -141.25347)"
+        d="M173.545 186.762l-3-12-41-15s-4 0-3 7 1 6 1 6-14 6-15 16-17 13-16 28 6 23 6 23-5 12 3 19c0 0 8 14 4 24s-9 27 2 24 87-8 87-8 11-41-1-56c0 0 0-9-9-27s-15-29-15-29z"
         fill="#575a89"
       />
       <path
-        d="M276.545,441.0159s13,55,29,61c0,0,3,40,20,38s0-38,0-38l-19-69Z"
-        transform="translate(-156 -141.25347)"
+        d="M120.545 299.762s13 55 29 61c0 0 3 40 20 38s0-38 0-38l-19-69z"
         fill="#a0616a"
       />
       <path
-        d="M327.545,331.0159s15-24,19-20,24,16,23,24-10,8-10,8l-21,16Z"
-        transform="translate(-156 -141.25347)"
+        d="M171.545 189.762s15-24 19-20 24 16 23 24-10 8-10 8l-21 16z"
         fill="#575a89"
       />
       <path
-        d="M348.545,510.0159l12,8.626,8,85.374s-29,116-37,117-41,1-40-2,6-15,6-18,10.42947-26.9916,10.42947-26.9916L321.545,618.0159l-3-44Z"
-        transform="translate(-156 -141.25347)"
+        d="M192.545 368.762l12 8.626 8 85.374s-29 116-37 117-41 1-40-2 6-15 6-18 10.43-26.991 10.43-26.991l13.57-56.009-3-44z"
         fill="#2f2e41"
       />
       <path
-        d="M333.545,727.0159s-42-13-44-10-15.34029,33.23622,3.32986,36.61811,85.67014,9.38189,85.67014.38189-2-15-8-15-33-13-35-16S333.545,727.0159,333.545,727.0159Z"
-        transform="translate(-156 -141.25347)"
+        d="M177.545 585.762s-42-13-44-10-15.34 33.237 3.33 36.619 85.67 9.381 85.67.381-2-15-8-15-33-13-35-16-2 4-2 4zM139.099 134.734a2.961 2.961 0 014.006-3.959l.053.03a5.19 5.19 0 012.44 5.189c3.606-3.598.948-10.814 4.845-14.096 1.803-1.519 4.73-1.853 5.657-4.021.54-1.262.173-2.759.648-4.046.706-1.913 2.962-2.711 4.978-3.012 6.34-.945 12.751.664 18.96 2.26 2.282.587 4.683 1.24 6.345 2.91 1.752 1.76 2.361 4.316 3.435 6.554s8.117 2.036 10.579 1.72c.856-2.432-5.466-2.615-5.982-5.14-1.41-6.904 3.502-14.244 1.092-20.865-1.452-3.99-5.245-6.63-9.064-8.485a48.108 48.108 0 00-34.04-2.905 7.558 7.558 0 00-3.143 1.52c-1.453 1.357-1.723 3.535-2.69 5.272-2.206 3.957-7.436 4.897-10.963 7.74-5.341 4.307-5.943 12.082-6.116 18.94-.087 3.454-.149 7.043 1.266 10.196s4.767 5.72 8.159 5.06a9.95 9.95 0 01-.465-.862z"
         fill="#2f2e41"
       />
       <path
-        d="M295.09874,275.98782a2.96116,2.96116,0,0,1,4.00626-3.95925l.05282.03039a5.18949,5.18949,0,0,1,2.44,5.18855c3.60617-3.59817.94848-10.81406,4.84485-14.09577,1.80348-1.519,4.731-1.85316,5.65752-4.02144.53938-1.26232.17266-2.75854.64811-4.04629.706-1.91216,2.96144-2.71065,4.97748-3.01129,6.33994-.94544,12.75166.66337,18.95976,2.25967,2.28275.587,4.68306,1.23922,6.34578,2.9098,1.75129,1.75955,2.36066,4.31619,3.43452,6.55445s8.11694,2.036,10.57919,1.71926c.856-2.43147-5.46588-2.61479-5.98194-5.14036-1.41054-6.903,3.50152-14.24353,1.09178-20.86431-1.452-3.98948-5.24519-6.63037-9.06408-8.48522a48.10819,48.10819,0,0,0-34.039-2.90465,7.55783,7.55783,0,0,0-3.14377,1.52008c-1.45333,1.35677-1.72276,3.53517-2.69065,5.27189-2.20532,3.95705-7.43556,4.89751-10.9623,7.74071-5.34123,4.306-5.9434,12.08108-6.11634,18.93969-.0871,3.454-.14856,7.043,1.26617,10.19524s4.76725,5.72073,8.1587,5.06048C295.403,276.58864,295.249,276.29708,295.09874,275.98782Z"
-        transform="translate(-156 -141.25347)"
-        fill="#2f2e41"
-      />
-      <path
-        d="M300.31628,340.76058a21.30653,21.30653,0,0,0-26.00812,1.3217c-6.89193,5.85666-14.306,14.24779-13.76315,22.93362,1,16,7,82,15,83s37-7,37-12-7-11-7-11l8.49925-50.9955a33.70885,33.70885,0,0,0-13.2793-32.9407Q300.54223,340.91937,300.31628,340.76058Z"
-        transform="translate(-156 -141.25347)"
+        d="M144.316 199.507a21.307 21.307 0 00-26.008 1.322c-6.892 5.856-14.306 14.248-13.763 22.933 1 16 7 82 15 83s37-7 37-12-7-11-7-11l8.5-50.995a33.709 33.709 0 00-13.28-32.94q-.223-.161-.449-.32z"
         fill="#575a89"
       />
     </svg>
   );
 };
 
-CreationProcess.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgCreationProcess.propTypes = {
+  color: PropTypes.string
 };
-
-CreationProcess.defaultProps = {
-  color: "primary",
-  style: {}
+SvgCreationProcess.defaultProps = {
+  color: "primary"
 };
-
-export default CreationProcess;
+const MemoSvgCreationProcess = React.memo(SvgCreationProcess);
+export default MemoSvgCreationProcess;

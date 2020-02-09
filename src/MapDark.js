@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const MapDark = ({ color, style }) => {
+const SvgMapDark = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,125 +13,99 @@ const MapDark = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="efaf6d37-ad8b-408b-a167-fb47e2b6544c"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="1142.04574"
-      height="959.78855"
-      viewBox="0 0 1142.04574 959.78855"
+      viewBox="0 0 1142.046 959.789"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="eaeac4a1-6091-43b3-af38-ae8114f9a62f"
-          x1="535.45073"
-          y1="779.24414"
-          x2="535.45073"
-          y2="104.90687"
+          id="MapDark_svg__a"
+          x1={535.451}
+          y1={779.244}
+          x2={535.451}
+          y2={104.907}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.53514" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <clipPath
-          id="b609a8ad-8ad7-4296-9cf1-6f9923717ce3"
-          transform="translate(-64.54927 -7.92449)"
+        <linearGradient
+          id="MapDark_svg__c"
+          x1={873.186}
+          y1={742.811}
+          x2={873.186}
+          y2={620.076}
+          gradientUnits="userSpaceOnUse"
         >
-          <polygon
-            points="889.286 734.556 724.703 734.556 473.645 758.825 220.644 734.556 220.644 139.96 472.596 158.162 729.989 139.96 981.786 174.341 981.786 641.525 889.286 734.556"
+          <stop offset={0} stopOpacity={0.12} />
+          <stop offset={0.551} stopOpacity={0.09} />
+          <stop offset={1} stopOpacity={0.02} />
+        </linearGradient>
+        <clipPath id="MapDark_svg__b" transform="translate(-64.55 -7.924)">
+          <path
             fill={color}
+            d="M889.286 734.556H724.703l-251.058 24.269-253.001-24.269V139.96l251.952 18.202 257.393-18.202 251.797 34.381v467.184l-92.5 93.031z"
           />
         </clipPath>
-        <linearGradient
-          id="eaa4df2b-8460-421b-8c86-0d729e8c7ac3"
-          x1="873.18636"
-          y1="742.81095"
-          x2="873.18636"
-          y2="620.07624"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0" stop-opacity="0.12" />
-          <stop offset="0.55135" stop-opacity="0.09" />
-          <stop offset="1" stop-opacity="0.02" />
-        </linearGradient>
       </defs>
-      <title>Map dark</title>
-      <polygon
-        points="829.064 752.8 669.299 752.8 397.178 779.244 122.951 752.8 122.951 104.907 396.041 124.74 675.029 104.907 947.951 142.37 940.945 639.909 829.064 752.8"
-        fill="url(#eaeac4a1-6091-43b3-af38-ae8114f9a62f)"
-      />
-      <polygon
-        points="823.856 743.794 667.586 743.794 401.418 769.524 133.19 743.794 133.19 113.412 400.306 132.709 673.19 113.412 940.142 149.863 933.289 633.955 823.856 743.794"
-        fill="#fff"
-      />
-      <polygon
-        points="824.736 726.631 660.154 726.631 409.096 750.901 156.095 726.631 156.095 132.035 408.047 150.237 665.44 132.035 917.237 166.417 917.237 633.6 824.736 726.631"
-        fill={color}
-      />
-      <g clip-path="url(#b609a8ad-8ad7-4296-9cf1-6f9923717ce3)">
-        <polygon
-          points="1142.046 905.143 564.089 585.083 710.891 97.332 660.931 77.52 589.788 313.893 22.967 0 0 54.646 572.409 371.634 441.726 805.828 491.686 825.64 546.71 642.823 1119.079 959.789 1142.046 905.143"
-          fill="#fff"
-        />
-      </g>
-      <polygon
-        points="813.083 742.811 815.019 620.076 933.289 624.847 813.083 742.811"
-        fill="url(#eaa4df2b-8460-421b-8c86-0d729e8c7ac3)"
-      />
-      <polygon
-        points="156.095 388.993 518.844 549.605 542.951 599.576 518.951 624.576 156.095 452.489 156.095 388.993"
-        fill="#fff"
-      />
-      <polygon
-        points="823.856 742.811 825.618 629.555 933.289 633.957 823.856 742.811"
-        fill="#fff"
-      />
-      <polygon
-        points="648.951 647.576 800.309 150.451 860.519 158.672 690.951 673.576 648.951 647.576"
-        fill="#fff"
-      />
-      <polyline
-        points="408.047 750.901 659.999 726.631 659.999 132.035 408.047 150.237"
-        opacity="0.1"
+      <path
+        fill="url(#MapDark_svg__a)"
+        d="M829.064 752.8H669.299l-272.121 26.444L122.951 752.8V104.907l273.09 19.833 278.988-19.833 272.922 37.463-7.006 497.539L829.064 752.8z"
       />
       <path
-        d="M703.348,356.36044c0,48.0293-86.96475,184.04167-86.96475,184.04167s-86.96474-136.01237-86.96474-184.04167a86.96475,86.96475,0,1,1,173.92949,0Z"
-        transform="translate(-64.54927 -7.92449)"
+        fill="#fff"
+        d="M823.856 743.794h-156.27l-266.168 25.73-268.228-25.73V113.412l267.116 19.297 272.884-19.297 266.952 36.451-6.853 484.092-109.433 109.839z"
+      />
+      <path
+        fill={color}
+        d="M824.736 726.631H660.154l-251.058 24.27-253.001-24.27V132.035l251.952 18.202 257.393-18.202 251.797 34.382V633.6l-92.501 93.031z"
+      />
+      <g clipPath="url(#MapDark_svg__b)">
+        <path
+          fill="#fff"
+          d="M1142.046 905.143l-577.957-320.06L710.891 97.332l-49.96-19.812-71.143 236.373L22.967 0 0 54.646l572.409 316.988-130.683 434.194 49.96 19.812 55.024-182.817 572.369 316.966 22.967-54.646z"
+        />
+      </g>
+      <path
+        fill="url(#MapDark_svg__c)"
+        d="M813.083 742.811l1.936-122.735 118.27 4.771-120.206 117.964z"
+      />
+      <path
+        fill="#fff"
+        d="M156.095 388.993l362.749 160.612 24.107 49.971-24 25-362.856-172.087v-63.496zM823.856 742.811l1.762-113.256 107.671 4.402-109.433 108.854zM648.951 647.576l151.358-497.125 60.21 8.221-169.568 514.904-42-26z"
+      />
+      <path
+        opacity={0.1}
+        d="M408.047 750.901l251.952-24.27V132.035l-251.952 18.202"
+      />
+      <path
+        d="M638.799 348.436c0 48.03-86.965 184.042-86.965 184.042s-86.965-136.013-86.965-184.042a86.965 86.965 0 11173.93 0z"
         fill="#ff5252"
       />
-      <circle cx="551.83402" cy="342.36863" r="26.29167" fill="#fff" />
-      <polygon
-        points="784.67 388.993 917.237 423.009 917.237 486.505 754.951 428.576 784.67 388.993"
+      <circle cx={551.834} cy={342.369} r={26.292} fill="#fff" />
+      <path
         fill="#fff"
+        d="M784.67 388.993l132.567 34.016v63.496l-162.286-57.929 29.719-39.583zM279.434 510.983l-33.483 231.593 38 8 50.059-213.71-.059-30.29-54.517 4.407zM278.084 208.643l-37.57 217.728 29.09 15.705 69.347-233.5-60.867.067z"
       />
-      <polygon
-        points="279.434 510.983 245.951 742.576 283.951 750.576 334.01 536.866 333.951 506.576 279.434 510.983"
-        fill="#fff"
-      />
-      <polygon
-        points="278.084 208.643 240.514 426.371 269.604 442.076 338.951 208.576 278.084 208.643"
-        fill="#fff"
-      />
-      <circle cx="349.95073" cy="165.57551" r="8" fill="#ff5252" />
-      <circle cx="253.95073" cy="579.57551" r="8" fill="#ff5252" />
-      <circle cx="245.95073" cy="638.57551" r="8" fill="#ff5252" />
-      <circle cx="330.95073" cy="624.57551" r="8" fill="#ff5252" />
-      <circle cx="193.95073" cy="384.57551" r="8" fill="#ff5252" />
-      <circle cx="823.95073" cy="376.57551" r="8" fill="#ff5252" />
-      <circle cx="754.95073" cy="654.57551" r="8" fill="#ff5252" />
+      <circle cx={349.951} cy={165.576} r={8} fill="#ff5252" />
+      <circle cx={253.951} cy={579.576} r={8} fill="#ff5252" />
+      <circle cx={245.951} cy={638.576} r={8} fill="#ff5252" />
+      <circle cx={330.951} cy={624.576} r={8} fill="#ff5252" />
+      <circle cx={193.951} cy={384.576} r={8} fill="#ff5252" />
+      <circle cx={823.951} cy={376.576} r={8} fill="#ff5252" />
+      <circle cx={754.951} cy={654.576} r={8} fill="#ff5252" />
     </svg>
   );
 };
 
-MapDark.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgMapDark.propTypes = {
+  color: PropTypes.string
 };
-
-MapDark.defaultProps = {
-  color: "primary",
-  style: {}
+SvgMapDark.defaultProps = {
+  color: "primary"
 };
-
-export default MapDark;
+const MemoSvgMapDark = React.memo(SvgMapDark);
+export default MemoSvgMapDark;

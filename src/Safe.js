@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Safe = ({ color, style }) => {
+const SvgSafe = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,468 +13,301 @@ const Safe = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="ffa0e257-4b46-4632-a8d6-93195cbf254d"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="895.68"
-      height="517.48"
       viewBox="0 0 895.68 517.48"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="74471b12-b6be-488b-b2aa-2815e91483d9"
-          x1="790.94"
-          y1="640.76"
-          x2="790.94"
-          y2="264.76"
-          gradientTransform="translate(1229.99 -336.2) rotate(90)"
+          id="Safe_svg__a"
+          x1={790.94}
+          y1={640.76}
+          x2={790.94}
+          y2={264.76}
+          gradientTransform="rotate(90 783.095 446.895)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="f5c756da-9879-448e-9194-9478f83d355f"
-          x1="785.97"
-          y1="446.14"
-          x2="785.97"
-          y2="321.91"
-          gradientTransform="translate(1166.67 -399.94) rotate(90)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__b"
+          x1={785.97}
+          y1={446.14}
+          x2={785.97}
+          y2={321.91}
+          gradientTransform="rotate(90 783.305 383.365)"
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="5c9be04e-db0f-4829-87c1-2cfa193e30b8"
-          x1="660.92"
-          y1="518.19"
-          x2="660.92"
-          y2="494.17"
-          gradientTransform="translate(1146.84 -172.9) rotate(90)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__c"
+          x1={660.92}
+          y1={518.19}
+          x2={660.92}
+          y2={494.17}
+          gradientTransform="rotate(90 659.87 486.97)"
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="b92f3a53-b4d2-4abd-916c-aeb632188996"
-          x1="433.66"
-          y1="605.23"
-          x2="433.66"
-          y2="235.23"
+          id="Safe_svg__d"
+          x1={433.66}
+          y1={605.23}
+          x2={433.66}
+          y2={235.23}
           gradientTransform="translate(13.58 8.51)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="44577794-7f8e-40ae-89fc-019e5bfac17e"
-          x1="428.36"
-          y1="413.71"
-          x2="428.36"
-          y2="291.46"
+          id="Safe_svg__e"
+          x1={428.36}
+          y1={413.71}
+          x2={428.36}
+          y2={291.46}
           gradientTransform="translate(-1.05 11.3)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="666bb7d3-84d0-4835-ad07-c313c2384f21"
-          x1="295.22"
-          y1="484.61"
-          x2="295.22"
-          y2="460.98"
+          id="Safe_svg__f"
+          x1={295.22}
+          y1={484.61}
+          x2={295.22}
+          y2={460.98}
           gradientTransform="translate(28.38 37.45)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="59939605-05af-4a9a-9980-f700897f3f8b"
-          x1="455.07"
-          y1="464.48"
-          x2="455.07"
-          y2="10.48"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__g"
+          x1={455.07}
+          y1={464.48}
+          x2={455.07}
+          y2={10.48}
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="6c0ba2ee-2d81-48f4-b4cf-f21b525fcc13"
-          x1="449.07"
-          y1="229.48"
-          x2="449.07"
-          y2="79.48"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__h"
+          x1={449.07}
+          y1={229.48}
+          x2={449.07}
+          y2={79.48}
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="45b0c09d-2995-447e-8cb2-7f6b59b5e20c"
-          x1="298.07"
-          y1="316.48"
-          x2="298.07"
-          y2="287.48"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__i"
+          x1={298.07}
+          y1={316.48}
+          x2={298.07}
+          y2={287.48}
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="e5b0a96a-81f6-4370-afe3-5a7d6a35b55e"
-          x1="457.07"
-          y1="517.48"
-          x2="457.07"
-          y2="364.48"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__j"
+          x1={457.07}
+          y1={517.48}
+          x2={457.07}
+          y2={364.48}
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="a1850e5a-cf77-4889-926a-0125112ab273"
-          x1="611.23"
-          y1="564.74"
-          x2="611.23"
-          y2="464.74"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__k"
+          x1={611.23}
+          y1={564.74}
+          x2={611.23}
+          y2={464.74}
+          xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="66998849-614e-4d8a-b9ff-f14bbc588ed8"
-          x1="611.23"
-          y1="660.74"
-          x2="611.23"
-          y2="602.74"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#74471b12-b6be-488b-b2aa-2815e91483d9"
+          id="Safe_svg__l"
+          x1={611.23}
+          y1={660.74}
+          x2={611.23}
+          y2={602.74}
+          xlinkHref="#Safe_svg__a"
         />
       </defs>
-      <title>safe</title>
-      <rect
-        x="792.23"
-        y="49.92"
-        width="19.88"
-        height="470.41"
-        transform="translate(247.6 844.09) rotate(-81.36)"
+      <path
         fill="#f5f5f5"
+        d="M415.967 68.35l2.986-19.655 465.072 70.668-2.987 19.654z"
       />
-      <rect
-        x="589.23"
-        y="209.59"
-        width="376"
-        height="490.29"
-        transform="translate(58.72 963.57) rotate(-81.36)"
-        fill="url(#74471b12-b6be-488b-b2aa-2815e91483d9)"
+      <path
+        transform="rotate(-81.36 589.882 447.627)"
+        fill="url(#Safe_svg__a)"
+        d="M589.23 209.59h376v490.29h-376z"
       />
-      <rect
-        x="603.48"
-        y="229.23"
-        width="342.87"
-        height="470.41"
-        transform="translate(47.16 969.52) rotate(-81.36)"
+      <path
         fill="#f5f5f5"
+        d="M364.447 407.325l51.508-338.98 465.071 70.668-51.508 338.98z"
       />
       <circle
-        cx="580.99"
-        cy="251.51"
-        r="4.86"
-        transform="translate(92.88 596.86) rotate(-81.36)"
+        cx={580.99}
+        cy={251.51}
+        r={4.86}
+        transform="rotate(-81.36 393.642 244.4)"
         fill="#ff5252"
       />
       <circle
-        cx="594.2"
-        cy="253.52"
-        r="4.86"
-        transform="translate(102.12 611.62) rotate(-81.36)"
+        cx={594.2}
+        cy={253.52}
+        r={4.86}
+        transform="rotate(-81.36 406.848 246.405)"
         fill="#ff0"
       />
       <circle
-        cx="607.41"
-        cy="255.53"
-        r="4.86"
-        transform="translate(111.36 626.39) rotate(-81.36)"
+        cx={607.41}
+        cy={255.53}
+        r={4.86}
+        transform="rotate(-81.36 420.06 248.415)"
         fill="#69f0ae"
       />
-      <rect
-        x="720.53"
-        y="174.84"
-        width="124.23"
-        height="422.38"
-        transform="translate(131.25 910.54) rotate(-81.36)"
-        fill="url(#f5c756da-9879-448e-9194-9478f83d355f)"
+      <path
+        transform="rotate(-81.36 595.3 378.92)"
+        fill="url(#Safe_svg__b)"
+        d="M720.53 174.84h124.23v422.38H720.53z"
       />
-      <rect
-        x="576.36"
-        y="328.95"
-        width="413.27"
-        height="115.12"
-        transform="translate(-85.2 -304.51) rotate(8.64)"
+      <path
         fill={color}
+        d="M435.203 107.291l408.58 62.084-17.294 113.813-408.58-62.083z"
       />
-      <rect
-        x="628.65"
-        y="473.94"
-        width="24.02"
-        height="28.16"
-        transform="translate(-90.24 856.82) rotate(-81.36)"
-        fill="url(#5c9be04e-db0f-4829-87c1-2cfa193e30b8)"
+      <path
+        transform="rotate(-81.36 453.304 480.904)"
+        fill="url(#Safe_svg__c)"
+        d="M628.65 473.94h24.02v28.16h-24.02z"
       />
-      <rect
-        x="627.88"
-        y="477.73"
-        width="26.5"
-        height="19.88"
-        transform="translate(-71.61 -282.05) rotate(8.64)"
+      <path
         fill={color}
+        d="M477.377 284.582l26.2 3.981-2.987 19.655-26.2-3.981z"
       />
-      <rect
-        x="622.77"
-        y="511.3"
-        width="26.5"
-        height="19.88"
-        transform="translate(-66.63 -280.9) rotate(8.64)"
+      <path
         fill="#ff5252"
+        d="M472.262 318.154l26.2 3.98-2.987 19.655-26.2-3.981z"
       />
-      <rect
-        x="617.67"
-        y="544.87"
-        width="26.5"
-        height="19.88"
-        transform="translate(-61.64 -279.75) rotate(8.64)"
+      <path
         fill="#ff9800"
+        d="M467.167 351.727l26.2 3.98-2.987 19.655-26.2-3.981z"
       />
-      <rect
-        x="696.41"
-        y="506.51"
-        width="213.67"
-        height="11.59"
-        transform="translate(-66.07 -306.13) rotate(8.64)"
+      <path
         fill={color}
-        opacity="0.4"
+        opacity={0.4}
+        d="M546.346 299.25l211.245 32.1-1.74 11.458-211.246-32.099zM541.241 332.823l211.245 32.1-1.74 11.458L539.5 344.282zM536.146 366.396l211.245 32.1-1.741 11.458-211.245-32.1z"
       />
-      <rect
-        x="691.31"
-        y="540.08"
-        width="213.67"
-        height="11.59"
-        transform="translate(-61.09 -304.98) rotate(8.64)"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect
-        x="686.21"
-        y="573.65"
-        width="213.67"
-        height="11.59"
-        transform="translate(-56.1 -303.83) rotate(8.64)"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect
-        x="159.15"
-        y="254.51"
-        width="500.84"
-        height="19.56"
-        transform="translate(-199.95 -95.55) rotate(-12.6)"
+      <path
         fill="#f5f5f5"
+        d="M10.887 118.113L499.665 8.858l4.267 19.09L15.154 137.201z"
       />
-      <rect
-        x="186.23"
-        y="243.74"
-        width="522"
-        height="370"
-        transform="translate(-234.92 -83.38) rotate(-12.6)"
-        fill="url(#b92f3a53-b4d2-4abd-916c-aeb632188996)"
+      <path
+        transform="rotate(-12.6 -495.083 1022.25)"
+        fill="url(#Safe_svg__d)"
+        d="M186.23 243.74h522v370h-522z"
       />
-      <rect
-        x="198.08"
-        y="269.78"
-        width="500.84"
-        height="337.4"
-        transform="translate(-237.01 -82.86) rotate(-12.6)"
+      <path
         fill="#f5f5f5"
+        d="M15.15 137.213L503.928 27.958l73.602 329.274L88.752 466.487z"
       />
       <ellipse
-        cx="177.11"
-        cy="316.25"
-        rx="5.17"
-        ry="4.78"
-        transform="translate(-216.88 -145.01) rotate(-12.6)"
+        cx={177.11}
+        cy={316.25}
+        rx={5.17}
+        ry={4.78}
+        transform="rotate(-12.6 -765.182 909.732)"
         fill="#ff5252"
       />
       <ellipse
-        cx="191"
-        cy="313.15"
-        rx="5.17"
-        ry="4.78"
-        transform="translate(-215.87 -142.05) rotate(-12.6)"
+        cx={191}
+        cy={313.15}
+        rx={5.17}
+        ry={4.78}
+        transform="rotate(-12.6 -751.271 906.638)"
         fill="#ff0"
       />
       <ellipse
-        cx="204.88"
-        cy="310.05"
-        rx="5.17"
-        ry="4.78"
-        transform="translate(-214.86 -139.1) rotate(-12.6)"
+        cx={204.88}
+        cy={310.05}
+        rx={5.17}
+        ry={4.78}
+        transform="rotate(-12.6 -737.406 903.539)"
         fill="#69f0ae"
       />
-      <rect
-        x="202.46"
-        y="302.76"
-        width="449.7"
-        height="122.25"
-        transform="translate(-221.25 -89.28) rotate(-12.6)"
-        fill="url(#44577794-7f8e-40ae-89fc-019e5bfac17e)"
+      <path
+        transform="rotate(-12.6 -514.97 957.389)"
+        fill="url(#Safe_svg__e)"
+        d="M202.46 302.76h449.7v122.25h-449.7z"
       />
-      <rect
-        x="207.83"
-        y="307.54"
-        width="440"
-        height="113.28"
-        transform="translate(-221.3 -89.16) rotate(-12.6)"
+      <path
         fill={color}
+        d="M48.613 165.637l429.403-95.983 24.711 110.552-429.403 95.983z"
       />
-      <rect
-        x="308.61"
-        y="498.42"
-        width="29.98"
-        height="23.63"
-        transform="translate(-255.67 -108.38) rotate(-12.6)"
-        fill="url(#666bb7d3-84d0-4835-ad07-c313c2384f21)"
+      <path
+        transform="rotate(-12.6 -618.682 1103.725)"
+        fill="url(#Safe_svg__f)"
+        d="M308.61 498.42h29.98v23.63h-29.98z"
       />
-      <rect
-        x="309.83"
-        y="499.96"
-        width="28.22"
-        height="19.56"
-        transform="matrix(0.98, -0.22, 0.22, 0.98, -255.56, -108.32)"
+      <path
         fill={color}
+        d="M158.065 313.478l27.655-6.208 4.303 19.169-27.655 6.208z"
       />
-      <rect
-        x="317.12"
-        y="532.57"
-        width="28.22"
-        height="19.56"
-        transform="translate(-262.49 -105.94) rotate(-12.6)"
+      <path
         fill="#ff5252"
+        d="M163.17 344.626l27.54-6.156 4.267 19.09-27.54 6.155z"
       />
-      <rect
-        x="324.41"
-        y="565.18"
-        width="28.22"
-        height="19.56"
-        transform="matrix(0.98, -0.22, 0.22, 0.98, -269.43, -103.57)"
+      <path
         fill="#ff9800"
-      />
-      <rect
-        x="380.57"
-        y="465.95"
-        width="227.49"
-        height="11.41"
-        transform="translate(-243.14 -72.07) rotate(-12.6)"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect
-        x="387.86"
-        y="498.56"
-        width="227.49"
-        height="11.41"
-        transform="translate(-250.08 -69.69) rotate(-12.6)"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect
-        x="395.15"
-        y="531.17"
-        width="227.49"
-        height="11.41"
-        transform="translate(-257.02 -67.32) rotate(-12.6)"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect x="170.07" y="18.48" width="568" height="24" fill="#f5f5f5" />
-      <rect
-        x="159.07"
-        y="10.48"
-        width="592"
-        height="454"
-        fill="url(#59939605-05af-4a9a-9980-f700897f3f8b)"
-      />
-      <rect x="170.07" y="42.48" width="568" height="414" fill="#fff" />
-      <circle cx="183.94" cy="30.48" r="5.87" fill="#ff5252" />
-      <circle cx="200.07" cy="30.48" r="5.87" fill="#ff0" />
-      <circle cx="216.2" cy="30.48" r="5.87" fill="#69f0ae" />
-      <rect
-        x="194.07"
-        y="79.48"
-        width="510"
-        height="150"
-        fill="url(#6c0ba2ee-2d81-48f4-b4cf-f21b525fcc13)"
-      />
-      <rect x="200.07" y="85.48" width="499" height="139" fill={color} />
-      <rect
-        x="281.07"
-        y="287.48"
-        width="34"
-        height="29"
-        fill="url(#45b0c09d-2995-447e-8cb2-7f6b59b5e20c)"
-      />
-      <rect x="282.57" y="289.48" width="32" height="24" fill={color} />
-      <rect x="282.57" y="330.48" width="32" height="24" fill="#ff5252" />
-      <rect x="282.57" y="371.48" width="32" height="24" fill="#ff9800" />
-      <rect
-        x="367.57"
-        y="294.48"
-        width="258"
-        height="14"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect
-        x="367.57"
-        y="335.48"
-        width="258"
-        height="14"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect
-        x="367.57"
-        y="376.48"
-        width="258"
-        height="14"
-        fill={color}
-        opacity="0.4"
-      />
-      <rect
-        x="364.07"
-        y="364.48"
-        width="186"
-        height="153"
-        fill="url(#e5b0a96a-81f6-4370-afe3-5a7d6a35b55e)"
+        d="M172.831 378.936l27.656-6.208 4.303 19.169-27.655 6.208z"
       />
       <path
-        d="M559.15,531.41a52.08,52.08,0,0,1,104.17,0v33.33H677.9V531.41a66.67,66.67,0,1,0-133.33,0v33.33h14.58Z"
+        fill={color}
+        opacity={0.4}
+        d="M229.908 299.64l222.012-49.626 2.489 11.135-222.012 49.626zM237.197 332.254l222.01-49.625 2.49 11.135-222.011 49.625zM244.485 364.858l222.011-49.625 2.489 11.135-222.011 49.626z"
+      />
+      <path fill="#f5f5f5" d="M170.07 18.48h568v24h-568z" />
+      <path fill="url(#Safe_svg__g)" d="M159.07 10.48h592v454h-592z" />
+      <path fill="#fff" d="M170.07 42.48h568v414h-568z" />
+      <circle cx={183.94} cy={30.48} r={5.87} fill="#ff5252" />
+      <circle cx={200.07} cy={30.48} r={5.87} fill="#ff0" />
+      <circle cx={216.2} cy={30.48} r={5.87} fill="#69f0ae" />
+      <path fill="url(#Safe_svg__h)" d="M194.07 79.48h510v150h-510z" />
+      <path fill={color} d="M200.07 85.48h499v139h-499z" />
+      <path fill="url(#Safe_svg__i)" d="M281.07 287.48h34v29h-34z" />
+      <path fill={color} d="M282.57 289.48h32v24h-32z" />
+      <path fill="#ff5252" d="M282.57 330.48h32v24h-32z" />
+      <path fill="#ff9800" d="M282.57 371.48h32v24h-32z" />
+      <path
+        fill={color}
+        opacity={0.4}
+        d="M367.57 294.48h258v14h-258zM367.57 335.48h258v14h-258zM367.57 376.48h258v14h-258z"
+      />
+      <path fill="url(#Safe_svg__j)" d="M364.07 364.48h186v153h-186z" />
+      <path
+        d="M559.15 531.41a52.08 52.08 0 01104.17 0v33.33h14.58v-33.33a66.67 66.67 0 10-133.33 0v33.33h14.58z"
         transform="translate(-152.16 -191.26)"
-        fill="url(#a1850e5a-cf77-4889-926a-0125112ab273)"
+        fill="url(#Safe_svg__k)"
       />
       <path
-        d="M561.23,530.74a50,50,0,0,1,100,0v32h14v-32a64,64,0,0,0-128,0v32h14Z"
-        transform="translate(-152.16 -191.26)"
+        d="M409.07 339.48a50 50 0 01100 0v32h14v-32a64 64 0 00-128 0v32h14z"
         fill="#fff"
       />
-      <rect x="372.07" y="369.48" width="174" height="142" fill={color} />
-      <rect x="372.07" y="369.48" width="174" height="142" fill="#fff" />
-      <rect x="372.07" y="397.48" width="174" height="86" fill={color} />
+      <path fill={color} d="M372.07 369.48h174v142h-174z" />
+      <path fill="#fff" d="M372.07 369.48h174v142h-174z" />
+      <path fill={color} d="M372.07 397.48h174v86h-174z" />
       <path
-        d="M624,615.5a12.76,12.76,0,1,0-22,8.74v27.22a9.28,9.28,0,0,0,18.56,0V624.24A12.7,12.7,0,0,0,624,615.5Z"
+        d="M624 615.5a12.76 12.76 0 10-22 8.74v27.22a9.28 9.28 0 0018.56 0v-27.22a12.7 12.7 0 003.44-8.74z"
         transform="translate(-152.16 -191.26)"
-        fill="url(#66998849-614e-4d8a-b9ff-f14bbc588ed8)"
+        fill="url(#Safe_svg__l)"
       />
       <path
-        d="M622.23,617.74a11,11,0,1,0-19,7.53v23.47a8,8,0,1,0,16,0V625.27A11,11,0,0,0,622.23,617.74Z"
-        transform="translate(-152.16 -191.26)"
-        opacity="0.2"
+        d="M470.07 426.48a11 11 0 10-19 7.53v23.47a8 8 0 1016 0v-23.47a11 11 0 003-7.53z"
+        opacity={0.2}
       />
     </svg>
   );
 };
 
-Safe.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgSafe.propTypes = {
+  color: PropTypes.string
 };
-
-Safe.defaultProps = {
-  color: "primary",
-  style: {}
+SvgSafe.defaultProps = {
+  color: "primary"
 };
-
-export default Safe;
+const MemoSvgSafe = React.memo(SvgSafe);
+export default MemoSvgSafe;

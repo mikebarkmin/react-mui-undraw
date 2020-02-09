@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Yacht = ({ color, style }) => {
+const SvgYacht = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,155 +13,118 @@ const Yacht = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="fab417e8-a014-4924-af3a-60c14cbf464e"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="892.19463"
-      height="746.42928"
-      viewBox="0 0 892.19463 746.42928"
+      viewBox="0 0 892.195 746.429"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="ba5dc2b7-ca42-4f2e-9a45-768e37a33bc6"
-          x1="231.97829"
-          y1="331.46449"
-          x2="231.97829"
-          y2="18.57072"
+          id="Yacht_svg__a"
+          x1={231.978}
+          y1={331.464}
+          x2={231.978}
+          y2={18.571}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.53514" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
       </defs>
-      <title>Yacht</title>
-      <circle
-        cx="231.97829"
-        cy="175.0176"
-        r="156.44688"
-        fill="url(#ba5dc2b7-ca42-4f2e-9a45-768e37a33bc6)"
-      />
-      <circle cx="231.97829" cy="175.0176" r="146.79226" fill="#ff5252" />
-      <rect x="437.19463" width="14" height="136" fill={color} />
-      <rect x="248.19463" y="128" width="398" height="204" fill="#464353" />
-      <g opacity="0.5">
-        <rect x="274.19463" y="169" width="84" height="67" fill={color} />
-        <rect x="413.19463" y="169" width="84" height="67" fill={color} />
-        <rect x="552.19463" y="169" width="84" height="67" fill={color} />
+      <circle cx={231.978} cy={175.018} r={156.447} fill="url(#Yacht_svg__a)" />
+      <circle cx={231.978} cy={175.018} r={146.792} fill="#ff5252" />
+      <path fill={color} d="M437.195 0h14v136h-14z" />
+      <path fill="#464353" d="M248.195 128h398v204h-398z" />
+      <g opacity={0.5} fill={color}>
+        <path d="M274.195 169h84v67h-84zM413.195 169h84v67h-84zM552.195 169h84v67h-84z" />
       </g>
       <path
-        d="M1046.09731,353.78536a396.90116,396.90116,0,0,1-397,397h-477v-397Z"
-        transform="translate(-153.90269 -76.78536)"
+        d="M892.195 277a396.901 396.901 0 01-397 397h-477V277z"
         fill="#464353"
       />
       <path
-        d="M1046.09731,353.78536a398.47471,398.47471,0,0,1-7.87,79h-866.13v-79Z"
-        transform="translate(-153.90269 -76.78536)"
+        d="M892.195 277a398.475 398.475 0 01-7.87 79H18.195v-79zM802.795 528a399.357 399.357 0 01-86.83 79H18.195v-79z"
+        fill={color}
+      />
+      <g opacity={0.5} fill={color}>
+        <path d="M51.195 400h84v67h-84zM190.195 400h84v67h-84zM329.195 400h84v67h-84z" />
+      </g>
+      <g opacity={0.5} fill={color}>
+        <path d="M465.195 400h84v67h-84zM604.195 400h84v67h-84zM743.195 400h84v67h-84z" />
+      </g>
+      <rect y={666.125} width={748.434} height={10.707} rx={5} fill={color} />
+      <rect y={686.469} width={277.317} height={10.707} rx={5} fill={color} />
+      <rect
+        x={213.074}
+        y={711.095}
+        width={277.317}
+        height={10.707}
+        rx={5}
+        fill={color}
+      />
+      <rect
+        x={444.349}
+        y={735.722}
+        width={277.317}
+        height={10.707}
+        rx={5}
+        fill={color}
+      />
+      <rect
+        x={777.344}
+        y={666.125}
+        width={49.253}
+        height={10.707}
+        rx={5}
+        fill={color}
+      />
+      <rect
+        x={495.744}
+        y={686.469}
+        width={49.253}
+        height={10.707}
+        rx={5}
+        fill={color}
+      />
+      <rect
+        x={70.668}
+        y={711.095}
+        width={49.253}
+        height={10.707}
+        rx={5}
+        fill={color}
+      />
+      <rect
+        x={546.068}
+        y={711.095}
+        width={49.253}
+        height={10.707}
+        rx={5}
+        fill={color}
+      />
+      <rect
+        x={39.617}
+        y={735.722}
+        width={277.317}
+        height={10.707}
+        rx={5}
         fill={color}
       />
       <path
-        d="M956.69729,604.78536a399.35749,399.35749,0,0,1-86.83,79h-697.77v-79Z"
-        transform="translate(-153.90269 -76.78536)"
-        fill={color}
-      />
-      <g opacity="0.5">
-        <rect x="51.19463" y="400" width="84" height="67" fill={color} />
-        <rect x="190.19463" y="400" width="84" height="67" fill={color} />
-        <rect x="329.19463" y="400" width="84" height="67" fill={color} />
-      </g>
-      <g opacity="0.5">
-        <rect x="465.19463" y="400" width="84" height="67" fill={color} />
-        <rect x="604.19463" y="400" width="84" height="67" fill={color} />
-        <rect x="743.19463" y="400" width="84" height="67" fill={color} />
-      </g>
-      <rect
-        y="666.12518"
-        width="748.43423"
-        height="10.70721"
-        rx="5"
-        fill={color}
-      />
-      <rect
-        y="686.46888"
-        width="277.31683"
-        height="10.70721"
-        rx="4.99999"
-        fill={color}
-      />
-      <rect
-        x="213.07355"
-        y="711.09547"
-        width="277.31683"
-        height="10.70721"
-        rx="4.99999"
-        fill={color}
-      />
-      <rect
-        x="444.34936"
-        y="735.72207"
-        width="277.31683"
-        height="10.70721"
-        rx="4.99999"
-        fill={color}
-      />
-      <rect
-        x="777.34371"
-        y="666.12518"
-        width="49.25318"
-        height="10.70721"
-        rx="5"
-        fill={color}
-      />
-      <rect
-        x="495.74399"
-        y="686.46888"
-        width="49.25318"
-        height="10.70721"
-        rx="4.99999"
-        fill={color}
-      />
-      <rect
-        x="70.66761"
-        y="711.09547"
-        width="49.25318"
-        height="10.70721"
-        rx="4.99999"
-        fill={color}
-      />
-      <rect
-        x="546.06789"
-        y="711.09547"
-        width="49.25318"
-        height="10.70721"
-        rx="4.99999"
-        fill={color}
-      />
-      <rect
-        x="39.61669"
-        y="735.72207"
-        width="277.31683"
-        height="10.70721"
-        rx="4.99999"
-        fill={color}
-      />
-      <path
-        d="M605.09731,76.78536s133,5,153,0c0,0-13,25,0,40s-10,28-10,28h-150Z"
-        transform="translate(-153.90269 -76.78536)"
+        d="M451.195 0s133 5 153 0c0 0-13 25 0 40s-10 28-10 28h-150z"
         fill={color}
       />
     </svg>
   );
 };
 
-Yacht.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgYacht.propTypes = {
+  color: PropTypes.string
 };
-
-Yacht.defaultProps = {
-  color: "primary",
-  style: {}
+SvgYacht.defaultProps = {
+  color: "primary"
 };
-
-export default Yacht;
+const MemoSvgYacht = React.memo(SvgYacht);
+export default MemoSvgYacht;

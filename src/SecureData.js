@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const SecureData = ({ color, style }) => {
+const SvgSecureData = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,480 +13,289 @@ const SecureData = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="e8f68bdd-4984-4f2e-95b7-7fc8ec281257"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="918.14"
-      height="765.54"
       viewBox="0 0 918.14 765.54"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="27aa7b70-b106-4a00-be67-693c8380e41d"
-          x1="397.74"
-          y1="717.25"
-          x2="397.74"
-          y2="86.11"
+          id="SecureData_svg__a"
+          x1={397.74}
+          y1={717.25}
+          x2={397.74}
+          y2={86.11}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="46a816da-c484-41ec-8a6f-fbf14454d910"
-          x1="288.88"
-          y1="378.44"
-          x2="288.88"
-          y2="209.65"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
+          id="SecureData_svg__b"
+          x1={288.88}
+          y1={378.44}
+          x2={288.88}
+          y2={209.65}
+          xlinkHref="#SecureData_svg__a"
         />
         <linearGradient
-          id="32b634d8-28f1-48d9-a868-f602a2cad942"
-          x1="288.88"
-          y1="328.29"
-          x2="288.88"
-          y2="223.1"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
+          id="SecureData_svg__c"
+          x1={288.88}
+          y1={328.29}
+          x2={288.88}
+          y2={223.1}
+          xlinkHref="#SecureData_svg__a"
         />
-        <clipPath
-          id="7a4c6aff-0be0-461b-a111-b3ae1b8fbf73"
-          transform="translate(-140.93 -67.23)"
-        >
-          <rect
-            id="8cc91f6d-19b0-43cc-9c18-2faa83ac34ba"
+        <linearGradient
+          id="SecureData_svg__e"
+          x1={288.88}
+          y1={594.94}
+          x2={288.88}
+          y2={426.14}
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__f"
+          x1={288.88}
+          y1={544.79}
+          x2={288.88}
+          y2={439.6}
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__h"
+          x1={671.57}
+          y1={760.34}
+          x2={671.57}
+          y2={129.2}
+          gradientTransform="rotate(90 651.765 457.665)"
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__i"
+          x1={670.96}
+          y1={553.63}
+          x2={670.96}
+          y2={387.28}
+          gradientTransform="rotate(90 648.96 480.55)"
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__j"
+          x1={637.66}
+          y1={754.12}
+          x2={637.66}
+          y2={601.05}
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__k"
+          x1={778.37}
+          y1={673.86}
+          x2={778.37}
+          y2={569.13}
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__l"
+          x1={778.37}
+          y1={774.41}
+          x2={778.37}
+          y2={713.66}
+          xlinkHref="#SecureData_svg__a"
+        />
+        <clipPath id="SecureData_svg__d" transform="translate(-140.93 -67.23)">
+          <path
             data-name="&lt;Rectangle&gt;"
-            x="354.51"
-            y="291.55"
-            width="150.6"
-            height="101.52"
             fill="#fff"
+            d="M354.51 291.55h150.6v101.52h-150.6z"
           />
         </clipPath>
-        <linearGradient
-          id="38f1cb81-8fac-4205-a0ff-a33ac00d354c"
-          x1="288.88"
-          y1="594.94"
-          x2="288.88"
-          y2="426.14"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
-        />
-        <linearGradient
-          id="6fc01aaf-135e-403e-a209-43b2a4fe59f1"
-          x1="288.88"
-          y1="544.79"
-          x2="288.88"
-          y2="439.6"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
-        />
-        <clipPath
-          id="79ce363a-d134-40e4-9f82-b96d04a36978"
-          transform="translate(-140.93 -67.23)"
-        >
-          <rect
-            id="5b44e697-61fe-43bd-9a58-5f3e41301748"
+        <clipPath id="SecureData_svg__g" transform="translate(-140.93 -67.23)">
+          <path
             data-name="&lt;Rectangle&gt;"
-            x="354.51"
-            y="508.05"
-            width="150.6"
-            height="101.52"
             fill="#fff"
+            d="M354.51 508.05h150.6v101.52h-150.6z"
           />
         </clipPath>
-        <linearGradient
-          id="54803c44-522d-4b9e-9a34-f1f7b43e8483"
-          x1="671.57"
-          y1="760.34"
-          x2="671.57"
-          y2="129.2"
-          gradientTransform="translate(1109.43 -194.1) rotate(90)"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
-        />
-        <linearGradient
-          id="089a6a47-adaa-499b-aefb-cd6464b62fb8"
-          x1="670.96"
-          y1="553.63"
-          x2="670.96"
-          y2="387.28"
-          gradientTransform="translate(1129.51 -168.41) rotate(90)"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
-        />
-        <linearGradient
-          id="fd8d88e0-7826-450d-9e0b-001d1be709c2"
-          x1="637.66"
-          y1="754.12"
-          x2="637.66"
-          y2="601.05"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
-        />
-        <linearGradient
-          id="8d1793c5-b76e-44e2-a52e-569460402331"
-          x1="778.37"
-          y1="673.86"
-          x2="778.37"
-          y2="569.13"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
-        />
-        <linearGradient
-          id="4745700d-8097-45ff-9f71-625443fc4ad8"
-          x1="778.37"
-          y1="774.41"
-          x2="778.37"
-          y2="713.66"
-          xlink:href="#27aa7b70-b106-4a00-be67-693c8380e41d"
-        />
       </defs>
-      <title>secure data</title>
-      <g opacity="0.5">
-        <rect
-          x="162.9"
-          y="86.11"
-          width="469.69"
-          height="631.14"
-          fill="url(#27aa7b70-b106-4a00-be67-693c8380e41d)"
-        />
-      </g>
-      <rect
-        x="169.02"
-        y="94.67"
-        width="455.01"
-        height="609.12"
-        fill="#f2f2f2"
+      <path
+        fill="url(#SecureData_svg__a)"
+        d="M162.9 86.11h469.69v631.14H162.9z"
+        opacity={0.5}
       />
-      <rect x="204.49" y="120.36" width="156.56" height="4.89" fill="#e0e0e0" />
-      <rect
-        x="204.49"
-        y="142.37"
-        width="156.56"
-        height="4.89"
-        fill={color}
-        opacity="0.7"
+      <path fill="#f2f2f2" d="M169.02 94.67h455.01v609.12H169.02z" />
+      <path fill="#e0e0e0" d="M204.49 120.36h156.56v4.89H204.49z" />
+      <path fill={color} opacity={0.7} d="M204.49 142.37h156.56v4.89H204.49z" />
+      <path
+        fill="#e0e0e0"
+        d="M384.29 120.36h156.56v4.89H384.29zM408.75 259.8h156.56v4.89H408.75zM412.42 273.25h156.56v4.89H412.42zM419.76 286.7h156.56v4.89H419.76zM408.75 476.29h156.56v4.89H408.75zM412.42 489.75h156.56v4.89H412.42zM419.76 503.2h156.56v4.89H419.76z"
       />
-      <rect x="384.29" y="120.36" width="156.56" height="4.89" fill="#e0e0e0" />
-      <rect x="408.75" y="259.8" width="156.56" height="4.89" fill="#e0e0e0" />
-      <rect x="412.42" y="273.25" width="156.56" height="4.89" fill="#e0e0e0" />
-      <rect x="419.76" y="286.7" width="156.56" height="4.89" fill="#e0e0e0" />
-      <rect x="408.75" y="476.29" width="156.56" height="4.89" fill="#e0e0e0" />
-      <rect x="412.42" y="489.75" width="156.56" height="4.89" fill="#e0e0e0" />
-      <rect x="419.76" y="503.2" width="156.56" height="4.89" fill="#e0e0e0" />
-      <g opacity="0.5">
-        <rect
-          x="205.71"
-          y="209.65"
-          width="166.35"
-          height="168.79"
-          fill="url(#46a816da-c484-41ec-8a6f-fbf14454d910)"
-        />
-      </g>
-      <rect
-        x="206.76"
-        y="213.32"
-        width="163.72"
-        height="161.45"
-        fill="#f5f5f5"
+      <path
+        fill="url(#SecureData_svg__b)"
+        d="M205.71 209.65h166.35v168.79H205.71z"
+        opacity={0.5}
       />
-      <g opacity="0.5">
-        <rect
-          x="212.53"
-          y="223.1"
-          width="152.7"
-          height="105.19"
-          fill="url(#32b634d8-28f1-48d9-a868-f602a2cad942)"
-        />
-      </g>
-      <rect
-        id="689f37f3-cc41-448d-b172-63ec123bc985"
+      <path fill="#f5f5f5" d="M206.76 213.32h163.72v161.45H206.76z" />
+      <path
+        fill="url(#SecureData_svg__c)"
+        d="M212.53 223.1h152.7v105.19h-152.7z"
+        opacity={0.5}
+      />
+      <path
         data-name="&lt;Rectangle&gt;"
-        x="213.58"
-        y="224.32"
-        width="150.6"
-        height="101.52"
         fill="#fff"
+        d="M213.58 224.32h150.6v101.52h-150.6z"
       />
-      <g clip-path="url(#7a4c6aff-0be0-461b-a111-b3ae1b8fbf73)">
-        <polygon
-          points="200.82 322.18 238.74 263.46 254.64 289.15 288.88 253.68 318.24 289.15 343.93 236.56 409.98 341.75 195.93 334.41 200.82 322.18"
-          fill={color}
-          opacity="0.4"
+      <g clipPath="url(#SecureData_svg__d)" fill={color}>
+        <path
+          opacity={0.4}
+          d="M200.82 322.18l37.92-58.72 15.9 25.69 34.24-35.47 29.36 35.47 25.69-52.59 66.05 105.19-214.05-7.34 4.89-12.23z"
         />
-        <circle cx="230.17" cy="239" r="11.01" fill={color} opacity="0.4" />
+        <circle cx={230.17} cy={239} r={11.01} opacity={0.4} />
       </g>
-      <g opacity="0.5">
-        <rect
-          x="205.71"
-          y="426.14"
-          width="166.35"
-          height="168.79"
-          fill="url(#38f1cb81-8fac-4205-a0ff-a33ac00d354c)"
-        />
-      </g>
-      <rect
-        x="206.76"
-        y="429.81"
-        width="163.72"
-        height="161.45"
-        fill="#f5f5f5"
+      <path
+        fill="url(#SecureData_svg__e)"
+        d="M205.71 426.14h166.35v168.79H205.71z"
+        opacity={0.5}
       />
-      <g opacity="0.5">
-        <rect
-          x="212.53"
-          y="439.6"
-          width="152.7"
-          height="105.19"
-          fill="url(#6fc01aaf-135e-403e-a209-43b2a4fe59f1)"
-        />
-      </g>
-      <rect
-        id="b429ac3a-f8a8-4171-bcce-5b6c002c0714"
+      <path fill="#f5f5f5" d="M206.76 429.81h163.72v161.45H206.76z" />
+      <path
+        fill="url(#SecureData_svg__f)"
+        d="M212.53 439.6h152.7v105.19h-152.7z"
+        opacity={0.5}
+      />
+      <path
         data-name="&lt;Rectangle&gt;"
-        x="213.58"
-        y="440.82"
-        width="150.6"
-        height="101.52"
         fill="#fff"
+        d="M213.58 440.82h150.6v101.52h-150.6z"
       />
-      <g clip-path="url(#79ce363a-d134-40e4-9f82-b96d04a36978)">
-        <polygon
-          points="200.82 538.67 238.74 479.96 254.64 505.65 288.88 470.18 318.24 505.65 343.93 453.05 409.98 558.24 195.93 550.9 200.82 538.67"
-          fill="#bdbdbd"
-          opacity="0.4"
+      <g clipPath="url(#SecureData_svg__g)" fill="#bdbdbd">
+        <path
+          opacity={0.4}
+          d="M200.82 538.67l37.92-58.71 15.9 25.69 34.24-35.47 29.36 35.47 25.69-52.6 66.05 105.19-214.05-7.34 4.89-12.23z"
         />
-        <circle cx="230.17" cy="455.5" r="11.01" fill="#bdbdbd" opacity="0.4" />
+        <circle cx={230.17} cy={455.5} r={11.01} opacity={0.4} />
       </g>
-      <g opacity="0.5">
-        <rect
-          x="349.09"
-          y="242.63"
-          width="631.14"
-          height="469.69"
-          transform="translate(-74.16 969.06) rotate(-78.76)"
-          fill="url(#54803c44-522d-4b9e-9a34-f1f7b43e8483)"
-        />
-      </g>
-      <rect
-        x="359.37"
-        y="247.33"
-        width="609.12"
-        height="455.01"
-        transform="translate(-72.16 966.22) rotate(-78.76)"
+      <path
+        transform="rotate(-78.76 553.216 529.704)"
+        fill="url(#SecureData_svg__h)"
+        d="M349.09 242.63h631.14v469.69H349.09z"
+        opacity={0.5}
+      />
+      <path
         fill="#fff"
+        d="M240.474 661.952l118.73-597.436 446.282 88.69-118.73 597.436z"
       />
-      <rect
-        x="523.5"
-        y="197.22"
-        width="322.91"
-        height="4.89"
-        transform="translate(-88.86 -196.94) rotate(11.24)"
+      <path
         fill="#e0e0e0"
+        d="M386.157 98.537l316.716 62.942-.953 4.796-316.716-62.941zM296.034 552.03l316.716 62.94-.953 4.797-316.716-62.942zM290.552 579.626l244.734 48.636-.954 4.796-244.734-48.636z"
       />
-      <rect
-        x="433.36"
-        y="650.7"
-        width="322.91"
-        height="4.89"
-        transform="translate(-2.18 -170.66) rotate(11.24)"
-        fill="#e0e0e0"
-      />
-      <rect
-        x="428.58"
-        y="671.14"
-        width="249.52"
-        height="4.89"
-        transform="translate(1.01 -162.18) rotate(11.24)"
-        fill="#e0e0e0"
-      />
-      <rect
-        x="424.6"
-        y="683.47"
-        width="92.96"
-        height="4.89"
-        transform="translate(1.84 -145.91) rotate(11.24)"
+      <path
         fill={color}
-        opacity="0.7"
+        opacity={0.7}
+        d="M285.074 607.213l91.177 18.12-.953 4.796-91.177-18.12zM380.68 126.144l158.354 31.47-.953 4.796-158.354-31.47z"
       />
-      <rect
-        x="519.57"
-        y="209.08"
-        width="161.45"
-        height="4.89"
-        transform="translate(-88.17 -180.2) rotate(11.24)"
-        fill={color}
-        opacity="0.7"
-      />
-      <rect
-        x="512.84"
-        y="249.31"
-        width="291.11"
-        height="4.89"
-        transform="translate(-79.21 -190.76) rotate(11.24)"
+      <path
         fill="#e0e0e0"
+        d="M375.198 153.73l285.526 56.743-.953 4.797-285.526-56.743z"
       />
-      <rect
-        x="509.47"
-        y="255.44"
-        width="70.94"
-        height="4.89"
-        transform="translate(-80.19 -168.52) rotate(11.24)"
+      <path
         fill="#3ad29f"
-        opacity="0.7"
+        opacity={0.7}
+        d="M369.718 181.326l69.58 13.828-.954 4.796-69.58-13.828z"
       />
-      <rect
-        x="501.56"
-        y="307.59"
-        width="322.91"
-        height="4.89"
-        transform="translate(-67.76 -190.54) rotate(11.24)"
+      <path
         fill="#e0e0e0"
+        d="M364.225 208.914l316.716 62.941-.953 4.796-316.717-62.94z"
       />
-      <g opacity="0.5">
-        <rect
-          x="575.87"
-          y="357.6"
-          width="166.35"
-          height="289.88"
-          transform="translate(-103.27 983.74) rotate(-78.76)"
-          fill="url(#089a6a47-adaa-499b-aefb-cd6464b62fb8)"
-        />
-      </g>
-      <rect
-        x="516.06"
-        y="420.61"
-        width="286.22"
-        height="162.68"
-        transform="translate(-30.42 -186.11) rotate(11.24)"
+      <path
+        transform="rotate(-78.76 547.604 554.776)"
+        fill="url(#SecureData_svg__i)"
+        d="M575.87 357.6h166.35v289.88H575.87z"
+        opacity={0.5}
+      />
+      <path
         fill="#fff"
+        d="M393.757 327.022l280.73 55.79-31.71 159.56-280.73-55.79z"
       />
-      <rect
-        x="496.08"
-        y="335.18"
-        width="322.91"
-        height="4.89"
-        transform="translate(-62.49 -188.94) rotate(11.24)"
+      <path
         fill="#e0e0e0"
+        d="M358.742 236.507l316.716 62.94-.953 4.797-316.716-62.941z"
       />
-      <rect
-        x="547.86"
-        y="424.02"
-        width="35.47"
-        height="118.64"
-        transform="translate(-35.84 -168.22) rotate(11.24)"
+      <path
         fill={color}
+        d="M418.862 354.455l34.79 6.914-23.125 116.365-34.79-6.914z"
       />
-      <rect
-        x="606.43"
-        y="475.19"
-        width="35.47"
-        height="79.5"
-        transform="translate(-28.56 -179.03) rotate(11.24)"
+      <path
         fill="#3ad29f"
+        d="M473.615 405.25l34.79 6.914-15.497 77.975-34.79-6.914z"
       />
-      <rect
-        x="665.23"
-        y="523.93"
-        width="35.47"
-        height="42.81"
-        transform="translate(-21.5 -189.92) rotate(11.24)"
+      <path
         fill="#f55f44"
+        d="M528.846 453.627l34.79 6.914-8.344 41.988-34.79-6.913z"
       />
-      <rect
-        x="731.91"
-        y="492.72"
-        width="35.47"
-        height="86.84"
-        transform="translate(-22.02 -203.09) rotate(11.24)"
+      <path
         fill="#fdd835"
+        d="M599.81 422.843l34.79 6.913-16.926 85.175-34.79-6.914z"
       />
-      <g opacity="0.5">
-        <rect
-          x="128.65"
-          y="645.09"
-          width="3.67"
-          height="20.79"
-          fill="#47e6b1"
-        />
-        <rect
-          x="269.58"
-          y="712.31"
-          width="3.67"
-          height="20.79"
-          transform="translate(853.2 384.07) rotate(90)"
-          fill="#47e6b1"
-        />
+      <g opacity={0.5} fill="#47e6b1">
+        <path d="M128.65 645.09h3.67v20.79h-3.67z" />
+        <path d="M140.89 653.65v3.67H120.1v-3.67z" />
       </g>
       <path
-        d="M699.44,75.56a4.49,4.49,0,0,1-2.5-5.43,2.16,2.16,0,0,0,.1-.5h0a2.25,2.25,0,0,0-4-1.49h0a2.16,2.16,0,0,0-.25.44,4.49,4.49,0,0,1-5.43,2.5,2.16,2.16,0,0,0-.5-.1h0a2.25,2.25,0,0,0-1.49,4h0a2.16,2.16,0,0,0,.44.25,4.49,4.49,0,0,1,2.5,5.43,2.16,2.16,0,0,0-.1.5h0a2.25,2.25,0,0,0,4,1.49h0a2.16,2.16,0,0,0,.25-.44,4.49,4.49,0,0,1,5.43-2.5,2.16,2.16,0,0,0,.5.1h0a2.25,2.25,0,0,0,1.49-4h0A2.16,2.16,0,0,0,699.44,75.56Z"
-        transform="translate(-140.93 -67.23)"
+        d="M558.51 8.33a4.49 4.49 0 01-2.5-5.43 2.16 2.16 0 00.1-.5 2.25 2.25 0 00-4-1.49 2.16 2.16 0 00-.25.44 4.49 4.49 0 01-5.43 2.5 2.16 2.16 0 00-.5-.1 2.25 2.25 0 00-1.49 4 2.16 2.16 0 00.44.25 4.49 4.49 0 012.5 5.43 2.16 2.16 0 00-.1.5 2.25 2.25 0 004 1.49 2.16 2.16 0 00.25-.44 4.49 4.49 0 015.43-2.5 2.16 2.16 0 00.5.1 2.25 2.25 0 001.49-4 2.16 2.16 0 00-.44-.25z"
         fill="#4d8af0"
-        opacity="0.5"
+        opacity={0.5}
       />
       <path
-        d="M286.33,179.4a4.49,4.49,0,0,1-2.5-5.43,2.16,2.16,0,0,0,.1-.5h0a2.25,2.25,0,0,0-4-1.49h0a2.16,2.16,0,0,0-.25.44,4.49,4.49,0,0,1-5.43,2.5,2.16,2.16,0,0,0-.5-.1h0a2.25,2.25,0,0,0-1.49,4h0a2.16,2.16,0,0,0,.44.25,4.49,4.49,0,0,1,2.5,5.43,2.16,2.16,0,0,0-.1.5h0a2.25,2.25,0,0,0,4,1.49h0a2.16,2.16,0,0,0,.25-.44,4.49,4.49,0,0,1,5.43-2.5,2.16,2.16,0,0,0,.5.1h0a2.25,2.25,0,0,0,1.49-4h0A2.16,2.16,0,0,0,286.33,179.4Z"
-        transform="translate(-140.93 -67.23)"
+        d="M145.4 112.17a4.49 4.49 0 01-2.5-5.43 2.16 2.16 0 00.1-.5 2.25 2.25 0 00-4-1.49 2.16 2.16 0 00-.25.44 4.49 4.49 0 01-5.43 2.5 2.16 2.16 0 00-.5-.1 2.25 2.25 0 00-1.49 4 2.16 2.16 0 00.44.25 4.49 4.49 0 012.5 5.43 2.16 2.16 0 00-.1.5 2.25 2.25 0 004 1.49 2.16 2.16 0 00.25-.44 4.49 4.49 0 015.43-2.5 2.16 2.16 0 00.5.1 2.25 2.25 0 001.49-4 2.16 2.16 0 00-.44-.25zM112.7 417.23a4.49 4.49 0 01-2.5-5.43 2.16 2.16 0 00.1-.5 2.25 2.25 0 00-4-1.49 2.16 2.16 0 00-.25.44 4.49 4.49 0 01-5.43 2.5 2.16 2.16 0 00-.5-.1 2.25 2.25 0 00-1.49 4 2.16 2.16 0 00.44.25 4.49 4.49 0 012.5 5.43 2.16 2.16 0 00-.1.5 2.25 2.25 0 004 1.49 2.16 2.16 0 00.25-.44 4.49 4.49 0 015.43-2.5 2.16 2.16 0 00.5.1 2.25 2.25 0 001.49-4 2.16 2.16 0 00-.44-.25z"
         fill="#fdd835"
-        opacity="0.5"
+        opacity={0.5}
+      />
+      <circle cx={337.81} cy={28.62} r={7.34} fill="#f55f44" opacity={0.5} />
+      <circle cx={7.34} cy={317.46} r={7.34} fill="#f55f44" opacity={0.5} />
+      <circle cx={863.76} cy={120.36} r={7.34} fill="#f55f44" opacity={0.5} />
+      <circle cx={822.17} cy={339.3} r={7.34} fill="#4d8af0" opacity={0.5} />
+      <circle cx={37.68} cy={145.22} r={7.34} fill="#47e6b1" opacity={0.5} />
+      <circle cx={853.29} cy={647.34} r={7.34} fill="#47e6b1" opacity={0.5} />
+      <circle cx={910.8} cy={430.97} r={7.34} fill="#47e6b1" opacity={0.5} />
+      <path
+        fill="url(#SecureData_svg__j)"
+        d="M544.42 601.05H730.9v153.07H544.42z"
       />
       <path
-        d="M253.63,484.46a4.49,4.49,0,0,1-2.5-5.43,2.16,2.16,0,0,0,.1-.5h0a2.25,2.25,0,0,0-4-1.49h0a2.16,2.16,0,0,0-.25.44,4.49,4.49,0,0,1-5.43,2.5,2.16,2.16,0,0,0-.5-.1h0a2.25,2.25,0,0,0-1.49,4h0a2.16,2.16,0,0,0,.44.25,4.49,4.49,0,0,1,2.5,5.43,2.16,2.16,0,0,0-.1.5h0a2.25,2.25,0,0,0,4,1.49h0a2.16,2.16,0,0,0,.25-.44,4.49,4.49,0,0,1,5.43-2.5,2.16,2.16,0,0,0,.5.1h0a2.25,2.25,0,0,0,1.49-4h0A2.16,2.16,0,0,0,253.63,484.46Z"
+        d="M723.82 639a54.55 54.55 0 01109.1 0v34.91h15.27V639a69.82 69.82 0 00-139.65 0v34.91h15.27z"
         transform="translate(-140.93 -67.23)"
-        fill="#fdd835"
-        opacity="0.5"
-      />
-      <circle cx="337.81" cy="28.62" r="7.34" fill="#f55f44" opacity="0.5" />
-      <circle cx="7.34" cy="317.46" r="7.34" fill="#f55f44" opacity="0.5" />
-      <circle cx="863.76" cy="120.36" r="7.34" fill="#f55f44" opacity="0.5" />
-      <circle cx="822.17" cy="339.3" r="7.34" fill="#4d8af0" opacity="0.5" />
-      <circle cx="37.68" cy="145.22" r="7.34" fill="#47e6b1" opacity="0.5" />
-      <circle cx="853.29" cy="647.34" r="7.34" fill="#47e6b1" opacity="0.5" />
-      <circle cx="910.8" cy="430.97" r="7.34" fill="#47e6b1" opacity="0.5" />
-      <rect
-        x="544.42"
-        y="601.05"
-        width="186.48"
-        height="153.07"
-        fill="url(#fd8d88e0-7826-450d-9e0b-001d1be709c2)"
+        fill="url(#SecureData_svg__k)"
       />
       <path
-        d="M723.82,639a54.55,54.55,0,0,1,109.1,0v34.91h15.27V639a69.82,69.82,0,0,0-139.65,0v34.91h15.27Z"
-        transform="translate(-140.93 -67.23)"
-        fill="url(#8d1793c5-b76e-44e2-a52e-569460402331)"
-      />
-      <path
-        d="M726,638.25a52.37,52.37,0,1,1,104.74,0v33.52H845.4V638.25a67,67,0,0,0-134.06,0v33.52H726Z"
-        transform="translate(-140.93 -67.23)"
+        d="M585.07 571.02a52.37 52.37 0 11104.74 0v33.52h14.66v-33.52a67.03 67.03 0 00-134.06 0v33.52h14.66z"
         fill="#f5f5f5"
       />
-      <rect x="546.32" y="602.45" width="182.24" height="148.73" fill={color} />
-      <rect
-        x="546.32"
-        y="602.45"
-        width="182.24"
-        height="148.73"
-        fill="#f5f5f5"
-      />
-      <rect x="546.32" y="631.77" width="182.24" height="90.07" fill={color} />
+      <path fill={color} d="M546.32 602.45h182.24v148.73H546.32z" />
+      <path fill="#f5f5f5" d="M546.32 602.45h182.24v148.73H546.32z" />
+      <path fill={color} d="M546.32 631.77h182.24v90.07H546.32z" />
       <path
-        d="M791.73,727a13.36,13.36,0,1,0-23.08,9.15v28.51a9.72,9.72,0,0,0,19.44,0V736.18A13.3,13.3,0,0,0,791.73,727Z"
+        d="M791.73 727a13.36 13.36 0 10-23.08 9.15v28.51a9.72 9.72 0 0019.44 0v-28.48a13.3 13.3 0 003.64-9.18z"
         transform="translate(-140.93 -67.23)"
-        fill="url(#4745700d-8097-45ff-9f71-625443fc4ad8)"
+        fill="url(#SecureData_svg__l)"
       />
       <path
-        d="M789.89,729.38a11.52,11.52,0,1,0-19.9,7.89v24.58a8.38,8.38,0,1,0,16.76,0V737.27A11.47,11.47,0,0,0,789.89,729.38Z"
-        transform="translate(-140.93 -67.23)"
-        opacity="0.2"
+        d="M648.96 662.15a11.52 11.52 0 10-19.9 7.89v24.58a8.38 8.38 0 1016.76 0v-24.58a11.47 11.47 0 003.14-7.89z"
+        opacity={0.2}
       />
     </svg>
   );
 };
 
-SecureData.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgSecureData.propTypes = {
+  color: PropTypes.string
 };
-
-SecureData.defaultProps = {
-  color: "primary",
-  style: {}
+SvgSecureData.defaultProps = {
+  color: "primary"
 };
-
-export default SecureData;
+const MemoSvgSecureData = React.memo(SvgSecureData);
+export default MemoSvgSecureData;

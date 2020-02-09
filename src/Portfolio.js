@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Portfolio = ({ color, style }) => {
+const SvgPortfolio = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,145 +13,97 @@ const Portfolio = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="d5877239-1383-4003-a1e0-bdbc61205e57"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="796"
-      height="684"
       viewBox="0 0 796 684"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="4825a168-f1ac-4091-8125-48717fd16bcb"
-          x1="398"
-          y1="684"
-          x2="398"
+          id="Portfolio_svg__b"
+          x1={398}
+          y1={684}
+          x2={398}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.01" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0.01} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="cf06029e-a620-46ae-8a5a-e28a71109481"
-          x1="193"
-          y1="420.5"
-          x2="193"
-          y2="262"
+          id="Portfolio_svg__a"
+          x1={193}
+          y1={420.5}
+          x2={193}
+          y2={262}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#b3b3b3" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="#b3b3b3" stop-opacity="0.12" />
-          <stop offset="1" stop-color="#b3b3b3" stop-opacity="0.1" />
+          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.12} />
+          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="f75d8251-2390-4c7d-bebb-e5abb3a9a322"
-          x1="395.5"
-          x2="395.5"
-          y2="262"
-          xlink:href="#cf06029e-a620-46ae-8a5a-e28a71109481"
+          id="Portfolio_svg__c"
+          x1={395.5}
+          x2={395.5}
+          y2={262}
+          xlinkHref="#Portfolio_svg__a"
         />
         <linearGradient
-          id="86b5c316-e7be-414e-8e69-87fdc1a5b05b"
-          x1="598.5"
-          x2="598.5"
-          y2="262"
-          xlink:href="#cf06029e-a620-46ae-8a5a-e28a71109481"
+          id="Portfolio_svg__d"
+          x1={598.5}
+          x2={598.5}
+          y2={262}
+          xlinkHref="#Portfolio_svg__a"
         />
         <linearGradient
-          id="2f11c360-24e1-4900-b40c-5c209eaa65b6"
-          y1="616.5"
-          y2="460"
-          xlink:href="#cf06029e-a620-46ae-8a5a-e28a71109481"
+          id="Portfolio_svg__e"
+          y1={616.5}
+          y2={460}
+          xlinkHref="#Portfolio_svg__a"
         />
         <linearGradient
-          id="a08a9646-6964-4d51-a19c-612d0b797ffc"
-          x1="395.5"
-          y1="616.5"
-          x2="395.5"
-          y2="460"
-          xlink:href="#cf06029e-a620-46ae-8a5a-e28a71109481"
+          id="Portfolio_svg__f"
+          x1={395.5}
+          y1={616.5}
+          x2={395.5}
+          y2={460}
+          xlinkHref="#Portfolio_svg__a"
         />
         <linearGradient
-          id="4d2cc3a6-d454-4a71-a7fe-6c89e03b8d14"
-          x1="598.5"
-          y1="616.5"
-          x2="598.5"
-          y2="460"
-          xlink:href="#cf06029e-a620-46ae-8a5a-e28a71109481"
+          id="Portfolio_svg__g"
+          x1={598.5}
+          y1={616.5}
+          x2={598.5}
+          y2={460}
+          xlinkHref="#Portfolio_svg__a"
         />
       </defs>
-      <title>portfolio</title>
-      <rect
-        width="796"
-        height="684"
-        fill="url(#4825a168-f1ac-4091-8125-48717fd16bcb)"
+      <path fill="url(#Portfolio_svg__b)" d="M0 0h796v684H0z" />
+      <path fill="#fff" d="M9.62 10.23h776.76v662.68H9.62z" />
+      <path fill="#bdbdbd" d="M118.5 81.85h254v20.81h-254z" />
+      <path fill="#e0e0e0" d="M118.5 123.47h555v20.81h-555z" />
+      <path fill="#64ffda" d="M118.5 165.08h555v20.81h-555z" />
+      <path fill="url(#Portfolio_svg__a)" d="M113 262h160v158.5H113z" />
+      <path fill="url(#Portfolio_svg__c)" d="M316 262h159v158.5H316z" />
+      <path fill="url(#Portfolio_svg__d)" d="M519 262h159v158.5H519z" />
+      <path fill="url(#Portfolio_svg__e)" d="M113 460h160v156.5H113z" />
+      <path fill="url(#Portfolio_svg__f)" d="M316 460h159v156.5H316z" />
+      <path fill="url(#Portfolio_svg__g)" d="M519 460h159v156.5H519z" />
+      <path
+        fill={color}
+        d="M118.5 265.5h149v149h-149zM321.5 265.5h149v149h-149zM524.5 265.5h149v149h-149zM118.5 461.5h149v149h-149zM321.5 461.5h149v149h-149zM524.5 461.5h149v149h-149z"
       />
-      <rect x="9.62" y="10.23" width="776.76" height="662.68" fill="#fff" />
-      <rect x="118.5" y="81.85" width="254" height="20.81" fill="#bdbdbd" />
-      <rect x="118.5" y="123.47" width="555" height="20.81" fill="#e0e0e0" />
-      <rect x="118.5" y="165.08" width="555" height="20.81" fill="#64ffda" />
-      <rect
-        x="113"
-        y="262"
-        width="160"
-        height="158.5"
-        fill="url(#cf06029e-a620-46ae-8a5a-e28a71109481)"
-      />
-      <rect
-        x="316"
-        y="262"
-        width="159"
-        height="158.5"
-        fill="url(#f75d8251-2390-4c7d-bebb-e5abb3a9a322)"
-      />
-      <rect
-        x="519"
-        y="262"
-        width="159"
-        height="158.5"
-        fill="url(#86b5c316-e7be-414e-8e69-87fdc1a5b05b)"
-      />
-      <rect
-        x="113"
-        y="460"
-        width="160"
-        height="156.5"
-        fill="url(#2f11c360-24e1-4900-b40c-5c209eaa65b6)"
-      />
-      <rect
-        x="316"
-        y="460"
-        width="159"
-        height="156.5"
-        fill="url(#a08a9646-6964-4d51-a19c-612d0b797ffc)"
-      />
-      <rect
-        x="519"
-        y="460"
-        width="159"
-        height="156.5"
-        fill="url(#4d2cc3a6-d454-4a71-a7fe-6c89e03b8d14)"
-      />
-      <rect x="118.5" y="265.5" width="149" height="149" fill={color} />
-      <rect x="321.5" y="265.5" width="149" height="149" fill={color} />
-      <rect x="524.5" y="265.5" width="149" height="149" fill={color} />
-      <rect x="118.5" y="461.5" width="149" height="149" fill={color} />
-      <rect x="321.5" y="461.5" width="149" height="149" fill={color} />
-      <rect x="524.5" y="461.5" width="149" height="149" fill={color} />
     </svg>
   );
 };
 
-Portfolio.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgPortfolio.propTypes = {
+  color: PropTypes.string
 };
-
-Portfolio.defaultProps = {
-  color: "primary",
-  style: {}
+SvgPortfolio.defaultProps = {
+  color: "primary"
 };
-
-export default Portfolio;
+const MemoSvgPortfolio = React.memo(SvgPortfolio);
+export default MemoSvgPortfolio;

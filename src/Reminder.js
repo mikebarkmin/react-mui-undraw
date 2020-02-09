@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Reminder = ({ color, style }) => {
+const SvgReminder = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,122 +13,69 @@ const Reminder = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="ab6d4b78-a8f6-485a-afcf-f519a4f8db63"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="874.07343"
-      height="696.66371"
-      viewBox="0 0 874.07343 696.66371"
+      viewBox="0 0 874.073 696.664"
+      width="100%"
+      height="auto"
+      {...props}
     >
-      <title>reminder</title>
-      <circle cx="42.92792" cy="681.97835" r="13.68536" fill={color} />
-      <rect x="230.71992" y="658.953" width="36" height="36" fill="#ff6584" />
-      <circle cx="230.92792" cy="682.97835" r="13.68536" fill={color} />
-      <polygon
-        points="236.741 0 156.336 125.51 329.073 59.15 236.741 0"
-        fill="#f1f1f1"
-      />
-      <polygon
-        points="335.775 67.912 151.635 138.653 0 375.352 496.8 693.612 734.147 323.117 335.775 67.912"
-        fill="#f1f1f1"
-      />
-      <polygon
-        points="633.944 200.247 634.64 200.964 624.625 176.833 529.768 270.217 508.139 322.339 633.944 200.247"
-        fill={color}
-      />
-      <polygon
-        points="624.212 175.837 612.456 147.507 551.082 218.857 531.737 265.474 623.511 175.124 624.212 175.837"
-        fill={color}
-      />
-      <polygon
-        points="611.269 145.82 612.026 146.473 596.573 109.235 553.541 212.932 611.269 145.82"
-        fill={color}
-      />
-      <polygon
-        points="718.164 402.235 635.052 201.958 506.202 327.005 474.983 402.235 353.393 695.235 596.573 695.235 839.754 695.235 718.164 402.235"
-        fill={color}
-      />
-      <line
-        x1="7.80805"
-        y1="695.2348"
-        x2="868.3388"
-        y2="695.2348"
-        fill="none"
-        stroke="#3f3d56"
-        stroke-miterlimit="10"
-        strokeWidth="2"
-      />
-      <polygon
-        points="647.508 510.235 563.073 620.65 563.073 664.898 673.283 510.235 647.508 510.235"
-        fill="#3f3d56"
-      />
-      <polygon
-        points="611.229 510.235 563.073 568.354 563.073 617.358 644.991 510.235 611.229 510.235"
-        fill="#3f3d56"
-      />
-      <polygon
-        points="608.632 510.235 563.073 510.235 563.073 565.219 608.632 510.235"
-        fill="#3f3d56"
-      />
-      <polygon
-        points="675.738 510.235 563.073 668.344 563.073 695.235 843.073 695.235 843.073 510.235 675.738 510.235"
-        fill="#3f3d56"
-      />
-      <circle cx="795.07343" cy="405.2348" r="79" fill="#2f2e41" />
-      <rect
-        x="970.03671"
-        y="568.90295"
-        width="24"
-        height="43"
-        transform="translate(1801.11014 1079.13775) rotate(-180)"
-        fill="#2f2e41"
-      />
-      <rect
-        x="922.03671"
-        y="568.90295"
-        width="24"
-        height="43"
-        transform="translate(1705.11014 1079.13775) rotate(-180)"
-        fill="#2f2e41"
-      />
-      <ellipse cx="811.07343" cy="510.7348" rx="20" ry="7.5" fill="#2f2e41" />
-      <ellipse cx="763.07343" cy="509.7348" rx="20" ry="7.5" fill="#2f2e41" />
-      <circle cx="793.07343" cy="385.2348" r="27" fill="#fff" />
-      <circle cx="793.07343" cy="385.2348" r="9" fill="#3f3d56" />
+      <circle cx={42.928} cy={681.978} r={13.685} fill={color} />
+      <path fill="#ff6584" d="M230.72 658.953h36v36h-36z" />
+      <circle cx={230.928} cy={682.978} r={13.685} fill={color} />
       <path
-        d="M1034.66938,433.43522c6.37889-28.56758-14.01185-57.43391-45.544-64.47476s-62.2651,10.41-68.644,38.97759S935,447.04185,966.53215,454.0827,1028.29049,462.0028,1034.66938,433.43522Z"
-        transform="translate(-162.96329 -101.66814)"
-        fill={color}
+        fill="#f1f1f1"
+        d="M236.741 0l-80.405 125.51 172.737-66.36L236.741 0zM335.775 67.912l-184.14 70.741L0 375.352l496.8 318.26 237.347-370.495L335.775 67.912z"
       />
-      <line
-        x1="178.07343"
-        y1="394.2348"
-        x2="178.07343"
-        y2="695.2348"
+      <path
+        fill={color}
+        d="M633.944 200.247l.696.717-10.015-24.131-94.857 93.384-21.629 52.122 125.805-122.092zM624.212 175.837l-11.756-28.33-61.374 71.35-19.345 46.617 91.774-90.35.701.713zM611.269 145.82l.757.653-15.453-37.238-43.032 103.697 57.728-67.112zM718.164 402.235l-83.112-200.277-128.85 125.047-31.219 75.23-121.59 293h486.361l-121.59-293z"
+      />
+      <path
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
-        strokeWidth="2"
+        strokeMiterlimit={10}
+        strokeWidth={2}
+        d="M7.808 695.235h860.531"
       />
-      <rect x="3.07343" y="278.2348" width="350" height="232" fill={color} />
-      <rect x="43.07343" y="336.2348" width="270" height="8" fill="#f1f1f1" />
-      <rect x="43.07343" y="363.2348" width="270" height="8" fill="#f1f1f1" />
-      <rect x="43.07343" y="390.2348" width="270" height="8" fill="#f1f1f1" />
-      <rect x="243.07343" y="444.2348" width="70" height="8" fill="#f1f1f1" />
-      <ellipse cx="178.07343" cy="278.2348" rx="30" ry="16" fill="#3f3d56" />
+      <path
+        fill="#3f3d56"
+        d="M647.508 510.235L563.073 620.65v44.248l110.21-154.663h-25.775zM611.229 510.235l-48.156 58.119v49.004l81.918-107.123h-33.762zM608.632 510.235h-45.559v54.984l45.559-54.984zM675.738 510.235L563.073 668.344v26.891h280v-185H675.738z"
+      />
+      <circle cx={795.073} cy={405.235} r={79} fill="#2f2e41" />
+      <path
+        fill="#2f2e41"
+        d="M831.073 510.235h-24v-43h24zM783.073 510.235h-24v-43h24z"
+      />
+      <ellipse cx={811.073} cy={510.735} rx={20} ry={7.5} fill="#2f2e41" />
+      <ellipse cx={763.073} cy={509.735} rx={20} ry={7.5} fill="#2f2e41" />
+      <circle cx={793.073} cy={385.235} r={27} fill="#fff" />
+      <circle cx={793.073} cy={385.235} r={9} fill="#3f3d56" />
+      <path
+        d="M871.706 331.767c6.379-28.567-14.012-57.434-45.544-64.475s-62.265 10.41-68.644 38.978 14.519 39.104 46.05 46.145 61.76 7.92 68.138-20.648z"
+        fill={color}
+      />
+      <path
+        fill="none"
+        stroke="#3f3d56"
+        strokeMiterlimit={10}
+        strokeWidth={2}
+        d="M178.073 394.235v301"
+      />
+      <path fill={color} d="M3.073 278.235h350v232h-350z" />
+      <path
+        fill="#f1f1f1"
+        d="M43.073 336.235h270v8h-270zM43.073 363.235h270v8h-270zM43.073 390.235h270v8h-270zM243.073 444.235h70v8h-70z"
+      />
+      <ellipse cx={178.073} cy={278.235} rx={30} ry={16} fill="#3f3d56" />
     </svg>
   );
 };
 
-Reminder.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgReminder.propTypes = {
+  color: PropTypes.string
 };
-
-Reminder.defaultProps = {
-  color: "primary",
-  style: {}
+SvgReminder.defaultProps = {
+  color: "primary"
 };
-
-export default Reminder;
+const MemoSvgReminder = React.memo(SvgReminder);
+export default MemoSvgReminder;

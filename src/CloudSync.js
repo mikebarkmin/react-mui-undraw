@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const CloudSync = ({ color, style }) => {
+const SvgCloudSync = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,479 +13,345 @@ const CloudSync = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="4eea1ae6-5e32-40ef-85be-39d849886f06"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="873.79"
-      height="740.57"
       viewBox="0 0 873.79 740.57"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="28f33bb1-3e6d-484b-8ded-bad4b26ea843"
-          x1="690.86"
-          y1="478.35"
-          x2="690.86"
-          y2="70"
+          id="CloudSync_svg__a"
+          x1={690.86}
+          y1={478.35}
+          x2={690.86}
+          y2={70}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="bbcc52f0-cf83-4fe3-8c9e-c71348f6c3ef"
-          x1="817.66"
-          y1="176.95"
-          x2="817.66"
-          y2="105.63"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__b"
+          x1={817.66}
+          y1={176.95}
+          x2={817.66}
+          y2={105.63}
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="a4718631-6639-4577-8a3c-c71be39eb5f6"
-          x1="817.66"
-          y1="309.58"
-          x2="817.66"
-          y2="238.27"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__c"
+          x1={817.66}
+          y1={309.58}
+          x2={817.66}
+          y2={238.27}
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="e7e3e382-488e-4923-ae42-61d63b76ac5f"
-          x1="817.66"
-          y1="441.33"
-          x2="817.66"
-          y2="370.02"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__d"
+          x1={817.66}
+          y1={441.33}
+          x2={817.66}
+          y2={370.02}
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="3b855c7b-c326-4e86-8f18-01df42ba4311"
-          x1="396.11"
-          y1="788.96"
-          x2="396.11"
-          y2="547.06"
-          gradientTransform="translate(0.01 -0.01)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__e"
+          x1={396.11}
+          y1={788.96}
+          x2={396.11}
+          y2={547.06}
+          gradientTransform="translate(.01 -.01)"
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="48ac54b8-ff6b-484d-9b70-d49eb1fb0324"
-          x1="246.98"
-          y1="374.4"
-          x2="246.98"
-          y2="249.5"
-          gradientTransform="translate(0.01 -0.01)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__f"
+          x1={246.98}
+          y1={374.4}
+          x2={246.98}
+          y2={249.5}
+          gradientTransform="translate(.01 -.01)"
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="de8733bd-ea48-4a82-8468-795d85a03869"
-          x1="359.21"
-          y1="674.95"
-          x2="359.21"
-          y2="188.22"
+          id="CloudSync_svg__g"
+          x1={359.21}
+          y1={674.95}
+          x2={359.21}
+          y2={188.22}
           gradientTransform="translate(-163.09 -79.23)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="b6f39420-ab5d-4158-b296-45c146931e01"
-          x1="510.05"
-          y1="629.56"
-          x2="510.05"
-          y2="397.67"
-          gradientTransform="translate(0.01 -0.01)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__h"
+          x1={510.05}
+          y1={629.56}
+          x2={510.05}
+          y2={397.67}
+          gradientTransform="translate(.01 -.01)"
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="e0dd915e-f30f-4d18-88c2-53d223394458"
-          x1="436.5"
-          y1="819.79"
-          x2="436.5"
-          y2="762.08"
+          id="CloudSync_svg__i"
+          x1={436.5}
+          y1={819.79}
+          x2={436.5}
+          y2={762.08}
           gradientTransform="translate(-163.09 -79.23)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="d1399af4-57ef-4ae9-86c3-f598ea04d411"
-          x1="226.52"
-          y1="546.99"
-          x2="226.52"
-          y2="443.79"
-          gradientTransform="translate(0.01 -0.01)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__j"
+          x1={226.52}
+          y1={546.99}
+          x2={226.52}
+          y2={443.79}
+          gradientTransform="translate(.01 -.01)"
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="4a4958f4-37fa-4130-9aba-cf91683c116e"
-          x1="222.5"
-          y1="632.54"
-          x2="222.5"
-          y2="540.94"
-          gradientTransform="translate(0.01 -0.01)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__k"
+          x1={222.5}
+          y1={632.54}
+          x2={222.5}
+          y2={540.94}
+          gradientTransform="translate(.01 -.01)"
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="89ac17f5-770b-461c-9865-cca003b4417d"
-          x1="196.1"
-          y1="427.59"
-          x2="196.1"
-          y2="277.14"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__l"
+          x1={196.1}
+          y1={427.59}
+          x2={196.1}
+          y2={277.14}
+          xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="aef3d74b-62ea-4515-b248-bc09651b6b12"
-          x1="234.19"
-          y1="462.07"
-          x2="234.19"
-          y2="347.46"
-          gradientTransform="translate(0.01 -0.01)"
-          xlink:href="#28f33bb1-3e6d-484b-8ded-bad4b26ea843"
+          id="CloudSync_svg__m"
+          x1={234.19}
+          y1={462.07}
+          x2={234.19}
+          y2={347.46}
+          gradientTransform="translate(.01 -.01)"
+          xlinkHref="#CloudSync_svg__a"
         />
       </defs>
-      <title>cloud sync</title>
-      <g opacity="0.8">
-        <rect
-          x="507.92"
-          y="70"
-          width="365.87"
-          height="408.35"
-          fill="url(#28f33bb1-3e6d-484b-8ded-bad4b26ea843)"
-        />
-      </g>
-      <rect x="513.97" y="342.63" width="353.77" height="126.82" fill="#fff" />
-      <rect x="543.01" y="372.72" width="13.71" height="64.98" fill="#64ffda" />
-      <g opacity="0.7">
-        <rect
-          x="570.07"
-          y="372.72"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.6">
-        <rect
-          x="597.13"
-          y="372.72"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.5">
-        <rect
-          x="624.2"
-          y="372.72"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.5">
-        <rect
-          x="651.26"
-          y="372.72"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.4">
-        <rect
-          x="678.33"
-          y="372.72"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.3">
-        <rect
-          x="705.39"
-          y="372.72"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <circle cx="817.66" cy="404.79" r="33.08" fill={color} />
-      <rect x="513.97" y="210.88" width="353.77" height="126.82" fill="#fff" />
-      <rect x="543.01" y="240.96" width="13.71" height="64.98" fill="#64ffda" />
-      <g opacity="0.7">
-        <rect
-          x="570.07"
-          y="240.96"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.6">
-        <rect
-          x="597.13"
-          y="240.96"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.5">
-        <rect
-          x="624.2"
-          y="240.96"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.5">
-        <rect
-          x="651.26"
-          y="240.96"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.4">
-        <rect
-          x="678.33"
-          y="240.96"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.3">
-        <rect
-          x="705.39"
-          y="240.96"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <circle cx="817.66" cy="273.04" r="33.08" fill={color} />
-      <rect x="513.97" y="79.13" width="353.77" height="126.82" fill="#fff" />
-      <rect x="543.01" y="109.21" width="13.71" height="64.98" fill="#64ffda" />
-      <g opacity="0.7">
-        <rect
-          x="570.07"
-          y="109.21"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.6">
-        <rect
-          x="597.13"
-          y="109.21"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.5">
-        <rect
-          x="624.2"
-          y="109.21"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.5">
-        <rect
-          x="651.26"
-          y="109.21"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.4">
-        <rect
-          x="678.33"
-          y="109.21"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <g opacity="0.3">
-        <rect
-          x="705.39"
-          y="109.21"
-          width="13.71"
-          height="64.98"
-          fill="#64ffda"
-        />
-      </g>
-      <circle
-        cx="817.66"
-        cy="141.29"
-        r="35.66"
-        fill="url(#bbcc52f0-cf83-4fe3-8c9e-c71348f6c3ef)"
-      />
-      <circle
-        cx="817.66"
-        cy="273.93"
-        r="35.66"
-        fill="url(#a4718631-6639-4577-8a3c-c71be39eb5f6)"
-      />
-      <circle
-        cx="817.66"
-        cy="405.67"
-        r="35.66"
-        fill="url(#e7e3e382-488e-4923-ae42-61d63b76ac5f)"
-      />
-      <circle cx="817.66" cy="141.29" r="33.08" fill={color} />
       <path
-        d="M567.81,615a67.92,67.92,0,0,0-134.65-12.66l-208.75-5.66,2.29,35.87s-29.76,68.68,126.67,87V789H534.23V673.57A67.88,67.88,0,0,0,567.81,615Z"
-        transform="translate(-163.1 -79.21)"
-        fill="url(#3b855c7b-c326-4e86-8f18-01df42ba4311)"
+        fill="url(#CloudSync_svg__a)"
+        d="M507.92 70h365.87v408.35H507.92z"
+        opacity={0.8}
+      />
+      <path fill="#fff" d="M513.97 342.63h353.77v126.82H513.97z" />
+      <path fill="#64ffda" d="M543.01 372.72h13.71v64.98h-13.71z" />
+      <path
+        fill="#64ffda"
+        d="M570.07 372.72h13.71v64.98h-13.71z"
+        opacity={0.7}
       />
       <path
-        d="M233.87,634s-28.5,65.77,121.32,83.32v66.51H528.39V607.71l-296.72-8Z"
+        fill="#64ffda"
+        d="M597.13 372.72h13.71v64.98h-13.71z"
+        opacity={0.6}
+      />
+      <path
+        fill="#64ffda"
+        d="M624.2 372.72h13.71v64.98H624.2zM651.26 372.72h13.71v64.98h-13.71z"
+        opacity={0.5}
+      />
+      <path
+        fill="#64ffda"
+        d="M678.33 372.72h13.71v64.98h-13.71z"
+        opacity={0.4}
+      />
+      <path
+        fill="#64ffda"
+        d="M705.39 372.72h13.71v64.98h-13.71z"
+        opacity={0.3}
+      />
+      <circle cx={817.66} cy={404.79} r={33.08} fill={color} />
+      <path fill="#fff" d="M513.97 210.88h353.77V337.7H513.97z" />
+      <path fill="#64ffda" d="M543.01 240.96h13.71v64.98h-13.71z" />
+      <path
+        fill="#64ffda"
+        d="M570.07 240.96h13.71v64.98h-13.71z"
+        opacity={0.7}
+      />
+      <path
+        fill="#64ffda"
+        d="M597.13 240.96h13.71v64.98h-13.71z"
+        opacity={0.6}
+      />
+      <path
+        fill="#64ffda"
+        d="M624.2 240.96h13.71v64.98H624.2zM651.26 240.96h13.71v64.98h-13.71z"
+        opacity={0.5}
+      />
+      <path
+        fill="#64ffda"
+        d="M678.33 240.96h13.71v64.98h-13.71z"
+        opacity={0.4}
+      />
+      <path
+        fill="#64ffda"
+        d="M705.39 240.96h13.71v64.98h-13.71z"
+        opacity={0.3}
+      />
+      <circle cx={817.66} cy={273.04} r={33.08} fill={color} />
+      <path fill="#fff" d="M513.97 79.13h353.77v126.82H513.97z" />
+      <path fill="#64ffda" d="M543.01 109.21h13.71v64.98h-13.71z" />
+      <path
+        fill="#64ffda"
+        d="M570.07 109.21h13.71v64.98h-13.71z"
+        opacity={0.7}
+      />
+      <path
+        fill="#64ffda"
+        d="M597.13 109.21h13.71v64.98h-13.71z"
+        opacity={0.6}
+      />
+      <path
+        fill="#64ffda"
+        d="M624.2 109.21h13.71v64.98H624.2zM651.26 109.21h13.71v64.98h-13.71z"
+        opacity={0.5}
+      />
+      <path
+        fill="#64ffda"
+        d="M678.33 109.21h13.71v64.98h-13.71z"
+        opacity={0.4}
+      />
+      <path
+        fill="#64ffda"
+        d="M705.39 109.21h13.71v64.98h-13.71z"
+        opacity={0.3}
+      />
+      <circle cx={817.66} cy={141.29} r={35.66} fill="url(#CloudSync_svg__b)" />
+      <circle cx={817.66} cy={273.93} r={35.66} fill="url(#CloudSync_svg__c)" />
+      <circle cx={817.66} cy={405.67} r={35.66} fill="url(#CloudSync_svg__d)" />
+      <circle cx={817.66} cy={141.29} r={33.08} fill={color} />
+      <path
+        d="M567.81 615a67.92 67.92 0 00-134.65-12.66l-208.75-5.66 2.29 35.87s-29.76 68.68 126.67 87V789h180.86V673.57A67.88 67.88 0 00567.81 615z"
         transform="translate(-163.1 -79.21)"
+        fill="url(#CloudSync_svg__e)"
+      />
+      <path
+        d="M70.77 554.79s-28.5 65.77 121.32 83.32v66.51h173.2V528.5l-296.72-8z"
         fill="#fda57d"
       />
       <path
-        d="M320.43,359.55h0a31.93,31.93,0,0,1-43.91,10l-93-61.28a31.93,31.93,0,0,1-10-43.91h0a31.93,31.93,0,0,1,43.91-10l93,61.28A31.93,31.93,0,0,1,320.43,359.55Z"
+        d="M320.43 359.55a31.93 31.93 0 01-43.91 10l-93-61.28a31.93 31.93 0 01-10-43.91 31.93 31.93 0 0143.91-10l93 61.28a31.93 31.93 0 0110 43.91z"
         transform="translate(-163.1 -79.21)"
-        fill="url(#48ac54b8-ff6b-484d-9b70-d49eb1fb0324)"
+        fill="url(#CloudSync_svg__f)"
       />
       <path
-        d="M315.26,356.2h0a29.69,29.69,0,0,1-40.82,9.28l-86.45-57a29.69,29.69,0,0,1-9.28-40.82h0a29.69,29.69,0,0,1,40.82-9.28l86.45,57A29.69,29.69,0,0,1,315.26,356.2Z"
-        transform="translate(-163.1 -79.21)"
+        d="M152.16 276.99a29.69 29.69 0 01-40.82 9.28l-86.45-57a29.69 29.69 0 01-9.28-40.82 29.69 29.69 0 0140.82-9.28l86.45 57a29.69 29.69 0 019.28 40.82z"
         fill="#fda57d"
       />
-      <circle cx="332.4" cy="538" r="65.04" fill="#fda57d" />
+      <circle cx={332.4} cy={538} r={65.04} fill="#fda57d" />
       <rect
-        x="61.27"
-        y="109"
-        width="269.65"
-        height="486.73"
-        rx="10.24"
-        ry="10.24"
-        fill="url(#de8733bd-ea48-4a82-8468-795d85a03869)"
+        x={61.27}
+        y={109}
+        width={269.65}
+        height={486.73}
+        rx={10.24}
+        ry={10.24}
+        fill="url(#CloudSync_svg__g)"
       />
       <rect
-        x="64.92"
-        y="115.58"
-        width="262.37"
-        height="473.58"
-        rx="13.64"
-        ry="13.64"
+        x={64.92}
+        y={115.58}
+        width={262.37}
+        height={473.58}
+        rx={13.64}
+        ry={13.64}
         fill="#fff"
       />
       <path
-        d="M425.12,206.67a21.27,21.27,0,0,1-21,18.09H313.54a21.27,21.27,0,0,1-21-18.09h-48a10,10,0,0,0-10,10v429.9a10,10,0,0,0,10,10H473.84a10,10,0,0,0,10-10V216.63a10,10,0,0,0-10-10Z"
-        transform="translate(-163.1 -79.21)"
+        d="M262.02 127.46a21.27 21.27 0 01-21 18.09h-90.58a21.27 21.27 0 01-21-18.09h-48a10 10 0 00-10 10v429.9a10 10 0 0010 10h229.3a10 10 0 0010-10V137.42a10 10 0 00-10-10z"
         fill={color}
       />
       <rect
-        x="167.24"
-        y="133.12"
-        width="58.47"
-        height="3.65"
-        rx="1.83"
-        ry="1.83"
+        x={167.24}
+        y={133.12}
+        width={58.47}
+        height={3.65}
+        rx={1.83}
+        ry={1.83}
         fill="#dbdbdb"
       />
-      <circle cx="238.13" cy="134.58" r="2.19" fill="#dbdbdb" />
+      <circle cx={238.13} cy={134.58} r={2.19} fill="#dbdbdb" />
       <path
-        d="M537.55,628.68h0c-18.87,4.36-31.83-7.94-36.2-26.82L458,440.82a35.32,35.32,0,0,1,26.38-42.25h0A35.32,35.32,0,0,1,526.61,425L562,590.17C566.37,609,556.42,624.32,537.55,628.68Z"
+        d="M537.55 628.68c-18.87 4.36-31.83-7.94-36.2-26.82L458 440.82a35.32 35.32 0 0126.38-42.25A35.32 35.32 0 01526.61 425L562 590.17c4.37 18.83-5.58 34.15-24.45 38.51z"
         transform="translate(-163.1 -79.21)"
-        fill="url(#b6f39420-ab5d-4158-b296-45c146931e01)"
+        fill="url(#CloudSync_svg__h)"
       />
       <rect
-        x="483.27"
-        y="403.64"
-        width="59.2"
-        height="236.37"
-        rx="29.6"
-        ry="29.6"
-        transform="translate(-267.45 49.69) rotate(-13.01)"
+        x={483.27}
+        y={403.64}
+        width={59.2}
+        height={236.37}
+        rx={29.6}
+        ry={29.6}
+        transform="rotate(-13.01 84.168 1197.624)"
         fill="#fda57d"
       />
-      <rect
-        x="149.61"
-        y="682.86"
-        width="247.56"
-        height="57.71"
-        fill="url(#e0dd915e-f30f-4d18-88c2-53d223394458)"
-      />
-      <rect x="156.3" y="689.55" width="234.18" height="45.16" fill="#4d8af0" />
       <path
-        d="M284.32,532.32h0a31.55,31.55,0,0,1-43.38,9.86l-62.36-40.35a31.55,31.55,0,0,1-9.86-43.38h0a31.55,31.55,0,0,1,43.38-9.86l62.36,40.35A31.55,31.55,0,0,1,284.32,532.32Z"
+        fill="url(#CloudSync_svg__i)"
+        d="M149.61 682.86h247.56v57.71H149.61z"
+      />
+      <path fill="#4d8af0" d="M156.3 689.55h234.18v45.16H156.3z" />
+      <path
+        d="M284.32 532.32a31.55 31.55 0 01-43.38 9.86l-62.36-40.35a31.55 31.55 0 01-9.86-43.38 31.55 31.55 0 0143.38-9.86l62.36 40.35a31.55 31.55 0 019.86 43.38z"
         transform="translate(-163.1 -79.21)"
-        fill="url(#d1399af4-57ef-4ae9-86c3-f598ea04d411)"
+        fill="url(#CloudSync_svg__j)"
       />
       <path
-        d="M268.68,617.74h0a31.83,31.83,0,0,1-43.77,9.95l-38.63-28.18a31.83,31.83,0,0,1-9.95-43.77h0a31.83,31.83,0,0,1,43.77-9.95L258.73,574A31.83,31.83,0,0,1,268.68,617.74Z"
+        d="M268.68 617.74a31.83 31.83 0 01-43.77 9.95l-38.63-28.18a31.83 31.83 0 01-9.95-43.77 31.83 31.83 0 0143.77-9.95L258.73 574a31.83 31.83 0 019.95 43.74z"
         transform="translate(-163.1 -79.21)"
-        fill="url(#4a4958f4-37fa-4130-9aba-cf91683c116e)"
+        fill="url(#CloudSync_svg__k)"
       />
-      <g opacity="0.5">
-        <circle
-          cx="196.1"
-          cy="352.37"
-          r="75.22"
-          fill="url(#89ac17f5-770b-461c-9865-cca003b4417d)"
-        />
-      </g>
-      <circle cx="196.1" cy="352.37" r="70.8" fill="#69f0ae" />
-      <polygon
-        points="165.37 342.93 191.92 367.26 229.53 311.95 242.81 323.01 191.92 389.39 154.31 347.35 165.37 342.93"
+      <circle
+        cx={196.1}
+        cy={352.37}
+        r={75.22}
+        fill="url(#CloudSync_svg__l)"
+        opacity={0.5}
+      />
+      <circle cx={196.1} cy={352.37} r={70.8} fill="#69f0ae" />
+      <path
         fill="#fff"
+        d="M165.37 342.93l26.55 24.33 37.61-55.31 13.28 11.06-50.89 66.38-37.61-42.04 11.06-4.42z"
       />
       <path
-        d="M265.56,615.64h0a29.69,29.69,0,0,1-40.82,9.28l-36-26.27a29.69,29.69,0,0,1-9.28-40.82h0a29.69,29.69,0,0,1,40.82-9.28l36,26.27A29.69,29.69,0,0,1,265.56,615.64Z"
-        transform="translate(-163.1 -79.21)"
+        d="M102.46 536.43a29.69 29.69 0 01-40.82 9.28l-36-26.27a29.69 29.69 0 01-9.28-40.82 29.69 29.69 0 0140.82-9.28l36 26.27a29.69 29.69 0 019.28 40.82zM117.81 450.93a29.69 29.69 0 01-40.82 9.28l-58.68-38a29.69 29.69 0 01-9.28-40.82 29.69 29.69 0 0140.87-9.25l58.68 38a29.69 29.69 0 019.23 40.79z"
         fill="#fda57d"
       />
       <path
-        d="M280.91,530.14h0a29.69,29.69,0,0,1-40.82,9.28l-58.68-38a29.69,29.69,0,0,1-9.28-40.82h0A29.69,29.69,0,0,1,213,451.35l58.68,38A29.69,29.69,0,0,1,280.91,530.14Z"
+        d="M300.46 447.33a31.69 31.69 0 01-43.58 9.91l-79-51.46a31.69 31.69 0 01-9.91-43.58 31.69 31.69 0 0143.58-9.91l79 51.46a31.69 31.69 0 019.91 43.58z"
         transform="translate(-163.1 -79.21)"
+        fill="url(#CloudSync_svg__m)"
+      />
+      <path
+        d="M133.16 365.42a29.69 29.69 0 01-40.82 9.28l-74-48.2a29.69 29.69 0 01-9.28-40.82 29.69 29.69 0 0140.84-9.28l74 48.2a29.69 29.69 0 019.26 40.82z"
         fill="#fda57d"
       />
       <path
-        d="M300.46,447.33h0a31.69,31.69,0,0,1-43.58,9.91l-79-51.46a31.69,31.69,0,0,1-9.91-43.58h0a31.69,31.69,0,0,1,43.58-9.91l79,51.46A31.69,31.69,0,0,1,300.46,447.33Z"
-        transform="translate(-163.1 -79.21)"
-        fill="url(#aef3d74b-62ea-4515-b248-bc09651b6b12)"
-      />
-      <path
-        d="M296.26,444.63h0a29.69,29.69,0,0,1-40.82,9.28l-74-48.2a29.69,29.69,0,0,1-9.28-40.82h0A29.69,29.69,0,0,1,213,355.61l74,48.2A29.69,29.69,0,0,1,296.26,444.63Z"
-        transform="translate(-163.1 -79.21)"
-        fill="#fda57d"
-      />
-      <polyline
-        points="207.36 91 207.36 1 603.36 1 603.36 55"
         fill="none"
         stroke="#3ad29f"
-        stroke-miterlimit="10"
-        strokeWidth="2"
-        stroke-dasharray="12"
-      />
-      <polyline
-        points="441.36 586 612.36 586 612.36 496"
-        fill="none"
-        stroke="#3ad29f"
-        stroke-miterlimit="10"
-        strokeWidth="2"
-        stroke-dasharray="12"
+        strokeMiterlimit={10}
+        strokeWidth={2}
+        strokeDasharray={12}
+        d="M207.36 91V1h396v54M441.36 586h171v-90"
       />
     </svg>
   );
 };
 
-CloudSync.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgCloudSync.propTypes = {
+  color: PropTypes.string
 };
-
-CloudSync.defaultProps = {
-  color: "primary",
-  style: {}
+SvgCloudSync.defaultProps = {
+  color: "primary"
 };
-
-export default CloudSync;
+const MemoSvgCloudSync = React.memo(SvgCloudSync);
+export default MemoSvgCloudSync;

@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Account = ({ color, style }) => {
+const SvgAccount = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,211 +13,125 @@ const Account = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="29e4b1a0-13d0-4a0f-9be2-3c3977a6a4ba"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="785"
-      height="753.73"
       viewBox="0 0 785 753.73"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="b4c3f788-9d51-49bd-96f9-c54f9fd51398"
-          x1="452.8"
-          y1="753.73"
-          x2="452.8"
+          id="Account_svg__a"
+          x1={452.8}
+          y1={753.73}
+          x2={452.8}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="778ed1c4-cafd-494e-8a04-dc2b91aee6fd"
-          x1="209.37"
-          y1="339.46"
-          x2="209.37"
-          y2="101.61"
-          xlink:href="#b4c3f788-9d51-49bd-96f9-c54f9fd51398"
+          id="Account_svg__b"
+          x1={209.37}
+          y1={339.46}
+          x2={209.37}
+          y2={101.61}
+          xlinkHref="#Account_svg__a"
         />
         <linearGradient
-          id="92c6cb1b-63b4-4a00-ae9b-05b36bfadf3e"
-          x1="32.38"
-          y1="227.8"
-          x2="174.2"
-          y2="227.8"
-          xlink:href="#b4c3f788-9d51-49bd-96f9-c54f9fd51398"
+          id="Account_svg__c"
+          x1={32.38}
+          y1={227.8}
+          x2={174.2}
+          y2={227.8}
+          xlinkHref="#Account_svg__a"
         />
         <linearGradient
-          id="3111d6ac-9e05-4a73-9878-bd628330955d"
-          x1="211.6"
-          y1="606.34"
-          x2="211.6"
-          y2="582.89"
-          xlink:href="#b4c3f788-9d51-49bd-96f9-c54f9fd51398"
+          id="Account_svg__d"
+          x1={211.6}
+          y1={606.34}
+          x2={211.6}
+          y2={582.89}
+          xlinkHref="#Account_svg__a"
         />
         <linearGradient
-          id="2e076d7a-ee6b-46b6-b939-69cbad87608e"
-          x1="572.28"
-          y1="718"
-          x2="572.28"
-          y2="646.54"
-          xlink:href="#b4c3f788-9d51-49bd-96f9-c54f9fd51398"
+          id="Account_svg__e"
+          x1={572.28}
+          y1={718}
+          x2={572.28}
+          y2={646.54}
+          xlinkHref="#Account_svg__a"
         />
         <linearGradient
-          id="acad6429-7160-42af-9a00-db2d81d2388a"
-          x1="630.34"
-          y1="245.66"
-          x2="630.34"
-          y2="91.56"
-          xlink:href="#b4c3f788-9d51-49bd-96f9-c54f9fd51398"
+          id="Account_svg__f"
+          x1={630.34}
+          y1={245.66}
+          x2={630.34}
+          y2={91.56}
+          xlinkHref="#Account_svg__a"
         />
       </defs>
-      <title>account</title>
-      <rect
-        x="120.6"
-        width="664.4"
-        height="753.73"
-        fill="url(#b4c3f788-9d51-49bd-96f9-c54f9fd51398)"
-      />
-      <rect x="130.65" y="14.52" width="643.19" height="725.82" fill="#fff" />
-      <rect
-        x="65.88"
-        y="134"
-        width="365.14"
-        height="232.26"
-        fill={color}
-        opacity="0.2"
-      />
-      <rect
-        y="101.61"
-        width="418.74"
-        height="237.84"
-        fill="url(#778ed1c4-cafd-494e-8a04-dc2b91aee6fd)"
-      />
-      <rect x="4.47" y="136.23" width="408.69" height="197.65" fill="#fff" />
-      <rect
-        x="32.38"
-        y="152.98"
-        width="141.81"
-        height="149.63"
-        fill="url(#92c6cb1b-63b4-4a00-ae9b-05b36bfadf3e)"
-      />
-      <rect x="36.85" y="156.33" width="134" height="142.93" fill={color} />
+      <path fill="url(#Account_svg__a)" d="M120.6 0H785v753.73H120.6z" />
+      <path fill="#fff" d="M130.65 14.52h643.19v725.82H130.65z" />
+      <path fill={color} opacity={0.2} d="M65.88 134h365.14v232.26H65.88z" />
+      <path fill="url(#Account_svg__b)" d="M0 101.61h418.74v237.84H0z" />
+      <path fill="#fff" d="M4.47 136.23h408.69v197.65H4.47z" />
       <path
-        d="M348.77,285.9c-1-8.49-2.5-17-5.75-24.94s-8.47-15.24-15.74-19.75a18,18,0,0,0-8.7-3c-5.69-.2-10.95,3.64-13.88,8.52a39.74,39.74,0,0,0-2.59,5.27,12.27,12.27,0,0,0-10.18,11.24,31.28,31.28,0,0,0,4.42,59.06v5.33a31.39,31.39,0,0,0-23.45,30.27v14.52h62.53V357.88A31.39,31.39,0,0,0,312,327.61v-5.33A31.28,31.28,0,0,0,335.45,292c0-.07,0-.15,0-.22l3.52,7.83c3.35,7.46,6.78,15.46,5.47,23.54C350.86,312.15,350.33,298.54,348.77,285.9Z"
-        transform="translate(-207.5 -73.13)"
+        fill="url(#Account_svg__c)"
+        d="M32.38 152.98h141.81v149.63H32.38z"
+      />
+      <path fill={color} d="M36.85 156.33h134v142.93h-134z" />
+      <path
+        d="M141.27 212.77c-1-8.49-2.5-17-5.75-24.94s-8.47-15.24-15.74-19.75a18 18 0 00-8.7-3c-5.69-.2-10.95 3.64-13.88 8.52a39.74 39.74 0 00-2.59 5.27 12.27 12.27 0 00-10.18 11.24 31.28 31.28 0 004.42 59.06v5.33a31.39 31.39 0 00-23.45 30.27v14.52h62.53v-14.54a31.39 31.39 0 00-23.43-30.27v-5.33a31.28 31.28 0 0023.45-30.28v-.22l3.52 7.83c3.35 7.46 6.78 15.46 5.47 23.54 6.42-11 5.89-24.61 4.33-37.25z"
         fill="#fff"
       />
-      <rect x="4.47" y="106.08" width="408.69" height="30.15" fill={color} />
-      <rect x="225.56" y="198.2" width="155.21" height="10.05" fill="#e0e0e0" />
-      <rect
-        x="225.56"
-        y="240.64"
-        width="155.21"
-        height="10.05"
-        fill="#f5f5f5"
-      />
-      <rect
-        x="224.45"
-        y="219.42"
-        width="91.56"
-        height="10.05"
-        fill={color}
-        opacity="0.2"
-      />
-      <rect
-        x="224.45"
-        y="261.85"
-        width="62.53"
-        height="10.05"
+      <path fill={color} d="M4.47 106.08h408.69v30.15H4.47z" />
+      <path fill="#e0e0e0" d="M225.56 198.2h155.21v10.05H225.56z" />
+      <path fill="#f5f5f5" d="M225.56 240.64h155.21v10.05H225.56z" />
+      <path fill={color} opacity={0.2} d="M224.45 219.42h91.56v10.05h-91.56z" />
+      <path
         fill="#69f0ae"
-        opacity="0.2"
+        opacity={0.2}
+        d="M224.45 261.85h62.53v10.05h-62.53z"
       />
-      <rect x="298.14" y="261.85" width="62.53" height="10.05" fill="#69f0ae" />
-      <rect
-        x="185.36"
-        y="419.86"
-        width="539.34"
-        height="18.98"
+      <path fill="#69f0ae" d="M298.14 261.85h62.53v10.05h-62.53z" />
+      <path
         fill="#e0e0e0"
+        d="M185.36 419.86H724.7v18.98H185.36zM185.36 461.17h179.78v18.98H185.36z"
       />
-      <rect
-        x="185.36"
-        y="461.17"
-        width="179.78"
-        height="18.98"
+      <path fill="#69f0ae" d="M544.92 461.17H724.7v18.98H544.92z" />
+      <path
         fill="#e0e0e0"
+        d="M185.36 502.49H724.7v18.98H185.36zM185.36 543.81H724.7v18.98H185.36z"
       />
-      <rect
-        x="544.92"
-        y="461.17"
-        width="179.78"
-        height="18.98"
+      <path
+        fill="url(#Account_svg__d)"
+        d="M183.13 582.89h56.95v23.45h-56.95z"
+      />
+      <path fill={color} d="M185.36 585.12h53.6v18.98h-53.6z" />
+      <path
         fill="#69f0ae"
+        d="M426.56 585.12h53.6v18.98h-53.6zM671.1 585.12h53.6v18.98h-53.6z"
       />
-      <rect
-        x="185.36"
-        y="502.49"
-        width="539.34"
-        height="18.98"
-        fill="#e0e0e0"
+      <path
+        fill="url(#Account_svg__e)"
+        d="M413.16 646.54H731.4v71.47H413.16z"
       />
-      <rect
-        x="185.36"
-        y="543.81"
-        width="539.34"
-        height="18.98"
-        fill="#e0e0e0"
-      />
-      <rect
-        x="183.13"
-        y="582.89"
-        width="56.95"
-        height="23.45"
-        fill="url(#3111d6ac-9e05-4a73-9878-bd628330955d)"
-      />
-      <rect x="185.36" y="585.12" width="53.6" height="18.98" fill={color} />
-      <rect x="426.56" y="585.12" width="53.6" height="18.98" fill="#69f0ae" />
-      <rect x="671.1" y="585.12" width="53.6" height="18.98" fill="#69f0ae" />
-      <rect
-        x="413.16"
-        y="646.54"
-        width="318.24"
-        height="71.47"
-        fill="url(#2e076d7a-ee6b-46b6-b939-69cbad87608e)"
-      />
-      <rect x="418.74" y="654.35" width="305.96" height="54.72" fill={color} />
-      <rect x="418.74" y="654.35" width="305.96" height="54.72" opacity="0.2" />
-      <rect
-        x="529.29"
-        y="91.56"
-        width="202.11"
-        height="154.1"
-        fill="url(#acad6429-7160-42af-9a00-db2d81d2388a)"
-      />
-      <rect x="537.11" y="101.61" width="187.6" height="134" fill={color} />
-      <rect
-        x="537.11"
-        y="101.61"
-        width="187.6"
-        height="134"
-        fill="#fff"
-        opacity="0.2"
-      />
+      <path fill={color} d="M418.74 654.35H724.7v54.72H418.74z" />
+      <path opacity={0.2} d="M418.74 654.35H724.7v54.72H418.74z" />
+      <path fill="url(#Account_svg__f)" d="M529.29 91.56H731.4v154.1H529.29z" />
+      <path fill={color} d="M537.11 101.61h187.6v134h-187.6z" />
+      <path fill="#fff" opacity={0.2} d="M537.11 101.61h187.6v134h-187.6z" />
     </svg>
   );
 };
 
-Account.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgAccount.propTypes = {
+  color: PropTypes.string
 };
-
-Account.defaultProps = {
-  color: "primary",
-  style: {}
+SvgAccount.defaultProps = {
+  color: "primary"
 };
-
-export default Account;
+const MemoSvgAccount = React.memo(SvgAccount);
+export default MemoSvgAccount;

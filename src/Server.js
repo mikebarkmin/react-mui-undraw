@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Server = ({ color, style }) => {
+const SvgServer = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,317 +13,167 @@ const Server = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="d208afe9-d246-44b1-9723-4e792280c828"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="904"
-      height="754.77"
       viewBox="0 0 904 754.77"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="d0586609-2d1f-4894-831f-bc1bf1cfe805"
-          x1="205.5"
-          y1="458.72"
-          x2="205.5"
+          id="Server_svg__a"
+          x1={205.5}
+          y1={458.72}
+          x2={205.5}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="dc1a1433-8955-4fce-8d84-3a5c46e8d5cb"
-          x1="347.94"
-          y1="120.14"
-          x2="347.94"
-          y2="40.02"
-          xlink:href="#d0586609-2d1f-4894-831f-bc1bf1cfe805"
+          id="Server_svg__b"
+          x1={347.94}
+          y1={120.14}
+          x2={347.94}
+          y2={40.02}
+          xlinkHref="#Server_svg__a"
         />
         <linearGradient
-          id="6583b9bd-7f21-4a55-b428-c52c7257def0"
-          x1="347.94"
-          y1="269.14"
-          x2="347.94"
-          y2="189.02"
-          xlink:href="#d0586609-2d1f-4894-831f-bc1bf1cfe805"
+          id="Server_svg__c"
+          x1={347.94}
+          y1={269.14}
+          x2={347.94}
+          y2={189.02}
+          xlinkHref="#Server_svg__a"
         />
         <linearGradient
-          id="d5bb9150-ad00-4040-8c31-39c92932ad3e"
-          x1="347.94"
-          y1="417.14"
-          x2="347.94"
-          y2="337.02"
-          xlink:href="#d0586609-2d1f-4894-831f-bc1bf1cfe805"
+          id="Server_svg__d"
+          x1={347.94}
+          y1={417.14}
+          x2={347.94}
+          y2={337.02}
+          xlinkHref="#Server_svg__a"
         />
         <linearGradient
-          id="43ab44a3-beba-4304-ae82-955b08a7fed3"
-          x1="660.91"
-          y1="754.77"
-          x2="660.91"
-          y2="737.77"
-          xlink:href="#d0586609-2d1f-4894-831f-bc1bf1cfe805"
+          id="Server_svg__e"
+          x1={660.91}
+          y1={754.77}
+          x2={660.91}
+          y2={737.77}
+          xlinkHref="#Server_svg__a"
         />
         <linearGradient
-          id="e180fe82-c096-4b7f-a7fc-e0d67eafb4b3"
-          x1="810"
-          y1="732"
-          x2="810"
-          y2="417"
-          xlink:href="#d0586609-2d1f-4894-831f-bc1bf1cfe805"
+          id="Server_svg__f"
+          x1={810}
+          y1={732}
+          x2={810}
+          y2={417}
+          xlinkHref="#Server_svg__a"
         />
       </defs>
-      <title>server</title>
-      <rect
-        width="411"
-        height="458.72"
-        fill="url(#d0586609-2d1f-4894-831f-bc1bf1cfe805)"
+      <path fill="url(#Server_svg__a)" d="M0 0h411v458.72H0z" />
+      <path fill="#fff" d="M6.79 306.27H404.2v142.46H6.79z" />
+      <path fill="#64ffda" d="M39.41 340.06h15.4v73h-15.4z" />
+      <path fill="#64ffda" d="M69.81 340.06h15.4v73h-15.4z" opacity={0.7} />
+      <path fill="#64ffda" d="M100.22 340.06h15.4v73h-15.4z" opacity={0.6} />
+      <path
+        fill="#64ffda"
+        d="M130.62 340.06h15.4v73h-15.4zM161.02 340.06h15.4v73h-15.4z"
+        opacity={0.5}
       />
-      <rect x="6.79" y="306.27" width="397.41" height="142.46" fill="#fff" />
-      <rect x="39.41" y="340.06" width="15.4" height="73" fill="#64ffda" />
-      <g opacity="0.7">
-        <rect x="69.81" y="340.06" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.6">
-        <rect x="100.22" y="340.06" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.5">
-        <rect x="130.62" y="340.06" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.5">
-        <rect x="161.02" y="340.06" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.4">
-        <rect x="191.42" y="340.06" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.3">
-        <rect x="221.83" y="340.06" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <circle cx="347.94" cy="376.09" r="37.16" fill={color} />
-      <rect x="6.79" y="158.26" width="397.41" height="142.46" fill="#fff" />
-      <rect x="39.41" y="192.05" width="15.4" height="73" fill="#64ffda" />
-      <g opacity="0.7">
-        <rect x="69.81" y="192.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.6">
-        <rect x="100.22" y="192.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.5">
-        <rect x="130.62" y="192.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.5">
-        <rect x="161.02" y="192.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.4">
-        <rect x="191.42" y="192.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.3">
-        <rect x="221.83" y="192.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <circle cx="347.94" cy="228.09" r="37.16" fill={color} />
-      <rect x="6.79" y="10.25" width="397.41" height="142.46" fill="#fff" />
-      <rect x="39.41" y="44.05" width="15.4" height="73" fill="#64ffda" />
-      <g opacity="0.7">
-        <rect x="69.81" y="44.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.6">
-        <rect x="100.22" y="44.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.5">
-        <rect x="130.62" y="44.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.5">
-        <rect x="161.02" y="44.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.4">
-        <rect x="191.42" y="44.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <g opacity="0.3">
-        <rect x="221.83" y="44.05" width="15.4" height="73" fill="#64ffda" />
-      </g>
-      <circle
-        cx="347.94"
-        cy="80.08"
-        r="40.06"
-        fill="url(#dc1a1433-8955-4fce-8d84-3a5c46e8d5cb)"
+      <path fill="#64ffda" d="M191.42 340.06h15.4v73h-15.4z" opacity={0.4} />
+      <path fill="#64ffda" d="M221.83 340.06h15.4v73h-15.4z" opacity={0.3} />
+      <circle cx={347.94} cy={376.09} r={37.16} fill={color} />
+      <path fill="#fff" d="M6.79 158.26H404.2v142.46H6.79z" />
+      <path fill="#64ffda" d="M39.41 192.05h15.4v73h-15.4z" />
+      <path fill="#64ffda" d="M69.81 192.05h15.4v73h-15.4z" opacity={0.7} />
+      <path fill="#64ffda" d="M100.22 192.05h15.4v73h-15.4z" opacity={0.6} />
+      <path
+        fill="#64ffda"
+        d="M130.62 192.05h15.4v73h-15.4zM161.02 192.05h15.4v73h-15.4z"
+        opacity={0.5}
       />
-      <circle
-        cx="347.94"
-        cy="229.08"
-        r="40.06"
-        fill="url(#6583b9bd-7f21-4a55-b428-c52c7257def0)"
+      <path fill="#64ffda" d="M191.42 192.05h15.4v73h-15.4z" opacity={0.4} />
+      <path fill="#64ffda" d="M221.83 192.05h15.4v73h-15.4z" opacity={0.3} />
+      <circle cx={347.94} cy={228.09} r={37.16} fill={color} />
+      <path fill="#fff" d="M6.79 10.25H404.2v142.46H6.79z" />
+      <path fill="#64ffda" d="M39.41 44.05h15.4v73h-15.4z" />
+      <path fill="#64ffda" d="M69.81 44.05h15.4v73h-15.4z" opacity={0.7} />
+      <path fill="#64ffda" d="M100.22 44.05h15.4v73h-15.4z" opacity={0.6} />
+      <path
+        fill="#64ffda"
+        d="M130.62 44.05h15.4v73h-15.4zM161.02 44.05h15.4v73h-15.4z"
+        opacity={0.5}
       />
-      <circle
-        cx="347.94"
-        cy="377.08"
-        r="40.06"
-        fill="url(#d5bb9150-ad00-4040-8c31-39c92932ad3e)"
-      />
-      <circle cx="347.94" cy="80.08" r="37.16" fill={color} />
-      <g opacity="0.7">
-        <line
-          x1="461"
-          y1="158.67"
-          x2="467"
-          y2="158.67"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-        />
-        <line
-          x1="500.38"
-          y1="158.67"
-          x2="667.31"
-          y2="158.67"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-          stroke-dasharray="12.52 33.38"
-        />
-        <polyline
-          points="684 158.67 690 158.67 690 164.67"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-        />
-        <line
-          x1="690"
-          y1="196.48"
-          x2="690"
-          y2="311.77"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-          stroke-dasharray="11.93 31.8"
-        />
-        <line
-          x1="690"
-          y1="327.67"
-          x2="690"
-          y2="333.67"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-        />
+      <path fill="#64ffda" d="M191.42 44.05h15.4v73h-15.4z" opacity={0.4} />
+      <path fill="#64ffda" d="M221.83 44.05h15.4v73h-15.4z" opacity={0.3} />
+      <circle cx={347.94} cy={80.08} r={40.06} fill="url(#Server_svg__b)" />
+      <circle cx={347.94} cy={229.08} r={40.06} fill="url(#Server_svg__c)" />
+      <circle cx={347.94} cy={377.08} r={40.06} fill="url(#Server_svg__d)" />
+      <circle cx={347.94} cy={80.08} r={37.16} fill={color} />
+      <g
+        opacity={0.7}
+        fill="none"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={4}
+      >
+        <path d="M461 158.67h6" />
+        <path strokeDasharray="12.52 33.38" d="M500.38 158.67h166.93" />
+        <path d="M684 158.67h6v6" />
+        <path strokeDasharray="11.93 31.8" d="M690 196.48v115.29" />
+        <path d="M690 327.67v6" />
       </g>
-      <g opacity="0.7">
-        <line
-          x1="367.58"
-          y1="611.67"
-          x2="361.58"
-          y2="611.64"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-        />
-        <line
-          x1="328.2"
-          y1="611.48"
-          x2="161.28"
-          y2="610.68"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-          stroke-dasharray="12.52 33.38"
-        />
-        <polyline
-          points="144.58 610.61 138.58 610.58 138.62 604.58"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-        />
-        <line
-          x1="138.82"
-          y1="573.79"
-          x2="139.28"
-          y2="504.52"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-          stroke-dasharray="11.55 30.79"
-        />
-        <line
-          x1="139.38"
-          y1="489.12"
-          x2="139.42"
-          y2="483.12"
-          fill="none"
-          stroke={color}
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          strokeWidth="4"
-        />
+      <g
+        opacity={0.7}
+        fill="none"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={4}
+      >
+        <path d="M367.58 611.67l-6-.03" />
+        <path strokeDasharray="12.52 33.38" d="M328.2 611.48l-166.92-.8" />
+        <path d="M144.58 610.61l-6-.03.04-6" />
+        <path strokeDasharray="11.55 30.79" d="M138.82 573.79l.46-69.27" />
+        <path d="M139.38 489.12l.04-6" />
       </g>
       <path
-        d="M869.21,703.08s11.92,80.48,82.27,107.31h-285c70.35-26.83,82.27-107.31,82.27-107.31Z"
-        transform="translate(-148 -72.62)"
+        d="M721.21 630.46s11.92 80.48 82.27 107.31h-285c70.35-26.83 82.27-107.31 82.27-107.31z"
         fill="#e0e0e0"
       />
-      <rect
-        x="517.09"
-        y="737.77"
-        width="287.65"
-        height="17"
-        fill="url(#43ab44a3-beba-4304-ae82-955b08a7fed3)"
-      />
-      <rect
-        x="518.52"
-        y="737.77"
-        width="284.96"
-        height="13.12"
-        fill="#f5f5f5"
-      />
+      <path fill="url(#Server_svg__e)" d="M517.09 737.77h287.65v17H517.09z" />
+      <path fill="#f5f5f5" d="M518.52 737.77h284.96v13.12H518.52z" />
       <path
-        d="M1041.25,417H578.75A10.75,10.75,0,0,0,568,427.75V719.14A12.86,12.86,0,0,0,580.86,732h458.28A12.86,12.86,0,0,0,1052,719.14V427.75A10.75,10.75,0,0,0,1041.25,417Z"
+        d="M1041.25 417h-462.5A10.75 10.75 0 00568 427.75v291.39A12.86 12.86 0 00580.86 732h458.28a12.86 12.86 0 0012.86-12.86V427.75a10.75 10.75 0 00-10.75-10.75z"
         transform="translate(-148 -72.62)"
-        fill="url(#e180fe82-c096-4b7f-a7fc-e0d67eafb4b3)"
+        fill="url(#Server_svg__f)"
       />
       <path
-        d="M436.57,348.78H885.43a10.75,10.75,0,0,1,10.75,10.75V609a0,0,0,0,1,0,0H425.82a0,0,0,0,1,0,0V359.54A10.75,10.75,0,0,1,436.57,348.78Z"
+        d="M436.57 348.78h448.86a10.75 10.75 0 0110.75 10.75V609H425.82V359.54a10.75 10.75 0 0110.75-10.76z"
         fill="#fff"
       />
       <path
-        d="M1031.32,724.54H586.68a12.86,12.86,0,0,1-12.86-12.86V681.62h470.36v30.06A12.86,12.86,0,0,1,1031.32,724.54Z"
-        transform="translate(-148 -72.62)"
+        d="M883.32 651.92H438.68a12.86 12.86 0 01-12.86-12.86V609h470.36v30.06a12.86 12.86 0 01-12.86 12.86z"
         fill="#f5f5f5"
       />
-      <rect x="449.07" y="369.86" width="425.65" height="210.06" fill={color} />
-      <polygon
-        points="465.91 383.8 874.99 383.8 874.99 369.79 449.34 369.79 449.34 579.85 465.91 579.85 465.91 383.8"
+      <path fill={color} d="M449.07 369.86h425.65v210.06H449.07z" />
+      <path
         fill="#fff"
-        opacity="0.2"
+        opacity={0.2}
+        d="M465.91 383.8h409.08v-14.01H449.34v210.06h16.57V383.8z"
       />
     </svg>
   );
 };
 
-Server.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgServer.propTypes = {
+  color: PropTypes.string
 };
-
-Server.defaultProps = {
-  color: "primary",
-  style: {}
+SvgServer.defaultProps = {
+  color: "primary"
 };
-
-export default Server;
+const MemoSvgServer = React.memo(SvgServer);
+export default MemoSvgServer;

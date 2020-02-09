@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const MailSent = ({ color, style }) => {
+const SvgMailSent = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,113 +13,89 @@ const MailSent = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="fd577a60-d552-4fe8-bffb-d9cccd3352c0"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="788.38181"
-      height="719"
-      viewBox="0 0 788.38181 719"
+      viewBox="0 0 788.382 719"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="aeee3e51-5d06-43ae-b234-e7a12d326f50"
-          x1="365"
-          y1="605"
-          x2="365"
-          y2="286"
+          id="MailSent_svg__a"
+          x1={365}
+          y1={605}
+          x2={365}
+          y2={286}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-opacity="0.12" />
-          <stop offset="0.55135" stop-opacity="0.09" />
-          <stop offset="1" stop-opacity="0.02" />
+          <stop offset={0} stopOpacity={0.12} />
+          <stop offset={0.551} stopOpacity={0.09} />
+          <stop offset={1} stopOpacity={0.02} />
         </linearGradient>
         <linearGradient
-          id="acb63a3b-00bb-44a8-8877-bb0607d49a63"
-          x1="1117.61899"
-          y1="-43.05793"
-          x2="1117.61899"
-          y2="-102.40539"
-          gradientTransform="matrix(-0.64881, 0.76095, 0.76095, 0.64881, 817.40491, -656.85567)"
+          id="MailSent_svg__b"
+          x1={1117.619}
+          y1={-43.058}
+          x2={1117.619}
+          y2={-102.405}
+          gradientTransform="scale(-1 1) rotate(49.548 302.928 -1213.996)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.53514" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
       </defs>
-      <title>Mail sent</title>
-      <polygon
-        points="125 410 0 268 374 0 748 268 621 410 125 410"
-        fill={color}
-      />
-      <polygon
-        points="125 410 0 268 374 0 748 268 621 410 125 410"
-        fill="#514abf"
-      />
-      <rect y="286" width="730" height="319" fill={color} />
-      <rect
-        y="286"
-        width="730"
-        height="319"
-        fill="url(#aeee3e51-5d06-43ae-b234-e7a12d326f50)"
-      />
-      <polygon
-        points="748 719 0 719 0 268 374 494 748 268 748 719"
-        fill={color}
-      />
-      <polygon
-        points="652.582 116.818 573.252 55.99 363.113 330.042 246.402 240.55 185.573 319.879 341.938 439.598 341.938 439.598 382.036 469.649 652.582 116.818"
+      <path fill={color} d="M125 410L0 268 374 0l374 268-127 142H125z" />
+      <path fill="#514abf" d="M125 410L0 268 374 0l374 268-127 142H125z" />
+      <path fill={color} d="M0 286h730v319H0z" />
+      <path fill="url(#MailSent_svg__a)" d="M0 286h730v319H0z" />
+      <path fill={color} d="M748 719H0V268l374 226 374-226v451z" />
+      <path
         fill="#3ad29f"
+        d="M652.582 116.818l-79.33-60.828-210.139 274.052-116.711-89.492-60.829 79.329 156.365 119.719 40.098 30.051 270.546-352.831z"
       />
-      <polygon
-        points="3.153 166.882 0.179 168.334 0.521 167.726 0.26 167.81 0.626 167.539 40.653 96.307 61.114 113.753 78.667 130.004 73.627 132.465 79.293 142.459 3.153 166.882"
-        fill="url(#acb63a3b-00bb-44a8-8877-bb0607d49a63)"
+      <path
+        fill="url(#MailSent_svg__b)"
+        d="M3.153 166.882l-2.974 1.452.342-.608-.261.084.366-.271 40.027-71.232 20.461 17.446 17.553 16.251-5.04 2.461 5.666 9.994-76.14 24.423z"
       />
-      <polygon
-        points="59.087 115.617 75.131 130.493 2.411 166.646 41.11 117.046 59.087 115.617"
+      <path
         fill={color}
+        d="M59.087 115.617l16.044 14.876-72.72 36.153 38.699-49.6 17.977-1.429z"
       />
-      <polygon
-        points="59.087 115.617 75.131 130.493 2.411 166.646 41.11 117.046 59.087 115.617"
-        opacity="0.2"
+      <path
+        opacity={0.2}
+        d="M59.087 115.617l16.044 14.876-72.72 36.153 38.699-49.6 17.977-1.429z"
       />
-      <polygon
-        points="40.373 99.66 2.411 166.646 59.087 115.617 40.373 99.66"
+      <path
         fill={color}
+        d="M40.373 99.66L2.411 166.646l56.676-51.029L40.373 99.66z"
       />
-      <polygon
-        points="75.599 142.01 2.489 166.16 63.604 120.539 75.599 142.01"
+      <path
         fill={color}
+        d="M75.599 142.01l-73.11 24.15 61.115-45.621 11.995 21.471zM686.959 38.73l-16.017 27.769 117.44 19.123-75.64-52.673-25.783 5.781z"
       />
-      <polygon
-        points="686.959 38.73 670.942 66.499 788.382 85.622 712.742 32.949 686.959 38.73"
+      <path
+        opacity={0.2}
+        d="M686.959 38.73l-16.017 27.769 117.44 19.123-75.64-52.673-25.783 5.781z"
+      />
+      <path
         fill={color}
+        d="M706.247 8.293l82.135 77.329L686.959 38.73l19.288-30.437z"
       />
-      <polygon
-        points="686.959 38.73 670.942 66.499 788.382 85.622 712.742 32.949 686.959 38.73"
-        opacity="0.2"
-      />
-      <polygon
-        points="706.247 8.293 788.382 85.622 686.959 38.73 706.247 8.293"
+      <path
         fill={color}
-      />
-      <polygon
-        points="675.274 82.821 788.062 84.976 682.769 47.576 675.274 82.821"
-        fill={color}
+        d="M675.274 82.821l112.788 2.155-105.293-37.4-7.495 35.245z"
       />
     </svg>
   );
 };
 
-MailSent.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgMailSent.propTypes = {
+  color: PropTypes.string
 };
-
-MailSent.defaultProps = {
-  color: "primary",
-  style: {}
+SvgMailSent.defaultProps = {
+  color: "primary"
 };
-
-export default MailSent;
+const MemoSvgMailSent = React.memo(SvgMailSent);
+export default MemoSvgMailSent;

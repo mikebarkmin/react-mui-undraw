@@ -16,10 +16,9 @@ Illustrations beginning with a number were converted for example from
 All illustrations make use of the material ui theme. By default they use the
 primary color. You can change that by passing `color="secondary"` to use the
 secondary color. For any other color just pass the hexcode to the color prop.
-If you want to further customize the look of the illustrations you can pass a
-`style`-Object to the components.
 
 ## Props
 
 * color: "primary", "secondary", a hexcode or a html color name
-* style: Object
+* All other props will be spread to the root svg component
+

@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Resume = ({ color, style }) => {
+const SvgResume = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,239 +13,141 @@ const Resume = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="1c549851-e1f5-47c2-9f19-cda9fc007f23"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="742"
-      height="751"
       viewBox="0 0 742 751"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="293c43c5-f5dc-4f36-9ea4-ed10593f05c6"
-          x1="294.5"
-          y1="751"
-          x2="294.5"
-          y2="73"
+          id="Resume_svg__a"
+          x1={294.5}
+          y1={751}
+          x2={294.5}
+          y2={73}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="41fd0ec7-182b-4282-83b7-ab7a020e918b"
-          x1="295.5"
-          y1="394"
-          x2="295.5"
-          y2="175"
-          xlink:href="#293c43c5-f5dc-4f36-9ea4-ed10593f05c6"
+          id="Resume_svg__b"
+          x1={295.5}
+          y1={394}
+          x2={295.5}
+          y2={175}
+          xlinkHref="#Resume_svg__a"
         />
         <linearGradient
-          id="f8c73f52-cb57-4dfb-aa28-3dc50b136682"
-          x1="472"
-          y1="709"
-          x2="472"
-          y2="0.67"
-          xlink:href="#293c43c5-f5dc-4f36-9ea4-ed10593f05c6"
+          id="Resume_svg__c"
+          x1={472}
+          y1={709}
+          x2={472}
+          y2={0.67}
+          xlinkHref="#Resume_svg__a"
         />
         <linearGradient
-          id="f7f8622f-4980-4731-9af3-3a9e922a0253"
-          x1="472"
-          y1="269.98"
-          x2="472"
+          id="Resume_svg__d"
+          x1={472}
+          y1={269.98}
+          x2={472}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#b3b3b3" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="#b3b3b3" stop-opacity="0.1" />
-          <stop offset="1" stop-color="#b3b3b3" stop-opacity="0.05" />
+          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
+          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
         </linearGradient>
         <linearGradient
-          id="b4700321-3280-4bc3-a158-9252876dd1e5"
-          x1="713.21"
-          y1="420.46"
-          x2="718.93"
-          y2="557.24"
-          gradientTransform="matrix(-1, 0.01, -0.01, -1, 1253.94, 688.13)"
+          id="Resume_svg__e"
+          x1={713.21}
+          y1={420.46}
+          x2={718.93}
+          y2={557.24}
+          gradientTransform="rotate(180 625.234 347.191)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-opacity="0.12" />
-          <stop offset="0.55" stop-opacity="0.09" />
-          <stop offset="1" stop-opacity="0.02" />
+          <stop offset={0} stopOpacity={0.12} />
+          <stop offset={0.55} stopOpacity={0.09} />
+          <stop offset={1} stopOpacity={0.02} />
         </linearGradient>
       </defs>
-      <title>resume</title>
-      <rect
-        x="19"
-        y="73"
-        width="551"
-        height="678"
-        fill="url(#293c43c5-f5dc-4f36-9ea4-ed10593f05c6)"
-      />
-      <rect x="26.6" y="80.56" width="535.57" height="658.44" fill="#f5f5f5" />
-      <rect x="26.6" y="80" width="535.57" height="81.73" fill={color} />
-      <rect x="40.79" y="89.21" width="43.19" height="10.36" fill="#fff" />
-      <rect x="40.79" y="108.78" width="43.19" height="10.36" fill="#fff" />
-      <rect x="40.79" y="128.35" width="43.19" height="10.36" fill="#fff" />
-      <rect
-        y="175"
-        width="591"
-        height="219"
-        fill="url(#41fd0ec7-182b-4282-83b7-ab7a020e918b)"
-      />
-      <rect x="5" y="182.46" width="578.76" height="204.34" fill="#fff" />
-      <rect
-        x="129.02"
-        y="258.72"
-        width="145.61"
-        height="10.36"
-        fill="#bdbdbd"
-      />
-      <rect
-        x="129.02"
-        y="300.17"
-        width="145.61"
-        height="10.36"
-        fill="#69f0ae"
-      />
-      <rect x="129.02" y="279.44" width="420.8" height="10.36" fill="#e0e0e0" />
-      <ellipse cx="66.7" cy="284.62" rx="25.91" ry="24.18" fill="#69f0ae" />
-      <rect
-        x="202.62"
-        y="0.67"
-        width="538.76"
-        height="708.33"
-        fill="url(#f8c73f52-cb57-4dfb-aa28-3dc50b136682)"
-      />
-      <rect
-        x="202"
-        width="540"
-        height="269.98"
-        fill="url(#f7f8622f-4980-4731-9af3-3a9e922a0253)"
-      />
-      <rect x="209.52" y="6.15" width="524.97" height="691.85" fill="#fff" />
-      <rect x="208.91" y="5.5" width="526.18" height="263.69" fill={color} />
-      <rect
-        x="319.59"
-        y="343.59"
-        width="142.73"
-        height="10.89"
-        fill="#bdbdbd"
-      />
-      <rect
-        x="319.59"
-        y="387.13"
-        width="142.73"
-        height="10.89"
-        fill="#f5f5f5"
-      />
-      <rect
-        x="319.59"
-        y="365.36"
-        width="372.56"
-        height="10.89"
-        fill="#69f0ae"
-      />
-      <rect x="415.15" y="104.08" width="142.73" height="10.89" fill="#fff" />
-      <rect x="415.15" y="128.28" width="229.83" height="10.89" fill="#fff" />
-      <rect
-        x="458.69"
-        y="159.72"
-        width="142.73"
-        height="12.1"
-        rx="5"
-        ry="5"
-        opacity="0.2"
-      />
-      <circle cx="258.5" cy="356.29" r="25.4" fill="#69f0ae" />
-      <rect
-        x="319.59"
-        y="448.82"
-        width="142.73"
-        height="10.89"
-        fill="#bdbdbd"
-      />
-      <rect
-        x="319.59"
-        y="492.37"
-        width="142.73"
-        height="10.89"
-        fill="#f5f5f5"
-      />
-      <rect
-        x="319.59"
-        y="470.59"
-        width="372.56"
-        height="10.89"
-        fill="#e0e0e0"
-      />
-      <circle cx="258.5" cy="461.52" r="25.4" fill="#e0e0e0" />
-      <rect
-        x="319.59"
-        y="554.06"
-        width="142.73"
-        height="10.89"
-        fill="#bdbdbd"
-      />
-      <rect x="319.59" y="597.6" width="142.73" height="10.89" fill="#f5f5f5" />
-      <rect
-        x="319.59"
-        y="575.83"
-        width="372.56"
-        height="10.89"
-        fill="#e0e0e0"
-      />
-      <circle cx="258.5" cy="566.76" r="25.4" fill="#e0e0e0" />
+      <path fill="url(#Resume_svg__a)" d="M19 73h551v678H19z" />
+      <path fill="#f5f5f5" d="M26.6 80.56h535.57V739H26.6z" />
+      <path fill={color} d="M26.6 80h535.57v81.73H26.6z" />
       <path
-        d="M461.9,207.23a70,70,0,1,0,93-67l.22,18a23.79,23.79,0,0,1-23.43,24h0a23.79,23.79,0,0,1-24-23.43l-.22-18A70.07,70.07,0,0,0,461.9,207.23Z"
+        fill="#fff"
+        d="M40.79 89.21h43.19v10.36H40.79zM40.79 108.78h43.19v10.36H40.79zM40.79 128.35h43.19v10.36H40.79z"
+      />
+      <path fill="url(#Resume_svg__b)" d="M0 175h591v219H0z" />
+      <path fill="#fff" d="M5 182.46h578.76V386.8H5z" />
+      <path fill="#bdbdbd" d="M129.02 258.72h145.61v10.36H129.02z" />
+      <path fill="#69f0ae" d="M129.02 300.17h145.61v10.36H129.02z" />
+      <path fill="#e0e0e0" d="M129.02 279.44h420.8v10.36h-420.8z" />
+      <ellipse cx={66.7} cy={284.62} rx={25.91} ry={24.18} fill="#69f0ae" />
+      <path fill="url(#Resume_svg__c)" d="M202.62.67h538.76V709H202.62z" />
+      <path fill="url(#Resume_svg__d)" d="M202 0h540v269.98H202z" />
+      <path fill="#fff" d="M209.52 6.15h524.97V698H209.52z" />
+      <path fill={color} d="M208.91 5.5h526.18v263.69H208.91z" />
+      <path fill="#bdbdbd" d="M319.59 343.59h142.73v10.89H319.59z" />
+      <path fill="#f5f5f5" d="M319.59 387.13h142.73v10.89H319.59z" />
+      <path fill="#69f0ae" d="M319.59 365.36h372.56v10.89H319.59z" />
+      <path
+        fill="#fff"
+        d="M415.15 104.08h142.73v10.89H415.15zM415.15 128.28h229.83v10.89H415.15z"
+      />
+      <rect
+        x={458.69}
+        y={159.72}
+        width={142.73}
+        height={12.1}
+        rx={5}
+        ry={5}
+        opacity={0.2}
+      />
+      <circle cx={258.5} cy={356.29} r={25.4} fill="#69f0ae" />
+      <path fill="#bdbdbd" d="M319.59 448.82h142.73v10.89H319.59z" />
+      <path fill="#f5f5f5" d="M319.59 492.37h142.73v10.89H319.59z" />
+      <path fill="#e0e0e0" d="M319.59 470.59h372.56v10.89H319.59z" />
+      <circle cx={258.5} cy={461.52} r={25.4} fill="#e0e0e0" />
+      <path fill="#bdbdbd" d="M319.59 554.06h142.73v10.89H319.59z" />
+      <path fill="#f5f5f5" d="M319.59 597.6h142.73v10.89H319.59z" />
+      <path fill="#e0e0e0" d="M319.59 575.83h372.56v10.89H319.59z" />
+      <circle cx={258.5} cy={566.76} r={25.4} fill="#e0e0e0" />
+      <path
+        d="M461.9 207.23a70 70 0 1093-67l.22 18a23.79 23.79 0 01-23.43 24 23.79 23.79 0 01-24-23.43l-.22-18a70.07 70.07 0 00-45.57 66.43z"
         transform="translate(-229 -74.5)"
-        fill="url(#b4700321-3280-4bc3-a158-9252876dd1e5)"
+        fill="url(#Resume_svg__e)"
       />
       <path
-        d="M602,199.86a70,70,0,1,0-93.76,65.92v-18A23.79,23.79,0,0,1,532,224h0a23.79,23.79,0,0,1,23.72,23.72v18A70.07,70.07,0,0,0,602,199.86Z"
-        transform="translate(-229 -74.5)"
+        d="M373 125.36a70 70 0 10-93.76 65.92v-18A23.79 23.79 0 01303 149.5a23.79 23.79 0 0123.72 23.72v18A70.07 70.07 0 00373 125.36z"
         fill={color}
       />
       <circle
-        cx="303"
-        cy="115.73"
-        r="26.92"
+        cx={303}
+        cy={115.73}
+        r={26.92}
         fill="#fff"
         stroke="#fff"
-        stroke-miterlimit="10"
+        strokeMiterlimit={10}
       />
       <path
-        d="M532,224h0a23.79,23.79,0,0,0-23.72,23.72v18a70.3,70.3,0,0,0,47.43,0v-18A23.79,23.79,0,0,0,532,224Z"
-        transform="translate(-229 -74.5)"
+        d="M303 149.5h0a23.79 23.79 0 00-23.72 23.72v18a70.3 70.3 0 0047.43 0v-18A23.79 23.79 0 00303 149.5zM275.85 114.24a26.12 26.12 0 01-2.85-13.55 18.11 18.11 0 016-12.28c3.92-3.34 9.24-4.53 14.38-4.94s10.34-.16 15.4-1.16a32.19 32.19 0 0020.56-13.94c.32 4 .65 8-.11 11.85s-2.76 7.71-6.14 9.79c4.09-1.89 3.64 2.54 2.76 5.2 2 2.45 7 2.85 7.2 6a19.92 19.92 0 01-1 9.36c-1.24 2.92.09 8.07-3.07 8.29"
         fill="#fff"
         stroke="#fff"
-        stroke-miterlimit="10"
+        strokeMiterlimit={10}
       />
-      <path
-        d="M504.85,188.74A26.12,26.12,0,0,1,502,175.19a18.11,18.11,0,0,1,6-12.28c3.92-3.34,9.24-4.53,14.38-4.94s10.34-.16,15.4-1.16a32.19,32.19,0,0,0,20.56-13.94c.32,4,.65,8-.11,11.85s-2.76,7.71-6.14,9.79c4.09-1.89,3.64,2.54,2.76,5.2,2,2.45,7,2.85,7.2,6a19.92,19.92,0,0,1-1,9.36c-1.24,2.92.09,8.07-3.07,8.29"
-        transform="translate(-229 -74.5)"
-        fill="#fff"
-        stroke="#fff"
-        stroke-miterlimit="10"
-      />
-      <path
-        d="M553.51,163.87s18.79,1.64,5.41,29.52"
-        transform="translate(-229 -74.5)"
-        fill="#fff"
-      />
+      <path d="M324.51 89.37s18.79 1.64 5.41 29.52" fill="#fff" />
     </svg>
   );
 };
 
-Resume.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgResume.propTypes = {
+  color: PropTypes.string
 };
-
-Resume.defaultProps = {
-  color: "primary",
-  style: {}
+SvgResume.defaultProps = {
+  color: "primary"
 };
-
-export default Resume;
+const MemoSvgResume = React.memo(SvgResume);
+export default MemoSvgResume;

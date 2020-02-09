@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Mailbox = ({ color, style }) => {
+const SvgMailbox = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,372 +13,227 @@ const Mailbox = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="b9950e65-c983-427f-969f-411e60d4718f"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="733.51"
-      height="728.97"
       viewBox="0 0 733.51 728.97"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
-          x1="383.47"
-          y1="728.97"
-          x2="383.47"
-          y2="400.92"
+          id="Mailbox_svg__a"
+          x1={383.47}
+          y1={728.97}
+          x2={383.47}
+          y2={400.92}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="065ea879-0bf6-43b6-9672-9e36e849f5ca"
-          x1="238.26"
-          y1="361.82"
-          x2="838.21"
-          y2="361.82"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__b"
+          x1={238.26}
+          y1={361.82}
+          x2={838.21}
+          y2={361.82}
+          xlinkHref="#Mailbox_svg__a"
         />
         <linearGradient
-          id="459818a5-69c2-4f7f-8bb2-5507c3d29640"
-          x1="465.73"
-          y1="249.13"
-          x2="465.73"
-          y2="125.75"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__c"
+          x1={465.73}
+          y1={249.13}
+          x2={465.73}
+          y2={125.75}
+          xlinkHref="#Mailbox_svg__a"
         />
         <linearGradient
-          id="2f211934-bfe1-48dc-bf69-4a6889a77622"
-          x1="264.33"
-          y1="382.43"
-          x2="264.33"
-          y2="305.75"
-          gradientTransform="matrix(0, -1, -1, 0, 760.81, 597.66)"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__d"
+          x1={264.33}
+          y1={382.43}
+          x2={264.33}
+          y2={305.75}
+          gradientTransform="matrix(0 -1 -1 0 760.81 597.66)"
+          xlinkHref="#Mailbox_svg__a"
         />
         <linearGradient
-          id="fdaec826-1474-477a-aab7-79681abb65ed"
-          x1="212.21"
-          y1="392.96"
-          x2="212.21"
-          y2="316.28"
-          gradientTransform="matrix(0, -1, -1, 0, 821.81, 562.29)"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__e"
+          x1={212.21}
+          y1={392.96}
+          x2={212.21}
+          y2={316.28}
+          gradientTransform="matrix(0 -1 -1 0 821.81 562.29)"
+          xlinkHref="#Mailbox_svg__a"
         />
         <linearGradient
-          id="230aae4a-4ba3-43a0-a33b-500e3dc2a25d"
-          x1="295.6"
-          y1="440.27"
-          x2="295.6"
-          y2="336.33"
-          gradientTransform="matrix(0, -1, -1, 0, 768.63, 669.04)"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__f"
+          x1={295.6}
+          y1={440.27}
+          x2={295.6}
+          y2={336.33}
+          gradientTransform="matrix(0 -1 -1 0 768.63 669.04)"
+          xlinkHref="#Mailbox_svg__a"
         />
         <linearGradient
-          id="598da11b-697d-4f9c-9fd7-d6849a884081"
-          x1="224.95"
-          y1="454.54"
-          x2="224.95"
-          y2="350.6"
-          gradientTransform="matrix(0, -1, -1, 0, 851.31, 621.1)"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__g"
+          x1={224.95}
+          y1={454.54}
+          x2={224.95}
+          y2={350.6}
+          gradientTransform="matrix(0 -1 -1 0 851.31 621.1)"
+          xlinkHref="#Mailbox_svg__a"
         />
         <linearGradient
-          id="1b1d52ac-2d33-4d8b-a499-27df2fc326e7"
-          x1="627.39"
-          y1="372.38"
-          x2="627.39"
-          y2="313.03"
-          gradientTransform="matrix(-0.65, 0.76, 0.76, 0.65, 837.43, -649.66)"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__h"
+          x1={627.39}
+          y1={372.38}
+          x2={627.39}
+          y2={313.03}
+          gradientTransform="matrix(-.65 .76 .76 .65 837.43 -649.66)"
+          xlinkHref="#Mailbox_svg__a"
         />
         <linearGradient
-          id="72adf1b2-6031-4d64-80db-157af34e8b1b"
-          x1="303.02"
-          y1="618.34"
-          x2="303.02"
-          y2="531.38"
-          gradientTransform="translate(117.27 -574.84) rotate(32.36)"
-          xlink:href="#1e50e1f7-79f5-452b-a40c-a2d98084d9bb"
+          id="Mailbox_svg__i"
+          x1={303.02}
+          y1={618.34}
+          x2={303.02}
+          y2={531.38}
+          gradientTransform="rotate(32.36 1049.232 -85.334)"
+          xlinkHref="#Mailbox_svg__a"
         />
       </defs>
-      <title>mail box</title>
-      <rect
-        x="346.26"
-        y="400.92"
-        width="74.42"
-        height="328.05"
-        fill="url(#1e50e1f7-79f5-452b-a40c-a2d98084d9bb)"
-      />
-      <rect
-        x="353.11"
-        y="400.92"
-        width="62.67"
-        height="322.18"
-        fill="#eceff1"
-      />
       <path
-        d="M779.59,228.64H444.43A88.94,88.94,0,0,0,411,236.09c-34.07,15.1-53.9,38.8-59.5,91.36V448.88l-88.81-.94c-17.86,0-24.39,28.08-24.39,47.06H838.21V290.93C838.21,256.53,812,228.64,779.59,228.64Z"
+        fill="url(#Mailbox_svg__a)"
+        d="M346.26 400.92h74.42v328.05h-74.42z"
+      />
+      <path fill="#eceff1" d="M353.11 400.92h62.67V723.1h-62.67z" />
+      <path
+        d="M779.59 228.64H444.43a88.94 88.94 0 00-33.43 7.45c-34.07 15.1-53.9 38.8-59.5 91.36v121.43l-88.81-.94c-17.86 0-24.39 28.08-24.39 47.06h599.91V290.93c0-34.4-26.21-62.29-58.62-62.29z"
         transform="translate(-185.78 -83.31)"
-        fill="url(#065ea879-0bf6-43b6-9672-9e36e849f5ca)"
+        fill="url(#Mailbox_svg__b)"
       />
       <path
-        d="M270.85,158.06H602.93a40.68,40.68,0,0,1,40.68,40.68V400.92a0,0,0,0,1,0,0H270.85a0,0,0,0,1,0,0V158.06A0,0,0,0,1,270.85,158.06Z"
+        d="M270.85 158.06h332.08a40.68 40.68 0 0140.68 40.68v202.18H270.85V158.06z"
         fill={color}
       />
       <path
-        d="M263,158.06h0a90.09,90.09,0,0,1,90.09,90.09V356.83A44.09,44.09,0,0,1,309,400.92H217a44.09,44.09,0,0,1-44.09-44.09V248.15A90.09,90.09,0,0,1,263,158.06Z"
+        d="M263 158.06a90.09 90.09 0 0190.09 90.09v108.68A44.09 44.09 0 01309 400.92h-92a44.09 44.09 0 01-44.09-44.09V248.15A90.09 90.09 0 01263 158.06z"
         fill={color}
       />
       <path
-        d="M263,158.06h0a90.09,90.09,0,0,1,90.09,90.09V356.83A44.09,44.09,0,0,1,309,400.92H217a44.09,44.09,0,0,1-44.09-44.09V248.15A90.09,90.09,0,0,1,263,158.06Z"
-        opacity="0.2"
+        d="M263 158.06a90.09 90.09 0 0190.09 90.09v108.68A44.09 44.09 0 01309 400.92h-92a44.09 44.09 0 01-44.09-44.09V248.15A90.09 90.09 0 01263 158.06z"
+        opacity={0.2}
       />
-      <polygon
-        points="502.94 125.75 456.43 125.75 428.52 125.75 428.52 181.06 428.52 249.13 462.3 249.13 462.3 181.06 502.94 181.06 502.94 125.75"
-        fill="url(#459818a5-69c2-4f7f-8bb2-5507c3d29640)"
+      <path
+        fill="url(#Mailbox_svg__c)"
+        d="M502.94 125.75h-74.42v123.38h33.78v-68.07h40.64v-55.31z"
       />
-      <polygon
-        points="497.06 125.75 457.89 125.75 434.39 125.75 434.39 176.67 434.39 239.34 457.89 239.34 457.89 176.67 497.06 176.67 497.06 125.75"
+      <path
         fill="#ffcc80"
+        d="M497.06 125.75h-62.67v113.59h23.5v-62.67h39.17v-50.92z"
       />
-      <rect
-        x="378.38"
-        y="270.95"
-        width="76.68"
-        height="124.77"
-        transform="translate(-150.31 623.41) rotate(-83.06)"
-        fill="url(#2f211934-bfe1-48dc-bf69-4a6889a77622)"
+      <path
+        transform="rotate(-83.06 276.792 396.563)"
+        fill="url(#Mailbox_svg__d)"
+        d="M378.38 270.95h76.68v124.77h-76.68z"
       />
-      <rect
-        x="380.44"
-        y="272.35"
-        width="71.56"
-        height="120.54"
-        transform="translate(-150.04 622.28) rotate(-83.06)"
+      <path
         fill="#faf8e4"
+        d="M166.283 277.535l8.647-71.035 119.656 14.565-8.646 71.035z"
       />
-      <g opacity="0.6">
-        <rect
-          x="364.5"
-          y="296.74"
-          width="15.34"
-          height="11.35"
-          transform="translate(519.27 564.29) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="373.69"
-          y="330.46"
-          width="58.89"
-          height="3.68"
-          transform="translate(577.37 627.57) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="388.54"
-          y="340.56"
-          width="42.94"
-          height="2.45"
-          transform="translate(589.93 647.31) rotate(-173.06)"
-          fill={color}
-        />
+      <g opacity={0.6} fill={color}>
+        <path d="M193.296 225.682l-15.228-1.854 1.371-11.267 15.228 1.854zM246.347 254.378l-58.458-7.115.445-3.653 58.458 7.115zM245.387 262.298l-42.626-5.188.296-2.433 42.626 5.189z" />
       </g>
-      <rect
-        x="428.85"
-        y="287.7"
-        width="76.68"
-        height="124.77"
-        transform="translate(-122.57 688.23) rotate(-83.06)"
-        fill="url(#fdaec826-1474-477a-aab7-79681abb65ed)"
+      <path
+        transform="rotate(-83.06 327.256 413.312)"
+        fill="url(#Mailbox_svg__e)"
+        d="M428.85 287.7h76.68v124.77h-76.68z"
       />
-      <rect
-        x="430.91"
-        y="289.1"
-        width="71.56"
-        height="120.54"
-        transform="translate(-122.3 687.11) rotate(-83.06)"
+      <path
         fill="#faf8e4"
+        d="M216.749 294.29l8.646-71.037 119.657 14.565-8.647 71.036z"
       />
-      <g opacity="0.6">
-        <rect
-          x="414.96"
-          y="313.49"
-          width="15.34"
-          height="11.35"
-          transform="translate(617.81 603.77) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="424.15"
-          y="347.21"
-          width="58.89"
-          height="3.68"
-          transform="translate(675.91 667.05) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="439.01"
-          y="357.31"
-          width="42.94"
-          height="2.45"
-          transform="translate(688.46 686.79) rotate(-173.06)"
-          fill={color}
-        />
-      </g>
-      <rect
-        x="328.36"
-        y="288.88"
-        width="103.94"
-        height="169.12"
-        transform="translate(-222.12 622.55) rotate(-83.06)"
-        fill="url(#230aae4a-4ba3-43a0-a33b-500e3dc2a25d)"
-      />
-      <rect
-        x="331.16"
-        y="290.78"
-        width="97.01"
-        height="163.39"
-        transform="translate(-221.75 621.02) rotate(-83.06)"
-        fill="#fff"
-      />
-      <g opacity="0.6">
-        <rect
-          x="309.54"
-          y="323.84"
-          width="20.79"
-          height="15.38"
-          transform="translate(411.67 616) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="322"
-          y="369.54"
-          width="79.83"
-          height="4.99"
-          transform="translate(490.42 701.78) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="342.13"
-          y="383.24"
-          width="58.21"
-          height="3.33"
-          transform="translate(507.45 728.54) rotate(-173.06)"
-          fill={color}
-        />
-      </g>
-      <rect
-        x="396.77"
-        y="311.59"
-        width="103.94"
-        height="169.12"
-        transform="translate(-184.52 710.41) rotate(-83.06)"
-        fill="url(#598da11b-697d-4f9c-9fd7-d6849a884081)"
-      />
-      <rect
-        x="399.56"
-        y="313.48"
-        width="97.01"
-        height="163.39"
-        transform="translate(-184.15 708.89) rotate(-83.06)"
-        fill="#fff"
-      />
-      <g opacity="0.6">
-        <rect
-          x="377.95"
-          y="346.55"
-          width="20.79"
-          height="15.38"
-          transform="translate(545.24 669.52) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="390.41"
-          y="392.25"
-          width="79.83"
-          height="4.99"
-          transform="translate(623.99 755.3) rotate(-173.06)"
-          fill={color}
-        />
-        <rect
-          x="410.54"
-          y="405.94"
-          width="58.21"
-          height="3.33"
-          transform="translate(641.02 782.05) rotate(-173.06)"
-          fill={color}
-        />
+      <g opacity={0.6} fill={color}>
+        <path d="M243.77 242.437l-15.228-1.853 1.371-11.267 15.228 1.853zM296.821 271.134l-58.459-7.116.445-3.653 58.459 7.116zM295.84 279.052l-42.625-5.188.296-2.432 42.625 5.188z" />
       </g>
       <path
-        d="M447.82,242.35h0a89.8,89.8,0,0,0-34.35,6.8,90.77,90.77,0,0,1,12.81-.92h0a90.09,90.09,0,0,1,90.09,90.09v143h21.54V332.44A90.09,90.09,0,0,0,447.82,242.35Z"
-        transform="translate(-185.78 -83.31)"
-        opacity="0.2"
+        transform="rotate(-83.06 240.401 436.673)"
+        fill="url(#Mailbox_svg__f)"
+        d="M328.36 288.88H432.3V458H328.36z"
       />
       <path
-        d="M94.59,369.58H353.11a0,0,0,0,1,0,0v31.34a0,0,0,0,1,0,0H63.25a0,0,0,0,1,0,0v0A31.34,31.34,0,0,1,94.59,369.58Z"
+        fill="#fff"
+        d="M106.914 327.421l11.721-96.299 162.193 19.742-11.722 96.3z"
+      />
+      <g opacity={0.6} fill={color}>
+        <path d="M143.527 257.131l-20.637-2.512 1.858-15.267 20.638 2.512zM215.43 296.04l-79.244-9.646.603-4.953 79.245 9.646zM214.134 306.768l-57.784-7.033.402-3.306 57.784 7.034z" />
+      </g>
+      <path
+        transform="rotate(-83.06 308.803 459.376)"
+        fill="url(#Mailbox_svg__g)"
+        d="M396.77 311.59h103.94v169.12H396.77z"
+      />
+      <path
+        fill="#fff"
+        d="M175.312 350.135l11.722-96.299 162.193 19.742-11.722 96.3z"
+      />
+      <g opacity={0.6} fill={color}>
+        <path d="M211.933 279.841l-20.638-2.512 1.858-15.267 20.638 2.512zM283.836 318.75l-79.245-9.645.603-4.954 79.245 9.646zM282.538 329.479l-57.784-7.034.402-3.305 57.784 7.033z" />
+      </g>
+      <path
+        d="M262.04 159.04a89.8 89.8 0 00-34.35 6.8 90.77 90.77 0 0112.81-.92 90.09 90.09 0 0190.09 90.09v143h21.54V249.13a90.09 90.09 0 00-90.09-90.09z"
+        opacity={0.2}
+      />
+      <path
+        d="M94.59 369.58h258.52v31.34H63.25a31.34 31.34 0 0131.34-31.34z"
         fill={color}
       />
       <path
-        d="M94.59,369.58H353.11a0,0,0,0,1,0,0v31.34a0,0,0,0,1,0,0H63.25a0,0,0,0,1,0,0v0A31.34,31.34,0,0,1,94.59,369.58Z"
+        d="M94.59 369.58h258.52v31.34H63.25a31.34 31.34 0 0131.34-31.34z"
         fill="#fff"
-        opacity="0.2"
+        opacity={0.2}
       />
-      <polygon
-        points="657.37 70.58 654.4 72.03 654.74 71.42 654.48 71.5 654.85 71.23 694.87 0 715.33 17.45 732.89 33.7 727.85 36.16 733.51 46.15 657.37 70.58"
-        fill="url(#1b1d52ac-2d33-4d8b-a499-27df2fc326e7)"
+      <path
+        fill="url(#Mailbox_svg__h)"
+        d="M657.37 70.58l-2.97 1.45.34-.61-.26.08.37-.27L694.87 0l20.46 17.45 17.56 16.25-5.04 2.46 5.66 9.99-76.14 24.43z"
       />
-      <polygon
-        points="713.31 19.31 729.35 34.19 656.63 70.34 695.33 20.74 713.31 19.31"
+      <path
         fill={color}
+        d="M713.31 19.31l16.04 14.88-72.72 36.15 38.7-49.6 17.98-1.43z"
       />
-      <polygon
-        points="713.31 19.31 729.35 34.19 656.63 70.34 695.33 20.74 713.31 19.31"
-        opacity="0.2"
+      <path
+        opacity={0.2}
+        d="M713.31 19.31l16.04 14.88-72.72 36.15 38.7-49.6 17.98-1.43z"
       />
-      <polygon
-        points="694.59 3.35 656.63 70.34 713.31 19.31 694.59 3.35"
+      <path
         fill={color}
+        d="M694.59 3.35l-37.96 66.99 56.68-51.03-18.72-15.96z"
       />
-      <polygon
-        points="729.82 45.7 656.71 69.85 717.82 24.23 729.82 45.7"
+      <path fill={color} d="M729.82 45.7l-73.11 24.15 61.11-45.62 12 21.47z" />
+      <path
+        fill="url(#Mailbox_svg__i)"
+        d="M121.67 86.97l4.78.74-.74-.7h.41l-.64-.22L38.62 4.42 17.54 37.69 0 68.04l8.12 1.26-3.6 16.44 117.15 1.23z"
+      />
+      <path
         fill={color}
+        d="M21.18 39.42L5.16 67.19 122.6 86.31 46.96 33.64l-25.78 5.78z"
       />
-      <polygon
-        points="121.67 86.97 126.45 87.71 125.71 87.01 126.12 87.01 125.48 86.79 38.62 4.42 17.54 37.69 0 68.04 8.12 69.3 4.52 85.74 121.67 86.97"
-        fill="url(#72adf1b2-6031-4d64-80db-157af34e8b1b)"
+      <path
+        opacity={0.2}
+        d="M21.18 39.42L5.16 67.19 122.6 86.31 46.96 33.64l-25.78 5.78z"
       />
-      <polygon
-        points="21.18 39.42 5.16 67.19 122.6 86.31 46.96 33.64 21.18 39.42"
-        fill={color}
-      />
-      <polygon
-        points="21.18 39.42 5.16 67.19 122.6 86.31 46.96 33.64 21.18 39.42"
-        opacity="0.2"
-      />
-      <polygon
-        points="40.47 8.99 122.6 86.31 21.18 39.42 40.47 8.99"
-        fill={color}
-      />
-      <polygon
-        points="9.49 83.51 122.28 85.67 16.99 48.27 9.49 83.51"
-        fill={color}
-      />
+      <path fill={color} d="M40.47 8.99l82.13 77.32L21.18 39.42 40.47 8.99z" />
+      <path fill={color} d="M9.49 83.51l112.79 2.16-105.29-37.4-7.5 35.24z" />
     </svg>
   );
 };
 
-Mailbox.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgMailbox.propTypes = {
+  color: PropTypes.string
 };
-
-Mailbox.defaultProps = {
-  color: "primary",
-  style: {}
+SvgMailbox.defaultProps = {
+  color: "primary"
 };
-
-export default Mailbox;
+const MemoSvgMailbox = React.memo(SvgMailbox);
+export default MemoSvgMailbox;

@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const PenTool = ({ color, style }) => {
+const SvgPenTool = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,114 +13,89 @@ const PenTool = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="b9db6c67-941f-4cc2-b17c-4ec7dbc0da14"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="907.88"
-      height="641.74"
       viewBox="0 0 907.88 641.74"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="6dbd394d-3147-4710-ae5b-040c9889b819"
-          x1="444.99"
-          y1="641.74"
-          x2="444.99"
-          y2="550.42"
+          id="PenTool_svg__a"
+          x1={444.99}
+          y1={641.74}
+          x2={444.99}
+          y2={550.42}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="25611293-a7d7-4bef-9ea8-eef2963e34c7"
-          x1="586.17"
-          y1="702.27"
-          x2="586.17"
-          y2="250.71"
-          xlink:href="#6dbd394d-3147-4710-ae5b-040c9889b819"
+          id="PenTool_svg__b"
+          x1={586.17}
+          y1={702.27}
+          x2={586.17}
+          y2={250.71}
+          xlinkHref="#PenTool_svg__a"
         />
         <linearGradient
-          id="f7aa0426-c3ad-4d3b-8596-50aa38a87e77"
-          x1="448.88"
-          y1="71.08"
-          x2="448.88"
-          y2="1.14"
-          xlink:href="#6dbd394d-3147-4710-ae5b-040c9889b819"
+          id="PenTool_svg__c"
+          x1={448.88}
+          y1={71.08}
+          x2={448.88}
+          y2={1.14}
+          xlinkHref="#PenTool_svg__a"
         />
         <linearGradient
-          id="170327e1-c007-4bc3-aecd-c22d9d8756ba"
-          x1="41"
-          y1="82.01"
-          x2="41"
-          y2="0"
-          xlink:href="#6dbd394d-3147-4710-ae5b-040c9889b819"
+          id="PenTool_svg__d"
+          x1={41}
+          y1={82.01}
+          x2={41}
+          y2={0}
+          xlinkHref="#PenTool_svg__a"
         />
         <linearGradient
-          id="35baff6c-edbd-4d6b-969d-bf3825558dc6"
-          x1="866.87"
-          y1="82.01"
-          x2="866.87"
-          y2="0"
-          xlink:href="#6dbd394d-3147-4710-ae5b-040c9889b819"
+          id="PenTool_svg__e"
+          x1={866.87}
+          y1={82.01}
+          x2={866.87}
+          y2={0}
+          xlinkHref="#PenTool_svg__a"
         />
       </defs>
-      <title>pen</title>
-      <polygon
-        points="531.57 550.42 358.41 550.42 358.41 611.3 377.65 611.3 377.65 641.74 512.33 641.74 512.33 611.3 531.57 611.3 531.57 550.42"
-        fill="url(#6dbd394d-3147-4710-ae5b-040c9889b819)"
+      <path
+        fill="url(#PenTool_svg__a)"
+        d="M531.57 550.42H358.41v60.88h19.24v30.44h134.68V611.3h19.24v-60.88z"
       />
       <path
-        d="M596.87,251.71V460.23c20.73,6.22,29.81,12.58,34.91,26.13a65.58,65.58,0,0,1,2.18,38c-3.27,14-9.28,21.47-25.65,25.81a62.53,62.53,0,0,1-28.41,1c-22.62-4.59-34.51-20-34.51-45.56,0-24.46,8.4-37.44,31.5-45.16V421.29l-1-170.59L406.09,503.22s81.27,67.93,111,199.05H655.23s41.59-152.22,111-189.69Z"
+        d="M596.87 251.71v208.52c20.73 6.22 29.81 12.58 34.91 26.13a65.58 65.58 0 012.18 38c-3.27 14-9.28 21.47-25.65 25.81a62.53 62.53 0 01-28.41 1c-22.62-4.59-34.51-20-34.51-45.56 0-24.46 8.4-37.44 31.5-45.16v-39.16l-1-170.59-169.8 252.52s81.27 67.93 111 199.05h138.14s41.59-152.22 111-189.69z"
         transform="translate(-146.06 -129.13)"
-        fill="url(#25611293-a7d7-4bef-9ea8-eef2963e34c7)"
+        fill="url(#PenTool_svg__b)"
       />
       <path
-        d="M599.93,261.88v193.5a55,55,0,1,1-27.52,2.37V261.88l-156,238.55s82.57,73.4,110.1,201.85H645.81s45.87-156,110.1-192.67Z"
-        transform="translate(-146.06 -129.13)"
+        d="M453.87 132.75v193.5a55 55 0 11-27.52 2.37V132.75l-156 238.55s82.57 73.4 110.1 201.85h119.3s45.87-156 110.1-192.67zM59.35 31.83h366.99v18.35H59.35zM472.22 31.83h366.99v18.35H472.22z"
         fill="#eceff1"
       />
-      <rect x="59.35" y="31.83" width="366.99" height="18.35" fill="#eceff1" />
-      <rect x="472.22" y="31.83" width="366.99" height="18.35" fill="#eceff1" />
-      <rect x="380.47" y="591.49" width="128.45" height="45.87" fill={color} />
-      <rect
-        x="413.91"
-        y="1.14"
-        width="69.93"
-        height="69.93"
-        fill="url(#f7aa0426-c3ad-4d3b-8596-50aa38a87e77)"
-      />
-      <rect x="417.17" y="4.3" width="64.22" height="64.22" fill={color} />
-      <circle
-        cx="41"
-        cy="41"
-        r="41"
-        fill="url(#170327e1-c007-4bc3-aecd-c22d9d8756ba)"
-      />
-      <circle
-        cx="866.87"
-        cy="41"
-        r="41"
-        fill="url(#35baff6c-edbd-4d6b-969d-bf3825558dc6)"
-      />
-      <circle cx="41" cy="41" r="36.7" fill={color} />
-      <circle cx="866.74" cy="41" r="36.7" fill={color} />
-      <rect x="362.12" y="554.79" width="165.15" height="55.05" fill={color} />
-      <rect x="362.12" y="554.79" width="165.15" height="55.05" opacity="0.2" />
+      <path fill={color} d="M380.47 591.49h128.45v45.87H380.47z" />
+      <path fill="url(#PenTool_svg__c)" d="M413.91 1.14h69.93v69.93h-69.93z" />
+      <path fill={color} d="M417.17 4.3h64.22v64.22h-64.22z" />
+      <circle cx={41} cy={41} r={41} fill="url(#PenTool_svg__d)" />
+      <circle cx={866.87} cy={41} r={41} fill="url(#PenTool_svg__e)" />
+      <circle cx={41} cy={41} r={36.7} fill={color} />
+      <circle cx={866.74} cy={41} r={36.7} fill={color} />
+      <path fill={color} d="M362.12 554.79h165.15v55.05H362.12z" />
+      <path opacity={0.2} d="M362.12 554.79h165.15v55.05H362.12z" />
     </svg>
   );
 };
 
-PenTool.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgPenTool.propTypes = {
+  color: PropTypes.string
 };
-
-PenTool.defaultProps = {
-  color: "primary",
-  style: {}
+SvgPenTool.defaultProps = {
+  color: "primary"
 };
-
-export default PenTool;
+const MemoSvgPenTool = React.memo(SvgPenTool);
+export default MemoSvgPenTool;

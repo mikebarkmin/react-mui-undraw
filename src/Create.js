@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Create = ({ color, style }) => {
+const SvgCreate = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,265 +13,199 @@ const Create = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="e55d10ab-9d70-435f-9096-155c89cbb824"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="930"
-      height="796"
       viewBox="0 0 930 796"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="c2d4657d-812e-4d49-9faf-a52e325dd45c"
-          x1="476.5"
-          y1="796"
-          x2="476.5"
-          y2="356"
+          id="Create_svg__a"
+          x1={476.5}
+          y1={796}
+          x2={476.5}
+          y2={356}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="c3547cc4-a187-4ba4-ab1a-9d4c07935ee4"
-          x1="233"
-          y1="468"
-          x2="233"
-          y2="390"
+          id="Create_svg__b"
+          x1={233}
+          y1={468}
+          x2={233}
+          y2={390}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#b3b3b3" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="#b3b3b3" stop-opacity="0.1" />
-          <stop offset="1" stop-color="#b3b3b3" stop-opacity="0.05" />
+          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
+          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
         </linearGradient>
       </defs>
-      <title>create</title>
       <path
-        d="M827,414s28-104-28-211"
-        transform="translate(-135 -52)"
+        d="M692 362s28-104-28-211"
         fill="none"
         stroke="#e0e0e0"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-        stroke-dasharray="0 23"
-      />
-      <line
-        x1="300.59"
-        y1="350.5"
-        x2="300.59"
-        y2="350.5"
-        fill="none"
-        stroke="#e0e0e0"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        strokeDasharray="0 23"
       />
       <path
-        d="M443.1,380.14c9.88-40.36,12.83-124.5-117.66-160.22"
-        transform="translate(-135 -52)"
         fill="none"
         stroke="#e0e0e0"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-        stroke-dasharray="0 23.61"
-      />
-      <line
-        x1="179"
-        y1="165"
-        x2="179"
-        y2="165"
-        fill="none"
-        stroke="#e0e0e0"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-      />
-      <rect
-        x="71"
-        y="356"
-        width="811"
-        height="440"
-        fill="url(#c2d4657d-812e-4d49-9faf-a52e325dd45c)"
-      />
-      <rect x="78" y="362" width="798" height="422.5" fill="#fff" />
-      <circle
-        cx="233"
-        cy="429"
-        r="39"
-        fill="url(#c3547cc4-a187-4ba4-ab1a-9d4c07935ee4)"
-      />
-      <circle cx="233" cy="429" r="35" fill={color} />
-      <rect x="313" y="416" width="197" height="20" fill="#bdbdbd" />
-      <rect x="232.5" y="545.5" width="492" height="20" fill="#e0e0e0" />
-      <rect x="232.5" y="501.5" width="492" height="20" fill="#e0e0e0" />
-      <rect x="232.5" y="589.5" width="492" height="20" fill="#e0e0e0" />
-      <rect x="232.5" y="633.5" width="492" height="20" fill="#e0e0e0" />
-      <rect x="232.5" y="677.5" width="492" height="20" fill="#e0e0e0" />
-      <rect x="232.5" y="721.5" width="492" height="20" fill="#e0e0e0" />
-      <line
-        x1="153.33"
-        y1="355.5"
-        x2="153.33"
-        y2="355.5"
-        fill="none"
-        stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M300.59 350.5h0"
       />
       <path
-        d="M290.59,384.75c.76-21.62-1.88-53.94-20.78-75.41"
-        transform="translate(-135 -52)"
-        fill="none"
-        stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-        stroke-dasharray="0 22.87"
-      />
-      <line
-        x1="126.5"
-        y1="249.5"
-        x2="126.5"
-        y2="249.5"
-        fill="none"
-        stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-      />
-      <line
-        x1="605.33"
-        y1="364.5"
-        x2="605.33"
-        y2="364.5"
+        d="M308.1 328.14c9.88-40.36 12.83-124.5-117.66-160.22"
         fill="none"
         stroke="#e0e0e0"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        strokeDasharray="0 23.61"
       />
       <path
-        d="M742.59,393.75c.76-21.62-1.88-53.94-20.78-75.41"
-        transform="translate(-135 -52)"
         fill="none"
         stroke="#e0e0e0"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-        stroke-dasharray="0 22.87"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M179 165h0"
       />
-      <line
-        x1="578.5"
-        y1="258.5"
-        x2="578.5"
-        y2="258.5"
-        fill="none"
-        stroke="#e0e0e0"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-      />
-      <line
-        x1="797.67"
-        y1="355.5"
-        x2="797.67"
-        y2="355.5"
-        fill="none"
-        stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
+      <path fill="url(#Create_svg__a)" d="M71 356h811v440H71z" />
+      <path fill="#fff" d="M78 362h798v422.5H78z" />
+      <circle cx={233} cy={429} r={39} fill="url(#Create_svg__b)" />
+      <circle cx={233} cy={429} r={35} fill={color} />
+      <path fill="#bdbdbd" d="M313 416h197v20H313z" />
+      <path
+        fill="#e0e0e0"
+        d="M232.5 545.5h492v20h-492zM232.5 501.5h492v20h-492zM232.5 589.5h492v20h-492zM232.5 633.5h492v20h-492zM232.5 677.5h492v20h-492zM232.5 721.5h492v20h-492z"
       />
       <path
-        d="M930.41,384.75c-.76-21.62,1.88-53.94,20.78-75.41"
-        transform="translate(-135 -52)"
         fill="none"
         stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-        stroke-dasharray="0 22.87"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M153.33 355.5h0"
       />
-      <line
-        x1="824.5"
-        y1="249.5"
-        x2="824.5"
-        y2="249.5"
+      <path
+        d="M155.59 332.75c.76-21.62-1.88-53.94-20.78-75.41"
         fill="none"
         stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        strokeDasharray="0 22.87"
       />
-      <rect y="114.78" width="111" height="60.43" fill={color} opacity="0.7" />
-      <rect
-        x="608"
-        y="73.78"
-        width="111"
-        height="60.43"
+      <path
+        fill="none"
+        stroke="#bdbdbd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M126.5 249.5h0"
+      />
+      <path
+        fill="none"
+        stroke="#e0e0e0"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M605.33 364.5h0"
+      />
+      <path
+        d="M607.59 341.75c.76-21.62-1.88-53.94-20.78-75.41"
+        fill="none"
+        stroke="#e0e0e0"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        strokeDasharray="0 22.87"
+      />
+      <path
+        fill="none"
+        stroke="#e0e0e0"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M578.5 258.5h0"
+      />
+      <path
+        fill="none"
+        stroke="#bdbdbd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M797.67 355.5h0"
+      />
+      <path
+        d="M795.41 332.75c-.76-21.62 1.88-53.94 20.78-75.41"
+        fill="none"
+        stroke="#bdbdbd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        strokeDasharray="0 22.87"
+      />
+      <path
+        fill="none"
+        stroke="#bdbdbd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M824.5 249.5h0"
+      />
+      <path
         fill={color}
-        opacity="0.7"
-      />
-      <rect
-        x="513"
-        y="181.78"
-        width="111"
-        height="60.43"
-        fill={color}
-        opacity="0.7"
-      />
-      <rect x="83" y="127.58" width="180.78" height="98.41" fill={color} />
-      <rect x="749.22" y="132.58" width="180.78" height="98.41" fill={color} />
-      <rect x="339.71" width="180.78" height="98.41" fill={color} />
-      <line
-        x1="414"
-        y1="354.5"
-        x2="414"
-        y2="354.5"
-        fill="none"
-        stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
+        opacity={0.7}
+        d="M0 114.78h111v60.43H0zM608 73.78h111v60.43H608zM513 181.78h111v60.43H513z"
       />
       <path
-        d="M557.82,384.21c6.13-21.36,10.12-55.49-9.32-90.72-24-43.51-2.42-85.9,9.85-104.36"
-        transform="translate(-135 -52)"
-        fill="none"
-        stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
-        stroke-dasharray="0 24.01"
+        fill={color}
+        d="M83 127.58h180.78v98.41H83zM749.22 132.58H930v98.41H749.22zM339.71 0h180.78v98.41H339.71z"
       />
-      <line
-        x1="430.5"
-        y1="127.5"
-        x2="430.5"
-        y2="127.5"
+      <path
         fill="none"
         stroke="#bdbdbd"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        strokeWidth="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M414 354.5h0"
+      />
+      <path
+        d="M422.82 332.21c6.13-21.36 10.12-55.49-9.32-90.72-24-43.51-2.42-85.9 9.85-104.36"
+        fill="none"
+        stroke="#bdbdbd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        strokeDasharray="0 24.01"
+      />
+      <path
+        fill="none"
+        stroke="#bdbdbd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={10}
+        d="M430.5 127.5h0"
       />
     </svg>
   );
 };
 
-Create.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgCreate.propTypes = {
+  color: PropTypes.string
 };
-
-Create.defaultProps = {
-  color: "primary",
-  style: {}
+SvgCreate.defaultProps = {
+  color: "primary"
 };
-
-export default Create;
+const MemoSvgCreate = React.memo(SvgCreate);
+export default MemoSvgCreate;

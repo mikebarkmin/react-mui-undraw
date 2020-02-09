@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const Address = ({ color, style }) => {
+const SvgAddress = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,181 +13,127 @@ const Address = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="2490755a-457e-4afb-a65a-0ea5e4d54fde"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="945.48"
-      height="723.06"
       viewBox="0 0 945.48 723.06"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="8cd9664d-1da2-4d12-b141-6acf96f68a9c"
-          x1="740.07"
-          y1="472.54"
-          x2="740.07"
-          y2="118.79"
-          gradientTransform="matrix(0, 1.01, -1, 0, 1038.56, -429.84)"
+          id="Address_svg__a"
+          x1={740.07}
+          y1={472.54}
+          x2={740.07}
+          y2={118.79}
+          gradientTransform="matrix(0 1.01 -1 0 1038.56 -429.84)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <clipPath
-          id="cdabdff6-c4be-4715-8138-a67c0a106d83"
-          transform="translate(-130 -89.47)"
-        >
-          <rect
-            id="7312e2fe-1465-434b-8399-0e3c35e3f2aa"
+        <linearGradient
+          id="Address_svg__c"
+          x1={627.79}
+          y1={238.31}
+          x2={627.79}
+          y2={82.56}
+          gradientTransform="rotate(7.89 589.222 306.706)"
+          xlinkHref="#Address_svg__a"
+        />
+        <linearGradient
+          id="Address_svg__d"
+          x1={367.4}
+          y1={723.06}
+          x2={367.4}
+          y2={213.51}
+          xlinkHref="#Address_svg__a"
+        />
+        <linearGradient
+          id="Address_svg__e"
+          x1={367.14}
+          y1={582.74}
+          x2={367.14}
+          y2={556.61}
+          xlinkHref="#Address_svg__a"
+        />
+        <clipPath id="Address_svg__b" transform="translate(-130 -89.47)">
+          <path
             data-name="&lt;Rectangle&gt;"
-            x="448.64"
-            y="159.18"
-            width="586.78"
-            height="313.91"
-            transform="translate(50.43 -98.88) rotate(7.89)"
+            transform="rotate(7.89 742.129 316.195)"
             fill={color}
+            d="M448.64 159.18h586.78v313.91H448.64z"
           />
         </clipPath>
-        <linearGradient
-          id="2e0ace27-f24d-4475-8753-15718c01a844"
-          x1="627.79"
-          y1="238.31"
-          x2="627.79"
-          y2="82.56"
-          gradientTransform="translate(47.68 -77.98) rotate(7.89)"
-          xlink:href="#8cd9664d-1da2-4d12-b141-6acf96f68a9c"
-        />
-        <linearGradient
-          id="4557fcba-ba8e-4ca6-a47b-16bad646016f"
-          x1="367.4"
-          y1="723.06"
-          x2="367.4"
-          y2="213.51"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#8cd9664d-1da2-4d12-b141-6acf96f68a9c"
-        />
-        <linearGradient
-          id="4f826130-72fb-45c0-ad33-c53e19fef0b1"
-          x1="367.14"
-          y1="582.74"
-          x2="367.14"
-          y2="556.61"
-          gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
-          xlink:href="#8cd9664d-1da2-4d12-b141-6acf96f68a9c"
-        />
       </defs>
-      <title>address</title>
-      <rect
-        x="566.02"
-        y="5.62"
-        width="353.76"
-        height="622.49"
-        transform="translate(197.04 919.76) rotate(-82.11)"
-        fill="url(#8cd9664d-1da2-4d12-b141-6acf96f68a9c)"
+      <path
+        transform="rotate(-82.11 626.527 346.765)"
+        fill="url(#Address_svg__a)"
+        d="M566.02 5.62h353.76v622.49H566.02z"
       />
-      <rect
-        x="435.28"
-        y="144.67"
-        width="613.09"
-        height="344.1"
-        transform="translate(-79.49 -188.31) rotate(7.89)"
+      <path
         fill="#fff"
+        d="M331.81 14.742l607.286 84.16-47.235 340.843-607.286-84.16z"
       />
-      <g opacity="0.3">
-        <rect
-          id="f33a93cd-dff1-45ca-976d-3ca4de540e86"
+      <g opacity={0.3}>
+        <path
           data-name="&lt;Rectangle&gt;"
-          x="448.64"
-          y="159.18"
-          width="586.78"
-          height="313.91"
-          transform="translate(-79.57 -188.35) rotate(7.89)"
           fill={color}
+          d="M342.972 30.909l581.225 80.548-43.09 310.938-581.226-80.548z"
         />
-        <g clip-path="url(#cdabdff6-c4be-4715-8138-a67c0a106d83)">
-          <polyline
-            points="305.89 25.78 541.8 416.84 685.31 436.73 935.87 291.06 738.08 29.61 387.52 395.45 187.09 320.14 545.2 5.32 837.19 457.78"
+        <g clipPath="url(#Address_svg__b)">
+          <path
             fill={color}
             stroke="#fff"
-            stroke-miterlimit="10"
-            strokeWidth="5"
+            strokeMiterlimit={10}
+            strokeWidth={5}
+            d="M305.89 25.78L541.8 416.84l143.51 19.89 250.56-145.67L738.08 29.61 387.52 395.45l-200.43-75.31L545.2 5.32l291.99 452.46"
           />
         </g>
       </g>
       <path
-        d="M704.85,151.82c-4.16,30-65.87,92.74-65.87,92.74s-46.66-77.76-42.5-107.76a54.71,54.71,0,1,1,108.38,15Z"
+        d="M704.85 151.82c-4.16 30-65.87 92.74-65.87 92.74s-46.66-77.76-42.5-107.76a54.71 54.71 0 11108.38 15z"
         transform="translate(-130 -89.47)"
-        fill="url(#2e0ace27-f24d-4475-8753-15718c01a844)"
+        fill="url(#Address_svg__c)"
       />
       <path
-        d="M701.29,152.77c-3.9,28.14-61.79,87-61.79,87s-43.77-72.94-39.87-101.08a51.31,51.31,0,1,1,101.65,14.09Z"
-        transform="translate(-130 -89.47)"
+        d="M571.29 63.3c-3.9 28.14-61.79 87-61.79 87s-43.77-72.94-39.87-101.08a51.31 51.31 0 11101.65 14.09z"
         fill={color}
       />
       <ellipse
-        cx="651.03"
-        cy="141.65"
-        rx="25.72"
-        ry="25.66"
-        transform="translate(291.34 677.6) rotate(-82.11)"
+        cx={651.03}
+        cy={141.65}
+        rx={25.72}
+        ry={25.66}
+        transform="rotate(-82.11 534.66 171.55)"
         fill="#fff"
       />
-      <polygon
-        points="0 213.51 0 239.22 0 723.06 734.81 723.06 734.81 239.22 734.81 213.51 0 213.51"
-        fill="url(#4557fcba-ba8e-4ca6-a47b-16bad646016f)"
-      />
-      <rect x="10.9" y="245.21" width="716.12" height="468.79" fill="#fff" />
-      <rect x="10.9" y="222.91" width="716.12" height="34.49" fill="#f5f5f5" />
-      <circle cx="38.15" cy="239.64" r="8.36" fill="#ff5252" />
-      <circle cx="61.15" cy="239.64" r="8.36" fill="#ff0" />
-      <circle cx="84.14" cy="239.64" r="8.36" fill="#69f0ae" />
-      <rect
-        x="301.81"
-        y="370.55"
-        width="131.7"
-        height="14.11"
-        fill={color}
-        opacity="0.5"
-      />
-      <rect x="206.7" y="431.18" width="144.24" height="14.11" fill="#e0e0e0" />
-      <rect
-        x="514.39"
-        y="520.65"
-        width="144.24"
-        height="14.11"
-        transform="translate(1043.02 965.94) rotate(-180)"
+      <path fill="url(#Address_svg__d)" d="M0 213.51V723.06h734.81V213.51H0z" />
+      <path fill="#fff" d="M10.9 245.21h716.12V714H10.9z" />
+      <path fill="#f5f5f5" d="M10.9 222.91h716.12v34.49H10.9z" />
+      <circle cx={38.15} cy={239.64} r={8.36} fill="#ff5252" />
+      <circle cx={61.15} cy={239.64} r={8.36} fill="#ff0" />
+      <circle cx={84.14} cy={239.64} r={8.36} fill="#69f0ae" />
+      <path fill={color} opacity={0.5} d="M301.81 370.55h131.7v14.11h-131.7z" />
+      <path
         fill="#e0e0e0"
+        d="M206.7 431.18h144.24v14.11H206.7zM528.63 445.29H384.39v-14.11h144.24zM206.17 461.49H528.1v14.11H206.17zM206.17 491.8H528.1v14.11H206.17z"
       />
-      <rect
-        x="206.17"
-        y="461.49"
-        width="321.93"
-        height="14.11"
-        fill="#e0e0e0"
+      <path
+        fill="url(#Address_svg__e)"
+        d="M300.25 556.61h133.79v26.13H300.25z"
       />
-      <rect x="206.17" y="491.8" width="321.93" height="14.11" fill="#e0e0e0" />
-      <rect
-        x="300.25"
-        y="556.61"
-        width="133.79"
-        height="26.13"
-        fill="url(#4f826130-72fb-45c0-ad33-c53e19fef0b1)"
-      />
-      <rect x="301.29" y="558.98" width="131.7" height="21.38" fill={color} />
+      <path fill={color} d="M301.29 558.98h131.7v21.38h-131.7z" />
     </svg>
   );
 };
 
-Address.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgAddress.propTypes = {
+  color: PropTypes.string
 };
-
-Address.defaultProps = {
-  color: "primary",
-  style: {}
+SvgAddress.defaultProps = {
+  color: "primary"
 };
-
-export default Address;
+const MemoSvgAddress = React.memo(SvgAddress);
+export default MemoSvgAddress;

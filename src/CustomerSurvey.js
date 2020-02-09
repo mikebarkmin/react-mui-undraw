@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const CustomerSurvey = ({ color, style }) => {
+const SvgCustomerSurvey = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,335 +13,214 @@ const CustomerSurvey = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="629dcec7-c063-4496-b40c-d8a33d01e794"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="873.56"
-      height="795"
       viewBox="0 0 873.56 795"
+      width="100%"
+      height="auto"
+      {...props}
     >
       <defs>
         <linearGradient
-          id="1ad885a6-086f-4584-b8fc-49709722d9e2"
-          x1="441"
-          y1="598"
-          x2="441"
-          y2="55"
+          id="CustomerSurvey_svg__a"
+          x1={441}
+          y1={598}
+          x2={441}
+          y2={55}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset={0} stopColor="gray" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
+          <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="6f115915-dfc3-4eba-8ca8-4e2bf8885e02"
-          x1="441.5"
-          y1="91"
-          x2="441.5"
-          y2="44.98"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__b"
+          x1={441.5}
+          y1={91}
+          x2={441.5}
+          y2={44.98}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="4923b0dd-8e96-4c93-b583-a6b0ce88de70"
-          x1="604.72"
-          y1="106.89"
-          x2="604.72"
-          y2="52.5"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__c"
+          x1={604.72}
+          y1={106.89}
+          x2={604.72}
+          y2={52.5}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="ea587278-d59f-43ad-bda4-771cfa902fd4"
-          x1="308.5"
-          y1="227"
-          x2="308.5"
-          y2="145"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__d"
+          x1={308.5}
+          y1={227}
+          x2={308.5}
+          y2={145}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="e2b55b91-c252-4605-a1d1-0f99b0ab4047"
-          x1="308.78"
-          y1="389.5"
-          x2="308.78"
-          y2="307.5"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__e"
+          x1={308.78}
+          y1={389.5}
+          x2={308.78}
+          y2={307.5}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="76544af5-6047-4a4c-b2fc-a23f66c9d65b"
-          x1="309.06"
-          y1="550"
-          x2="309.06"
-          y2="468"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__f"
+          x1={309.06}
+          y1={550}
+          x2={309.06}
+          y2={468}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="daf008b2-47be-48c6-a376-1f125493a331"
-          x1="308.5"
-          y1="205.63"
-          x2="308.5"
-          y2="165.37"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__g"
+          x1={308.5}
+          y1={205.63}
+          x2={308.5}
+          y2={165.37}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="ebbb3683-2e35-4ba5-aa17-65e675e22e58"
-          x1="796.5"
-          y1="193"
-          x2="796.5"
-          y2="42"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__h"
+          x1={796.5}
+          y1={193}
+          x2={796.5}
+          y2={42}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="3d5714ec-ccf4-45ec-9ad7-6b8d237940bd"
-          x1="796.5"
-          y1="176"
-          x2="796.5"
-          y2="69"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__i"
+          x1={796.5}
+          y1={176}
+          x2={796.5}
+          y2={69}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="77e7c8c2-0f5e-4b8d-920a-2630d282c2c9"
-          x1="628"
-          y1="795"
-          x2="628"
-          y2="620"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__j"
+          x1={628}
+          y1={795}
+          x2={628}
+          y2={620}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="a6898519-96e7-44e1-b71e-df9c3f17d463"
-          x1="102"
-          y1="464.25"
-          x2="102"
-          y2="319.75"
-          xlink:href="#1ad885a6-086f-4584-b8fc-49709722d9e2"
+          id="CustomerSurvey_svg__k"
+          x1={102}
+          y1={464.25}
+          x2={102}
+          y2={319.75}
+          xlinkHref="#CustomerSurvey_svg__a"
         />
       </defs>
-      <title>customer survey</title>
-      <g opacity="0.5">
-        <rect
-          x="244.5"
-          y="55"
-          width="393"
-          height="543"
-          fill="url(#1ad885a6-086f-4584-b8fc-49709722d9e2)"
-        />
-      </g>
-      <rect x="249.5" y="59" width="383" height="531" fill="#fff" />
-      <rect
-        x="346.5"
-        y="44.98"
-        width="190"
-        height="46.02"
-        fill="url(#6f115915-dfc3-4eba-8ca8-4e2bf8885e02)"
-      />
       <path
-        d="M604.72,52.5c-14.67,0-26.56,12.18-26.56,27.2s11.89,27.2,26.56,27.2,26.56-12.18,26.56-27.2S619.39,52.5,604.72,52.5Zm0,42.89A15.69,15.69,0,1,1,620,79.7,15.51,15.51,0,0,1,604.72,95.39Z"
-        transform="translate(-163.22 -52.5)"
-        fill="url(#4923b0dd-8e96-4c93-b583-a6b0ce88de70)"
+        fill="url(#CustomerSurvey_svg__a)"
+        d="M244.5 55h393v543h-393z"
+        opacity={0.5}
       />
-      <rect x="348.5" y="45" width="186" height="44" fill={color} />
+      <path fill="#fff" d="M249.5 59h383v531h-383z" />
+      <path fill="url(#CustomerSurvey_svg__b)" d="M346.5 44.98h190V91h-190z" />
       <path
-        d="M604.72,54.5a26,26,0,1,0,26,26A26,26,0,0,0,604.72,54.5Zm0,41a15,15,0,1,1,15-15A15,15,0,0,1,604.72,95.5Z"
+        d="M604.72 52.5c-14.67 0-26.56 12.18-26.56 27.2s11.89 27.2 26.56 27.2 26.56-12.18 26.56-27.2-11.89-27.2-26.56-27.2zm0 42.89A15.69 15.69 0 11620 79.7a15.51 15.51 0 01-15.28 15.69z"
         transform="translate(-163.22 -52.5)"
+        fill="url(#CustomerSurvey_svg__c)"
+      />
+      <path fill={color} d="M348.5 45h186v44h-186z" />
+      <path
+        d="M441.5 2a26 26 0 1026 26 26 26 0 00-26-26zm0 41a15 15 0 1115-15 15 15 0 01-15 15z"
         fill={color}
       />
-      <rect
-        x="267.5"
-        y="145"
-        width="82"
-        height="82"
-        fill="url(#ea587278-d59f-43ad-bda4-771cfa902fd4)"
+      <path fill="url(#CustomerSurvey_svg__d)" d="M267.5 145h82v82h-82z" />
+      <path fill="url(#CustomerSurvey_svg__e)" d="M267.78 307.5h82v82h-82z" />
+      <path fill="url(#CustomerSurvey_svg__f)" d="M268.06 468h82v82h-82z" />
+      <path fill="#69f0ae" d="M270.5 148h76v76h-76z" />
+      <path fill={color} d="M270.5 309h76v76h-76zM270.5 470h76v76h-76z" />
+      <path
+        fill="#e0e0e0"
+        d="M396.5 171.46h104.17v7.27H396.5zM396.5 182.37h172v7.27h-172zM396.5 193.27h159.89v7.27H396.5zM396.5 332.46h104.17v7.27H396.5zM396.5 343.37h172v7.27h-172zM396.5 354.27h159.89v7.27H396.5zM396.5 493.46h104.17v7.27H396.5zM396.5 504.37h172v7.27h-172zM396.5 515.27h159.89v7.27H396.5z"
       />
-      <rect
-        x="267.78"
-        y="307.5"
-        width="82"
-        height="82"
-        fill="url(#e2b55b91-c252-4605-a1d1-0f99b0ab4047)"
+      <path
+        fill="url(#CustomerSurvey_svg__g)"
+        d="M291.25 181.47l13.8 12.66 19.55-28.75 6.9 5.75-26.45 34.5-19.55-21.85 5.75-2.31z"
       />
-      <rect
-        x="268.06"
-        y="468"
-        width="82"
-        height="82"
-        fill="url(#76544af5-6047-4a4c-b2fc-a23f66c9d65b)"
-      />
-      <rect x="270.5" y="148" width="76" height="76" fill="#69f0ae" />
-      <rect x="270.5" y="309" width="76" height="76" fill={color} />
-      <rect x="270.5" y="470" width="76" height="76" fill={color} />
-      <rect x="396.5" y="171.46" width="104.17" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="182.37" width="172" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="193.27" width="159.89" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="332.46" width="104.17" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="343.37" width="172" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="354.27" width="159.89" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="493.46" width="104.17" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="504.37" width="172" height="7.27" fill="#e0e0e0" />
-      <rect x="396.5" y="515.27" width="159.89" height="7.27" fill="#e0e0e0" />
-      <polygon
-        points="291.25 181.47 305.05 194.13 324.6 165.38 331.5 171.13 305.05 205.63 285.5 183.78 291.25 181.47"
-        fill="url(#daf008b2-47be-48c6-a376-1f125493a331)"
-      />
-      <polygon
-        points="293.5 182 305.5 193 322.5 168 328.5 173 305.5 203 288.5 184 293.5 182"
+      <path
         fill="#fff"
+        d="M293.5 182l12 11 17-25 6 5-23 30-17-19 5-2zM293.5 344l12 11 17-25 6 5-23 30-17-19 5-2zM293.5 506l12 11 17-25 6 5-23 30-17-19 5-2z"
       />
-      <polygon
-        points="293.5 344 305.5 355 322.5 330 328.5 335 305.5 365 288.5 346 293.5 344"
-        fill="#fff"
-      />
-      <polygon
-        points="293.5 506 305.5 517 322.5 492 328.5 497 305.5 527 288.5 508 293.5 506"
-        fill="#fff"
-      />
-      <g opacity="0.5">
-        <line
-          x1="651"
-          y1="351"
-          x2="657"
-          y2="351"
-          fill="none"
-          stroke="#69f0ae"
-          stroke-miterlimit="10"
-          strokeWidth="5"
-        />
-        <line
-          x1="668.54"
-          y1="351"
-          x2="801.23"
-          y2="351"
-          fill="none"
-          stroke="#69f0ae"
-          stroke-miterlimit="10"
-          strokeWidth="5"
-          stroke-dasharray="11.54 11.54"
-        />
-        <polyline
-          points="807 351 813 351 813 345"
-          fill="none"
-          stroke="#69f0ae"
-          stroke-miterlimit="10"
-          strokeWidth="5"
-        />
-        <line
-          x1="813"
-          y1="333.55"
-          x2="813"
-          y2="224.73"
-          fill="none"
-          stroke="#69f0ae"
-          stroke-miterlimit="10"
-          strokeWidth="5"
-          stroke-dasharray="11.45 11.45"
-        />
-        <line
-          x1="813"
-          y1="219"
-          x2="813"
-          y2="213"
-          fill="none"
-          stroke="#69f0ae"
-          stroke-miterlimit="10"
-          strokeWidth="5"
-        />
-      </g>
-      <polyline
-        points="231.5 182.5 97.5 182.5 97.5 308.5"
+      <g
+        opacity={0.5}
         fill="none"
         stroke="#69f0ae"
-        stroke-miterlimit="10"
-        strokeWidth="5"
-        stroke-dasharray="12"
-        opacity="0.5"
-      />
-      <polyline
-        points="308.5 611.5 308.5 683.5 508.5 683.5"
+        strokeMiterlimit={10}
+        strokeWidth={5}
+      >
+        <path d="M651 351h6" />
+        <path strokeDasharray="11.54 11.54" d="M668.54 351h132.69" />
+        <path d="M807 351h6v-6" />
+        <path strokeDasharray="11.45 11.45" d="M813 333.55V224.73" />
+        <path d="M813 219v-6" />
+      </g>
+      <path
         fill="none"
         stroke="#69f0ae"
-        stroke-miterlimit="10"
-        strokeWidth="5"
-        stroke-dasharray="12"
-        opacity="0.5"
+        strokeMiterlimit={10}
+        strokeWidth={5}
+        strokeDasharray={12}
+        opacity={0.5}
+        d="M231.5 182.5h-134v126M308.5 611.5v72h200"
       />
-      <g opacity="0.5">
-        <polygon
-          points="873.56 107.09 796.5 42 720.64 106.95 719.96 106.57 719.96 107.09 719.44 107.09 719.96 107.38 719.96 107.61 719.96 191.96 719.96 193 873.04 193 872.11 192.48 873.56 192.48 873.56 107.09"
-          fill="url(#ebbb3683-2e35-4ba5-aa17-65e675e22e58)"
-        />
-      </g>
-      <polygon
-        points="870.5 189.5 723.5 189.5 723.5 107.5 796.5 45 870.5 107.5 870.5 189.5"
-        fill="#fff"
-      />
-      <polyline points="722.5 107.5 795.5 148.5 869.5 107.5" fill="#e0e0e0" />
-      <g opacity="0.5">
-        <polygon
-          points="797.02 147.47 752 176 752 69 841 69 841 123.42 797.02 147.47"
-          fill="url(#3d5714ec-ccf4-45ec-9ad7-6b8d237940bd)"
-        />
-      </g>
-      <polygon
-        points="797 148 754 176 754 71 839 71 839 124.4 797 148"
-        fill="#fafafa"
-      />
-      <polygon points="723 189 870 189 723 107 723 189" opacity="0.05" />
-      <polygon points="723 190 870 190 723 108 723 190" fill="#f5f5f5" />
-      <rect x="765" y="87" width="62" height="4" fill="#fff" />
-      <rect x="765" y="95" width="62" height="4" fill="#fff" />
-      <rect x="765" y="103" width="62" height="4" fill={color} />
-      <rect x="765" y="111" width="62" height="4" fill="#fff" />
-      <rect x="765" y="119" width="62" height="4" fill={color} />
-      <polygon
-        points="839 125 839 123 795.26 147.31 796.45 147.97 839 125"
-        opacity="0.05"
-      />
-      <g opacity="0.5">
-        <rect
-          x="541.02"
-          y="620"
-          width="173.95"
-          height="175"
-          fill="url(#77e7c8c2-0f5e-4b8d-920a-2630d282c2c9)"
-        />
-      </g>
-      <rect x="545" y="624" width="166" height="167" fill="#f5f5f5" />
-      <rect x="556" y="629" width="146" height="128" fill="#fff" />
       <path
-        d="M865.22,768.5c-40.35,0-73-10.29-73-23-40.35,0-73,8.95-73,20v48h146Z"
-        transform="translate(-163.22 -52.5)"
+        fill="url(#CustomerSurvey_svg__h)"
+        d="M873.56 107.09L796.5 42l-75.86 64.95-.68-.38v.52h-.52l.52.29V193h153.08l-.93-.52h1.45v-85.39z"
+        opacity={0.5}
+      />
+      <path fill="#fff" d="M870.5 189.5h-147v-82l73-62.5 74 62.5v82z" />
+      <path fill="#e0e0e0" d="M722.5 107.5l73 41 74-41" />
+      <path
+        fill="url(#CustomerSurvey_svg__i)"
+        d="M797.02 147.47L752 176V69h89v54.42l-43.98 24.05z"
+        opacity={0.5}
+      />
+      <path fill="#fafafa" d="M797 148l-43 28V71h85v53.4L797 148z" />
+      <path opacity={0.05} d="M723 189h147l-147-82v82z" />
+      <path fill="#f5f5f5" d="M723 190h147l-147-82v82z" />
+      <path fill="#fff" d="M765 87h62v4h-62zM765 95h62v4h-62z" />
+      <path fill={color} d="M765 103h62v4h-62z" />
+      <path fill="#fff" d="M765 111h62v4h-62z" />
+      <path fill={color} d="M765 119h62v4h-62z" />
+      <path opacity={0.05} d="M839 125v-2l-43.74 24.31 1.19.66L839 125z" />
+      <path
+        fill="url(#CustomerSurvey_svg__j)"
+        d="M541.02 620h173.95v175H541.02z"
+        opacity={0.5}
+      />
+      <path fill="#f5f5f5" d="M545 624h166v167H545z" />
+      <path fill="#fff" d="M556 629h146v128H556z" />
+      <path
+        d="M702 716c-40.35 0-73-10.29-73-23-40.35 0-73 8.95-73 20v48h146z"
         fill="#e0e0e0"
       />
-      <circle cx="678" cy="657" r="15" fill={color} />
-      <g opacity="0.5">
-        <rect
-          y="319.75"
-          width="204"
-          height="144.5"
-          fill="url(#a6898519-96e7-44e1-b71e-df9c3f17d463)"
-        />
-      </g>
-      <rect x="6" y="324" width="192" height="136" fill="#fff" />
+      <circle cx={678} cy={657} r={15} fill={color} />
       <path
-        d="M269.17,410.84a37.29,37.29,0,0,0-4.8.32l4.8,36.68-36.91-2.46c-.05.81-.09,1.63-.09,2.46a37,37,0,1,0,37-37Z"
-        transform="translate(-163.22 -52.5)"
+        fill="url(#CustomerSurvey_svg__k)"
+        d="M0 319.75h204v144.5H0z"
+        opacity={0.5}
+      />
+      <path fill="#fff" d="M6 324h192v136H6z" />
+      <path
+        d="M105.95 358.34a37.29 37.29 0 00-4.8.32l4.8 36.68-36.91-2.46c-.05.81-.09 1.63-.09 2.46a37 37 0 1037-37z"
         fill="#e0e0e0"
       />
-      <path
-        d="M256.37,404.16a37,37,0,0,0-32.11,34.22l36.91,2.46Z"
-        transform="translate(-163.22 -52.5)"
-        fill={color}
-      />
+      <path d="M93.15 351.66a37 37 0 00-32.11 34.22l36.91 2.46z" fill={color} />
     </svg>
   );
 };
 
-CustomerSurvey.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgCustomerSurvey.propTypes = {
+  color: PropTypes.string
 };
-
-CustomerSurvey.defaultProps = {
-  color: "primary",
-  style: {}
+SvgCustomerSurvey.defaultProps = {
+  color: "primary"
 };
-
-export default CustomerSurvey;
+const MemoSvgCustomerSurvey = React.memo(SvgCustomerSurvey);
+export default MemoSvgCustomerSurvey;

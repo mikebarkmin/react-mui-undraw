@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const ServerCluster = ({ color, style }) => {
+const SvgServerCluster = ({ color }) => {
   const theme = useTheme();
+
   if (color == "primary") {
     color = theme.palette.primary.main;
   } else if (color == "secondary") {
@@ -12,308 +13,93 @@ const ServerCluster = ({ color, style }) => {
 
   return (
     <svg
-      style={{ width: "100%", height: "auto", ...style }}
-      id="b5d1da7b-a9c6-4711-8d73-fa7937ec989e"
       data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="888"
-      height="710.80704"
-      viewBox="0 0 888 710.80704"
+      viewBox="0 0 888 710.807"
+      width="100%"
+      height="auto"
+      {...props}
     >
-      <title>server_cluster</title>
       <path
-        d="M600.93555,699.40352a260.06372,260.06372,0,1,1,183.89355-76.1709A258.36518,258.36518,0,0,1,600.93555,699.40352Zm0-518.12891c-142.29688,0-258.06446,115.76758-258.06446,258.06494s115.76758,258.064,258.06446,258.064S859,581.63692,859,439.33955,743.23242,181.27461,600.93555,181.27461Z"
-        transform="translate(-156 -94.59648)"
+        d="M444.936 604.807a260.064 260.064 0 11183.893-76.17 258.365 258.365 0 01-183.893 76.17zm0-518.129c-142.297 0-258.065 115.768-258.065 258.065S302.64 602.807 444.936 602.807 703 487.04 703 344.743 587.232 86.678 444.936 86.678z"
         fill="#ccc"
       />
-      <rect
-        x="469"
-        y="509.90391"
-        width="262"
-        height="195"
-        transform="translate(1051.40391 -87.19257) rotate(90)"
-        fill="#2f2e41"
-      />
-      <rect x="313" y="373.80743" width="262" height="104" fill="#3f3d56" />
-      <rect x="313" y="489.80743" width="262" height="104" fill="#3f3d56" />
-      <rect x="313" y="605.80743" width="262" height="104" fill="#3f3d56" />
-      <rect x="313" y="417.90372" width="262" height="16" fill={color} />
-      <rect x="313" y="533.90372" width="262" height="16" fill={color} />
-      <rect x="313" y="649.90372" width="262" height="16" fill={color} />
-      <circle cx="524" cy="388.80743" r="6" fill={color} />
-      <circle cx="545" cy="388.80743" r="6" fill={color} />
-      <circle cx="566" cy="388.80743" r="6" fill={color} />
-      <circle cx="524" cy="502.80743" r="6" fill={color} />
-      <circle cx="545" cy="502.80743" r="6" fill={color} />
-      <circle cx="566" cy="502.80743" r="6" fill={color} />
-      <circle cx="524" cy="616.80743" r="6" fill={color} />
-      <circle cx="545" cy="616.80743" r="6" fill={color} />
-      <circle cx="566" cy="616.80743" r="6" fill={color} />
-      <rect y="708.80704" width="888" height="2" fill="#3f3d56" />
+      <path fill="#2f2e41" d="M541.5 381.807v262h-195v-262z" />
       <path
-        d="M397.8787,365.66116v185.9917a14.67525,14.67525,0,0,1-14.67227,14.67231H310.928a14.67656,14.67656,0,0,1-14.6784-14.67231V365.66116a14.67655,14.67655,0,0,1,14.6784-14.67228h8.76786a6.9778,6.9778,0,0,0,6.4551,9.60614h41.20843a6.97774,6.97774,0,0,0,6.45506-9.60614h9.392A14.67524,14.67524,0,0,1,397.8787,365.66116Z"
-        transform="translate(-156 -94.59648)"
-        fill="#e6e6e6"
+        fill="#3f3d56"
+        d="M313 373.807h262v104H313zM313 489.807h262v104H313zM313 605.807h262v104H313z"
       />
-      <rect x="145.06414" y="291.91002" width="92" height="128" fill="#fff" />
-      <rect
-        x="171.18557"
-        y="379.92719"
-        width="36.71978"
-        height="2.09827"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="171.14869"
-        y="387.63152"
-        width="56.81724"
-        height="2.09827"
+      <path
         fill={color}
+        d="M313 417.904h262v16H313zM313 533.904h262v16H313zM313 649.904h262v16H313z"
       />
-      <rect
-        x="171.14869"
-        y="394.89011"
-        width="44.5883"
-        height="2.09827"
+      <circle cx={524} cy={388.807} r={6} fill={color} />
+      <circle cx={545} cy={388.807} r={6} fill={color} />
+      <circle cx={566} cy={388.807} r={6} fill={color} />
+      <circle cx={524} cy={502.807} r={6} fill={color} />
+      <circle cx={545} cy={502.807} r={6} fill={color} />
+      <circle cx={566} cy={502.807} r={6} fill={color} />
+      <circle cx={524} cy={616.807} r={6} fill={color} />
+      <circle cx={545} cy={616.807} r={6} fill={color} />
+      <circle cx={566} cy={616.807} r={6} fill={color} />
+      <path fill="#3f3d56" d="M0 708.807h888v2H0z" />
+      <path
+        d="M241.879 271.065v185.991a14.675 14.675 0 01-14.673 14.673h-72.278a14.677 14.677 0 01-14.678-14.673V271.065a14.677 14.677 0 0114.678-14.673h8.768A6.978 6.978 0 00170.15 266h41.208a6.978 6.978 0 006.455-9.607h9.392a14.675 14.675 0 0114.673 14.673z"
         fill="#e6e6e6"
       />
-      <rect
-        x="171.14869"
-        y="402.1487"
-        width="26.22841"
-        height="2.09827"
+      <path fill="#fff" d="M145.064 291.91h92v128h-92z" />
+      <path fill="#e6e6e6" d="M171.186 379.927h36.72v2.098h-36.72z" />
+      <path fill={color} d="M171.149 387.632h56.817v2.098h-56.817z" />
+      <path
         fill="#e6e6e6"
+        d="M171.149 394.89h44.588v2.098h-44.588zM171.149 402.149h26.228v2.098h-26.228zM171.149 409.407h39.343v2.098h-39.343zM154.533 379.324h4.197v4.197h-4.197z"
       />
-      <rect
-        x="171.14869"
-        y="409.40729"
-        width="39.34262"
-        height="2.09827"
+      <path fill={color} d="M154.533 386.582h4.197v4.197h-4.197z" />
+      <path
         fill="#e6e6e6"
+        d="M154.533 393.841h4.197v4.197h-4.197zM154.533 401.1h4.197v4.197h-4.197zM154.533 408.358h4.197v4.197h-4.197zM172.751 307.91h36.998v36.998h-36.998zM321.111.139h245.884v157.475H321.111z"
       />
-      <rect
-        x="154.53324"
-        y="379.32379"
-        width="4.19655"
-        height="4.19655"
+      <path fill="#fff" d="M339.647 44.195h203.861v77.035H339.647z" />
+      <path fill="#e6e6e6" d="M376.789 57.542h48.927v2.796h-48.927z" />
+      <path fill={color} d="M376.74 67.807h75.705v2.796H376.74z" />
+      <path
         fill="#e6e6e6"
+        d="M376.74 77.479h59.411v2.796H376.74zM376.74 87.151h34.948v2.796H376.74zM376.74 96.822h52.422v2.796H376.74zM354.601 56.738h5.592v5.592h-5.592z"
       />
-      <rect
-        x="154.53324"
-        y="386.58238"
-        width="4.19655"
-        height="4.19655"
-        fill={color}
-      />
-      <rect
-        x="154.53324"
-        y="393.84097"
-        width="4.19655"
-        height="4.19655"
+      <path fill={color} d="M354.601 66.409h5.592v5.592h-5.592z" />
+      <path
         fill="#e6e6e6"
+        d="M354.601 76.081h5.592v5.592h-5.592zM354.601 85.753h5.592v5.592h-5.592zM354.601 95.424h5.592v5.592h-5.592zM483.445 53.847h50.059v50.059h-50.059z"
       />
-      <rect
-        x="154.53324"
-        y="401.09956"
-        width="4.19655"
-        height="4.19655"
+      <path fill={color} d="M321.006 0H566.89v10.446H321.006z" />
+      <circle cx={328.768} cy={5.341} r={2.097} fill="#fff" />
+      <circle cx={336.117} cy={5.341} r={2.097} fill="#fff" />
+      <circle cx={343.466} cy={5.341} r={2.097} fill="#fff" />
+      <path
         fill="#e6e6e6"
+        d="M671.648 294.807h60v31h-60zM671.648 405.807h60v31h-60z"
       />
-      <rect
-        x="154.53324"
-        y="408.35815"
-        width="4.19655"
-        height="4.19655"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="172.75082"
-        y="307.91002"
-        width="36.99753"
-        height="36.99753"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="321.11058"
-        y="0.13939"
-        width="245.88383"
-        height="157.47494"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="339.64671"
-        y="44.19534"
-        width="203.86136"
-        height="77.03517"
-        fill="#fff"
-      />
-      <rect
-        x="376.78939"
-        y="57.54179"
-        width="48.92684"
-        height="2.79582"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="376.74025"
-        y="67.80733"
-        width="75.70547"
-        height="2.79582"
-        fill={color}
-      />
-      <rect
-        x="376.74025"
-        y="77.47895"
-        width="59.41117"
-        height="2.79582"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="376.74025"
-        y="87.15058"
-        width="34.94775"
-        height="2.79582"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="376.74025"
-        y="96.8222"
-        width="52.42162"
-        height="2.79582"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="354.60119"
-        y="56.7378"
-        width="5.59164"
-        height="5.59164"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="354.60119"
-        y="66.40942"
-        width="5.59164"
-        height="5.59164"
-        fill={color}
-      />
-      <rect
-        x="354.60119"
-        y="76.08104"
-        width="5.59164"
-        height="5.59164"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="354.60119"
-        y="85.75267"
-        width="5.59164"
-        height="5.59164"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="354.60119"
-        y="95.42429"
-        width="5.59164"
-        height="5.59164"
-        fill="#e6e6e6"
-      />
-      <rect
-        x="483.44507"
-        y="53.8475"
-        width="50.05873"
-        height="50.05873"
-        fill="#e6e6e6"
-      />
-      <rect x="321.00559" width="245.88383" height="10.44604" fill={color} />
-      <circle cx="328.76825" cy="5.34057" r="2.09686" fill="#fff" />
-      <circle cx="336.11718" cy="5.34057" r="2.09686" fill="#fff" />
-      <circle cx="343.46611" cy="5.34057" r="2.09686" fill="#fff" />
-      <rect x="671.64772" y="294.80743" width="60" height="31" fill="#e6e6e6" />
-      <rect x="671.64772" y="405.80743" width="60" height="31" fill="#e6e6e6" />
-      <circle cx="701.64772" cy="365.80743" r="50" fill="#e6e6e6" />
-      <circle cx="701.64772" cy="365.80743" r="39" fill="#fff" />
-      <rect
-        x="688.87659"
-        y="355.12175"
-        width="30.24683"
-        height="1.72839"
+      <circle cx={701.648} cy={365.807} r={50} fill="#e6e6e6" />
+      <circle cx={701.648} cy={365.807} r={39} fill="#fff" />
+      <path fill="#e2e2e2" d="M688.877 355.122h30.247v1.728h-30.247z" />
+      <path fill={color} d="M688.846 361.468h46.802v1.728h-46.802z" />
+      <path
         fill="#e2e2e2"
+        d="M688.846 367.447h36.728v1.728h-36.728zM688.846 373.426h21.605v1.728h-21.605zM688.846 379.405h32.407v1.728h-32.407zM675.16 354.625h3.457v3.457h-3.457z"
       />
-      <rect
-        x="688.84621"
-        y="361.46796"
-        width="46.80151"
-        height="1.72839"
-        fill={color}
-      />
-      <rect
-        x="688.84621"
-        y="367.44701"
-        width="36.72829"
-        height="1.72839"
+      <path fill={color} d="M675.16 360.604h3.457v3.457h-3.457z" />
+      <path
         fill="#e2e2e2"
-      />
-      <rect
-        x="688.84621"
-        y="373.42605"
-        width="21.60488"
-        height="1.72839"
-        fill="#e2e2e2"
-      />
-      <rect
-        x="688.84621"
-        y="379.4051"
-        width="32.40732"
-        height="1.72839"
-        fill="#e2e2e2"
-      />
-      <rect
-        x="675.15972"
-        y="354.62472"
-        width="3.45678"
-        height="3.45678"
-        fill="#e2e2e2"
-      />
-      <rect
-        x="675.15972"
-        y="360.60376"
-        width="3.45678"
-        height="3.45678"
-        fill={color}
-      />
-      <rect
-        x="675.15972"
-        y="366.58281"
-        width="3.45678"
-        height="3.45678"
-        fill="#e2e2e2"
-      />
-      <rect
-        x="675.15972"
-        y="372.56186"
-        width="3.45678"
-        height="3.45678"
-        fill="#e2e2e2"
-      />
-      <rect
-        x="675.15972"
-        y="378.54091"
-        width="3.45678"
-        height="3.45678"
-        fill="#e2e2e2"
+        d="M675.16 366.583h3.457v3.457h-3.457zM675.16 372.562h3.457v3.457h-3.457zM675.16 378.541h3.457v3.457h-3.457z"
       />
     </svg>
   );
 };
 
-ServerCluster.propTypes = {
-  color: PropTypes.string,
-  style: PropTypes.object
+SvgServerCluster.propTypes = {
+  color: PropTypes.string
 };
-
-ServerCluster.defaultProps = {
-  color: "primary",
-  style: {}
+SvgServerCluster.defaultProps = {
+  color: "primary"
 };
-
-export default ServerCluster;
+const MemoSvgServerCluster = React.memo(SvgServerCluster);
+export default MemoSvgServerCluster;
