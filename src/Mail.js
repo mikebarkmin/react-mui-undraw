@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const SvgMail = ({ color }) => {
+const SvgMail = ({ color, ...props }) => {
   const theme = useTheme();
 
   if (color == "primary") {

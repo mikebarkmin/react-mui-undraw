@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const SvgSnapTheMoment = ({ color }) => {
+const SvgSnapTheMoment = ({ color, ...props }) => {
   const theme = useTheme();
 
   if (color == "primary") {

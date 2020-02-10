@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const SvgPartying = ({ color }) => {
+const SvgPartying = ({ color, ...props }) => {
   const theme = useTheme();
 
   if (color == "primary") {

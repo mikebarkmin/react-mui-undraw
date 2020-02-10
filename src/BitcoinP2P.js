@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const SvgBitcoinP2P = ({ color }) => {
+const SvgBitcoinP2P = ({ color, ...props }) => {
   const theme = useTheme();
 
   if (color == "primary") {

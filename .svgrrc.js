@@ -8,7 +8,7 @@ function template(
     import PropTypes from 'prop-types';
     import { useTheme } from '@material-ui/core/styles';
 
-    const ${componentName} = ({ color }) => {
+    const ${componentName} = ({ color, ...props }) => {
       const theme = useTheme();
 
       if (color == "primary") {

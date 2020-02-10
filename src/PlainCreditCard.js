@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const SvgPlainCreditCard = ({ color }) => {
+const SvgPlainCreditCard = ({ color, ...props }) => {
   const theme = useTheme();
 
   if (color == "primary") {

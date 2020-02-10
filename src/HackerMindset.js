@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@material-ui/core/styles";
 
-const SvgHackerMindset = ({ color }) => {
+const SvgHackerMindset = ({ color, ...props }) => {
   const theme = useTheme();
 
   if (color == "primary") {
