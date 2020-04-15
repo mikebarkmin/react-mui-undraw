@@ -40,17 +40,21 @@ def get_svgs():
         for illustration in illustrations:
             title = illustration["title"]
             image_url = illustration["image"]
-            print(f"Fetch image {image_url}")
+            message = f"Fetch image {image_url}"
             image = requests.get(image_url)
             images.append(image.content)
 
             path = "illustrations/{}.svg".format(title.title().replace(" ", ""))
 
             if os.path.exists(path):
+                message += " (cached)"
                 continue
 
             with open(path, "wb") as f:
                 f.write(image.content)
+                message += " (new)"
+
+            print(message)
 
             time.sleep(2)
 
@@ -84,6 +88,7 @@ def create_index():
 
 if __name__ == "__main__":
     print("What do you want to do?")
+    print("[0]: Everything")
     print("[1]: Get Meta Data")
     print("[2]: Get SVGs")
     print("[3]: Convert SVGs")
@@ -91,12 +96,12 @@ if __name__ == "__main__":
 
     choice = int(input("Number: "))
 
-    if choice == 1:
+    if choice == 1 or choice == 0:
         get_meta()
-    elif choice == 2:
+    elif choice == 2 or choice == 0:
         get_svgs()
-    elif choice == 3:
+    elif choice == 3 or choice == 0:
         convert_svgs()
-    elif choice == 4:
+    elif choice == 4 or choice == 0:
         create_index()
 
