@@ -1,5 +1,7 @@
 # Material UI Undraw
 
+[![npm version](https://badge.fury.io/js/mui-undraw.svg)](https://badge.fury.io/js/mui-undraw)
+
 Most of the [undraw](https://undraw.co) illustrations are support (See src folder).
 
 `npm install mui-undraw`
