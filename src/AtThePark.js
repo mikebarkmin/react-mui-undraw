@@ -249,5 +249,4 @@ SvgAtThePark.propTypes = {
 SvgAtThePark.defaultProps = {
   color: "primary"
 };
-const MemoSvgAtThePark = React.memo(SvgAtThePark);
-export default MemoSvgAtThePark;
+export default SvgAtThePark;

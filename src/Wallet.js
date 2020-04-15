@@ -336,5 +336,4 @@ SvgWallet.propTypes = {
 SvgWallet.defaultProps = {
   color: "primary"
 };
-const MemoSvgWallet = React.memo(SvgWallet);
-export default MemoSvgWallet;
+export default SvgWallet;

@@ -196,5 +196,4 @@ SvgRealTimeCollaboration.propTypes = {
 SvgRealTimeCollaboration.defaultProps = {
   color: "primary"
 };
-const MemoSvgRealTimeCollaboration = React.memo(SvgRealTimeCollaboration);
-export default MemoSvgRealTimeCollaboration;
+export default SvgRealTimeCollaboration;

@@ -124,5 +124,4 @@ SvgPullRequest.propTypes = {
 SvgPullRequest.defaultProps = {
   color: "primary"
 };
-const MemoSvgPullRequest = React.memo(SvgPullRequest);
-export default MemoSvgPullRequest;
+export default SvgPullRequest;

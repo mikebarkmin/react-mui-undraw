@@ -126,5 +126,4 @@ SvgCabin.propTypes = {
 SvgCabin.defaultProps = {
   color: "primary"
 };
-const MemoSvgCabin = React.memo(SvgCabin);
-export default MemoSvgCabin;
+export default SvgCabin;

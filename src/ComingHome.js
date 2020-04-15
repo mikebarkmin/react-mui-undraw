@@ -91,5 +91,4 @@ SvgComingHome.propTypes = {
 SvgComingHome.defaultProps = {
   color: "primary"
 };
-const MemoSvgComingHome = React.memo(SvgComingHome);
-export default MemoSvgComingHome;
+export default SvgComingHome;

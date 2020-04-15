@@ -97,5 +97,4 @@ SvgBroadcast.propTypes = {
 SvgBroadcast.defaultProps = {
   color: "primary"
 };
-const MemoSvgBroadcast = React.memo(SvgBroadcast);
-export default MemoSvgBroadcast;
+export default SvgBroadcast;

@@ -1401,5 +1401,4 @@ SvgMobileBrowsers.propTypes = {
 SvgMobileBrowsers.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileBrowsers = React.memo(SvgMobileBrowsers);
-export default MemoSvgMobileBrowsers;
+export default SvgMobileBrowsers;

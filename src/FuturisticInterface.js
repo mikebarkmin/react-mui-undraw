@@ -177,5 +177,4 @@ SvgFuturisticInterface.propTypes = {
 SvgFuturisticInterface.defaultProps = {
   color: "primary"
 };
-const MemoSvgFuturisticInterface = React.memo(SvgFuturisticInterface);
-export default MemoSvgFuturisticInterface;
+export default SvgFuturisticInterface;

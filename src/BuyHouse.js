@@ -110,5 +110,4 @@ SvgBuyHouse.propTypes = {
 SvgBuyHouse.defaultProps = {
   color: "primary"
 };
-const MemoSvgBuyHouse = React.memo(SvgBuyHouse);
-export default MemoSvgBuyHouse;
+export default SvgBuyHouse;

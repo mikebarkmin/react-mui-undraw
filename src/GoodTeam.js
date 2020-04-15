@@ -245,5 +245,4 @@ SvgGoodTeam.propTypes = {
 SvgGoodTeam.defaultProps = {
   color: "primary"
 };
-const MemoSvgGoodTeam = React.memo(SvgGoodTeam);
-export default MemoSvgGoodTeam;
+export default SvgGoodTeam;

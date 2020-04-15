@@ -103,5 +103,4 @@ SvgGrandma.propTypes = {
 SvgGrandma.defaultProps = {
   color: "primary"
 };
-const MemoSvgGrandma = React.memo(SvgGrandma);
-export default MemoSvgGrandma;
+export default SvgGrandma;

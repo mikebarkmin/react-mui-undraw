@@ -434,5 +434,4 @@ SvgStaticAssets.propTypes = {
 SvgStaticAssets.defaultProps = {
   color: "primary"
 };
-const MemoSvgStaticAssets = React.memo(SvgStaticAssets);
-export default MemoSvgStaticAssets;
+export default SvgStaticAssets;

@@ -262,5 +262,4 @@ SvgTeddyBear.propTypes = {
 SvgTeddyBear.defaultProps = {
   color: "primary"
 };
-const MemoSvgTeddyBear = React.memo(SvgTeddyBear);
-export default MemoSvgTeddyBear;
+export default SvgTeddyBear;

@@ -139,5 +139,4 @@ SvgBestPlace.propTypes = {
 SvgBestPlace.defaultProps = {
   color: "primary"
 };
-const MemoSvgBestPlace = React.memo(SvgBestPlace);
-export default MemoSvgBestPlace;
+export default SvgBestPlace;

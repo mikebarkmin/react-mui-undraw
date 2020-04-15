@@ -203,5 +203,4 @@ SvgSleepAnalysis.propTypes = {
 SvgSleepAnalysis.defaultProps = {
   color: "primary"
 };
-const MemoSvgSleepAnalysis = React.memo(SvgSleepAnalysis);
-export default MemoSvgSleepAnalysis;
+export default SvgSleepAnalysis;

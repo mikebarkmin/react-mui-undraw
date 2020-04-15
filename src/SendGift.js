@@ -106,5 +106,4 @@ SvgSendGift.propTypes = {
 SvgSendGift.defaultProps = {
   color: "primary"
 };
-const MemoSvgSendGift = React.memo(SvgSendGift);
-export default MemoSvgSendGift;
+export default SvgSendGift;

@@ -148,5 +148,4 @@ SvgInThought.propTypes = {
 SvgInThought.defaultProps = {
   color: "primary"
 };
-const MemoSvgInThought = React.memo(SvgInThought);
-export default MemoSvgInThought;
+export default SvgInThought;

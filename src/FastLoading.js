@@ -331,5 +331,4 @@ SvgFastLoading.propTypes = {
 SvgFastLoading.defaultProps = {
   color: "primary"
 };
-const MemoSvgFastLoading = React.memo(SvgFastLoading);
-export default MemoSvgFastLoading;
+export default SvgFastLoading;

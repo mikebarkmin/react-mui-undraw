@@ -313,5 +313,4 @@ SvgMobileLife.propTypes = {
 SvgMobileLife.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileLife = React.memo(SvgMobileLife);
-export default MemoSvgMobileLife;
+export default SvgMobileLife;

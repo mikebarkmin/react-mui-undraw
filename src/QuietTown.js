@@ -122,5 +122,4 @@ SvgQuietTown.propTypes = {
 SvgQuietTown.defaultProps = {
   color: "primary"
 };
-const MemoSvgQuietTown = React.memo(SvgQuietTown);
-export default MemoSvgQuietTown;
+export default SvgQuietTown;

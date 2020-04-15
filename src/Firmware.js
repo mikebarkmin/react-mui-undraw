@@ -302,5 +302,4 @@ SvgFirmware.propTypes = {
 SvgFirmware.defaultProps = {
   color: "primary"
 };
-const MemoSvgFirmware = React.memo(SvgFirmware);
-export default MemoSvgFirmware;
+export default SvgFirmware;

@@ -301,5 +301,4 @@ SvgDoctor.propTypes = {
 SvgDoctor.defaultProps = {
   color: "primary"
 };
-const MemoSvgDoctor = React.memo(SvgDoctor);
-export default MemoSvgDoctor;
+export default SvgDoctor;

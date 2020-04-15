@@ -99,5 +99,4 @@ SvgTowing.propTypes = {
 SvgTowing.defaultProps = {
   color: "primary"
 };
-const MemoSvgTowing = React.memo(SvgTowing);
-export default MemoSvgTowing;
+export default SvgTowing;

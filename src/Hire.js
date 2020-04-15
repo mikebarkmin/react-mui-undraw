@@ -247,5 +247,4 @@ SvgHire.propTypes = {
 SvgHire.defaultProps = {
   color: "primary"
 };
-const MemoSvgHire = React.memo(SvgHire);
-export default MemoSvgHire;
+export default SvgHire;

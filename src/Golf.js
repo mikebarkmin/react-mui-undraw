@@ -173,5 +173,4 @@ SvgGolf.propTypes = {
 SvgGolf.defaultProps = {
   color: "primary"
 };
-const MemoSvgGolf = React.memo(SvgGolf);
-export default MemoSvgGolf;
+export default SvgGolf;

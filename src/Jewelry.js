@@ -107,5 +107,4 @@ SvgJewelry.propTypes = {
 SvgJewelry.defaultProps = {
   color: "primary"
 };
-const MemoSvgJewelry = React.memo(SvgJewelry);
-export default MemoSvgJewelry;
+export default SvgJewelry;

@@ -106,5 +106,4 @@ SvgOrderRide.propTypes = {
 SvgOrderRide.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrderRide = React.memo(SvgOrderRide);
-export default MemoSvgOrderRide;
+export default SvgOrderRide;

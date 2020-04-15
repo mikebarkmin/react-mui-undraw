@@ -462,5 +462,4 @@ SvgRomanticGetaway.propTypes = {
 SvgRomanticGetaway.defaultProps = {
   color: "primary"
 };
-const MemoSvgRomanticGetaway = React.memo(SvgRomanticGetaway);
-export default MemoSvgRomanticGetaway;
+export default SvgRomanticGetaway;

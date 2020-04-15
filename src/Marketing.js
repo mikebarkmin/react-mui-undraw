@@ -126,5 +126,4 @@ SvgMarketing.propTypes = {
 SvgMarketing.defaultProps = {
   color: "primary"
 };
-const MemoSvgMarketing = React.memo(SvgMarketing);
-export default MemoSvgMarketing;
+export default SvgMarketing;

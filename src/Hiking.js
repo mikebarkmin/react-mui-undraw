@@ -232,5 +232,4 @@ SvgHiking.propTypes = {
 SvgHiking.defaultProps = {
   color: "primary"
 };
-const MemoSvgHiking = React.memo(SvgHiking);
-export default MemoSvgHiking;
+export default SvgHiking;

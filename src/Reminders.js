@@ -143,5 +143,4 @@ SvgReminders.propTypes = {
 SvgReminders.defaultProps = {
   color: "primary"
 };
-const MemoSvgReminders = React.memo(SvgReminders);
-export default MemoSvgReminders;
+export default SvgReminders;

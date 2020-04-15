@@ -88,5 +88,4 @@ SvgTerms.propTypes = {
 SvgTerms.defaultProps = {
   color: "primary"
 };
-const MemoSvgTerms = React.memo(SvgTerms);
-export default MemoSvgTerms;
+export default SvgTerms;

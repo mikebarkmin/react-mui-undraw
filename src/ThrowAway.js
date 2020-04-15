@@ -138,5 +138,4 @@ SvgThrowAway.propTypes = {
 SvgThrowAway.defaultProps = {
   color: "primary"
 };
-const MemoSvgThrowAway = React.memo(SvgThrowAway);
-export default MemoSvgThrowAway;
+export default SvgThrowAway;

@@ -122,5 +122,4 @@ SvgEnter.propTypes = {
 SvgEnter.defaultProps = {
   color: "primary"
 };
-const MemoSvgEnter = React.memo(SvgEnter);
-export default MemoSvgEnter;
+export default SvgEnter;

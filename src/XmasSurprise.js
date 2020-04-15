@@ -165,5 +165,4 @@ SvgXmasSurprise.propTypes = {
 SvgXmasSurprise.defaultProps = {
   color: "primary"
 };
-const MemoSvgXmasSurprise = React.memo(SvgXmasSurprise);
-export default MemoSvgXmasSurprise;
+export default SvgXmasSurprise;

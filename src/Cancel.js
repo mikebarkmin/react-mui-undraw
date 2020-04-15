@@ -125,5 +125,4 @@ SvgCancel.propTypes = {
 SvgCancel.defaultProps = {
   color: "primary"
 };
-const MemoSvgCancel = React.memo(SvgCancel);
-export default MemoSvgCancel;
+export default SvgCancel;

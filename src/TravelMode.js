@@ -86,5 +86,4 @@ SvgTravelMode.propTypes = {
 SvgTravelMode.defaultProps = {
   color: "primary"
 };
-const MemoSvgTravelMode = React.memo(SvgTravelMode);
-export default MemoSvgTravelMode;
+export default SvgTravelMode;

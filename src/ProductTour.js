@@ -610,5 +610,4 @@ SvgProductTour.propTypes = {
 SvgProductTour.defaultProps = {
   color: "primary"
 };
-const MemoSvgProductTour = React.memo(SvgProductTour);
-export default MemoSvgProductTour;
+export default SvgProductTour;

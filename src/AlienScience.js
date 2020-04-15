@@ -372,5 +372,4 @@ SvgAlienScience.propTypes = {
 SvgAlienScience.defaultProps = {
   color: "primary"
 };
-const MemoSvgAlienScience = React.memo(SvgAlienScience);
-export default MemoSvgAlienScience;
+export default SvgAlienScience;

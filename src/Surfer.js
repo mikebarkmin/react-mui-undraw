@@ -269,5 +269,4 @@ SvgSurfer.propTypes = {
 SvgSurfer.defaultProps = {
   color: "primary"
 };
-const MemoSvgSurfer = React.memo(SvgSurfer);
-export default MemoSvgSurfer;
+export default SvgSurfer;

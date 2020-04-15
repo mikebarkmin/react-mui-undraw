@@ -521,5 +521,4 @@ SvgTabs.propTypes = {
 SvgTabs.defaultProps = {
   color: "primary"
 };
-const MemoSvgTabs = React.memo(SvgTabs);
-export default MemoSvgTabs;
+export default SvgTabs;

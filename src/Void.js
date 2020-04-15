@@ -79,5 +79,4 @@ SvgVoid.propTypes = {
 SvgVoid.defaultProps = {
   color: "primary"
 };
-const MemoSvgVoid = React.memo(SvgVoid);
-export default MemoSvgVoid;
+export default SvgVoid;

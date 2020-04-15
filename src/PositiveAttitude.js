@@ -146,5 +146,4 @@ SvgPositiveAttitude.propTypes = {
 SvgPositiveAttitude.defaultProps = {
   color: "primary"
 };
-const MemoSvgPositiveAttitude = React.memo(SvgPositiveAttitude);
-export default MemoSvgPositiveAttitude;
+export default SvgPositiveAttitude;

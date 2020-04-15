@@ -129,5 +129,4 @@ SvgPhotoSession.propTypes = {
 SvgPhotoSession.defaultProps = {
   color: "primary"
 };
-const MemoSvgPhotoSession = React.memo(SvgPhotoSession);
-export default MemoSvgPhotoSession;
+export default SvgPhotoSession;

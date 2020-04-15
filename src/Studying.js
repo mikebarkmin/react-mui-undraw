@@ -261,5 +261,4 @@ SvgStudying.propTypes = {
 SvgStudying.defaultProps = {
   color: "primary"
 };
-const MemoSvgStudying = React.memo(SvgStudying);
-export default MemoSvgStudying;
+export default SvgStudying;

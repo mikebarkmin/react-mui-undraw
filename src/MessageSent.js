@@ -134,5 +134,4 @@ SvgMessageSent.propTypes = {
 SvgMessageSent.defaultProps = {
   color: "primary"
 };
-const MemoSvgMessageSent = React.memo(SvgMessageSent);
-export default MemoSvgMessageSent;
+export default SvgMessageSent;

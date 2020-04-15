@@ -104,5 +104,4 @@ SvgMessagingApp.propTypes = {
 SvgMessagingApp.defaultProps = {
   color: "primary"
 };
-const MemoSvgMessagingApp = React.memo(SvgMessagingApp);
-export default MemoSvgMessagingApp;
+export default SvgMessagingApp;

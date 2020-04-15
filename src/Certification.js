@@ -79,5 +79,4 @@ SvgCertification.propTypes = {
 SvgCertification.defaultProps = {
   color: "primary"
 };
-const MemoSvgCertification = React.memo(SvgCertification);
-export default MemoSvgCertification;
+export default SvgCertification;

@@ -174,5 +174,4 @@ SvgAudioConversation.propTypes = {
 SvgAudioConversation.defaultProps = {
   color: "primary"
 };
-const MemoSvgAudioConversation = React.memo(SvgAudioConversation);
-export default MemoSvgAudioConversation;
+export default SvgAudioConversation;

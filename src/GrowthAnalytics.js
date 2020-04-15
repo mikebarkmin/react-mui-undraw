@@ -260,5 +260,4 @@ SvgGrowthAnalytics.propTypes = {
 SvgGrowthAnalytics.defaultProps = {
   color: "primary"
 };
-const MemoSvgGrowthAnalytics = React.memo(SvgGrowthAnalytics);
-export default MemoSvgGrowthAnalytics;
+export default SvgGrowthAnalytics;

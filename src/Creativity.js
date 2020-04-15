@@ -2034,5 +2034,4 @@ SvgCreativity.propTypes = {
 SvgCreativity.defaultProps = {
   color: "primary"
 };
-const MemoSvgCreativity = React.memo(SvgCreativity);
-export default MemoSvgCreativity;
+export default SvgCreativity;

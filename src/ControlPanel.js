@@ -583,5 +583,4 @@ SvgControlPanel.propTypes = {
 SvgControlPanel.defaultProps = {
   color: "primary"
 };
-const MemoSvgControlPanel = React.memo(SvgControlPanel);
-export default MemoSvgControlPanel;
+export default SvgControlPanel;

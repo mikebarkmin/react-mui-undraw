@@ -135,5 +135,4 @@ SvgWebBrowsing.propTypes = {
 SvgWebBrowsing.defaultProps = {
   color: "primary"
 };
-const MemoSvgWebBrowsing = React.memo(SvgWebBrowsing);
-export default MemoSvgWebBrowsing;
+export default SvgWebBrowsing;

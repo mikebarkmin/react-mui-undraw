@@ -587,5 +587,4 @@ SvgOperatingSystem.propTypes = {
 SvgOperatingSystem.defaultProps = {
   color: "primary"
 };
-const MemoSvgOperatingSystem = React.memo(SvgOperatingSystem);
-export default MemoSvgOperatingSystem;
+export default SvgOperatingSystem;

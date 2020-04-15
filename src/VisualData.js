@@ -282,5 +282,4 @@ SvgVisualData.propTypes = {
 SvgVisualData.defaultProps = {
   color: "primary"
 };
-const MemoSvgVisualData = React.memo(SvgVisualData);
-export default MemoSvgVisualData;
+export default SvgVisualData;

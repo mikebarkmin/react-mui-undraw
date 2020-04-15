@@ -440,5 +440,4 @@ SvgAirSupport.propTypes = {
 SvgAirSupport.defaultProps = {
   color: "primary"
 };
-const MemoSvgAirSupport = React.memo(SvgAirSupport);
-export default MemoSvgAirSupport;
+export default SvgAirSupport;

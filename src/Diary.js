@@ -112,5 +112,4 @@ SvgDiary.propTypes = {
 SvgDiary.defaultProps = {
   color: "primary"
 };
-const MemoSvgDiary = React.memo(SvgDiary);
-export default MemoSvgDiary;
+export default SvgDiary;

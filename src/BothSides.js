@@ -72,5 +72,4 @@ SvgBothSides.propTypes = {
 SvgBothSides.defaultProps = {
   color: "primary"
 };
-const MemoSvgBothSides = React.memo(SvgBothSides);
-export default MemoSvgBothSides;
+export default SvgBothSides;

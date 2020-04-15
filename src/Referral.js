@@ -188,5 +188,4 @@ SvgReferral.propTypes = {
 SvgReferral.defaultProps = {
   color: "primary"
 };
-const MemoSvgReferral = React.memo(SvgReferral);
-export default MemoSvgReferral;
+export default SvgReferral;

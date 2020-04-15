@@ -213,5 +213,4 @@ SvgSpecs.propTypes = {
 SvgSpecs.defaultProps = {
   color: "primary"
 };
-const MemoSvgSpecs = React.memo(SvgSpecs);
-export default MemoSvgSpecs;
+export default SvgSpecs;

@@ -99,5 +99,4 @@ SvgBooked.propTypes = {
 SvgBooked.defaultProps = {
   color: "primary"
 };
-const MemoSvgBooked = React.memo(SvgBooked);
-export default MemoSvgBooked;
+export default SvgBooked;

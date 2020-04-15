@@ -95,5 +95,4 @@ SvgShareOpinion.propTypes = {
 SvgShareOpinion.defaultProps = {
   color: "primary"
 };
-const MemoSvgShareOpinion = React.memo(SvgShareOpinion);
-export default MemoSvgShareOpinion;
+export default SvgShareOpinion;

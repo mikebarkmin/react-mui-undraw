@@ -480,5 +480,4 @@ SvgOrganizingProjects.propTypes = {
 SvgOrganizingProjects.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrganizingProjects = React.memo(SvgOrganizingProjects);
-export default MemoSvgOrganizingProjects;
+export default SvgOrganizingProjects;

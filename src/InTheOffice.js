@@ -334,5 +334,4 @@ SvgInTheOffice.propTypes = {
 SvgInTheOffice.defaultProps = {
   color: "primary"
 };
-const MemoSvgInTheOffice = React.memo(SvgInTheOffice);
-export default MemoSvgInTheOffice;
+export default SvgInTheOffice;

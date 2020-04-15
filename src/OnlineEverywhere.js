@@ -104,5 +104,4 @@ SvgOnlineEverywhere.propTypes = {
 SvgOnlineEverywhere.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineEverywhere = React.memo(SvgOnlineEverywhere);
-export default MemoSvgOnlineEverywhere;
+export default SvgOnlineEverywhere;

@@ -547,5 +547,4 @@ SvgMaintenance.propTypes = {
 SvgMaintenance.defaultProps = {
   color: "primary"
 };
-const MemoSvgMaintenance = React.memo(SvgMaintenance);
-export default MemoSvgMaintenance;
+export default SvgMaintenance;

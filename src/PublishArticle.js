@@ -74,5 +74,4 @@ SvgPublishArticle.propTypes = {
 SvgPublishArticle.defaultProps = {
   color: "primary"
 };
-const MemoSvgPublishArticle = React.memo(SvgPublishArticle);
-export default MemoSvgPublishArticle;
+export default SvgPublishArticle;

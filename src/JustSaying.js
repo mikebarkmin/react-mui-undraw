@@ -81,5 +81,4 @@ SvgJustSaying.propTypes = {
 SvgJustSaying.defaultProps = {
   color: "primary"
 };
-const MemoSvgJustSaying = React.memo(SvgJustSaying);
-export default MemoSvgJustSaying;
+export default SvgJustSaying;

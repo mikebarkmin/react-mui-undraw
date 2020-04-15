@@ -381,5 +381,4 @@ SvgWebsiteSetup.propTypes = {
 SvgWebsiteSetup.defaultProps = {
   color: "primary"
 };
-const MemoSvgWebsiteSetup = React.memo(SvgWebsiteSetup);
-export default MemoSvgWebsiteSetup;
+export default SvgWebsiteSetup;

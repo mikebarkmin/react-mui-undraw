@@ -1842,5 +1842,4 @@ SvgFans.propTypes = {
 SvgFans.defaultProps = {
   color: "primary"
 };
-const MemoSvgFans = React.memo(SvgFans);
-export default MemoSvgFans;
+export default SvgFans;

@@ -136,5 +136,4 @@ SvgLovingStory.propTypes = {
 SvgLovingStory.defaultProps = {
   color: "primary"
 };
-const MemoSvgLovingStory = React.memo(SvgLovingStory);
-export default MemoSvgLovingStory;
+export default SvgLovingStory;

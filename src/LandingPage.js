@@ -159,5 +159,4 @@ SvgLandingPage.propTypes = {
 SvgLandingPage.defaultProps = {
   color: "primary"
 };
-const MemoSvgLandingPage = React.memo(SvgLandingPage);
-export default MemoSvgLandingPage;
+export default SvgLandingPage;

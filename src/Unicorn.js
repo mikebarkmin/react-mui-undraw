@@ -80,5 +80,4 @@ SvgUnicorn.propTypes = {
 SvgUnicorn.defaultProps = {
   color: "primary"
 };
-const MemoSvgUnicorn = React.memo(SvgUnicorn);
-export default MemoSvgUnicorn;
+export default SvgUnicorn;

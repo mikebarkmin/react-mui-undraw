@@ -114,5 +114,4 @@ SvgWinterActivities.propTypes = {
 SvgWinterActivities.defaultProps = {
   color: "primary"
 };
-const MemoSvgWinterActivities = React.memo(SvgWinterActivities);
-export default MemoSvgWinterActivities;
+export default SvgWinterActivities;

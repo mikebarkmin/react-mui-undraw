@@ -168,5 +168,4 @@ SvgLoadMore.propTypes = {
 SvgLoadMore.defaultProps = {
   color: "primary"
 };
-const MemoSvgLoadMore = React.memo(SvgLoadMore);
-export default MemoSvgLoadMore;
+export default SvgLoadMore;

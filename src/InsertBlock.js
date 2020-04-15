@@ -212,5 +212,4 @@ SvgInsertBlock.propTypes = {
 SvgInsertBlock.defaultProps = {
   color: "primary"
 };
-const MemoSvgInsertBlock = React.memo(SvgInsertBlock);
-export default MemoSvgInsertBlock;
+export default SvgInsertBlock;

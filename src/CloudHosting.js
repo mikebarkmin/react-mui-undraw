@@ -240,5 +240,4 @@ SvgCloudHosting.propTypes = {
 SvgCloudHosting.defaultProps = {
   color: "primary"
 };
-const MemoSvgCloudHosting = React.memo(SvgCloudHosting);
-export default MemoSvgCloudHosting;
+export default SvgCloudHosting;

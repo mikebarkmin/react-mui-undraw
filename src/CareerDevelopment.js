@@ -104,5 +104,4 @@ SvgCareerDevelopment.propTypes = {
 SvgCareerDevelopment.defaultProps = {
   color: "primary"
 };
-const MemoSvgCareerDevelopment = React.memo(SvgCareerDevelopment);
-export default MemoSvgCareerDevelopment;
+export default SvgCareerDevelopment;

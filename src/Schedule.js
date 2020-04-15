@@ -335,5 +335,4 @@ SvgSchedule.propTypes = {
 SvgSchedule.defaultProps = {
   color: "primary"
 };
-const MemoSvgSchedule = React.memo(SvgSchedule);
-export default MemoSvgSchedule;
+export default SvgSchedule;

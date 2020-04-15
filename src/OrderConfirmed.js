@@ -285,5 +285,4 @@ SvgOrderConfirmed.propTypes = {
 SvgOrderConfirmed.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrderConfirmed = React.memo(SvgOrderConfirmed);
-export default MemoSvgOrderConfirmed;
+export default SvgOrderConfirmed;

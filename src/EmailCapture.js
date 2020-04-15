@@ -322,5 +322,4 @@ SvgEmailCapture.propTypes = {
 SvgEmailCapture.defaultProps = {
   color: "primary"
 };
-const MemoSvgEmailCapture = React.memo(SvgEmailCapture);
-export default MemoSvgEmailCapture;
+export default SvgEmailCapture;

@@ -340,5 +340,4 @@ SvgToDoList.propTypes = {
 SvgToDoList.defaultProps = {
   color: "primary"
 };
-const MemoSvgToDoList = React.memo(SvgToDoList);
-export default MemoSvgToDoList;
+export default SvgToDoList;

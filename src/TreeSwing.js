@@ -155,5 +155,4 @@ SvgTreeSwing.propTypes = {
 SvgTreeSwing.defaultProps = {
   color: "primary"
 };
-const MemoSvgTreeSwing = React.memo(SvgTreeSwing);
-export default MemoSvgTreeSwing;
+export default SvgTreeSwing;

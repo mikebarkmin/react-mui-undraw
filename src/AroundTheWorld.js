@@ -160,5 +160,4 @@ SvgAroundTheWorld.propTypes = {
 SvgAroundTheWorld.defaultProps = {
   color: "primary"
 };
-const MemoSvgAroundTheWorld = React.memo(SvgAroundTheWorld);
-export default MemoSvgAroundTheWorld;
+export default SvgAroundTheWorld;

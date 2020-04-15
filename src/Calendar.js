@@ -401,5 +401,4 @@ SvgCalendar.propTypes = {
 SvgCalendar.defaultProps = {
   color: "primary"
 };
-const MemoSvgCalendar = React.memo(SvgCalendar);
-export default MemoSvgCalendar;
+export default SvgCalendar;

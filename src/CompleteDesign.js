@@ -143,5 +143,4 @@ SvgCompleteDesign.propTypes = {
 SvgCompleteDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgCompleteDesign = React.memo(SvgCompleteDesign);
-export default MemoSvgCompleteDesign;
+export default SvgCompleteDesign;

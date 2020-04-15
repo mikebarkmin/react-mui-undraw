@@ -227,5 +227,4 @@ SvgVoting.propTypes = {
 SvgVoting.defaultProps = {
   color: "primary"
 };
-const MemoSvgVoting = React.memo(SvgVoting);
-export default MemoSvgVoting;
+export default SvgVoting;

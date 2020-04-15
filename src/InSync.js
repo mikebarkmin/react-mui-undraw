@@ -646,5 +646,4 @@ SvgInSync.propTypes = {
 SvgInSync.defaultProps = {
   color: "primary"
 };
-const MemoSvgInSync = React.memo(SvgInSync);
-export default MemoSvgInSync;
+export default SvgInSync;

@@ -107,5 +107,4 @@ SvgAnonymousFeedback.propTypes = {
 SvgAnonymousFeedback.defaultProps = {
   color: "primary"
 };
-const MemoSvgAnonymousFeedback = React.memo(SvgAnonymousFeedback);
-export default MemoSvgAnonymousFeedback;
+export default SvgAnonymousFeedback;

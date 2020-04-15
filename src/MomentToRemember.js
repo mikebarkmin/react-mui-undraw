@@ -340,5 +340,4 @@ SvgMomentToRemember.propTypes = {
 SvgMomentToRemember.defaultProps = {
   color: "primary"
 };
-const MemoSvgMomentToRemember = React.memo(SvgMomentToRemember);
-export default MemoSvgMomentToRemember;
+export default SvgMomentToRemember;

@@ -118,5 +118,4 @@ SvgWineTasting.propTypes = {
 SvgWineTasting.defaultProps = {
   color: "primary"
 };
-const MemoSvgWineTasting = React.memo(SvgWineTasting);
-export default MemoSvgWineTasting;
+export default SvgWineTasting;

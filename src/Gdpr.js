@@ -241,5 +241,4 @@ SvgGdpr.propTypes = {
 SvgGdpr.defaultProps = {
   color: "primary"
 };
-const MemoSvgGdpr = React.memo(SvgGdpr);
-export default MemoSvgGdpr;
+export default SvgGdpr;

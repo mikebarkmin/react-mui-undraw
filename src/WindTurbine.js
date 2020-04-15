@@ -284,5 +284,4 @@ SvgWindTurbine.propTypes = {
 SvgWindTurbine.defaultProps = {
   color: "primary"
 };
-const MemoSvgWindTurbine = React.memo(SvgWindTurbine);
-export default MemoSvgWindTurbine;
+export default SvgWindTurbine;

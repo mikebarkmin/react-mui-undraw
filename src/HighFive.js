@@ -297,5 +297,4 @@ SvgHighFive.propTypes = {
 SvgHighFive.defaultProps = {
   color: "primary"
 };
-const MemoSvgHighFive = React.memo(SvgHighFive);
-export default MemoSvgHighFive;
+export default SvgHighFive;

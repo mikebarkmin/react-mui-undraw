@@ -1060,5 +1060,4 @@ SvgMakingArt.propTypes = {
 SvgMakingArt.defaultProps = {
   color: "primary"
 };
-const MemoSvgMakingArt = React.memo(SvgMakingArt);
-export default MemoSvgMakingArt;
+export default SvgMakingArt;

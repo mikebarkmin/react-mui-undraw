@@ -246,5 +246,4 @@ SvgHappyWomenDay.propTypes = {
 SvgHappyWomenDay.defaultProps = {
   color: "primary"
 };
-const MemoSvgHappyWomenDay = React.memo(SvgHappyWomenDay);
-export default MemoSvgHappyWomenDay;
+export default SvgHappyWomenDay;

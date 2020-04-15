@@ -251,5 +251,4 @@ SvgStripePayments.propTypes = {
 SvgStripePayments.defaultProps = {
   color: "primary"
 };
-const MemoSvgStripePayments = React.memo(SvgStripePayments);
-export default MemoSvgStripePayments;
+export default SvgStripePayments;

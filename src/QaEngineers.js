@@ -192,5 +192,4 @@ SvgQaEngineers.propTypes = {
 SvgQaEngineers.defaultProps = {
   color: "primary"
 };
-const MemoSvgQaEngineers = React.memo(SvgQaEngineers);
-export default MemoSvgQaEngineers;
+export default SvgQaEngineers;

@@ -154,5 +154,4 @@ SvgSpeechToText.propTypes = {
 SvgSpeechToText.defaultProps = {
   color: "primary"
 };
-const MemoSvgSpeechToText = React.memo(SvgSpeechToText);
-export default MemoSvgSpeechToText;
+export default SvgSpeechToText;

@@ -124,5 +124,4 @@ SvgCreativeThinking.propTypes = {
 SvgCreativeThinking.defaultProps = {
   color: "primary"
 };
-const MemoSvgCreativeThinking = React.memo(SvgCreativeThinking);
-export default MemoSvgCreativeThinking;
+export default SvgCreativeThinking;

@@ -128,5 +128,4 @@ SvgAddColor.propTypes = {
 SvgAddColor.defaultProps = {
   color: "primary"
 };
-const MemoSvgAddColor = React.memo(SvgAddColor);
-export default MemoSvgAddColor;
+export default SvgAddColor;

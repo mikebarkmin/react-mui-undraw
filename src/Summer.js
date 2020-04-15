@@ -101,5 +101,4 @@ SvgSummer.propTypes = {
 SvgSummer.defaultProps = {
   color: "primary"
 };
-const MemoSvgSummer = React.memo(SvgSummer);
-export default MemoSvgSummer;
+export default SvgSummer;

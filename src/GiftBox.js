@@ -102,5 +102,4 @@ SvgGiftBox.propTypes = {
 SvgGiftBox.defaultProps = {
   color: "primary"
 };
-const MemoSvgGiftBox = React.memo(SvgGiftBox);
-export default MemoSvgGiftBox;
+export default SvgGiftBox;

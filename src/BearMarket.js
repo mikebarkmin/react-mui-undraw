@@ -92,5 +92,4 @@ SvgBearMarket.propTypes = {
 SvgBearMarket.defaultProps = {
   color: "primary"
 };
-const MemoSvgBearMarket = React.memo(SvgBearMarket);
-export default MemoSvgBearMarket;
+export default SvgBearMarket;

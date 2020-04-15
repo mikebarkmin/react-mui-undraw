@@ -274,5 +274,4 @@ SvgYoungAndHappy.propTypes = {
 SvgYoungAndHappy.defaultProps = {
   color: "primary"
 };
-const MemoSvgYoungAndHappy = React.memo(SvgYoungAndHappy);
-export default MemoSvgYoungAndHappy;
+export default SvgYoungAndHappy;

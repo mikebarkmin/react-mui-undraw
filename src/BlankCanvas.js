@@ -296,5 +296,4 @@ SvgBlankCanvas.propTypes = {
 SvgBlankCanvas.defaultProps = {
   color: "primary"
 };
-const MemoSvgBlankCanvas = React.memo(SvgBlankCanvas);
-export default MemoSvgBlankCanvas;
+export default SvgBlankCanvas;

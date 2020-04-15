@@ -160,5 +160,4 @@ SvgSantaVisit.propTypes = {
 SvgSantaVisit.defaultProps = {
   color: "primary"
 };
-const MemoSvgSantaVisit = React.memo(SvgSantaVisit);
-export default MemoSvgSantaVisit;
+export default SvgSantaVisit;

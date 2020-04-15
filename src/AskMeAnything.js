@@ -134,5 +134,4 @@ SvgAskMeAnything.propTypes = {
 SvgAskMeAnything.defaultProps = {
   color: "primary"
 };
-const MemoSvgAskMeAnything = React.memo(SvgAskMeAnything);
-export default MemoSvgAskMeAnything;
+export default SvgAskMeAnything;

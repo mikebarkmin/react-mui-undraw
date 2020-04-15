@@ -156,5 +156,4 @@ SvgAwards.propTypes = {
 SvgAwards.defaultProps = {
   color: "primary"
 };
-const MemoSvgAwards = React.memo(SvgAwards);
-export default MemoSvgAwards;
+export default SvgAwards;

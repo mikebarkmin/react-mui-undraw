@@ -98,5 +98,4 @@ SvgHelpfulSign.propTypes = {
 SvgHelpfulSign.defaultProps = {
   color: "primary"
 };
-const MemoSvgHelpfulSign = React.memo(SvgHelpfulSign);
-export default MemoSvgHelpfulSign;
+export default SvgHelpfulSign;

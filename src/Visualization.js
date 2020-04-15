@@ -94,5 +94,4 @@ SvgVisualization.propTypes = {
 SvgVisualization.defaultProps = {
   color: "primary"
 };
-const MemoSvgVisualization = React.memo(SvgVisualization);
-export default MemoSvgVisualization;
+export default SvgVisualization;

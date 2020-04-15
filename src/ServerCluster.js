@@ -101,5 +101,4 @@ SvgServerCluster.propTypes = {
 SvgServerCluster.defaultProps = {
   color: "primary"
 };
-const MemoSvgServerCluster = React.memo(SvgServerCluster);
-export default MemoSvgServerCluster;
+export default SvgServerCluster;

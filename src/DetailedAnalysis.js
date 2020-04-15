@@ -109,5 +109,4 @@ SvgDetailedAnalysis.propTypes = {
 SvgDetailedAnalysis.defaultProps = {
   color: "primary"
 };
-const MemoSvgDetailedAnalysis = React.memo(SvgDetailedAnalysis);
-export default MemoSvgDetailedAnalysis;
+export default SvgDetailedAnalysis;

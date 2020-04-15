@@ -193,5 +193,4 @@ SvgThroughTheDesert.propTypes = {
 SvgThroughTheDesert.defaultProps = {
   color: "primary"
 };
-const MemoSvgThroughTheDesert = React.memo(SvgThroughTheDesert);
-export default MemoSvgThroughTheDesert;
+export default SvgThroughTheDesert;

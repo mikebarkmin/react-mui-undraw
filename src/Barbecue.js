@@ -111,5 +111,4 @@ SvgBarbecue.propTypes = {
 SvgBarbecue.defaultProps = {
   color: "primary"
 };
-const MemoSvgBarbecue = React.memo(SvgBarbecue);
-export default MemoSvgBarbecue;
+export default SvgBarbecue;

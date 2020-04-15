@@ -388,5 +388,4 @@ SvgSuperThankYou.propTypes = {
 SvgSuperThankYou.defaultProps = {
   color: "primary"
 };
-const MemoSvgSuperThankYou = React.memo(SvgSuperThankYou);
-export default MemoSvgSuperThankYou;
+export default SvgSuperThankYou;

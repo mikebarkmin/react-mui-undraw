@@ -164,5 +164,4 @@ SvgArtLover.propTypes = {
 SvgArtLover.defaultProps = {
   color: "primary"
 };
-const MemoSvgArtLover = React.memo(SvgArtLover);
-export default MemoSvgArtLover;
+export default SvgArtLover;

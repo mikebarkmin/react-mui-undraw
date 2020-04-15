@@ -157,5 +157,4 @@ SvgChristmasStocking.propTypes = {
 SvgChristmasStocking.defaultProps = {
   color: "primary"
 };
-const MemoSvgChristmasStocking = React.memo(SvgChristmasStocking);
-export default MemoSvgChristmasStocking;
+export default SvgChristmasStocking;

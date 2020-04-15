@@ -164,5 +164,4 @@ SvgCompleteTask.propTypes = {
 SvgCompleteTask.defaultProps = {
   color: "primary"
 };
-const MemoSvgCompleteTask = React.memo(SvgCompleteTask);
-export default MemoSvgCompleteTask;
+export default SvgCompleteTask;

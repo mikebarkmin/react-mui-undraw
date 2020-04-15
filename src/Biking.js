@@ -133,5 +133,4 @@ SvgBiking.propTypes = {
 SvgBiking.defaultProps = {
   color: "primary"
 };
-const MemoSvgBiking = React.memo(SvgBiking);
-export default MemoSvgBiking;
+export default SvgBiking;

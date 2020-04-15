@@ -551,5 +551,4 @@ SvgAirport.propTypes = {
 SvgAirport.defaultProps = {
   color: "primary"
 };
-const MemoSvgAirport = React.memo(SvgAirport);
-export default MemoSvgAirport;
+export default SvgAirport;

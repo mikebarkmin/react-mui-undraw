@@ -215,5 +215,4 @@ SvgCheckingBoxes.propTypes = {
 SvgCheckingBoxes.defaultProps = {
   color: "primary"
 };
-const MemoSvgCheckingBoxes = React.memo(SvgCheckingBoxes);
-export default MemoSvgCheckingBoxes;
+export default SvgCheckingBoxes;

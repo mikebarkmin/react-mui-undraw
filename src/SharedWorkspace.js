@@ -162,5 +162,4 @@ SvgSharedWorkspace.propTypes = {
 SvgSharedWorkspace.defaultProps = {
   color: "primary"
 };
-const MemoSvgSharedWorkspace = React.memo(SvgSharedWorkspace);
-export default MemoSvgSharedWorkspace;
+export default SvgSharedWorkspace;

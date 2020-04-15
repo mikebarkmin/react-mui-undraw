@@ -152,5 +152,4 @@ SvgProjections.propTypes = {
 SvgProjections.defaultProps = {
   color: "primary"
 };
-const MemoSvgProjections = React.memo(SvgProjections);
-export default MemoSvgProjections;
+export default SvgProjections;

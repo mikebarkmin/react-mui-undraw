@@ -81,5 +81,4 @@ SvgAppreciation.propTypes = {
 SvgAppreciation.defaultProps = {
   color: "primary"
 };
-const MemoSvgAppreciation = React.memo(SvgAppreciation);
-export default MemoSvgAppreciation;
+export default SvgAppreciation;

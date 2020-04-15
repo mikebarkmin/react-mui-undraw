@@ -216,5 +216,4 @@ SvgSpookySelf.propTypes = {
 SvgSpookySelf.defaultProps = {
   color: "primary"
 };
-const MemoSvgSpookySelf = React.memo(SvgSpookySelf);
-export default MemoSvgSpookySelf;
+export default SvgSpookySelf;

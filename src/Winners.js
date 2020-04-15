@@ -306,5 +306,4 @@ SvgWinners.propTypes = {
 SvgWinners.defaultProps = {
   color: "primary"
 };
-const MemoSvgWinners = React.memo(SvgWinners);
-export default MemoSvgWinners;
+export default SvgWinners;

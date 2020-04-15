@@ -458,5 +458,4 @@ SvgSocialDashboard.propTypes = {
 SvgSocialDashboard.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialDashboard = React.memo(SvgSocialDashboard);
-export default MemoSvgSocialDashboard;
+export default SvgSocialDashboard;

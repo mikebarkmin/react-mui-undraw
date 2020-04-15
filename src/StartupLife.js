@@ -334,5 +334,4 @@ SvgStartupLife.propTypes = {
 SvgStartupLife.defaultProps = {
   color: "primary"
 };
-const MemoSvgStartupLife = React.memo(SvgStartupLife);
-export default MemoSvgStartupLife;
+export default SvgStartupLife;

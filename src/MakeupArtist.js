@@ -268,5 +268,4 @@ SvgMakeupArtist.propTypes = {
 SvgMakeupArtist.defaultProps = {
   color: "primary"
 };
-const MemoSvgMakeupArtist = React.memo(SvgMakeupArtist);
-export default MemoSvgMakeupArtist;
+export default SvgMakeupArtist;

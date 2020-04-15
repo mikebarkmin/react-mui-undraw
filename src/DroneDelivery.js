@@ -384,5 +384,4 @@ SvgDroneDelivery.propTypes = {
 SvgDroneDelivery.defaultProps = {
   color: "primary"
 };
-const MemoSvgDroneDelivery = React.memo(SvgDroneDelivery);
-export default MemoSvgDroneDelivery;
+export default SvgDroneDelivery;

@@ -222,5 +222,4 @@ SvgCustomerSurvey.propTypes = {
 SvgCustomerSurvey.defaultProps = {
   color: "primary"
 };
-const MemoSvgCustomerSurvey = React.memo(SvgCustomerSurvey);
-export default MemoSvgCustomerSurvey;
+export default SvgCustomerSurvey;

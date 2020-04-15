@@ -96,5 +96,4 @@ SvgAddFile.propTypes = {
 SvgAddFile.defaultProps = {
   color: "primary"
 };
-const MemoSvgAddFile = React.memo(SvgAddFile);
-export default MemoSvgAddFile;
+export default SvgAddFile;

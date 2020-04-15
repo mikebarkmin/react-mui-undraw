@@ -1215,5 +1215,4 @@ SvgCamping.propTypes = {
 SvgCamping.defaultProps = {
   color: "primary"
 };
-const MemoSvgCamping = React.memo(SvgCamping);
-export default MemoSvgCamping;
+export default SvgCamping;

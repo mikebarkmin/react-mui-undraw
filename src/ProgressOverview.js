@@ -117,5 +117,4 @@ SvgProgressOverview.propTypes = {
 SvgProgressOverview.defaultProps = {
   color: "primary"
 };
-const MemoSvgProgressOverview = React.memo(SvgProgressOverview);
-export default MemoSvgProgressOverview;
+export default SvgProgressOverview;

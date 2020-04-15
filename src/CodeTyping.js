@@ -207,5 +207,4 @@ SvgCodeTyping.propTypes = {
 SvgCodeTyping.defaultProps = {
   color: "primary"
 };
-const MemoSvgCodeTyping = React.memo(SvgCodeTyping);
-export default MemoSvgCodeTyping;
+export default SvgCodeTyping;

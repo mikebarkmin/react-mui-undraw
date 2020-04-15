@@ -127,5 +127,4 @@ SvgContemplating.propTypes = {
 SvgContemplating.defaultProps = {
   color: "primary"
 };
-const MemoSvgContemplating = React.memo(SvgContemplating);
-export default MemoSvgContemplating;
+export default SvgContemplating;

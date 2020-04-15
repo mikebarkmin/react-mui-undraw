@@ -148,5 +148,4 @@ SvgBlooming.propTypes = {
 SvgBlooming.defaultProps = {
   color: "primary"
 };
-const MemoSvgBlooming = React.memo(SvgBlooming);
-export default MemoSvgBlooming;
+export default SvgBlooming;

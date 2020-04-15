@@ -107,5 +107,4 @@ SvgMathematics.propTypes = {
 SvgMathematics.defaultProps = {
   color: "primary"
 };
-const MemoSvgMathematics = React.memo(SvgMathematics);
-export default MemoSvgMathematics;
+export default SvgMathematics;

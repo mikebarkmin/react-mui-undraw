@@ -138,5 +138,4 @@ SvgCompleted.propTypes = {
 SvgCompleted.defaultProps = {
   color: "primary"
 };
-const MemoSvgCompleted = React.memo(SvgCompleted);
-export default MemoSvgCompleted;
+export default SvgCompleted;

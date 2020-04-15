@@ -115,5 +115,4 @@ SvgInstantInformation.propTypes = {
 SvgInstantInformation.defaultProps = {
   color: "primary"
 };
-const MemoSvgInstantInformation = React.memo(SvgInstantInformation);
-export default MemoSvgInstantInformation;
+export default SvgInstantInformation;

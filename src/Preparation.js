@@ -79,5 +79,4 @@ SvgPreparation.propTypes = {
 SvgPreparation.defaultProps = {
   color: "primary"
 };
-const MemoSvgPreparation = React.memo(SvgPreparation);
-export default MemoSvgPreparation;
+export default SvgPreparation;

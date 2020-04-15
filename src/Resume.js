@@ -149,5 +149,4 @@ SvgResume.propTypes = {
 SvgResume.defaultProps = {
   color: "primary"
 };
-const MemoSvgResume = React.memo(SvgResume);
-export default MemoSvgResume;
+export default SvgResume;

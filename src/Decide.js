@@ -146,5 +146,4 @@ SvgDecide.propTypes = {
 SvgDecide.defaultProps = {
   color: "primary"
 };
-const MemoSvgDecide = React.memo(SvgDecide);
-export default MemoSvgDecide;
+export default SvgDecide;

@@ -127,5 +127,4 @@ SvgChecklist.propTypes = {
 SvgChecklist.defaultProps = {
   color: "primary"
 };
-const MemoSvgChecklist = React.memo(SvgChecklist);
-export default MemoSvgChecklist;
+export default SvgChecklist;

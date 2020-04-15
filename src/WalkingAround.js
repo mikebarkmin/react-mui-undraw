@@ -170,5 +170,4 @@ SvgWalkingAround.propTypes = {
 SvgWalkingAround.defaultProps = {
   color: "primary"
 };
-const MemoSvgWalkingAround = React.memo(SvgWalkingAround);
-export default MemoSvgWalkingAround;
+export default SvgWalkingAround;

@@ -103,5 +103,4 @@ SvgInvestmentData.propTypes = {
 SvgInvestmentData.defaultProps = {
   color: "primary"
 };
-const MemoSvgInvestmentData = React.memo(SvgInvestmentData);
-export default MemoSvgInvestmentData;
+export default SvgInvestmentData;

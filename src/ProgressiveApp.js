@@ -85,5 +85,4 @@ SvgProgressiveApp.propTypes = {
 SvgProgressiveApp.defaultProps = {
   color: "primary"
 };
-const MemoSvgProgressiveApp = React.memo(SvgProgressiveApp);
-export default MemoSvgProgressiveApp;
+export default SvgProgressiveApp;

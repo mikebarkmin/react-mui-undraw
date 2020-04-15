@@ -34,13 +34,12 @@ function template(
 
 module.exports = {
   dimensions: false,
-  memo: true,
   replaceAttrValues: {
-    '#6c63ff': '{color}'
+    '#6c63ff': '{color}',
   },
   svgProps: {
     width: '100%',
-    height: 'auto'
+    height: 'auto',
   },
-  template: template
+  template: template,
 };

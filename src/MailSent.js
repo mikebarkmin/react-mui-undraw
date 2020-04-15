@@ -97,5 +97,4 @@ SvgMailSent.propTypes = {
 SvgMailSent.defaultProps = {
   color: "primary"
 };
-const MemoSvgMailSent = React.memo(SvgMailSent);
-export default MemoSvgMailSent;
+export default SvgMailSent;

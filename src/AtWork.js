@@ -171,5 +171,4 @@ SvgAtWork.propTypes = {
 SvgAtWork.defaultProps = {
   color: "primary"
 };
-const MemoSvgAtWork = React.memo(SvgAtWork);
-export default MemoSvgAtWork;
+export default SvgAtWork;

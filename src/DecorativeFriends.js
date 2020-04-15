@@ -115,5 +115,4 @@ SvgDecorativeFriends.propTypes = {
 SvgDecorativeFriends.defaultProps = {
   color: "primary"
 };
-const MemoSvgDecorativeFriends = React.memo(SvgDecorativeFriends);
-export default MemoSvgDecorativeFriends;
+export default SvgDecorativeFriends;

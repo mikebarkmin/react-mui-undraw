@@ -512,5 +512,4 @@ SvgCampfire.propTypes = {
 SvgCampfire.defaultProps = {
   color: "primary"
 };
-const MemoSvgCampfire = React.memo(SvgCampfire);
-export default MemoSvgCampfire;
+export default SvgCampfire;

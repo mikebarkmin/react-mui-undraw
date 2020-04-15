@@ -97,5 +97,4 @@ SvgCupOfTea.propTypes = {
 SvgCupOfTea.defaultProps = {
   color: "primary"
 };
-const MemoSvgCupOfTea = React.memo(SvgCupOfTea);
-export default MemoSvgCupOfTea;
+export default SvgCupOfTea;

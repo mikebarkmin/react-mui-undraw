@@ -622,5 +622,4 @@ SvgFestivities.propTypes = {
 SvgFestivities.defaultProps = {
   color: "primary"
 };
-const MemoSvgFestivities = React.memo(SvgFestivities);
-export default MemoSvgFestivities;
+export default SvgFestivities;

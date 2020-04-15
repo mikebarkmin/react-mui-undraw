@@ -689,5 +689,4 @@ SvgMeeting.propTypes = {
 SvgMeeting.defaultProps = {
   color: "primary"
 };
-const MemoSvgMeeting = React.memo(SvgMeeting);
-export default MemoSvgMeeting;
+export default SvgMeeting;

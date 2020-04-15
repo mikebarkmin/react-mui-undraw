@@ -160,5 +160,4 @@ SvgBookReading.propTypes = {
 SvgBookReading.defaultProps = {
   color: "primary"
 };
-const MemoSvgBookReading = React.memo(SvgBookReading);
-export default MemoSvgBookReading;
+export default SvgBookReading;

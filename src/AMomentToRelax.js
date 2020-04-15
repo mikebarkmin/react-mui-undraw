@@ -134,5 +134,4 @@ SvgAMomentToRelax.propTypes = {
 SvgAMomentToRelax.defaultProps = {
   color: "primary"
 };
-const MemoSvgAMomentToRelax = React.memo(SvgAMomentToRelax);
-export default MemoSvgAMomentToRelax;
+export default SvgAMomentToRelax;

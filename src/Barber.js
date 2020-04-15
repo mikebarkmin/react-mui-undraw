@@ -165,5 +165,4 @@ SvgBarber.propTypes = {
 SvgBarber.defaultProps = {
   color: "primary"
 };
-const MemoSvgBarber = React.memo(SvgBarber);
-export default MemoSvgBarber;
+export default SvgBarber;

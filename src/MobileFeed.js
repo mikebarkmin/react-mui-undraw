@@ -72,5 +72,4 @@ SvgMobileFeed.propTypes = {
 SvgMobileFeed.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileFeed = React.memo(SvgMobileFeed);
-export default MemoSvgMobileFeed;
+export default SvgMobileFeed;

@@ -116,5 +116,4 @@ SvgTravelPlans.propTypes = {
 SvgTravelPlans.defaultProps = {
   color: "primary"
 };
-const MemoSvgTravelPlans = React.memo(SvgTravelPlans);
-export default MemoSvgTravelPlans;
+export default SvgTravelPlans;

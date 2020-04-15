@@ -107,5 +107,4 @@ SvgMobileInterface.propTypes = {
 SvgMobileInterface.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileInterface = React.memo(SvgMobileInterface);
-export default MemoSvgMobileInterface;
+export default SvgMobileInterface;

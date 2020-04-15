@@ -247,5 +247,4 @@ SvgNavigation.propTypes = {
 SvgNavigation.defaultProps = {
   color: "primary"
 };
-const MemoSvgNavigation = React.memo(SvgNavigation);
-export default MemoSvgNavigation;
+export default SvgNavigation;

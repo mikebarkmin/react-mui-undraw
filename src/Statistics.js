@@ -172,5 +172,4 @@ SvgStatistics.propTypes = {
 SvgStatistics.defaultProps = {
   color: "primary"
 };
-const MemoSvgStatistics = React.memo(SvgStatistics);
-export default MemoSvgStatistics;
+export default SvgStatistics;

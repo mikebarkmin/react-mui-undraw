@@ -284,5 +284,4 @@ SvgNextjs.propTypes = {
 SvgNextjs.defaultProps = {
   color: "primary"
 };
-const MemoSvgNextjs = React.memo(SvgNextjs);
-export default MemoSvgNextjs;
+export default SvgNextjs;

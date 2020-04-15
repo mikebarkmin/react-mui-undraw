@@ -1174,5 +1174,4 @@ SvgOrganizePhotos.propTypes = {
 SvgOrganizePhotos.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrganizePhotos = React.memo(SvgOrganizePhotos);
-export default MemoSvgOrganizePhotos;
+export default SvgOrganizePhotos;

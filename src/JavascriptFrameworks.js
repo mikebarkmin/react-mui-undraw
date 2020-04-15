@@ -296,5 +296,4 @@ SvgJavascriptFrameworks.propTypes = {
 SvgJavascriptFrameworks.defaultProps = {
   color: "primary"
 };
-const MemoSvgJavascriptFrameworks = React.memo(SvgJavascriptFrameworks);
-export default MemoSvgJavascriptFrameworks;
+export default SvgJavascriptFrameworks;

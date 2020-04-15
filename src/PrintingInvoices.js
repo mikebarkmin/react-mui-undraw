@@ -379,5 +379,4 @@ SvgPrintingInvoices.propTypes = {
 SvgPrintingInvoices.defaultProps = {
   color: "primary"
 };
-const MemoSvgPrintingInvoices = React.memo(SvgPrintingInvoices);
-export default MemoSvgPrintingInvoices;
+export default SvgPrintingInvoices;

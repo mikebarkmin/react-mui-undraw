@@ -141,5 +141,4 @@ SvgBusinessShop.propTypes = {
 SvgBusinessShop.defaultProps = {
   color: "primary"
 };
-const MemoSvgBusinessShop = React.memo(SvgBusinessShop);
-export default MemoSvgBusinessShop;
+export default SvgBusinessShop;

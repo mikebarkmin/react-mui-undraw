@@ -512,5 +512,4 @@ SvgHouseSearching.propTypes = {
 SvgHouseSearching.defaultProps = {
   color: "primary"
 };
-const MemoSvgHouseSearching = React.memo(SvgHouseSearching);
-export default MemoSvgHouseSearching;
+export default SvgHouseSearching;

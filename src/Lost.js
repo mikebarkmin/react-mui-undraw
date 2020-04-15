@@ -224,5 +224,4 @@ SvgLost.propTypes = {
 SvgLost.defaultProps = {
   color: "primary"
 };
-const MemoSvgLost = React.memo(SvgLost);
-export default MemoSvgLost;
+export default SvgLost;

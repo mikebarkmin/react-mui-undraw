@@ -321,5 +321,4 @@ SvgPosts.propTypes = {
 SvgPosts.defaultProps = {
   color: "primary"
 };
-const MemoSvgPosts = React.memo(SvgPosts);
-export default MemoSvgPosts;
+export default SvgPosts;

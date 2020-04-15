@@ -202,5 +202,4 @@ SvgOpenSource.propTypes = {
 SvgOpenSource.defaultProps = {
   color: "primary"
 };
-const MemoSvgOpenSource = React.memo(SvgOpenSource);
-export default MemoSvgOpenSource;
+export default SvgOpenSource;

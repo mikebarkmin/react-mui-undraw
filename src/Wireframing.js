@@ -371,5 +371,4 @@ SvgWireframing.propTypes = {
 SvgWireframing.defaultProps = {
   color: "primary"
 };
-const MemoSvgWireframing = React.memo(SvgWireframing);
-export default MemoSvgWireframing;
+export default SvgWireframing;

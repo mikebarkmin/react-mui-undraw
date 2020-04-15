@@ -284,5 +284,4 @@ SvgMayTheForce.propTypes = {
 SvgMayTheForce.defaultProps = {
   color: "primary"
 };
-const MemoSvgMayTheForce = React.memo(SvgMayTheForce);
-export default MemoSvgMayTheForce;
+export default SvgMayTheForce;

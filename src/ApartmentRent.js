@@ -225,5 +225,4 @@ SvgApartmentRent.propTypes = {
 SvgApartmentRent.defaultProps = {
   color: "primary"
 };
-const MemoSvgApartmentRent = React.memo(SvgApartmentRent);
-export default MemoSvgApartmentRent;
+export default SvgApartmentRent;

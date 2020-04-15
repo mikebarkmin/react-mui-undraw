@@ -96,5 +96,4 @@ SvgMyLocation.propTypes = {
 SvgMyLocation.defaultProps = {
   color: "primary"
 };
-const MemoSvgMyLocation = React.memo(SvgMyLocation);
-export default MemoSvgMyLocation;
+export default SvgMyLocation;

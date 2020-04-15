@@ -101,5 +101,4 @@ SvgOnlinePayments.propTypes = {
 SvgOnlinePayments.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlinePayments = React.memo(SvgOnlinePayments);
-export default MemoSvgOnlinePayments;
+export default SvgOnlinePayments;

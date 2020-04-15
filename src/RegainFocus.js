@@ -138,5 +138,4 @@ SvgRegainFocus.propTypes = {
 SvgRegainFocus.defaultProps = {
   color: "primary"
 };
-const MemoSvgRegainFocus = React.memo(SvgRegainFocus);
-export default MemoSvgRegainFocus;
+export default SvgRegainFocus;

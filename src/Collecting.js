@@ -1558,5 +1558,4 @@ SvgCollecting.propTypes = {
 SvgCollecting.defaultProps = {
   color: "primary"
 };
-const MemoSvgCollecting = React.memo(SvgCollecting);
-export default MemoSvgCollecting;
+export default SvgCollecting;

@@ -199,5 +199,4 @@ SvgCryptoFlowers.propTypes = {
 SvgCryptoFlowers.defaultProps = {
   color: "primary"
 };
-const MemoSvgCryptoFlowers = React.memo(SvgCryptoFlowers);
-export default MemoSvgCryptoFlowers;
+export default SvgCryptoFlowers;

@@ -277,5 +277,4 @@ SvgSocialDistancing.propTypes = {
 SvgSocialDistancing.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialDistancing = React.memo(SvgSocialDistancing);
-export default MemoSvgSocialDistancing;
+export default SvgSocialDistancing;

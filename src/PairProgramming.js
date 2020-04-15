@@ -357,5 +357,4 @@ SvgPairProgramming.propTypes = {
 SvgPairProgramming.defaultProps = {
   color: "primary"
 };
-const MemoSvgPairProgramming = React.memo(SvgPairProgramming);
-export default MemoSvgPairProgramming;
+export default SvgPairProgramming;

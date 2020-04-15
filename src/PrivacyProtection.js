@@ -145,5 +145,4 @@ SvgPrivacyProtection.propTypes = {
 SvgPrivacyProtection.defaultProps = {
   color: "primary"
 };
-const MemoSvgPrivacyProtection = React.memo(SvgPrivacyProtection);
-export default MemoSvgPrivacyProtection;
+export default SvgPrivacyProtection;

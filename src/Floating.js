@@ -811,5 +811,4 @@ SvgFloating.propTypes = {
 SvgFloating.defaultProps = {
   color: "primary"
 };
-const MemoSvgFloating = React.memo(SvgFloating);
-export default MemoSvgFloating;
+export default SvgFloating;

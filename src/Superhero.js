@@ -168,5 +168,4 @@ SvgSuperhero.propTypes = {
 SvgSuperhero.defaultProps = {
   color: "primary"
 };
-const MemoSvgSuperhero = React.memo(SvgSuperhero);
-export default MemoSvgSuperhero;
+export default SvgSuperhero;

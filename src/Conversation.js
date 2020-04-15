@@ -442,5 +442,4 @@ SvgConversation.propTypes = {
 SvgConversation.defaultProps = {
   color: "primary"
 };
-const MemoSvgConversation = React.memo(SvgConversation);
-export default MemoSvgConversation;
+export default SvgConversation;

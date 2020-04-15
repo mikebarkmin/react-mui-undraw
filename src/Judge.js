@@ -266,5 +266,4 @@ SvgJudge.propTypes = {
 SvgJudge.defaultProps = {
   color: "primary"
 };
-const MemoSvgJudge = React.memo(SvgJudge);
-export default MemoSvgJudge;
+export default SvgJudge;

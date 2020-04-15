@@ -233,5 +233,4 @@ SvgThroughTheWindow.propTypes = {
 SvgThroughTheWindow.defaultProps = {
   color: "primary"
 };
-const MemoSvgThroughTheWindow = React.memo(SvgThroughTheWindow);
-export default MemoSvgThroughTheWindow;
+export default SvgThroughTheWindow;

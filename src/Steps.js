@@ -128,5 +128,4 @@ SvgSteps.propTypes = {
 SvgSteps.defaultProps = {
   color: "primary"
 };
-const MemoSvgSteps = React.memo(SvgSteps);
-export default MemoSvgSteps;
+export default SvgSteps;

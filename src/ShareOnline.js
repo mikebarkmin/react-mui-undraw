@@ -123,5 +123,4 @@ SvgShareOnline.propTypes = {
 SvgShareOnline.defaultProps = {
   color: "primary"
 };
-const MemoSvgShareOnline = React.memo(SvgShareOnline);
-export default MemoSvgShareOnline;
+export default SvgShareOnline;

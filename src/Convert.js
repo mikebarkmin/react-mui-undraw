@@ -90,5 +90,4 @@ SvgConvert.propTypes = {
 SvgConvert.defaultProps = {
   color: "primary"
 };
-const MemoSvgConvert = React.memo(SvgConvert);
-export default MemoSvgConvert;
+export default SvgConvert;

@@ -127,5 +127,4 @@ SvgStrandedTraveler.propTypes = {
 SvgStrandedTraveler.defaultProps = {
   color: "primary"
 };
-const MemoSvgStrandedTraveler = React.memo(SvgStrandedTraveler);
-export default MemoSvgStrandedTraveler;
+export default SvgStrandedTraveler;

@@ -143,5 +143,4 @@ SvgHappyNews.propTypes = {
 SvgHappyNews.defaultProps = {
   color: "primary"
 };
-const MemoSvgHappyNews = React.memo(SvgHappyNews);
-export default MemoSvgHappyNews;
+export default SvgHappyNews;

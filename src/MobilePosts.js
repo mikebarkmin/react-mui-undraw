@@ -126,5 +126,4 @@ SvgMobilePosts.propTypes = {
 SvgMobilePosts.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobilePosts = React.memo(SvgMobilePosts);
-export default MemoSvgMobilePosts;
+export default SvgMobilePosts;

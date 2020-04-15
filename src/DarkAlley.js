@@ -763,5 +763,4 @@ SvgDarkAlley.propTypes = {
 SvgDarkAlley.defaultProps = {
   color: "primary"
 };
-const MemoSvgDarkAlley = React.memo(SvgDarkAlley);
-export default MemoSvgDarkAlley;
+export default SvgDarkAlley;

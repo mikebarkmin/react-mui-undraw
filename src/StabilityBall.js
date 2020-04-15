@@ -136,5 +136,4 @@ SvgStabilityBall.propTypes = {
 SvgStabilityBall.defaultProps = {
   color: "primary"
 };
-const MemoSvgStabilityBall = React.memo(SvgStabilityBall);
-export default MemoSvgStabilityBall;
+export default SvgStabilityBall;

@@ -125,5 +125,4 @@ SvgHealthyLifestyle.propTypes = {
 SvgHealthyLifestyle.defaultProps = {
   color: "primary"
 };
-const MemoSvgHealthyLifestyle = React.memo(SvgHealthyLifestyle);
-export default MemoSvgHealthyLifestyle;
+export default SvgHealthyLifestyle;

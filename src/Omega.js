@@ -135,5 +135,4 @@ SvgOmega.propTypes = {
 SvgOmega.defaultProps = {
   color: "primary"
 };
-const MemoSvgOmega = React.memo(SvgOmega);
-export default MemoSvgOmega;
+export default SvgOmega;

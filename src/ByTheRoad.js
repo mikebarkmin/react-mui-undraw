@@ -115,5 +115,4 @@ SvgByTheRoad.propTypes = {
 SvgByTheRoad.defaultProps = {
   color: "primary"
 };
-const MemoSvgByTheRoad = React.memo(SvgByTheRoad);
-export default MemoSvgByTheRoad;
+export default SvgByTheRoad;

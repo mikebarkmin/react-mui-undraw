@@ -316,5 +316,4 @@ SvgAddToCart.propTypes = {
 SvgAddToCart.defaultProps = {
   color: "primary"
 };
-const MemoSvgAddToCart = React.memo(SvgAddToCart);
-export default MemoSvgAddToCart;
+export default SvgAddToCart;

@@ -115,5 +115,4 @@ SvgOnlineMessaging.propTypes = {
 SvgOnlineMessaging.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineMessaging = React.memo(SvgOnlineMessaging);
-export default MemoSvgOnlineMessaging;
+export default SvgOnlineMessaging;

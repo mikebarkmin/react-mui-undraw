@@ -116,5 +116,4 @@ SvgMention.propTypes = {
 SvgMention.defaultProps = {
   color: "primary"
 };
-const MemoSvgMention = React.memo(SvgMention);
-export default MemoSvgMention;
+export default SvgMention;

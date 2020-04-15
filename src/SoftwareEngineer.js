@@ -213,5 +213,4 @@ SvgSoftwareEngineer.propTypes = {
 SvgSoftwareEngineer.defaultProps = {
   color: "primary"
 };
-const MemoSvgSoftwareEngineer = React.memo(SvgSoftwareEngineer);
-export default MemoSvgSoftwareEngineer;
+export default SvgSoftwareEngineer;

@@ -281,5 +281,4 @@ SvgPersonalSite.propTypes = {
 SvgPersonalSite.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalSite = React.memo(SvgPersonalSite);
-export default MemoSvgPersonalSite;
+export default SvgPersonalSite;

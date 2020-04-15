@@ -302,5 +302,4 @@ SvgQueue.propTypes = {
 SvgQueue.defaultProps = {
   color: "primary"
 };
-const MemoSvgQueue = React.memo(SvgQueue);
-export default MemoSvgQueue;
+export default SvgQueue;

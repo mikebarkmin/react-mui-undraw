@@ -67,5 +67,4 @@ SvgEiffelTower.propTypes = {
 SvgEiffelTower.defaultProps = {
   color: "primary"
 };
-const MemoSvgEiffelTower = React.memo(SvgEiffelTower);
-export default MemoSvgEiffelTower;
+export default SvgEiffelTower;

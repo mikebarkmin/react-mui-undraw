@@ -122,5 +122,4 @@ SvgSocialThinking.propTypes = {
 SvgSocialThinking.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialThinking = React.memo(SvgSocialThinking);
-export default MemoSvgSocialThinking;
+export default SvgSocialThinking;

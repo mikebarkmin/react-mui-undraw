@@ -98,5 +98,4 @@ SvgCircuit.propTypes = {
 SvgCircuit.defaultProps = {
   color: "primary"
 };
-const MemoSvgCircuit = React.memo(SvgCircuit);
-export default MemoSvgCircuit;
+export default SvgCircuit;

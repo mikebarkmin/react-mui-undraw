@@ -156,5 +156,4 @@ SvgSantaClaus.propTypes = {
 SvgSantaClaus.defaultProps = {
   color: "primary"
 };
-const MemoSvgSantaClaus = React.memo(SvgSantaClaus);
-export default MemoSvgSantaClaus;
+export default SvgSantaClaus;

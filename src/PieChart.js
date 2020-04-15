@@ -382,5 +382,4 @@ SvgPieChart.propTypes = {
 SvgPieChart.defaultProps = {
   color: "primary"
 };
-const MemoSvgPieChart = React.memo(SvgPieChart);
-export default MemoSvgPieChart;
+export default SvgPieChart;

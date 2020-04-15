@@ -465,5 +465,4 @@ SvgCalculator.propTypes = {
 SvgCalculator.defaultProps = {
   color: "primary"
 };
-const MemoSvgCalculator = React.memo(SvgCalculator);
-export default MemoSvgCalculator;
+export default SvgCalculator;

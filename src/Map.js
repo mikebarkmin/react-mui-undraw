@@ -136,5 +136,4 @@ SvgMap.propTypes = {
 SvgMap.defaultProps = {
   color: "primary"
 };
-const MemoSvgMap = React.memo(SvgMap);
-export default MemoSvgMap;
+export default SvgMap;

@@ -231,5 +231,4 @@ SvgExperienceDesign.propTypes = {
 SvgExperienceDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgExperienceDesign = React.memo(SvgExperienceDesign);
-export default MemoSvgExperienceDesign;
+export default SvgExperienceDesign;

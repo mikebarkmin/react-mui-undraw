@@ -443,5 +443,4 @@ SvgCollection.propTypes = {
 SvgCollection.defaultProps = {
   color: "primary"
 };
-const MemoSvgCollection = React.memo(SvgCollection);
-export default MemoSvgCollection;
+export default SvgCollection;

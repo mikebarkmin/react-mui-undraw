@@ -141,5 +141,4 @@ SvgSocialNotifications.propTypes = {
 SvgSocialNotifications.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialNotifications = React.memo(SvgSocialNotifications);
-export default MemoSvgSocialNotifications;
+export default SvgSocialNotifications;

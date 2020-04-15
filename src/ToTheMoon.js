@@ -120,5 +120,4 @@ SvgToTheMoon.propTypes = {
 SvgToTheMoon.defaultProps = {
   color: "primary"
 };
-const MemoSvgToTheMoon = React.memo(SvgToTheMoon);
-export default MemoSvgToTheMoon;
+export default SvgToTheMoon;

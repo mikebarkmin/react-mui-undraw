@@ -121,5 +121,4 @@ SvgOnlineOrganizer.propTypes = {
 SvgOnlineOrganizer.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineOrganizer = React.memo(SvgOnlineOrganizer);
-export default MemoSvgOnlineOrganizer;
+export default SvgOnlineOrganizer;

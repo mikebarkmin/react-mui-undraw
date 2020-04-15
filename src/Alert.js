@@ -209,5 +209,4 @@ SvgAlert.propTypes = {
 SvgAlert.defaultProps = {
   color: "primary"
 };
-const MemoSvgAlert = React.memo(SvgAlert);
-export default MemoSvgAlert;
+export default SvgAlert;

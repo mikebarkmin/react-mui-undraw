@@ -347,5 +347,4 @@ SvgSocialNetworking.propTypes = {
 SvgSocialNetworking.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialNetworking = React.memo(SvgSocialNetworking);
-export default MemoSvgSocialNetworking;
+export default SvgSocialNetworking;

@@ -465,5 +465,4 @@ SvgTeam.propTypes = {
 SvgTeam.defaultProps = {
   color: "primary"
 };
-const MemoSvgTeam = React.memo(SvgTeam);
-export default MemoSvgTeam;
+export default SvgTeam;

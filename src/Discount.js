@@ -275,5 +275,4 @@ SvgDiscount.propTypes = {
 SvgDiscount.defaultProps = {
   color: "primary"
 };
-const MemoSvgDiscount = React.memo(SvgDiscount);
-export default MemoSvgDiscount;
+export default SvgDiscount;

@@ -124,5 +124,4 @@ SvgLikeDislike.propTypes = {
 SvgLikeDislike.defaultProps = {
   color: "primary"
 };
-const MemoSvgLikeDislike = React.memo(SvgLikeDislike);
-export default MemoSvgLikeDislike;
+export default SvgLikeDislike;

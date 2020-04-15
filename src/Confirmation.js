@@ -355,5 +355,4 @@ SvgConfirmation.propTypes = {
 SvgConfirmation.defaultProps = {
   color: "primary"
 };
-const MemoSvgConfirmation = React.memo(SvgConfirmation);
-export default MemoSvgConfirmation;
+export default SvgConfirmation;

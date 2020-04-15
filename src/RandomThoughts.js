@@ -136,5 +136,4 @@ SvgRandomThoughts.propTypes = {
 SvgRandomThoughts.defaultProps = {
   color: "primary"
 };
-const MemoSvgRandomThoughts = React.memo(SvgRandomThoughts);
-export default MemoSvgRandomThoughts;
+export default SvgRandomThoughts;

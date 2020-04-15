@@ -213,5 +213,4 @@ SvgWindowShopping.propTypes = {
 SvgWindowShopping.defaultProps = {
   color: "primary"
 };
-const MemoSvgWindowShopping = React.memo(SvgWindowShopping);
-export default MemoSvgWindowShopping;
+export default SvgWindowShopping;

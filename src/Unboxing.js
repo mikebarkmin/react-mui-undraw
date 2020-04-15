@@ -231,5 +231,4 @@ SvgUnboxing.propTypes = {
 SvgUnboxing.defaultProps = {
   color: "primary"
 };
-const MemoSvgUnboxing = React.memo(SvgUnboxing);
-export default MemoSvgUnboxing;
+export default SvgUnboxing;

@@ -920,5 +920,4 @@ SvgBuildingBlocks.propTypes = {
 SvgBuildingBlocks.defaultProps = {
   color: "primary"
 };
-const MemoSvgBuildingBlocks = React.memo(SvgBuildingBlocks);
-export default MemoSvgBuildingBlocks;
+export default SvgBuildingBlocks;

@@ -288,5 +288,4 @@ SvgEnvelope.propTypes = {
 SvgEnvelope.defaultProps = {
   color: "primary"
 };
-const MemoSvgEnvelope = React.memo(SvgEnvelope);
-export default MemoSvgEnvelope;
+export default SvgEnvelope;

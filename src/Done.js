@@ -116,5 +116,4 @@ SvgDone.propTypes = {
 SvgDone.defaultProps = {
   color: "primary"
 };
-const MemoSvgDone = React.memo(SvgDone);
-export default MemoSvgDone;
+export default SvgDone;

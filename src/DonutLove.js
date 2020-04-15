@@ -349,5 +349,4 @@ SvgDonutLove.propTypes = {
 SvgDonutLove.defaultProps = {
   color: "primary"
 };
-const MemoSvgDonutLove = React.memo(SvgDonutLove);
-export default MemoSvgDonutLove;
+export default SvgDonutLove;

@@ -202,5 +202,4 @@ SvgFlowers.propTypes = {
 SvgFlowers.defaultProps = {
   color: "primary"
 };
-const MemoSvgFlowers = React.memo(SvgFlowers);
-export default MemoSvgFlowers;
+export default SvgFlowers;

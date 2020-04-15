@@ -570,5 +570,4 @@ SvgRealTimeSync.propTypes = {
 SvgRealTimeSync.defaultProps = {
   color: "primary"
 };
-const MemoSvgRealTimeSync = React.memo(SvgRealTimeSync);
-export default MemoSvgRealTimeSync;
+export default SvgRealTimeSync;

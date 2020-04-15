@@ -539,5 +539,4 @@ SvgContactUs.propTypes = {
 SvgContactUs.defaultProps = {
   color: "primary"
 };
-const MemoSvgContactUs = React.memo(SvgContactUs);
-export default MemoSvgContactUs;
+export default SvgContactUs;

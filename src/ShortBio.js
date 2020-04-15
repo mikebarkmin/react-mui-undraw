@@ -81,5 +81,4 @@ SvgShortBio.propTypes = {
 SvgShortBio.defaultProps = {
   color: "primary"
 };
-const MemoSvgShortBio = React.memo(SvgShortBio);
-export default MemoSvgShortBio;
+export default SvgShortBio;

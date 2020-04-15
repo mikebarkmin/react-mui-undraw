@@ -120,5 +120,4 @@ SvgDevProductivity.propTypes = {
 SvgDevProductivity.defaultProps = {
   color: "primary"
 };
-const MemoSvgDevProductivity = React.memo(SvgDevProductivity);
-export default MemoSvgDevProductivity;
+export default SvgDevProductivity;

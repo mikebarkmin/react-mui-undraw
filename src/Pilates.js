@@ -223,5 +223,4 @@ SvgPilates.propTypes = {
 SvgPilates.defaultProps = {
   color: "primary"
 };
-const MemoSvgPilates = React.memo(SvgPilates);
-export default MemoSvgPilates;
+export default SvgPilates;

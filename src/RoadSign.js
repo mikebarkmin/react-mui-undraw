@@ -100,5 +100,4 @@ SvgRoadSign.propTypes = {
 SvgRoadSign.defaultProps = {
   color: "primary"
 };
-const MemoSvgRoadSign = React.memo(SvgRoadSign);
-export default MemoSvgRoadSign;
+export default SvgRoadSign;

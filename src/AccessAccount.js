@@ -108,5 +108,4 @@ SvgAccessAccount.propTypes = {
 SvgAccessAccount.defaultProps = {
   color: "primary"
 };
-const MemoSvgAccessAccount = React.memo(SvgAccessAccount);
-export default MemoSvgAccessAccount;
+export default SvgAccessAccount;

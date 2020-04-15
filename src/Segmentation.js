@@ -269,5 +269,4 @@ SvgSegmentation.propTypes = {
 SvgSegmentation.defaultProps = {
   color: "primary"
 };
-const MemoSvgSegmentation = React.memo(SvgSegmentation);
-export default MemoSvgSegmentation;
+export default SvgSegmentation;

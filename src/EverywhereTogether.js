@@ -155,5 +155,4 @@ SvgEverywhereTogether.propTypes = {
 SvgEverywhereTogether.defaultProps = {
   color: "primary"
 };
-const MemoSvgEverywhereTogether = React.memo(SvgEverywhereTogether);
-export default MemoSvgEverywhereTogether;
+export default SvgEverywhereTogether;

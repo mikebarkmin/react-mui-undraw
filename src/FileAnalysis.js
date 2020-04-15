@@ -227,5 +227,4 @@ SvgFileAnalysis.propTypes = {
 SvgFileAnalysis.defaultProps = {
   color: "primary"
 };
-const MemoSvgFileAnalysis = React.memo(SvgFileAnalysis);
-export default MemoSvgFileAnalysis;
+export default SvgFileAnalysis;

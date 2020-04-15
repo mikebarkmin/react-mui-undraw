@@ -157,5 +157,4 @@ SvgOnlineDiscussion.propTypes = {
 SvgOnlineDiscussion.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineDiscussion = React.memo(SvgOnlineDiscussion);
-export default MemoSvgOnlineDiscussion;
+export default SvgOnlineDiscussion;

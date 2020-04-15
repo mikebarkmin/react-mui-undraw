@@ -326,5 +326,4 @@ SvgOrganizeResume.propTypes = {
 SvgOrganizeResume.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrganizeResume = React.memo(SvgOrganizeResume);
-export default MemoSvgOrganizeResume;
+export default SvgOrganizeResume;

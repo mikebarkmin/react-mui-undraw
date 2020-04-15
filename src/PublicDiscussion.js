@@ -138,5 +138,4 @@ SvgPublicDiscussion.propTypes = {
 SvgPublicDiscussion.defaultProps = {
   color: "primary"
 };
-const MemoSvgPublicDiscussion = React.memo(SvgPublicDiscussion);
-export default MemoSvgPublicDiscussion;
+export default SvgPublicDiscussion;

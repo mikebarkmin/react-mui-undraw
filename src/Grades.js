@@ -393,5 +393,4 @@ SvgGrades.propTypes = {
 SvgGrades.defaultProps = {
   color: "primary"
 };
-const MemoSvgGrades = React.memo(SvgGrades);
-export default MemoSvgGrades;
+export default SvgGrades;

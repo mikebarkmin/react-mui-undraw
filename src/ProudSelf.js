@@ -100,5 +100,4 @@ SvgProudSelf.propTypes = {
 SvgProudSelf.defaultProps = {
   color: "primary"
 };
-const MemoSvgProudSelf = React.memo(SvgProudSelf);
-export default MemoSvgProudSelf;
+export default SvgProudSelf;

@@ -523,5 +523,4 @@ SvgMissedChances.propTypes = {
 SvgMissedChances.defaultProps = {
   color: "primary"
 };
-const MemoSvgMissedChances = React.memo(SvgMissedChances);
-export default MemoSvgMissedChances;
+export default SvgMissedChances;

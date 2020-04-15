@@ -134,5 +134,4 @@ SvgAugmentedReality.propTypes = {
 SvgAugmentedReality.defaultProps = {
   color: "primary"
 };
-const MemoSvgAugmentedReality = React.memo(SvgAugmentedReality);
-export default MemoSvgAugmentedReality;
+export default SvgAugmentedReality;

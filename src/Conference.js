@@ -376,5 +376,4 @@ SvgConference.propTypes = {
 SvgConference.defaultProps = {
   color: "primary"
 };
-const MemoSvgConference = React.memo(SvgConference);
-export default MemoSvgConference;
+export default SvgConference;

@@ -98,5 +98,4 @@ SvgDiet.propTypes = {
 SvgDiet.defaultProps = {
   color: "primary"
 };
-const MemoSvgDiet = React.memo(SvgDiet);
-export default MemoSvgDiet;
+export default SvgDiet;

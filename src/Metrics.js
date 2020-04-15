@@ -232,5 +232,4 @@ SvgMetrics.propTypes = {
 SvgMetrics.defaultProps = {
   color: "primary"
 };
-const MemoSvgMetrics = React.memo(SvgMetrics);
-export default MemoSvgMetrics;
+export default SvgMetrics;

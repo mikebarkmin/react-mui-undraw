@@ -227,5 +227,4 @@ SvgSmartwatch.propTypes = {
 SvgSmartwatch.defaultProps = {
   color: "primary"
 };
-const MemoSvgSmartwatch = React.memo(SvgSmartwatch);
-export default MemoSvgSmartwatch;
+export default SvgSmartwatch;

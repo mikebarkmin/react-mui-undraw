@@ -184,5 +184,4 @@ SvgFeelingProud.propTypes = {
 SvgFeelingProud.defaultProps = {
   color: "primary"
 };
-const MemoSvgFeelingProud = React.memo(SvgFeelingProud);
-export default MemoSvgFeelingProud;
+export default SvgFeelingProud;

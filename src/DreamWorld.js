@@ -149,5 +149,4 @@ SvgDreamWorld.propTypes = {
 SvgDreamWorld.defaultProps = {
   color: "primary"
 };
-const MemoSvgDreamWorld = React.memo(SvgDreamWorld);
-export default MemoSvgDreamWorld;
+export default SvgDreamWorld;

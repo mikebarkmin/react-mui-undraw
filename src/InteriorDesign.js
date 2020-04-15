@@ -134,5 +134,4 @@ SvgInteriorDesign.propTypes = {
 SvgInteriorDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgInteriorDesign = React.memo(SvgInteriorDesign);
-export default MemoSvgInteriorDesign;
+export default SvgInteriorDesign;

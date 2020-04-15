@@ -154,5 +154,4 @@ SvgSmartResize.propTypes = {
 SvgSmartResize.defaultProps = {
   color: "primary"
 };
-const MemoSvgSmartResize = React.memo(SvgSmartResize);
-export default MemoSvgSmartResize;
+export default SvgSmartResize;

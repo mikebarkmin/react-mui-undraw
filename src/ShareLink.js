@@ -138,5 +138,4 @@ SvgShareLink.propTypes = {
 SvgShareLink.defaultProps = {
   color: "primary"
 };
-const MemoSvgShareLink = React.memo(SvgShareLink);
-export default MemoSvgShareLink;
+export default SvgShareLink;

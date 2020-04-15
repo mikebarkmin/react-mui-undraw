@@ -131,5 +131,4 @@ SvgHooked.propTypes = {
 SvgHooked.defaultProps = {
   color: "primary"
 };
-const MemoSvgHooked = React.memo(SvgHooked);
-export default MemoSvgHooked;
+export default SvgHooked;

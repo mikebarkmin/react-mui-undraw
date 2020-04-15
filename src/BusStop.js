@@ -819,5 +819,4 @@ SvgBusStop.propTypes = {
 SvgBusStop.defaultProps = {
   color: "primary"
 };
-const MemoSvgBusStop = React.memo(SvgBusStop);
-export default MemoSvgBusStop;
+export default SvgBusStop;

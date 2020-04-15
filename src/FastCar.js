@@ -273,5 +273,4 @@ SvgFastCar.propTypes = {
 SvgFastCar.defaultProps = {
   color: "primary"
 };
-const MemoSvgFastCar = React.memo(SvgFastCar);
-export default MemoSvgFastCar;
+export default SvgFastCar;

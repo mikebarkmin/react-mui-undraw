@@ -99,5 +99,4 @@ SvgNextOption.propTypes = {
 SvgNextOption.defaultProps = {
   color: "primary"
 };
-const MemoSvgNextOption = React.memo(SvgNextOption);
-export default MemoSvgNextOption;
+export default SvgNextOption;

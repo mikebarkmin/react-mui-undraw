@@ -463,5 +463,4 @@ SvgBookLover.propTypes = {
 SvgBookLover.defaultProps = {
   color: "primary"
 };
-const MemoSvgBookLover = React.memo(SvgBookLover);
-export default MemoSvgBookLover;
+export default SvgBookLover;

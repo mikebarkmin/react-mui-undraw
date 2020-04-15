@@ -381,5 +381,4 @@ SvgRelaxingAtHome.propTypes = {
 SvgRelaxingAtHome.defaultProps = {
   color: "primary"
 };
-const MemoSvgRelaxingAtHome = React.memo(SvgRelaxingAtHome);
-export default MemoSvgRelaxingAtHome;
+export default SvgRelaxingAtHome;

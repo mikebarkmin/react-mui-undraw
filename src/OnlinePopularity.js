@@ -129,5 +129,4 @@ SvgOnlinePopularity.propTypes = {
 SvgOnlinePopularity.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlinePopularity = React.memo(SvgOnlinePopularity);
-export default MemoSvgOnlinePopularity;
+export default SvgOnlinePopularity;

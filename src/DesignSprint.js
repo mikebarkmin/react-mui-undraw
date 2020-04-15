@@ -126,5 +126,4 @@ SvgDesignSprint.propTypes = {
 SvgDesignSprint.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesignSprint = React.memo(SvgDesignSprint);
-export default MemoSvgDesignSprint;
+export default SvgDesignSprint;

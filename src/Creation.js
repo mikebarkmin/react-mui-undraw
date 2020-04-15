@@ -165,5 +165,4 @@ SvgCreation.propTypes = {
 SvgCreation.defaultProps = {
   color: "primary"
 };
-const MemoSvgCreation = React.memo(SvgCreation);
-export default MemoSvgCreation;
+export default SvgCreation;

@@ -105,5 +105,4 @@ SvgFreshNotification.propTypes = {
 SvgFreshNotification.defaultProps = {
   color: "primary"
 };
-const MemoSvgFreshNotification = React.memo(SvgFreshNotification);
-export default MemoSvgFreshNotification;
+export default SvgFreshNotification;

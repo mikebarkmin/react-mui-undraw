@@ -143,5 +143,4 @@ SvgServerDown.propTypes = {
 SvgServerDown.defaultProps = {
   color: "primary"
 };
-const MemoSvgServerDown = React.memo(SvgServerDown);
-export default MemoSvgServerDown;
+export default SvgServerDown;

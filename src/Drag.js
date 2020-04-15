@@ -135,5 +135,4 @@ SvgDrag.propTypes = {
 SvgDrag.defaultProps = {
   color: "primary"
 };
-const MemoSvgDrag = React.memo(SvgDrag);
-export default MemoSvgDrag;
+export default SvgDrag;

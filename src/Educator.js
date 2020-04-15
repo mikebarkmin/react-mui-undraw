@@ -92,5 +92,4 @@ SvgEducator.propTypes = {
 SvgEducator.defaultProps = {
   color: "primary"
 };
-const MemoSvgEducator = React.memo(SvgEducator);
-export default MemoSvgEducator;
+export default SvgEducator;

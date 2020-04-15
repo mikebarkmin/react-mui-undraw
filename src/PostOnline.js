@@ -296,5 +296,4 @@ SvgPostOnline.propTypes = {
 SvgPostOnline.defaultProps = {
   color: "primary"
 };
-const MemoSvgPostOnline = React.memo(SvgPostOnline);
-export default MemoSvgPostOnline;
+export default SvgPostOnline;

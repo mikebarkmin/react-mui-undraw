@@ -449,5 +449,4 @@ SvgMindMap.propTypes = {
 SvgMindMap.defaultProps = {
   color: "primary"
 };
-const MemoSvgMindMap = React.memo(SvgMindMap);
-export default MemoSvgMindMap;
+export default SvgMindMap;

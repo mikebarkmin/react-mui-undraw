@@ -373,5 +373,4 @@ SvgBasketball.propTypes = {
 SvgBasketball.defaultProps = {
   color: "primary"
 };
-const MemoSvgBasketball = React.memo(SvgBasketball);
-export default MemoSvgBasketball;
+export default SvgBasketball;

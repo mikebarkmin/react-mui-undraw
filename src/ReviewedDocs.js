@@ -127,5 +127,4 @@ SvgReviewedDocs.propTypes = {
 SvgReviewedDocs.defaultProps = {
   color: "primary"
 };
-const MemoSvgReviewedDocs = React.memo(SvgReviewedDocs);
-export default MemoSvgReviewedDocs;
+export default SvgReviewedDocs;

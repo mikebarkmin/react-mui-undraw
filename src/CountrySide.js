@@ -339,5 +339,4 @@ SvgCountrySide.propTypes = {
 SvgCountrySide.defaultProps = {
   color: "primary"
 };
-const MemoSvgCountrySide = React.memo(SvgCountrySide);
-export default MemoSvgCountrySide;
+export default SvgCountrySide;

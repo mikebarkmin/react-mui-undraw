@@ -94,5 +94,4 @@ SvgImageFocus.propTypes = {
 SvgImageFocus.defaultProps = {
   color: "primary"
 };
-const MemoSvgImageFocus = React.memo(SvgImageFocus);
-export default MemoSvgImageFocus;
+export default SvgImageFocus;

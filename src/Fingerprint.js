@@ -107,5 +107,4 @@ SvgFingerprint.propTypes = {
 SvgFingerprint.defaultProps = {
   color: "primary"
 };
-const MemoSvgFingerprint = React.memo(SvgFingerprint);
-export default MemoSvgFingerprint;
+export default SvgFingerprint;

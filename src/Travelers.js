@@ -176,5 +176,4 @@ SvgTravelers.propTypes = {
 SvgTravelers.defaultProps = {
   color: "primary"
 };
-const MemoSvgTravelers = React.memo(SvgTravelers);
-export default MemoSvgTravelers;
+export default SvgTravelers;

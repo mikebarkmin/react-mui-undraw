@@ -299,5 +299,4 @@ SvgTransferMoney.propTypes = {
 SvgTransferMoney.defaultProps = {
   color: "primary"
 };
-const MemoSvgTransferMoney = React.memo(SvgTransferMoney);
-export default MemoSvgTransferMoney;
+export default SvgTransferMoney;

@@ -106,5 +106,4 @@ SvgInNoTime.propTypes = {
 SvgInNoTime.defaultProps = {
   color: "primary"
 };
-const MemoSvgInNoTime = React.memo(SvgInNoTime);
-export default MemoSvgInNoTime;
+export default SvgInNoTime;

@@ -198,5 +198,4 @@ SvgMoments.propTypes = {
 SvgMoments.defaultProps = {
   color: "primary"
 };
-const MemoSvgMoments = React.memo(SvgMoments);
-export default MemoSvgMoments;
+export default SvgMoments;

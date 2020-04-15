@@ -373,5 +373,4 @@ SvgPersonalization.propTypes = {
 SvgPersonalization.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalization = React.memo(SvgPersonalization);
-export default MemoSvgPersonalization;
+export default SvgPersonalization;

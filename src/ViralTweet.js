@@ -143,5 +143,4 @@ SvgViralTweet.propTypes = {
 SvgViralTweet.defaultProps = {
   color: "primary"
 };
-const MemoSvgViralTweet = React.memo(SvgViralTweet);
-export default MemoSvgViralTweet;
+export default SvgViralTweet;

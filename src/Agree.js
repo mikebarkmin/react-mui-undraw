@@ -112,5 +112,4 @@ SvgAgree.propTypes = {
 SvgAgree.defaultProps = {
   color: "primary"
 };
-const MemoSvgAgree = React.memo(SvgAgree);
-export default MemoSvgAgree;
+export default SvgAgree;

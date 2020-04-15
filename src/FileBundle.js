@@ -160,5 +160,4 @@ SvgFileBundle.propTypes = {
 SvgFileBundle.defaultProps = {
   color: "primary"
 };
-const MemoSvgFileBundle = React.memo(SvgFileBundle);
-export default MemoSvgFileBundle;
+export default SvgFileBundle;

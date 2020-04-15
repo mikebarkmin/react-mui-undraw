@@ -855,5 +855,4 @@ SvgHangOut.propTypes = {
 SvgHangOut.defaultProps = {
   color: "primary"
 };
-const MemoSvgHangOut = React.memo(SvgHangOut);
-export default MemoSvgHangOut;
+export default SvgHangOut;

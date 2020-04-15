@@ -269,5 +269,4 @@ SvgBitcoinP2P.propTypes = {
 SvgBitcoinP2P.defaultProps = {
   color: "primary"
 };
-const MemoSvgBitcoinP2P = React.memo(SvgBitcoinP2P);
-export default MemoSvgBitcoinP2P;
+export default SvgBitcoinP2P;

@@ -109,5 +109,4 @@ SvgCodeReview.propTypes = {
 SvgCodeReview.defaultProps = {
   color: "primary"
 };
-const MemoSvgCodeReview = React.memo(SvgCodeReview);
-export default MemoSvgCodeReview;
+export default SvgCodeReview;

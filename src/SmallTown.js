@@ -146,5 +146,4 @@ SvgSmallTown.propTypes = {
 SvgSmallTown.defaultProps = {
   color: "primary"
 };
-const MemoSvgSmallTown = React.memo(SvgSmallTown);
-export default MemoSvgSmallTown;
+export default SvgSmallTown;

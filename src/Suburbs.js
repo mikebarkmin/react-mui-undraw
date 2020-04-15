@@ -283,5 +283,4 @@ SvgSuburbs.propTypes = {
 SvgSuburbs.defaultProps = {
   color: "primary"
 };
-const MemoSvgSuburbs = React.memo(SvgSuburbs);
-export default MemoSvgSuburbs;
+export default SvgSuburbs;

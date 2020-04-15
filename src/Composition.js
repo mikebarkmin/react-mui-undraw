@@ -99,5 +99,4 @@ SvgComposition.propTypes = {
 SvgComposition.defaultProps = {
   color: "primary"
 };
-const MemoSvgComposition = React.memo(SvgComposition);
-export default MemoSvgComposition;
+export default SvgComposition;

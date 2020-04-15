@@ -518,5 +518,4 @@ SvgCelebration.propTypes = {
 SvgCelebration.defaultProps = {
   color: "primary"
 };
-const MemoSvgCelebration = React.memo(SvgCelebration);
-export default MemoSvgCelebration;
+export default SvgCelebration;

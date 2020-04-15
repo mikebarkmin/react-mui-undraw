@@ -559,5 +559,4 @@ SvgCoWorkers.propTypes = {
 SvgCoWorkers.defaultProps = {
   color: "primary"
 };
-const MemoSvgCoWorkers = React.memo(SvgCoWorkers);
-export default MemoSvgCoWorkers;
+export default SvgCoWorkers;

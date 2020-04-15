@@ -260,5 +260,4 @@ SvgBeach.propTypes = {
 SvgBeach.defaultProps = {
   color: "primary"
 };
-const MemoSvgBeach = React.memo(SvgBeach);
-export default MemoSvgBeach;
+export default SvgBeach;

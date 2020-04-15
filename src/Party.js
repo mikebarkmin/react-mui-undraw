@@ -101,5 +101,4 @@ SvgParty.propTypes = {
 SvgParty.defaultProps = {
   color: "primary"
 };
-const MemoSvgParty = React.memo(SvgParty);
-export default MemoSvgParty;
+export default SvgParty;

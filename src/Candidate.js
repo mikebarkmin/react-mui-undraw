@@ -102,5 +102,4 @@ SvgCandidate.propTypes = {
 SvgCandidate.defaultProps = {
   color: "primary"
 };
-const MemoSvgCandidate = React.memo(SvgCandidate);
-export default MemoSvgCandidate;
+export default SvgCandidate;

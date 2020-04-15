@@ -218,5 +218,4 @@ SvgJoyride.propTypes = {
 SvgJoyride.defaultProps = {
   color: "primary"
 };
-const MemoSvgJoyride = React.memo(SvgJoyride);
-export default MemoSvgJoyride;
+export default SvgJoyride;

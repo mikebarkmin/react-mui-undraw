@@ -979,5 +979,4 @@ SvgInteractionDesign.propTypes = {
 SvgInteractionDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgInteractionDesign = React.memo(SvgInteractionDesign);
-export default MemoSvgInteractionDesign;
+export default SvgInteractionDesign;

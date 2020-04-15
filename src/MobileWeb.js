@@ -116,5 +116,4 @@ SvgMobileWeb.propTypes = {
 SvgMobileWeb.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileWeb = React.memo(SvgMobileWeb);
-export default MemoSvgMobileWeb;
+export default SvgMobileWeb;

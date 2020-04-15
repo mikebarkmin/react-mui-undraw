@@ -167,5 +167,4 @@ SvgUrbanDesign.propTypes = {
 SvgUrbanDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgUrbanDesign = React.memo(SvgUrbanDesign);
-export default MemoSvgUrbanDesign;
+export default SvgUrbanDesign;

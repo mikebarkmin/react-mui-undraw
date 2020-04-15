@@ -102,5 +102,4 @@ SvgContentStructure.propTypes = {
 SvgContentStructure.defaultProps = {
   color: "primary"
 };
-const MemoSvgContentStructure = React.memo(SvgContentStructure);
-export default MemoSvgContentStructure;
+export default SvgContentStructure;

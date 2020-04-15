@@ -312,5 +312,4 @@ SvgCollaboration.propTypes = {
 SvgCollaboration.defaultProps = {
   color: "primary"
 };
-const MemoSvgCollaboration = React.memo(SvgCollaboration);
-export default MemoSvgCollaboration;
+export default SvgCollaboration;

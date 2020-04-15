@@ -82,5 +82,4 @@ SvgProfilePic.propTypes = {
 SvgProfilePic.defaultProps = {
   color: "primary"
 };
-const MemoSvgProfilePic = React.memo(SvgProfilePic);
-export default MemoSvgProfilePic;
+export default SvgProfilePic;

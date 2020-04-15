@@ -121,5 +121,4 @@ SvgFileManager.propTypes = {
 SvgFileManager.defaultProps = {
   color: "primary"
 };
-const MemoSvgFileManager = React.memo(SvgFileManager);
-export default MemoSvgFileManager;
+export default SvgFileManager;

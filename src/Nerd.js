@@ -118,5 +118,4 @@ SvgNerd.propTypes = {
 SvgNerd.defaultProps = {
   color: "primary"
 };
-const MemoSvgNerd = React.memo(SvgNerd);
-export default MemoSvgNerd;
+export default SvgNerd;

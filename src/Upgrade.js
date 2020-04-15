@@ -90,5 +90,4 @@ SvgUpgrade.propTypes = {
 SvgUpgrade.defaultProps = {
   color: "primary"
 };
-const MemoSvgUpgrade = React.memo(SvgUpgrade);
-export default MemoSvgUpgrade;
+export default SvgUpgrade;

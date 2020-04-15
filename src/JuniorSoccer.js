@@ -98,5 +98,4 @@ SvgJuniorSoccer.propTypes = {
 SvgJuniorSoccer.defaultProps = {
   color: "primary"
 };
-const MemoSvgJuniorSoccer = React.memo(SvgJuniorSoccer);
-export default MemoSvgJuniorSoccer;
+export default SvgJuniorSoccer;

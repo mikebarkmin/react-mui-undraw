@@ -254,5 +254,4 @@ SvgFeelingBlue.propTypes = {
 SvgFeelingBlue.defaultProps = {
   color: "primary"
 };
-const MemoSvgFeelingBlue = React.memo(SvgFeelingBlue);
-export default MemoSvgFeelingBlue;
+export default SvgFeelingBlue;

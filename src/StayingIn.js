@@ -536,5 +536,4 @@ SvgStayingIn.propTypes = {
 SvgStayingIn.defaultProps = {
   color: "primary"
 };
-const MemoSvgStayingIn = React.memo(SvgStayingIn);
-export default MemoSvgStayingIn;
+export default SvgStayingIn;

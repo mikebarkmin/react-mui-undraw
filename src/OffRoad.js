@@ -851,5 +851,4 @@ SvgOffRoad.propTypes = {
 SvgOffRoad.defaultProps = {
   color: "primary"
 };
-const MemoSvgOffRoad = React.memo(SvgOffRoad);
-export default MemoSvgOffRoad;
+export default SvgOffRoad;

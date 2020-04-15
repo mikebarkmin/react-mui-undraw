@@ -215,5 +215,4 @@ SvgDifferentLove.propTypes = {
 SvgDifferentLove.defaultProps = {
   color: "primary"
 };
-const MemoSvgDifferentLove = React.memo(SvgDifferentLove);
-export default MemoSvgDifferentLove;
+export default SvgDifferentLove;

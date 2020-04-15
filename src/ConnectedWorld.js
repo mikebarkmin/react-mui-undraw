@@ -70,5 +70,4 @@ SvgConnectedWorld.propTypes = {
 SvgConnectedWorld.defaultProps = {
   color: "primary"
 };
-const MemoSvgConnectedWorld = React.memo(SvgConnectedWorld);
-export default MemoSvgConnectedWorld;
+export default SvgConnectedWorld;

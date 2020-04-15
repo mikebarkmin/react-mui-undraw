@@ -192,5 +192,4 @@ SvgBreakfast.propTypes = {
 SvgBreakfast.defaultProps = {
   color: "primary"
 };
-const MemoSvgBreakfast = React.memo(SvgBreakfast);
-export default MemoSvgBreakfast;
+export default SvgBreakfast;

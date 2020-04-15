@@ -211,5 +211,4 @@ SvgCommunity.propTypes = {
 SvgCommunity.defaultProps = {
   color: "primary"
 };
-const MemoSvgCommunity = React.memo(SvgCommunity);
-export default MemoSvgCommunity;
+export default SvgCommunity;

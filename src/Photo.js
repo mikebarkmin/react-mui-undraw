@@ -97,5 +97,4 @@ SvgPhoto.propTypes = {
 SvgPhoto.defaultProps = {
   color: "primary"
 };
-const MemoSvgPhoto = React.memo(SvgPhoto);
-export default MemoSvgPhoto;
+export default SvgPhoto;

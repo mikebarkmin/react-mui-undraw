@@ -273,5 +273,4 @@ SvgYoutubeTutorial.propTypes = {
 SvgYoutubeTutorial.defaultProps = {
   color: "primary"
 };
-const MemoSvgYoutubeTutorial = React.memo(SvgYoutubeTutorial);
-export default MemoSvgYoutubeTutorial;
+export default SvgYoutubeTutorial;

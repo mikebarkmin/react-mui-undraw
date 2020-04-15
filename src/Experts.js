@@ -254,5 +254,4 @@ SvgExperts.propTypes = {
 SvgExperts.defaultProps = {
   color: "primary"
 };
-const MemoSvgExperts = React.memo(SvgExperts);
-export default MemoSvgExperts;
+export default SvgExperts;

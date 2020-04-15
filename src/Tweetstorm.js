@@ -124,5 +124,4 @@ SvgTweetstorm.propTypes = {
 SvgTweetstorm.defaultProps = {
   color: "primary"
 };
-const MemoSvgTweetstorm = React.memo(SvgTweetstorm);
-export default MemoSvgTweetstorm;
+export default SvgTweetstorm;

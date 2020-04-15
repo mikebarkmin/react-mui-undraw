@@ -353,5 +353,4 @@ SvgCloudSync.propTypes = {
 SvgCloudSync.defaultProps = {
   color: "primary"
 };
-const MemoSvgCloudSync = React.memo(SvgCloudSync);
-export default MemoSvgCloudSync;
+export default SvgCloudSync;

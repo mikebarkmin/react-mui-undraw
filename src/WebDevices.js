@@ -274,5 +274,4 @@ SvgWebDevices.propTypes = {
 SvgWebDevices.defaultProps = {
   color: "primary"
 };
-const MemoSvgWebDevices = React.memo(SvgWebDevices);
-export default MemoSvgWebDevices;
+export default SvgWebDevices;

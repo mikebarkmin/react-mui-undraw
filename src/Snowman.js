@@ -118,5 +118,4 @@ SvgSnowman.propTypes = {
 SvgSnowman.defaultProps = {
   color: "primary"
 };
-const MemoSvgSnowman = React.memo(SvgSnowman);
-export default MemoSvgSnowman;
+export default SvgSnowman;

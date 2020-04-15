@@ -151,5 +151,4 @@ SvgSpreadsheets.propTypes = {
 SvgSpreadsheets.defaultProps = {
   color: "primary"
 };
-const MemoSvgSpreadsheets = React.memo(SvgSpreadsheets);
-export default MemoSvgSpreadsheets;
+export default SvgSpreadsheets;

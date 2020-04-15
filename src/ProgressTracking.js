@@ -92,5 +92,4 @@ SvgProgressTracking.propTypes = {
 SvgProgressTracking.defaultProps = {
   color: "primary"
 };
-const MemoSvgProgressTracking = React.memo(SvgProgressTracking);
-export default MemoSvgProgressTracking;
+export default SvgProgressTracking;

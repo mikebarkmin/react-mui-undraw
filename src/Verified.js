@@ -106,5 +106,4 @@ SvgVerified.propTypes = {
 SvgVerified.defaultProps = {
   color: "primary"
 };
-const MemoSvgVerified = React.memo(SvgVerified);
-export default MemoSvgVerified;
+export default SvgVerified;

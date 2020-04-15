@@ -96,5 +96,4 @@ SvgUpToDate.propTypes = {
 SvgUpToDate.defaultProps = {
   color: "primary"
 };
-const MemoSvgUpToDate = React.memo(SvgUpToDate);
-export default MemoSvgUpToDate;
+export default SvgUpToDate;

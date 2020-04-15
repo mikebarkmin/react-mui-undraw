@@ -210,5 +210,4 @@ SvgBrainstorming.propTypes = {
 SvgBrainstorming.defaultProps = {
   color: "primary"
 };
-const MemoSvgBrainstorming = React.memo(SvgBrainstorming);
-export default MemoSvgBrainstorming;
+export default SvgBrainstorming;

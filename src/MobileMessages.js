@@ -130,5 +130,4 @@ SvgMobileMessages.propTypes = {
 SvgMobileMessages.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileMessages = React.memo(SvgMobileMessages);
-export default MemoSvgMobileMessages;
+export default SvgMobileMessages;

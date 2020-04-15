@@ -673,5 +673,4 @@ SvgGameDay.propTypes = {
 SvgGameDay.defaultProps = {
   color: "primary"
 };
-const MemoSvgGameDay = React.memo(SvgGameDay);
-export default MemoSvgGameDay;
+export default SvgGameDay;

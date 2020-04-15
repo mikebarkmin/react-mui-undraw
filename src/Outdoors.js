@@ -146,5 +146,4 @@ SvgOutdoors.propTypes = {
 SvgOutdoors.defaultProps = {
   color: "primary"
 };
-const MemoSvgOutdoors = React.memo(SvgOutdoors);
-export default MemoSvgOutdoors;
+export default SvgOutdoors;

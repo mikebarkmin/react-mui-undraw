@@ -811,5 +811,4 @@ SvgScooter.propTypes = {
 SvgScooter.defaultProps = {
   color: "primary"
 };
-const MemoSvgScooter = React.memo(SvgScooter);
-export default MemoSvgScooter;
+export default SvgScooter;

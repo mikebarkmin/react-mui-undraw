@@ -263,5 +263,4 @@ SvgGiftCard.propTypes = {
 SvgGiftCard.defaultProps = {
   color: "primary"
 };
-const MemoSvgGiftCard = React.memo(SvgGiftCard);
-export default MemoSvgGiftCard;
+export default SvgGiftCard;

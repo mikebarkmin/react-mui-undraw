@@ -143,5 +143,4 @@ SvgMobilePrototyping.propTypes = {
 SvgMobilePrototyping.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobilePrototyping = React.memo(SvgMobilePrototyping);
-export default MemoSvgMobilePrototyping;
+export default SvgMobilePrototyping;

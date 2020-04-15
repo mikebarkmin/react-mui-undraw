@@ -128,5 +128,4 @@ SvgThoughtProcess.propTypes = {
 SvgThoughtProcess.defaultProps = {
   color: "primary"
 };
-const MemoSvgThoughtProcess = React.memo(SvgThoughtProcess);
-export default MemoSvgThoughtProcess;
+export default SvgThoughtProcess;

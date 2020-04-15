@@ -1633,5 +1633,4 @@ SvgMovieNight.propTypes = {
 SvgMovieNight.defaultProps = {
   color: "primary"
 };
-const MemoSvgMovieNight = React.memo(SvgMovieNight);
-export default MemoSvgMovieNight;
+export default SvgMovieNight;

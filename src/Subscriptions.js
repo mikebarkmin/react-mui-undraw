@@ -125,5 +125,4 @@ SvgSubscriptions.propTypes = {
 SvgSubscriptions.defaultProps = {
   color: "primary"
 };
-const MemoSvgSubscriptions = React.memo(SvgSubscriptions);
-export default MemoSvgSubscriptions;
+export default SvgSubscriptions;

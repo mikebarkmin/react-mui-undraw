@@ -418,5 +418,4 @@ SvgBlogging.propTypes = {
 SvgBlogging.defaultProps = {
   color: "primary"
 };
-const MemoSvgBlogging = React.memo(SvgBlogging);
-export default MemoSvgBlogging;
+export default SvgBlogging;

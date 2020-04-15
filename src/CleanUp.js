@@ -88,5 +88,4 @@ SvgCleanUp.propTypes = {
 SvgCleanUp.defaultProps = {
   color: "primary"
 };
-const MemoSvgCleanUp = React.memo(SvgCleanUp);
-export default MemoSvgCleanUp;
+export default SvgCleanUp;

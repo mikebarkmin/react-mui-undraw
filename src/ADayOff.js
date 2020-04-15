@@ -110,5 +110,4 @@ SvgADayOff.propTypes = {
 SvgADayOff.defaultProps = {
   color: "primary"
 };
-const MemoSvgADayOff = React.memo(SvgADayOff);
-export default MemoSvgADayOff;
+export default SvgADayOff;

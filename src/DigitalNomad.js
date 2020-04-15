@@ -975,5 +975,4 @@ SvgDigitalNomad.propTypes = {
 SvgDigitalNomad.defaultProps = {
   color: "primary"
 };
-const MemoSvgDigitalNomad = React.memo(SvgDigitalNomad);
-export default MemoSvgDigitalNomad;
+export default SvgDigitalNomad;

@@ -338,5 +338,4 @@ SvgDataReport.propTypes = {
 SvgDataReport.defaultProps = {
   color: "primary"
 };
-const MemoSvgDataReport = React.memo(SvgDataReport);
-export default MemoSvgDataReport;
+export default SvgDataReport;

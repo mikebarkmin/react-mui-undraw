@@ -142,5 +142,4 @@ SvgMoonlight.propTypes = {
 SvgMoonlight.defaultProps = {
   color: "primary"
 };
-const MemoSvgMoonlight = React.memo(SvgMoonlight);
-export default MemoSvgMoonlight;
+export default SvgMoonlight;

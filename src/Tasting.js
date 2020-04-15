@@ -458,5 +458,4 @@ SvgTasting.propTypes = {
 SvgTasting.defaultProps = {
   color: "primary"
 };
-const MemoSvgTasting = React.memo(SvgTasting);
-export default MemoSvgTasting;
+export default SvgTasting;

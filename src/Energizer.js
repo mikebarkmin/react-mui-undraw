@@ -177,5 +177,4 @@ SvgEnergizer.propTypes = {
 SvgEnergizer.defaultProps = {
   color: "primary"
 };
-const MemoSvgEnergizer = React.memo(SvgEnergizer);
-export default MemoSvgEnergizer;
+export default SvgEnergizer;

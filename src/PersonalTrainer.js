@@ -312,5 +312,4 @@ SvgPersonalTrainer.propTypes = {
 SvgPersonalTrainer.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalTrainer = React.memo(SvgPersonalTrainer);
-export default MemoSvgPersonalTrainer;
+export default SvgPersonalTrainer;

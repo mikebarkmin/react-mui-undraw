@@ -98,5 +98,4 @@ SvgSkateboard.propTypes = {
 SvgSkateboard.defaultProps = {
   color: "primary"
 };
-const MemoSvgSkateboard = React.memo(SvgSkateboard);
-export default MemoSvgSkateboard;
+export default SvgSkateboard;

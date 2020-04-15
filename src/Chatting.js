@@ -266,5 +266,4 @@ SvgChatting.propTypes = {
 SvgChatting.defaultProps = {
   color: "primary"
 };
-const MemoSvgChatting = React.memo(SvgChatting);
-export default MemoSvgChatting;
+export default SvgChatting;

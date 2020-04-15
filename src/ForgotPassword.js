@@ -135,5 +135,4 @@ SvgForgotPassword.propTypes = {
 SvgForgotPassword.defaultProps = {
   color: "primary"
 };
-const MemoSvgForgotPassword = React.memo(SvgForgotPassword);
-export default MemoSvgForgotPassword;
+export default SvgForgotPassword;

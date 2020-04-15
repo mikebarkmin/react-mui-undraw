@@ -218,5 +218,4 @@ SvgOnlineTransactions.propTypes = {
 SvgOnlineTransactions.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineTransactions = React.memo(SvgOnlineTransactions);
-export default MemoSvgOnlineTransactions;
+export default SvgOnlineTransactions;

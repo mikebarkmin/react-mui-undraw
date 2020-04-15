@@ -136,5 +136,4 @@ SvgTask.propTypes = {
 SvgTask.defaultProps = {
   color: "primary"
 };
-const MemoSvgTask = React.memo(SvgTask);
-export default MemoSvgTask;
+export default SvgTask;

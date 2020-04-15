@@ -93,5 +93,4 @@ SvgModernDesign.propTypes = {
 SvgModernDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgModernDesign = React.memo(SvgModernDesign);
-export default MemoSvgModernDesign;
+export default SvgModernDesign;

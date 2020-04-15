@@ -564,5 +564,4 @@ SvgScrumBoard.propTypes = {
 SvgScrumBoard.defaultProps = {
   color: "primary"
 };
-const MemoSvgScrumBoard = React.memo(SvgScrumBoard);
-export default MemoSvgScrumBoard;
+export default SvgScrumBoard;

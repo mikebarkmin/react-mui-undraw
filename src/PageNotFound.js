@@ -245,5 +245,4 @@ SvgPageNotFound.propTypes = {
 SvgPageNotFound.defaultProps = {
   color: "primary"
 };
-const MemoSvgPageNotFound = React.memo(SvgPageNotFound);
-export default MemoSvgPageNotFound;
+export default SvgPageNotFound;

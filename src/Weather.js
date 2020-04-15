@@ -366,5 +366,4 @@ SvgWeather.propTypes = {
 SvgWeather.defaultProps = {
   color: "primary"
 };
-const MemoSvgWeather = React.memo(SvgWeather);
-export default MemoSvgWeather;
+export default SvgWeather;

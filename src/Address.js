@@ -135,5 +135,4 @@ SvgAddress.propTypes = {
 SvgAddress.defaultProps = {
   color: "primary"
 };
-const MemoSvgAddress = React.memo(SvgAddress);
-export default MemoSvgAddress;
+export default SvgAddress;

@@ -368,5 +368,4 @@ SvgWorkTime.propTypes = {
 SvgWorkTime.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorkTime = React.memo(SvgWorkTime);
-export default MemoSvgWorkTime;
+export default SvgWorkTime;

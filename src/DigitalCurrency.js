@@ -244,5 +244,4 @@ SvgDigitalCurrency.propTypes = {
 SvgDigitalCurrency.defaultProps = {
   color: "primary"
 };
-const MemoSvgDigitalCurrency = React.memo(SvgDigitalCurrency);
-export default MemoSvgDigitalCurrency;
+export default SvgDigitalCurrency;

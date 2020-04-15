@@ -135,5 +135,4 @@ SvgServerPush.propTypes = {
 SvgServerPush.defaultProps = {
   color: "primary"
 };
-const MemoSvgServerPush = React.memo(SvgServerPush);
-export default MemoSvgServerPush;
+export default SvgServerPush;

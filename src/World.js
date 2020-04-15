@@ -2997,5 +2997,4 @@ SvgWorld.propTypes = {
 SvgWorld.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorld = React.memo(SvgWorld);
-export default MemoSvgWorld;
+export default SvgWorld;

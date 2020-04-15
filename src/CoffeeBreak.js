@@ -257,5 +257,4 @@ SvgCoffeeBreak.propTypes = {
 SvgCoffeeBreak.defaultProps = {
   color: "primary"
 };
-const MemoSvgCoffeeBreak = React.memo(SvgCoffeeBreak);
-export default MemoSvgCoffeeBreak;
+export default SvgCoffeeBreak;

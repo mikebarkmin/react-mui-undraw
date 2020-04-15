@@ -123,5 +123,4 @@ SvgGoogleAnalytics.propTypes = {
 SvgGoogleAnalytics.defaultProps = {
   color: "primary"
 };
-const MemoSvgGoogleAnalytics = React.memo(SvgGoogleAnalytics);
-export default MemoSvgGoogleAnalytics;
+export default SvgGoogleAnalytics;

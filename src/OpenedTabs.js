@@ -110,5 +110,4 @@ SvgOpenedTabs.propTypes = {
 SvgOpenedTabs.defaultProps = {
   color: "primary"
 };
-const MemoSvgOpenedTabs = React.memo(SvgOpenedTabs);
-export default MemoSvgOpenedTabs;
+export default SvgOpenedTabs;

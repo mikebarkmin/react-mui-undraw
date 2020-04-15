@@ -97,5 +97,4 @@ SvgWalkDreaming.propTypes = {
 SvgWalkDreaming.defaultProps = {
   color: "primary"
 };
-const MemoSvgWalkDreaming = React.memo(SvgWalkDreaming);
-export default MemoSvgWalkDreaming;
+export default SvgWalkDreaming;

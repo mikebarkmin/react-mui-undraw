@@ -323,5 +323,4 @@ SvgTown.propTypes = {
 SvgTown.defaultProps = {
   color: "primary"
 };
-const MemoSvgTown = React.memo(SvgTown);
-export default MemoSvgTown;
+export default SvgTown;

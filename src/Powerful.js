@@ -378,5 +378,4 @@ SvgPowerful.propTypes = {
 SvgPowerful.defaultProps = {
   color: "primary"
 };
-const MemoSvgPowerful = React.memo(SvgPowerful);
-export default MemoSvgPowerful;
+export default SvgPowerful;

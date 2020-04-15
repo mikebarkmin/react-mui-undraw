@@ -128,5 +128,4 @@ SvgSnapTheMoment.propTypes = {
 SvgSnapTheMoment.defaultProps = {
   color: "primary"
 };
-const MemoSvgSnapTheMoment = React.memo(SvgSnapTheMoment);
-export default MemoSvgSnapTheMoment;
+export default SvgSnapTheMoment;

@@ -394,5 +394,4 @@ SvgSocialShare.propTypes = {
 SvgSocialShare.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialShare = React.memo(SvgSocialShare);
-export default MemoSvgSocialShare;
+export default SvgSocialShare;

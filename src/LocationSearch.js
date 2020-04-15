@@ -116,5 +116,4 @@ SvgLocationSearch.propTypes = {
 SvgLocationSearch.defaultProps = {
   color: "primary"
 };
-const MemoSvgLocationSearch = React.memo(SvgLocationSearch);
-export default MemoSvgLocationSearch;
+export default SvgLocationSearch;

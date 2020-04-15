@@ -175,5 +175,4 @@ SvgOpened.propTypes = {
 SvgOpened.defaultProps = {
   color: "primary"
 };
-const MemoSvgOpened = React.memo(SvgOpened);
-export default MemoSvgOpened;
+export default SvgOpened;

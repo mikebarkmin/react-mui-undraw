@@ -437,5 +437,4 @@ SvgSocialStrategy.propTypes = {
 SvgSocialStrategy.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialStrategy = React.memo(SvgSocialStrategy);
-export default MemoSvgSocialStrategy;
+export default SvgSocialStrategy;

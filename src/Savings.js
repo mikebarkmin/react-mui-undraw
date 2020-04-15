@@ -491,5 +491,4 @@ SvgSavings.propTypes = {
 SvgSavings.defaultProps = {
   color: "primary"
 };
-const MemoSvgSavings = React.memo(SvgSavings);
-export default MemoSvgSavings;
+export default SvgSavings;

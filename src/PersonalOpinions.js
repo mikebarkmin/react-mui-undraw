@@ -120,5 +120,4 @@ SvgPersonalOpinions.propTypes = {
 SvgPersonalOpinions.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalOpinions = React.memo(SvgPersonalOpinions);
-export default MemoSvgPersonalOpinions;
+export default SvgPersonalOpinions;

@@ -150,5 +150,4 @@ SvgSecurityOn.propTypes = {
 SvgSecurityOn.defaultProps = {
   color: "primary"
 };
-const MemoSvgSecurityOn = React.memo(SvgSecurityOn);
-export default MemoSvgSecurityOn;
+export default SvgSecurityOn;

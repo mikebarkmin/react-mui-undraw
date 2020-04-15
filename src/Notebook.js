@@ -36,5 +36,4 @@ SvgNotebook.propTypes = {
 SvgNotebook.defaultProps = {
   color: "primary"
 };
-const MemoSvgNotebook = React.memo(SvgNotebook);
-export default MemoSvgNotebook;
+export default SvgNotebook;

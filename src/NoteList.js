@@ -273,5 +273,4 @@ SvgNoteList.propTypes = {
 SvgNoteList.defaultProps = {
   color: "primary"
 };
-const MemoSvgNoteList = React.memo(SvgNoteList);
-export default MemoSvgNoteList;
+export default SvgNoteList;

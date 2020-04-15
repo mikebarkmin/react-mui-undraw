@@ -367,5 +367,4 @@ SvgStreetFood.propTypes = {
 SvgStreetFood.defaultProps = {
   color: "primary"
 };
-const MemoSvgStreetFood = React.memo(SvgStreetFood);
-export default MemoSvgStreetFood;
+export default SvgStreetFood;

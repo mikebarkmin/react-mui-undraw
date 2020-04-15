@@ -429,5 +429,4 @@ SvgBusinessman.propTypes = {
 SvgBusinessman.defaultProps = {
   color: "primary"
 };
-const MemoSvgBusinessman = React.memo(SvgBusinessman);
-export default MemoSvgBusinessman;
+export default SvgBusinessman;

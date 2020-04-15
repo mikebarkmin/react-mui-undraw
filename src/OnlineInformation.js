@@ -85,5 +85,4 @@ SvgOnlineInformation.propTypes = {
 SvgOnlineInformation.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineInformation = React.memo(SvgOnlineInformation);
-export default MemoSvgOnlineInformation;
+export default SvgOnlineInformation;

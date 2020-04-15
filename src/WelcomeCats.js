@@ -137,5 +137,4 @@ SvgWelcomeCats.propTypes = {
 SvgWelcomeCats.defaultProps = {
   color: "primary"
 };
-const MemoSvgWelcomeCats = React.memo(SvgWelcomeCats);
-export default MemoSvgWelcomeCats;
+export default SvgWelcomeCats;

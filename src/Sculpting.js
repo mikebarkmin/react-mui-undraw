@@ -138,5 +138,4 @@ SvgSculpting.propTypes = {
 SvgSculpting.defaultProps = {
   color: "primary"
 };
-const MemoSvgSculpting = React.memo(SvgSculpting);
-export default MemoSvgSculpting;
+export default SvgSculpting;

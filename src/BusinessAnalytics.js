@@ -135,5 +135,4 @@ SvgBusinessAnalytics.propTypes = {
 SvgBusinessAnalytics.defaultProps = {
   color: "primary"
 };
-const MemoSvgBusinessAnalytics = React.memo(SvgBusinessAnalytics);
-export default MemoSvgBusinessAnalytics;
+export default SvgBusinessAnalytics;

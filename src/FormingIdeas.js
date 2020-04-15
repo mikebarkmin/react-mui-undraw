@@ -155,5 +155,4 @@ SvgFormingIdeas.propTypes = {
 SvgFormingIdeas.defaultProps = {
   color: "primary"
 };
-const MemoSvgFormingIdeas = React.memo(SvgFormingIdeas);
-export default MemoSvgFormingIdeas;
+export default SvgFormingIdeas;

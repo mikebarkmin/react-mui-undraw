@@ -103,5 +103,4 @@ SvgBuildWireframe.propTypes = {
 SvgBuildWireframe.defaultProps = {
   color: "primary"
 };
-const MemoSvgBuildWireframe = React.memo(SvgBuildWireframe);
-export default MemoSvgBuildWireframe;
+export default SvgBuildWireframe;

@@ -202,5 +202,4 @@ SvgTreasure.propTypes = {
 SvgTreasure.defaultProps = {
   color: "primary"
 };
-const MemoSvgTreasure = React.memo(SvgTreasure);
-export default MemoSvgTreasure;
+export default SvgTreasure;

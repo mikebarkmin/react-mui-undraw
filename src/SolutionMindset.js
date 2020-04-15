@@ -122,5 +122,4 @@ SvgSolutionMindset.propTypes = {
 SvgSolutionMindset.defaultProps = {
   color: "primary"
 };
-const MemoSvgSolutionMindset = React.memo(SvgSolutionMindset);
-export default MemoSvgSolutionMindset;
+export default SvgSolutionMindset;

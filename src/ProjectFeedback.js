@@ -165,5 +165,4 @@ SvgProjectFeedback.propTypes = {
 SvgProjectFeedback.defaultProps = {
   color: "primary"
 };
-const MemoSvgProjectFeedback = React.memo(SvgProjectFeedback);
-export default MemoSvgProjectFeedback;
+export default SvgProjectFeedback;

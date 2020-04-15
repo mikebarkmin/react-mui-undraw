@@ -204,5 +204,4 @@ SvgOnlineWorld.propTypes = {
 SvgOnlineWorld.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineWorld = React.memo(SvgOnlineWorld);
-export default MemoSvgOnlineWorld;
+export default SvgOnlineWorld;

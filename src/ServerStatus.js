@@ -462,5 +462,4 @@ SvgServerStatus.propTypes = {
 SvgServerStatus.defaultProps = {
   color: "primary"
 };
-const MemoSvgServerStatus = React.memo(SvgServerStatus);
-export default MemoSvgServerStatus;
+export default SvgServerStatus;

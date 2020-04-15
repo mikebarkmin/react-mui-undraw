@@ -106,5 +106,4 @@ SvgArtMuseum.propTypes = {
 SvgArtMuseum.defaultProps = {
   color: "primary"
 };
-const MemoSvgArtMuseum = React.memo(SvgArtMuseum);
-export default MemoSvgArtMuseum;
+export default SvgArtMuseum;

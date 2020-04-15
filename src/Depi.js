@@ -1931,5 +1931,4 @@ SvgDepi.propTypes = {
 SvgDepi.defaultProps = {
   color: "primary"
 };
-const MemoSvgDepi = React.memo(SvgDepi);
-export default MemoSvgDepi;
+export default SvgDepi;

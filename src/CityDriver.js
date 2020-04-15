@@ -756,5 +756,4 @@ SvgCityDriver.propTypes = {
 SvgCityDriver.defaultProps = {
   color: "primary"
 };
-const MemoSvgCityDriver = React.memo(SvgCityDriver);
-export default MemoSvgCityDriver;
+export default SvgCityDriver;

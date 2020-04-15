@@ -499,5 +499,4 @@ SvgSocialGrowth.propTypes = {
 SvgSocialGrowth.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialGrowth = React.memo(SvgSocialGrowth);
-export default MemoSvgSocialGrowth;
+export default SvgSocialGrowth;

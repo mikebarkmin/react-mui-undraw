@@ -195,5 +195,4 @@ SvgLighthouse.propTypes = {
 SvgLighthouse.defaultProps = {
   color: "primary"
 };
-const MemoSvgLighthouse = React.memo(SvgLighthouse);
-export default MemoSvgLighthouse;
+export default SvgLighthouse;

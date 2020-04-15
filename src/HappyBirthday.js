@@ -233,5 +233,4 @@ SvgHappyBirthday.propTypes = {
 SvgHappyBirthday.defaultProps = {
   color: "primary"
 };
-const MemoSvgHappyBirthday = React.memo(SvgHappyBirthday);
-export default MemoSvgHappyBirthday;
+export default SvgHappyBirthday;

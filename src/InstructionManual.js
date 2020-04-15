@@ -345,5 +345,4 @@ SvgInstructionManual.propTypes = {
 SvgInstructionManual.defaultProps = {
   color: "primary"
 };
-const MemoSvgInstructionManual = React.memo(SvgInstructionManual);
-export default MemoSvgInstructionManual;
+export default SvgInstructionManual;

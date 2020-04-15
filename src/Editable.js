@@ -183,5 +183,4 @@ SvgEditable.propTypes = {
 SvgEditable.defaultProps = {
   color: "primary"
 };
-const MemoSvgEditable = React.memo(SvgEditable);
-export default MemoSvgEditable;
+export default SvgEditable;

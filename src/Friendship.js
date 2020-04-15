@@ -468,5 +468,4 @@ SvgFriendship.propTypes = {
 SvgFriendship.defaultProps = {
   color: "primary"
 };
-const MemoSvgFriendship = React.memo(SvgFriendship);
-export default MemoSvgFriendship;
+export default SvgFriendship;

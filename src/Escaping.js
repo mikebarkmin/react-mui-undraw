@@ -106,5 +106,4 @@ SvgEscaping.propTypes = {
 SvgEscaping.defaultProps = {
   color: "primary"
 };
-const MemoSvgEscaping = React.memo(SvgEscaping);
-export default MemoSvgEscaping;
+export default SvgEscaping;

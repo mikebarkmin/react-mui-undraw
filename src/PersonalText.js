@@ -118,5 +118,4 @@ SvgPersonalText.propTypes = {
 SvgPersonalText.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalText = React.memo(SvgPersonalText);
-export default MemoSvgPersonalText;
+export default SvgPersonalText;

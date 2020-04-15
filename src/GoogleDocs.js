@@ -189,5 +189,4 @@ SvgGoogleDocs.propTypes = {
 SvgGoogleDocs.defaultProps = {
   color: "primary"
 };
-const MemoSvgGoogleDocs = React.memo(SvgGoogleDocs);
-export default MemoSvgGoogleDocs;
+export default SvgGoogleDocs;

@@ -147,5 +147,4 @@ SvgTransferFiles.propTypes = {
 SvgTransferFiles.defaultProps = {
   color: "primary"
 };
-const MemoSvgTransferFiles = React.memo(SvgTransferFiles);
-export default MemoSvgTransferFiles;
+export default SvgTransferFiles;

@@ -160,5 +160,4 @@ SvgNeighbors.propTypes = {
 SvgNeighbors.defaultProps = {
   color: "primary"
 };
-const MemoSvgNeighbors = React.memo(SvgNeighbors);
-export default MemoSvgNeighbors;
+export default SvgNeighbors;

@@ -769,5 +769,4 @@ SvgGettingCoffee.propTypes = {
 SvgGettingCoffee.defaultProps = {
   color: "primary"
 };
-const MemoSvgGettingCoffee = React.memo(SvgGettingCoffee);
-export default MemoSvgGettingCoffee;
+export default SvgGettingCoffee;

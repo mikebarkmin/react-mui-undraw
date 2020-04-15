@@ -79,5 +79,4 @@ SvgHackerMindset.propTypes = {
 SvgHackerMindset.defaultProps = {
   color: "primary"
 };
-const MemoSvgHackerMindset = React.memo(SvgHackerMindset);
-export default MemoSvgHackerMindset;
+export default SvgHackerMindset;

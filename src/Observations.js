@@ -117,5 +117,4 @@ SvgObservations.propTypes = {
 SvgObservations.defaultProps = {
   color: "primary"
 };
-const MemoSvgObservations = React.memo(SvgObservations);
-export default MemoSvgObservations;
+export default SvgObservations;

@@ -402,5 +402,4 @@ SvgWishes.propTypes = {
 SvgWishes.defaultProps = {
   color: "primary"
 };
-const MemoSvgWishes = React.memo(SvgWishes);
-export default MemoSvgWishes;
+export default SvgWishes;

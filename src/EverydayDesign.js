@@ -98,5 +98,4 @@ SvgEverydayDesign.propTypes = {
 SvgEverydayDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgEverydayDesign = React.memo(SvgEverydayDesign);
-export default MemoSvgEverydayDesign;
+export default SvgEverydayDesign;

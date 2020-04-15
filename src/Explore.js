@@ -118,5 +118,4 @@ SvgExplore.propTypes = {
 SvgExplore.defaultProps = {
   color: "primary"
 };
-const MemoSvgExplore = React.memo(SvgExplore);
-export default MemoSvgExplore;
+export default SvgExplore;

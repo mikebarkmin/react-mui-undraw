@@ -211,5 +211,4 @@ SvgFitnessTracker.propTypes = {
 SvgFitnessTracker.defaultProps = {
   color: "primary"
 };
-const MemoSvgFitnessTracker = React.memo(SvgFitnessTracker);
-export default MemoSvgFitnessTracker;
+export default SvgFitnessTracker;

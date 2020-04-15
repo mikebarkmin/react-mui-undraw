@@ -320,5 +320,4 @@ SvgCalling.propTypes = {
 SvgCalling.defaultProps = {
   color: "primary"
 };
-const MemoSvgCalling = React.memo(SvgCalling);
-export default MemoSvgCalling;
+export default SvgCalling;

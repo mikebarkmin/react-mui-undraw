@@ -92,5 +92,4 @@ SvgUpdates.propTypes = {
 SvgUpdates.defaultProps = {
   color: "primary"
 };
-const MemoSvgUpdates = React.memo(SvgUpdates);
-export default MemoSvgUpdates;
+export default SvgUpdates;

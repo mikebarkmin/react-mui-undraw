@@ -106,5 +106,4 @@ SvgLinkShortener.propTypes = {
 SvgLinkShortener.defaultProps = {
   color: "primary"
 };
-const MemoSvgLinkShortener = React.memo(SvgLinkShortener);
-export default MemoSvgLinkShortener;
+export default SvgLinkShortener;

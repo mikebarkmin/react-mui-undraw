@@ -159,5 +159,4 @@ SvgEmptyCart.propTypes = {
 SvgEmptyCart.defaultProps = {
   color: "primary"
 };
-const MemoSvgEmptyCart = React.memo(SvgEmptyCart);
-export default MemoSvgEmptyCart;
+export default SvgEmptyCart;

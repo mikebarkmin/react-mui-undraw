@@ -186,5 +186,4 @@ SvgCoding.propTypes = {
 SvgCoding.defaultProps = {
   color: "primary"
 };
-const MemoSvgCoding = React.memo(SvgCoding);
-export default MemoSvgCoding;
+export default SvgCoding;

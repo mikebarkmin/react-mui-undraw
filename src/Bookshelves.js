@@ -123,5 +123,4 @@ SvgBookshelves.propTypes = {
 SvgBookshelves.defaultProps = {
   color: "primary"
 };
-const MemoSvgBookshelves = React.memo(SvgBookshelves);
-export default MemoSvgBookshelves;
+export default SvgBookshelves;

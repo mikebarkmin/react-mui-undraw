@@ -597,5 +597,4 @@ SvgRecording.propTypes = {
 SvgRecording.defaultProps = {
   color: "primary"
 };
-const MemoSvgRecording = React.memo(SvgRecording);
-export default MemoSvgRecording;
+export default SvgRecording;

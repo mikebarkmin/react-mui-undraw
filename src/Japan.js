@@ -219,5 +219,4 @@ SvgJapan.propTypes = {
 SvgJapan.defaultProps = {
   color: "primary"
 };
-const MemoSvgJapan = React.memo(SvgJapan);
-export default MemoSvgJapan;
+export default SvgJapan;

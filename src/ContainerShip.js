@@ -164,5 +164,4 @@ SvgContainerShip.propTypes = {
 SvgContainerShip.defaultProps = {
   color: "primary"
 };
-const MemoSvgContainerShip = React.memo(SvgContainerShip);
-export default MemoSvgContainerShip;
+export default SvgContainerShip;

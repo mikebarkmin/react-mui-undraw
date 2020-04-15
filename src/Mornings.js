@@ -147,5 +147,4 @@ SvgMornings.propTypes = {
 SvgMornings.defaultProps = {
   color: "primary"
 };
-const MemoSvgMornings = React.memo(SvgMornings);
-export default MemoSvgMornings;
+export default SvgMornings;

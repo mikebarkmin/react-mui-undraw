@@ -147,5 +147,4 @@ SvgCreativeExperiment.propTypes = {
 SvgCreativeExperiment.defaultProps = {
   color: "primary"
 };
-const MemoSvgCreativeExperiment = React.memo(SvgCreativeExperiment);
-export default MemoSvgCreativeExperiment;
+export default SvgCreativeExperiment;

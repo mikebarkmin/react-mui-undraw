@@ -99,5 +99,4 @@ SvgPersonalNotebook.propTypes = {
 SvgPersonalNotebook.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalNotebook = React.memo(SvgPersonalNotebook);
-export default MemoSvgPersonalNotebook;
+export default SvgPersonalNotebook;

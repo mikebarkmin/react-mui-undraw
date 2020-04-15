@@ -270,5 +270,4 @@ SvgUserFlow.propTypes = {
 SvgUserFlow.defaultProps = {
   color: "primary"
 };
-const MemoSvgUserFlow = React.memo(SvgUserFlow);
-export default MemoSvgUserFlow;
+export default SvgUserFlow;

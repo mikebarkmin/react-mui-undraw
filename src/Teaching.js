@@ -639,5 +639,4 @@ SvgTeaching.propTypes = {
 SvgTeaching.defaultProps = {
   color: "primary"
 };
-const MemoSvgTeaching = React.memo(SvgTeaching);
-export default MemoSvgTeaching;
+export default SvgTeaching;

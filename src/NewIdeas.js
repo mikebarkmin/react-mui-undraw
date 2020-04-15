@@ -122,5 +122,4 @@ SvgNewIdeas.propTypes = {
 SvgNewIdeas.defaultProps = {
   color: "primary"
 };
-const MemoSvgNewIdeas = React.memo(SvgNewIdeas);
-export default MemoSvgNewIdeas;
+export default SvgNewIdeas;

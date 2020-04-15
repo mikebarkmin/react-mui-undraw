@@ -368,5 +368,4 @@ SvgMissionImpossible.propTypes = {
 SvgMissionImpossible.defaultProps = {
   color: "primary"
 };
-const MemoSvgMissionImpossible = React.memo(SvgMissionImpossible);
-export default MemoSvgMissionImpossible;
+export default SvgMissionImpossible;

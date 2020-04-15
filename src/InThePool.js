@@ -524,5 +524,4 @@ SvgInThePool.propTypes = {
 SvgInThePool.defaultProps = {
   color: "primary"
 };
-const MemoSvgInThePool = React.memo(SvgInThePool);
-export default MemoSvgInThePool;
+export default SvgInThePool;

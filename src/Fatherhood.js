@@ -296,5 +296,4 @@ SvgFatherhood.propTypes = {
 SvgFatherhood.defaultProps = {
   color: "primary"
 };
-const MemoSvgFatherhood = React.memo(SvgFatherhood);
-export default MemoSvgFatherhood;
+export default SvgFatherhood;

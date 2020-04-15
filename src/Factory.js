@@ -112,5 +112,4 @@ SvgFactory.propTypes = {
 SvgFactory.defaultProps = {
   color: "primary"
 };
-const MemoSvgFactory = React.memo(SvgFactory);
-export default MemoSvgFactory;
+export default SvgFactory;

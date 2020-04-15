@@ -210,5 +210,4 @@ SvgTimeManagement.propTypes = {
 SvgTimeManagement.defaultProps = {
   color: "primary"
 };
-const MemoSvgTimeManagement = React.memo(SvgTimeManagement);
-export default MemoSvgTimeManagement;
+export default SvgTimeManagement;

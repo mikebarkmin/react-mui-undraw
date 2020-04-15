@@ -196,5 +196,4 @@ SvgTeamPage.propTypes = {
 SvgTeamPage.defaultProps = {
   color: "primary"
 };
-const MemoSvgTeamPage = React.memo(SvgTeamPage);
-export default MemoSvgTeamPage;
+export default SvgTeamPage;

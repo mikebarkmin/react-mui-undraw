@@ -162,5 +162,4 @@ SvgRaining.propTypes = {
 SvgRaining.defaultProps = {
   color: "primary"
 };
-const MemoSvgRaining = React.memo(SvgRaining);
-export default MemoSvgRaining;
+export default SvgRaining;

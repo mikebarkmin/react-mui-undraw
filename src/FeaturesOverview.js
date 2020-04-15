@@ -373,5 +373,4 @@ SvgFeaturesOverview.propTypes = {
 SvgFeaturesOverview.defaultProps = {
   color: "primary"
 };
-const MemoSvgFeaturesOverview = React.memo(SvgFeaturesOverview);
-export default MemoSvgFeaturesOverview;
+export default SvgFeaturesOverview;

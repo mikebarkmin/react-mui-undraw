@@ -587,5 +587,4 @@ SvgDesignTools.propTypes = {
 SvgDesignTools.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesignTools = React.memo(SvgDesignTools);
-export default MemoSvgDesignTools;
+export default SvgDesignTools;

@@ -155,5 +155,4 @@ SvgQuiz.propTypes = {
 SvgQuiz.defaultProps = {
   color: "primary"
 };
-const MemoSvgQuiz = React.memo(SvgQuiz);
-export default MemoSvgQuiz;
+export default SvgQuiz;

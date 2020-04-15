@@ -160,5 +160,4 @@ SvgHomeSettings.propTypes = {
 SvgHomeSettings.defaultProps = {
   color: "primary"
 };
-const MemoSvgHomeSettings = React.memo(SvgHomeSettings);
-export default MemoSvgHomeSettings;
+export default SvgHomeSettings;

@@ -527,5 +527,4 @@ SvgChilling.propTypes = {
 SvgChilling.defaultProps = {
   color: "primary"
 };
-const MemoSvgChilling = React.memo(SvgChilling);
-export default MemoSvgChilling;
+export default SvgChilling;

@@ -210,5 +210,4 @@ SvgMeditation.propTypes = {
 SvgMeditation.defaultProps = {
   color: "primary"
 };
-const MemoSvgMeditation = React.memo(SvgMeditation);
-export default MemoSvgMeditation;
+export default SvgMeditation;

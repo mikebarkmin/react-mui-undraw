@@ -477,5 +477,4 @@ SvgToTheStars.propTypes = {
 SvgToTheStars.defaultProps = {
   color: "primary"
 };
-const MemoSvgToTheStars = React.memo(SvgToTheStars);
-export default MemoSvgToTheStars;
+export default SvgToTheStars;

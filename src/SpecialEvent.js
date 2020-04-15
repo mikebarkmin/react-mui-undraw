@@ -245,5 +245,4 @@ SvgSpecialEvent.propTypes = {
 SvgSpecialEvent.defaultProps = {
   color: "primary"
 };
-const MemoSvgSpecialEvent = React.memo(SvgSpecialEvent);
-export default MemoSvgSpecialEvent;
+export default SvgSpecialEvent;

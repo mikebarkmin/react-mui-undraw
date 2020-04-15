@@ -361,5 +361,4 @@ SvgCareerProgress.propTypes = {
 SvgCareerProgress.defaultProps = {
   color: "primary"
 };
-const MemoSvgCareerProgress = React.memo(SvgCareerProgress);
-export default MemoSvgCareerProgress;
+export default SvgCareerProgress;

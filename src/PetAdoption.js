@@ -172,5 +172,4 @@ SvgPetAdoption.propTypes = {
 SvgPetAdoption.defaultProps = {
   color: "primary"
 };
-const MemoSvgPetAdoption = React.memo(SvgPetAdoption);
-export default MemoSvgPetAdoption;
+export default SvgPetAdoption;

@@ -310,5 +310,4 @@ SvgBookmarks.propTypes = {
 SvgBookmarks.defaultProps = {
   color: "primary"
 };
-const MemoSvgBookmarks = React.memo(SvgBookmarks);
-export default MemoSvgBookmarks;
+export default SvgBookmarks;

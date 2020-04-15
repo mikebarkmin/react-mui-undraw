@@ -402,5 +402,4 @@ SvgSmileyFace.propTypes = {
 SvgSmileyFace.defaultProps = {
   color: "primary"
 };
-const MemoSvgSmileyFace = React.memo(SvgSmileyFace);
-export default MemoSvgSmileyFace;
+export default SvgSmileyFace;

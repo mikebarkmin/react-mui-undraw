@@ -190,5 +190,4 @@ SvgReadingList.propTypes = {
 SvgReadingList.defaultProps = {
   color: "primary"
 };
-const MemoSvgReadingList = React.memo(SvgReadingList);
-export default MemoSvgReadingList;
+export default SvgReadingList;

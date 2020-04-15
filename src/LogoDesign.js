@@ -101,5 +101,4 @@ SvgLogoDesign.propTypes = {
 SvgLogoDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgLogoDesign = React.memo(SvgLogoDesign);
-export default MemoSvgLogoDesign;
+export default SvgLogoDesign;

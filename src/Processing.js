@@ -299,5 +299,4 @@ SvgProcessing.propTypes = {
 SvgProcessing.defaultProps = {
   color: "primary"
 };
-const MemoSvgProcessing = React.memo(SvgProcessing);
-export default MemoSvgProcessing;
+export default SvgProcessing;

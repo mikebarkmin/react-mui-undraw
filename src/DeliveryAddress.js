@@ -134,5 +134,4 @@ SvgDeliveryAddress.propTypes = {
 SvgDeliveryAddress.defaultProps = {
   color: "primary"
 };
-const MemoSvgDeliveryAddress = React.memo(SvgDeliveryAddress);
-export default MemoSvgDeliveryAddress;
+export default SvgDeliveryAddress;

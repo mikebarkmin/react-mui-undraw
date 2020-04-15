@@ -360,5 +360,4 @@ SvgTrueFriends.propTypes = {
 SvgTrueFriends.defaultProps = {
   color: "primary"
 };
-const MemoSvgTrueFriends = React.memo(SvgTrueFriends);
-export default MemoSvgTrueFriends;
+export default SvgTrueFriends;

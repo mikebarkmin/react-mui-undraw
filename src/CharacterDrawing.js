@@ -56,5 +56,4 @@ SvgCharacterDrawing.propTypes = {
 SvgCharacterDrawing.defaultProps = {
   color: "primary"
 };
-const MemoSvgCharacterDrawing = React.memo(SvgCharacterDrawing);
-export default MemoSvgCharacterDrawing;
+export default SvgCharacterDrawing;

@@ -343,5 +343,4 @@ SvgBugFixing.propTypes = {
 SvgBugFixing.defaultProps = {
   color: "primary"
 };
-const MemoSvgBugFixing = React.memo(SvgBugFixing);
-export default MemoSvgBugFixing;
+export default SvgBugFixing;

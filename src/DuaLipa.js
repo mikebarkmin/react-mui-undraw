@@ -266,5 +266,4 @@ SvgDuaLipa.propTypes = {
 SvgDuaLipa.defaultProps = {
   color: "primary"
 };
-const MemoSvgDuaLipa = React.memo(SvgDuaLipa);
-export default MemoSvgDuaLipa;
+export default SvgDuaLipa;

@@ -171,5 +171,4 @@ SvgAllTheData.propTypes = {
 SvgAllTheData.defaultProps = {
   color: "primary"
 };
-const MemoSvgAllTheData = React.memo(SvgAllTheData);
-export default MemoSvgAllTheData;
+export default SvgAllTheData;

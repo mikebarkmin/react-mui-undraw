@@ -534,5 +534,4 @@ SvgImagePost.propTypes = {
 SvgImagePost.defaultProps = {
   color: "primary"
 };
-const MemoSvgImagePost = React.memo(SvgImagePost);
-export default MemoSvgImagePost;
+export default SvgImagePost;

@@ -161,5 +161,4 @@ SvgFriendsOnline.propTypes = {
 SvgFriendsOnline.defaultProps = {
   color: "primary"
 };
-const MemoSvgFriendsOnline = React.memo(SvgFriendsOnline);
-export default MemoSvgFriendsOnline;
+export default SvgFriendsOnline;

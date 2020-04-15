@@ -587,5 +587,4 @@ SvgToyCar.propTypes = {
 SvgToyCar.defaultProps = {
   color: "primary"
 };
-const MemoSvgToyCar = React.memo(SvgToyCar);
-export default MemoSvgToyCar;
+export default SvgToyCar;

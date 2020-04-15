@@ -92,5 +92,4 @@ SvgSentimentAnalysis.propTypes = {
 SvgSentimentAnalysis.defaultProps = {
   color: "primary"
 };
-const MemoSvgSentimentAnalysis = React.memo(SvgSentimentAnalysis);
-export default MemoSvgSentimentAnalysis;
+export default SvgSentimentAnalysis;

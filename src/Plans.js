@@ -131,5 +131,4 @@ SvgPlans.propTypes = {
 SvgPlans.defaultProps = {
   color: "primary"
 };
-const MemoSvgPlans = React.memo(SvgPlans);
-export default MemoSvgPlans;
+export default SvgPlans;

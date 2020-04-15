@@ -108,5 +108,4 @@ SvgSiteContent.propTypes = {
 SvgSiteContent.defaultProps = {
   color: "primary"
 };
-const MemoSvgSiteContent = React.memo(SvgSiteContent);
-export default MemoSvgSiteContent;
+export default SvgSiteContent;

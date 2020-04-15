@@ -115,5 +115,4 @@ SvgBodyText.propTypes = {
 SvgBodyText.defaultProps = {
   color: "primary"
 };
-const MemoSvgBodyText = React.memo(SvgBodyText);
-export default MemoSvgBodyText;
+export default SvgBodyText;

@@ -501,5 +501,4 @@ SvgPizzaSharing.propTypes = {
 SvgPizzaSharing.defaultProps = {
   color: "primary"
 };
-const MemoSvgPizzaSharing = React.memo(SvgPizzaSharing);
-export default MemoSvgPizzaSharing;
+export default SvgPizzaSharing;

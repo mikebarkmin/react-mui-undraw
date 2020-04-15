@@ -335,5 +335,4 @@ SvgCircles.propTypes = {
 SvgCircles.defaultProps = {
   color: "primary"
 };
-const MemoSvgCircles = React.memo(SvgCircles);
-export default MemoSvgCircles;
+export default SvgCircles;

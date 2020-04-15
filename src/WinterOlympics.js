@@ -126,5 +126,4 @@ SvgWinterOlympics.propTypes = {
 SvgWinterOlympics.defaultProps = {
   color: "primary"
 };
-const MemoSvgWinterOlympics = React.memo(SvgWinterOlympics);
-export default MemoSvgWinterOlympics;
+export default SvgWinterOlympics;

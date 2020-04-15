@@ -391,5 +391,4 @@ SvgEatingTogether.propTypes = {
 SvgEatingTogether.defaultProps = {
   color: "primary"
 };
-const MemoSvgEatingTogether = React.memo(SvgEatingTogether);
-export default MemoSvgEatingTogether;
+export default SvgEatingTogether;

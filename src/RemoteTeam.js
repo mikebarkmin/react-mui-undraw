@@ -129,5 +129,4 @@ SvgRemoteTeam.propTypes = {
 SvgRemoteTeam.defaultProps = {
   color: "primary"
 };
-const MemoSvgRemoteTeam = React.memo(SvgRemoteTeam);
-export default MemoSvgRemoteTeam;
+export default SvgRemoteTeam;

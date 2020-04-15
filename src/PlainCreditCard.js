@@ -94,5 +94,4 @@ SvgPlainCreditCard.propTypes = {
 SvgPlainCreditCard.defaultProps = {
   color: "primary"
 };
-const MemoSvgPlainCreditCard = React.memo(SvgPlainCreditCard);
-export default MemoSvgPlainCreditCard;
+export default SvgPlainCreditCard;

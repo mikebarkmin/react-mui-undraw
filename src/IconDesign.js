@@ -90,5 +90,4 @@ SvgIconDesign.propTypes = {
 SvgIconDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgIconDesign = React.memo(SvgIconDesign);
-export default MemoSvgIconDesign;
+export default SvgIconDesign;

@@ -632,5 +632,4 @@ SvgFilter.propTypes = {
 SvgFilter.defaultProps = {
   color: "primary"
 };
-const MemoSvgFilter = React.memo(SvgFilter);
-export default MemoSvgFilter;
+export default SvgFilter;

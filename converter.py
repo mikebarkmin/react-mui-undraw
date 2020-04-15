@@ -4,10 +4,9 @@ import json
 import os
 import subprocess
 
-undraw_api = "https://undraw.co/api/illustrations?page={}"
-transform_api = "https://svg2jsx.com/api/transform"
+from templates import stories
 
-transform_config = {"jsxSingleQuote": True, "memo": False, "type": "functional"}
+undraw_api = "https://undraw.co/api/illustrations?page={}"
 
 
 def get_meta():
@@ -65,9 +64,8 @@ def convert_svgs():
     subprocess.run(["svgr", "-d", "src", "illustrations"])
 
 
-def create_index():
+def rename_svgs():
     for root, _, files in os.walk("src"):
-        components = []
         for file in files:
             name = file.split(".")[0]
             if name[0].isdigit():
@@ -75,6 +73,16 @@ def create_index():
             elif name == "React":
                 name = "X" + name
             elif name == "index":
+                continue
+            os.rename(os.path.join(root, file), os.path.join(root, name + ".js"))
+
+
+def create_index():
+    for root, _, files in os.walk("src"):
+        components = []
+        for file in files:
+            name = file.split(".")[0]
+            if name == "index":
                 continue
             components.append(name)
         components.sort()
@@ -86,13 +94,26 @@ def create_index():
     subprocess.run(["prettier", "src/index.js", "--write"])
 
 
+def create_stories():
+    for root, _, files in os.walk("src"):
+        for file in files:
+            name = file.split(".")[0]
+            if name == "index":
+                continue
+            component_story = stories.substitute(name=name)
+            with open(os.path.join("stories", f"{name}.stories.js"), "w") as out:
+                out.write(component_story)
+
+
 if __name__ == "__main__":
     print("What do you want to do?")
     print("[0]: Everything")
     print("[1]: Get Meta Data")
     print("[2]: Get SVGs")
     print("[3]: Convert SVGs")
-    print("[4]: Create Index")
+    print("[4]: Rename SVGs")
+    print("[5]: Create Index")
+    print("[6]: Create Stories")
 
     choice = int(input("Number: "))
 
@@ -103,5 +124,8 @@ if __name__ == "__main__":
     elif choice == 3 or choice == 0:
         convert_svgs()
     elif choice == 4 or choice == 0:
+        rename_svgs()
+    elif choice == 5 or choice == 0:
         create_index()
-
+    elif choice == 6 or choice == 0:
+        create_stories()

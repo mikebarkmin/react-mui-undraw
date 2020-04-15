@@ -450,5 +450,4 @@ SvgArtificialIntelligence.propTypes = {
 SvgArtificialIntelligence.defaultProps = {
   color: "primary"
 };
-const MemoSvgArtificialIntelligence = React.memo(SvgArtificialIntelligence);
-export default MemoSvgArtificialIntelligence;
+export default SvgArtificialIntelligence;

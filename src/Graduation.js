@@ -148,5 +148,4 @@ SvgGraduation.propTypes = {
 SvgGraduation.defaultProps = {
   color: "primary"
 };
-const MemoSvgGraduation = React.memo(SvgGraduation);
-export default MemoSvgGraduation;
+export default SvgGraduation;

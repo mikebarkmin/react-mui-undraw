@@ -154,5 +154,4 @@ SvgVersionControl.propTypes = {
 SvgVersionControl.defaultProps = {
   color: "primary"
 };
-const MemoSvgVersionControl = React.memo(SvgVersionControl);
-export default MemoSvgVersionControl;
+export default SvgVersionControl;

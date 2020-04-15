@@ -141,5 +141,4 @@ SvgOurSolution.propTypes = {
 SvgOurSolution.defaultProps = {
   color: "primary"
 };
-const MemoSvgOurSolution = React.memo(SvgOurSolution);
-export default MemoSvgOurSolution;
+export default SvgOurSolution;

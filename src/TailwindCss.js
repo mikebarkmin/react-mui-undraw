@@ -127,5 +127,4 @@ SvgTailwindCss.propTypes = {
 SvgTailwindCss.defaultProps = {
   color: "primary"
 };
-const MemoSvgTailwindCss = React.memo(SvgTailwindCss);
-export default MemoSvgTailwindCss;
+export default SvgTailwindCss;

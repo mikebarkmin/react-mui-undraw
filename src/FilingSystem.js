@@ -218,5 +218,4 @@ SvgFilingSystem.propTypes = {
 SvgFilingSystem.defaultProps = {
   color: "primary"
 };
-const MemoSvgFilingSystem = React.memo(SvgFilingSystem);
-export default MemoSvgFilingSystem;
+export default SvgFilingSystem;

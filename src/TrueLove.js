@@ -133,5 +133,4 @@ SvgTrueLove.propTypes = {
 SvgTrueLove.defaultProps = {
   color: "primary"
 };
-const MemoSvgTrueLove = React.memo(SvgTrueLove);
-export default MemoSvgTrueLove;
+export default SvgTrueLove;

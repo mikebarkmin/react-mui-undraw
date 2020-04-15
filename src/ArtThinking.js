@@ -75,5 +75,4 @@ SvgArtThinking.propTypes = {
 SvgArtThinking.defaultProps = {
   color: "primary"
 };
-const MemoSvgArtThinking = React.memo(SvgArtThinking);
-export default MemoSvgArtThinking;
+export default SvgArtThinking;

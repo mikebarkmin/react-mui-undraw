@@ -144,5 +144,4 @@ SvgWorkingOut.propTypes = {
 SvgWorkingOut.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorkingOut = React.memo(SvgWorkingOut);
-export default MemoSvgWorkingOut;
+export default SvgWorkingOut;

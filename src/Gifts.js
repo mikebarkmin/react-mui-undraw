@@ -631,5 +631,4 @@ SvgGifts.propTypes = {
 SvgGifts.defaultProps = {
   color: "primary"
 };
-const MemoSvgGifts = React.memo(SvgGifts);
-export default MemoSvgGifts;
+export default SvgGifts;

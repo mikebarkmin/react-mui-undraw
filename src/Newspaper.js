@@ -116,5 +116,4 @@ SvgNewspaper.propTypes = {
 SvgNewspaper.defaultProps = {
   color: "primary"
 };
-const MemoSvgNewspaper = React.memo(SvgNewspaper);
-export default MemoSvgNewspaper;
+export default SvgNewspaper;

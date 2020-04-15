@@ -104,5 +104,4 @@ SvgUpdatedResume.propTypes = {
 SvgUpdatedResume.defaultProps = {
   color: "primary"
 };
-const MemoSvgUpdatedResume = React.memo(SvgUpdatedResume);
-export default MemoSvgUpdatedResume;
+export default SvgUpdatedResume;

@@ -414,5 +414,4 @@ SvgFocus.propTypes = {
 SvgFocus.defaultProps = {
   color: "primary"
 };
-const MemoSvgFocus = React.memo(SvgFocus);
-export default MemoSvgFocus;
+export default SvgFocus;

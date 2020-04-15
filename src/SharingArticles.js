@@ -169,5 +169,4 @@ SvgSharingArticles.propTypes = {
 SvgSharingArticles.defaultProps = {
   color: "primary"
 };
-const MemoSvgSharingArticles = React.memo(SvgSharingArticles);
-export default MemoSvgSharingArticles;
+export default SvgSharingArticles;

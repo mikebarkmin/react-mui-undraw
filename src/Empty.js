@@ -307,5 +307,4 @@ SvgEmpty.propTypes = {
 SvgEmpty.defaultProps = {
   color: "primary"
 };
-const MemoSvgEmpty = React.memo(SvgEmpty);
-export default MemoSvgEmpty;
+export default SvgEmpty;

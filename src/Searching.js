@@ -132,5 +132,4 @@ SvgSearching.propTypes = {
 SvgSearching.defaultProps = {
   color: "primary"
 };
-const MemoSvgSearching = React.memo(SvgSearching);
-export default MemoSvgSearching;
+export default SvgSearching;

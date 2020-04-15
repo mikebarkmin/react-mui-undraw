@@ -181,5 +181,4 @@ SvgSunlight.propTypes = {
 SvgSunlight.defaultProps = {
   color: "primary"
 };
-const MemoSvgSunlight = React.memo(SvgSunlight);
-export default MemoSvgSunlight;
+export default SvgSunlight;

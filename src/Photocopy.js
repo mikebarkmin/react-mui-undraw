@@ -381,5 +381,4 @@ SvgPhotocopy.propTypes = {
 SvgPhotocopy.defaultProps = {
   color: "primary"
 };
-const MemoSvgPhotocopy = React.memo(SvgPhotocopy);
-export default MemoSvgPhotocopy;
+export default SvgPhotocopy;

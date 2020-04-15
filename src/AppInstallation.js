@@ -345,5 +345,4 @@ SvgAppInstallation.propTypes = {
 SvgAppInstallation.defaultProps = {
   color: "primary"
 };
-const MemoSvgAppInstallation = React.memo(SvgAppInstallation);
-export default MemoSvgAppInstallation;
+export default SvgAppInstallation;

@@ -353,5 +353,4 @@ SvgWordpress.propTypes = {
 SvgWordpress.defaultProps = {
   color: "primary"
 };
-const MemoSvgWordpress = React.memo(SvgWordpress);
-export default MemoSvgWordpress;
+export default SvgWordpress;

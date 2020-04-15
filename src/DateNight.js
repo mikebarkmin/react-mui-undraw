@@ -137,5 +137,4 @@ SvgDateNight.propTypes = {
 SvgDateNight.defaultProps = {
   color: "primary"
 };
-const MemoSvgDateNight = React.memo(SvgDateNight);
-export default MemoSvgDateNight;
+export default SvgDateNight;

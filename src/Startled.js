@@ -388,5 +388,4 @@ SvgStartled.propTypes = {
 SvgStartled.defaultProps = {
   color: "primary"
 };
-const MemoSvgStartled = React.memo(SvgStartled);
-export default MemoSvgStartled;
+export default SvgStartled;

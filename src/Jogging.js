@@ -173,5 +173,4 @@ SvgJogging.propTypes = {
 SvgJogging.defaultProps = {
   color: "primary"
 };
-const MemoSvgJogging = React.memo(SvgJogging);
-export default MemoSvgJogging;
+export default SvgJogging;

@@ -286,5 +286,4 @@ SvgChristmasTree.propTypes = {
 SvgChristmasTree.defaultProps = {
   color: "primary"
 };
-const MemoSvgChristmasTree = React.memo(SvgChristmasTree);
-export default MemoSvgChristmasTree;
+export default SvgChristmasTree;

@@ -86,5 +86,4 @@ SvgSocialBio.propTypes = {
 SvgSocialBio.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialBio = React.memo(SvgSocialBio);
-export default MemoSvgSocialBio;
+export default SvgSocialBio;

@@ -223,5 +223,4 @@ SvgSunnyDay.propTypes = {
 SvgSunnyDay.defaultProps = {
   color: "primary"
 };
-const MemoSvgSunnyDay = React.memo(SvgSunnyDay);
-export default MemoSvgSunnyDay;
+export default SvgSunnyDay;

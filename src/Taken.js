@@ -181,5 +181,4 @@ SvgTaken.propTypes = {
 SvgTaken.defaultProps = {
   color: "primary"
 };
-const MemoSvgTaken = React.memo(SvgTaken);
-export default MemoSvgTaken;
+export default SvgTaken;

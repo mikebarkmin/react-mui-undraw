@@ -187,5 +187,4 @@ SvgCookieLove.propTypes = {
 SvgCookieLove.defaultProps = {
   color: "primary"
 };
-const MemoSvgCookieLove = React.memo(SvgCookieLove);
-export default MemoSvgCookieLove;
+export default SvgCookieLove;

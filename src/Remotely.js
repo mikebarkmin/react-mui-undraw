@@ -280,5 +280,4 @@ SvgRemotely.propTypes = {
 SvgRemotely.defaultProps = {
   color: "primary"
 };
-const MemoSvgRemotely = React.memo(SvgRemotely);
-export default MemoSvgRemotely;
+export default SvgRemotely;

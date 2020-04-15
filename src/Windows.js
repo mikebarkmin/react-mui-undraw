@@ -92,5 +92,4 @@ SvgWindows.propTypes = {
 SvgWindows.defaultProps = {
   color: "primary"
 };
-const MemoSvgWindows = React.memo(SvgWindows);
-export default MemoSvgWindows;
+export default SvgWindows;

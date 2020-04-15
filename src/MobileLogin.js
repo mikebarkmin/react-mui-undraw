@@ -137,5 +137,4 @@ SvgMobileLogin.propTypes = {
 SvgMobileLogin.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileLogin = React.memo(SvgMobileLogin);
-export default MemoSvgMobileLogin;
+export default SvgMobileLogin;

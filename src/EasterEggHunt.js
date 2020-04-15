@@ -358,5 +358,4 @@ SvgEasterEggHunt.propTypes = {
 SvgEasterEggHunt.defaultProps = {
   color: "primary"
 };
-const MemoSvgEasterEggHunt = React.memo(SvgEasterEggHunt);
-export default MemoSvgEasterEggHunt;
+export default SvgEasterEggHunt;

@@ -124,5 +124,4 @@ SvgCloudDocs.propTypes = {
 SvgCloudDocs.defaultProps = {
   color: "primary"
 };
-const MemoSvgCloudDocs = React.memo(SvgCloudDocs);
-export default MemoSvgCloudDocs;
+export default SvgCloudDocs;

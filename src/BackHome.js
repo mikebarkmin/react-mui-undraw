@@ -235,5 +235,4 @@ SvgBackHome.propTypes = {
 SvgBackHome.defaultProps = {
   color: "primary"
 };
-const MemoSvgBackHome = React.memo(SvgBackHome);
-export default MemoSvgBackHome;
+export default SvgBackHome;

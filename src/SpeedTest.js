@@ -131,5 +131,4 @@ SvgSpeedTest.propTypes = {
 SvgSpeedTest.defaultProps = {
   color: "primary"
 };
-const MemoSvgSpeedTest = React.memo(SvgSpeedTest);
-export default MemoSvgSpeedTest;
+export default SvgSpeedTest;

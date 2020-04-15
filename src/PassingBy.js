@@ -1383,5 +1383,4 @@ SvgPassingBy.propTypes = {
 SvgPassingBy.defaultProps = {
   color: "primary"
 };
-const MemoSvgPassingBy = React.memo(SvgPassingBy);
-export default MemoSvgPassingBy;
+export default SvgPassingBy;

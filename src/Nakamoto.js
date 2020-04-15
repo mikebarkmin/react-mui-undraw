@@ -97,5 +97,4 @@ SvgNakamoto.propTypes = {
 SvgNakamoto.defaultProps = {
   color: "primary"
 };
-const MemoSvgNakamoto = React.memo(SvgNakamoto);
-export default MemoSvgNakamoto;
+export default SvgNakamoto;

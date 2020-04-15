@@ -125,5 +125,4 @@ SvgOnlineChat.propTypes = {
 SvgOnlineChat.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineChat = React.memo(SvgOnlineChat);
-export default MemoSvgOnlineChat;
+export default SvgOnlineChat;

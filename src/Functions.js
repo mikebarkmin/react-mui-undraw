@@ -105,5 +105,4 @@ SvgFunctions.propTypes = {
 SvgFunctions.defaultProps = {
   color: "primary"
 };
-const MemoSvgFunctions = React.memo(SvgFunctions);
-export default MemoSvgFunctions;
+export default SvgFunctions;

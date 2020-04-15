@@ -124,5 +124,4 @@ SvgAdjustments.propTypes = {
 SvgAdjustments.defaultProps = {
   color: "primary"
 };
-const MemoSvgAdjustments = React.memo(SvgAdjustments);
-export default MemoSvgAdjustments;
+export default SvgAdjustments;

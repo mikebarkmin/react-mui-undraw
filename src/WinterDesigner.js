@@ -508,5 +508,4 @@ SvgWinterDesigner.propTypes = {
 SvgWinterDesigner.defaultProps = {
   color: "primary"
 };
-const MemoSvgWinterDesigner = React.memo(SvgWinterDesigner);
-export default MemoSvgWinterDesigner;
+export default SvgWinterDesigner;

@@ -394,5 +394,4 @@ SvgCouple.propTypes = {
 SvgCouple.defaultProps = {
   color: "primary"
 };
-const MemoSvgCouple = React.memo(SvgCouple);
-export default MemoSvgCouple;
+export default SvgCouple;

@@ -1323,5 +1323,4 @@ SvgAutumn.propTypes = {
 SvgAutumn.defaultProps = {
   color: "primary"
 };
-const MemoSvgAutumn = React.memo(SvgAutumn);
-export default MemoSvgAutumn;
+export default SvgAutumn;

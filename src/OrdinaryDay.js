@@ -458,5 +458,4 @@ SvgOrdinaryDay.propTypes = {
 SvgOrdinaryDay.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrdinaryDay = React.memo(SvgOrdinaryDay);
-export default MemoSvgOrdinaryDay;
+export default SvgOrdinaryDay;

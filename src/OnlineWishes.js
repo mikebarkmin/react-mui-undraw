@@ -194,5 +194,4 @@ SvgOnlineWishes.propTypes = {
 SvgOnlineWishes.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineWishes = React.memo(SvgOnlineWishes);
-export default MemoSvgOnlineWishes;
+export default SvgOnlineWishes;

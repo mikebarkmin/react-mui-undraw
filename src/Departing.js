@@ -273,5 +273,4 @@ SvgDeparting.propTypes = {
 SvgDeparting.defaultProps = {
   color: "primary"
 };
-const MemoSvgDeparting = React.memo(SvgDeparting);
-export default MemoSvgDeparting;
+export default SvgDeparting;

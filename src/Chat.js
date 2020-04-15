@@ -77,5 +77,4 @@ SvgChat.propTypes = {
 SvgChat.defaultProps = {
   color: "primary"
 };
-const MemoSvgChat = React.memo(SvgChat);
-export default MemoSvgChat;
+export default SvgChat;

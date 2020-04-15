@@ -397,5 +397,4 @@ SvgBeforeDawn.propTypes = {
 SvgBeforeDawn.defaultProps = {
   color: "primary"
 };
-const MemoSvgBeforeDawn = React.memo(SvgBeforeDawn);
-export default MemoSvgBeforeDawn;
+export default SvgBeforeDawn;

@@ -140,5 +140,4 @@ SvgPeople.propTypes = {
 SvgPeople.defaultProps = {
   color: "primary"
 };
-const MemoSvgPeople = React.memo(SvgPeople);
-export default MemoSvgPeople;
+export default SvgPeople;

@@ -105,5 +105,4 @@ SvgKeyPoints.propTypes = {
 SvgKeyPoints.defaultProps = {
   color: "primary"
 };
-const MemoSvgKeyPoints = React.memo(SvgKeyPoints);
-export default MemoSvgKeyPoints;
+export default SvgKeyPoints;

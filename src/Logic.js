@@ -94,5 +94,4 @@ SvgLogic.propTypes = {
 SvgLogic.defaultProps = {
   color: "primary"
 };
-const MemoSvgLogic = React.memo(SvgLogic);
-export default MemoSvgLogic;
+export default SvgLogic;

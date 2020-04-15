@@ -131,5 +131,4 @@ SvgRedesignFeedback.propTypes = {
 SvgRedesignFeedback.defaultProps = {
   color: "primary"
 };
-const MemoSvgRedesignFeedback = React.memo(SvgRedesignFeedback);
-export default MemoSvgRedesignFeedback;
+export default SvgRedesignFeedback;

@@ -222,5 +222,4 @@ SvgWorkout.propTypes = {
 SvgWorkout.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorkout = React.memo(SvgWorkout);
-export default MemoSvgWorkout;
+export default SvgWorkout;

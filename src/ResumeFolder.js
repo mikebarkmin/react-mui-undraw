@@ -495,5 +495,4 @@ SvgResumeFolder.propTypes = {
 SvgResumeFolder.defaultProps = {
   color: "primary"
 };
-const MemoSvgResumeFolder = React.memo(SvgResumeFolder);
-export default MemoSvgResumeFolder;
+export default SvgResumeFolder;

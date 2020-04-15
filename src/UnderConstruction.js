@@ -359,5 +359,4 @@ SvgUnderConstruction.propTypes = {
 SvgUnderConstruction.defaultProps = {
   color: "primary"
 };
-const MemoSvgUnderConstruction = React.memo(SvgUnderConstruction);
-export default MemoSvgUnderConstruction;
+export default SvgUnderConstruction;

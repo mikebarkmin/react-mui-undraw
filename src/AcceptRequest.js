@@ -352,5 +352,4 @@ SvgAcceptRequest.propTypes = {
 SvgAcceptRequest.defaultProps = {
   color: "primary"
 };
-const MemoSvgAcceptRequest = React.memo(SvgAcceptRequest);
-export default MemoSvgAcceptRequest;
+export default SvgAcceptRequest;

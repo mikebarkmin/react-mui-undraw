@@ -150,5 +150,4 @@ SvgMemoryStorage.propTypes = {
 SvgMemoryStorage.defaultProps = {
   color: "primary"
 };
-const MemoSvgMemoryStorage = React.memo(SvgMemoryStorage);
-export default MemoSvgMemoryStorage;
+export default SvgMemoryStorage;

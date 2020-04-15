@@ -183,5 +183,4 @@ SvgNewDecade.propTypes = {
 SvgNewDecade.defaultProps = {
   color: "primary"
 };
-const MemoSvgNewDecade = React.memo(SvgNewDecade);
-export default MemoSvgNewDecade;
+export default SvgNewDecade;

@@ -110,5 +110,4 @@ SvgWorking.propTypes = {
 SvgWorking.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorking = React.memo(SvgWorking);
-export default MemoSvgWorking;
+export default SvgWorking;

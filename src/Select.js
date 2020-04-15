@@ -128,5 +128,4 @@ SvgSelect.propTypes = {
 SvgSelect.defaultProps = {
   color: "primary"
 };
-const MemoSvgSelect = React.memo(SvgSelect);
-export default MemoSvgSelect;
+export default SvgSelect;

@@ -88,5 +88,4 @@ SvgSignIn.propTypes = {
 SvgSignIn.defaultProps = {
   color: "primary"
 };
-const MemoSvgSignIn = React.memo(SvgSignIn);
-export default MemoSvgSignIn;
+export default SvgSignIn;

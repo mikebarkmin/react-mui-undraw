@@ -267,5 +267,4 @@ SvgHavingFun.propTypes = {
 SvgHavingFun.defaultProps = {
   color: "primary"
 };
-const MemoSvgHavingFun = React.memo(SvgHavingFun);
-export default MemoSvgHavingFun;
+export default SvgHavingFun;

@@ -121,5 +121,4 @@ SvgLearning.propTypes = {
 SvgLearning.defaultProps = {
   color: "primary"
 };
-const MemoSvgLearning = React.memo(SvgLearning);
-export default MemoSvgLearning;
+export default SvgLearning;

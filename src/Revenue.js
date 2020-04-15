@@ -310,5 +310,4 @@ SvgRevenue.propTypes = {
 SvgRevenue.defaultProps = {
   color: "primary"
 };
-const MemoSvgRevenue = React.memo(SvgRevenue);
-export default MemoSvgRevenue;
+export default SvgRevenue;

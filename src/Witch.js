@@ -224,5 +224,4 @@ SvgWitch.propTypes = {
 SvgWitch.defaultProps = {
   color: "primary"
 };
-const MemoSvgWitch = React.memo(SvgWitch);
-export default MemoSvgWitch;
+export default SvgWitch;

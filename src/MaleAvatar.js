@@ -56,5 +56,4 @@ SvgMaleAvatar.propTypes = {
 SvgMaleAvatar.defaultProps = {
   color: "primary"
 };
-const MemoSvgMaleAvatar = React.memo(SvgMaleAvatar);
-export default MemoSvgMaleAvatar;
+export default SvgMaleAvatar;

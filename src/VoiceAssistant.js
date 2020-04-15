@@ -90,5 +90,4 @@ SvgVoiceAssistant.propTypes = {
 SvgVoiceAssistant.defaultProps = {
   color: "primary"
 };
-const MemoSvgVoiceAssistant = React.memo(SvgVoiceAssistant);
-export default MemoSvgVoiceAssistant;
+export default SvgVoiceAssistant;

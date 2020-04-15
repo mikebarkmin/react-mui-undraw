@@ -124,5 +124,4 @@ SvgHeatmap.propTypes = {
 SvgHeatmap.defaultProps = {
   color: "primary"
 };
-const MemoSvgHeatmap = React.memo(SvgHeatmap);
-export default MemoSvgHeatmap;
+export default SvgHeatmap;

@@ -409,5 +409,4 @@ SvgWorkingLate.propTypes = {
 SvgWorkingLate.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorkingLate = React.memo(SvgWorkingLate);
-export default MemoSvgWorkingLate;
+export default SvgWorkingLate;

@@ -593,5 +593,4 @@ SvgGoldenGateBridge.propTypes = {
 SvgGoldenGateBridge.defaultProps = {
   color: "primary"
 };
-const MemoSvgGoldenGateBridge = React.memo(SvgGoldenGateBridge);
-export default MemoSvgGoldenGateBridge;
+export default SvgGoldenGateBridge;

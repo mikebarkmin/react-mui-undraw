@@ -205,5 +205,4 @@ SvgPartying.propTypes = {
 SvgPartying.defaultProps = {
   color: "primary"
 };
-const MemoSvgPartying = React.memo(SvgPartying);
-export default MemoSvgPartying;
+export default SvgPartying;

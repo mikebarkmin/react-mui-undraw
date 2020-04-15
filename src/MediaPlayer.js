@@ -198,5 +198,4 @@ SvgMediaPlayer.propTypes = {
 SvgMediaPlayer.defaultProps = {
   color: "primary"
 };
-const MemoSvgMediaPlayer = React.memo(SvgMediaPlayer);
-export default MemoSvgMediaPlayer;
+export default SvgMediaPlayer;

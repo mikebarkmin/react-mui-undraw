@@ -193,5 +193,4 @@ SvgHotBeverage.propTypes = {
 SvgHotBeverage.defaultProps = {
   color: "primary"
 };
-const MemoSvgHotBeverage = React.memo(SvgHotBeverage);
-export default MemoSvgHotBeverage;
+export default SvgHotBeverage;

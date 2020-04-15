@@ -127,5 +127,4 @@ SvgFileSynchronization.propTypes = {
 SvgFileSynchronization.defaultProps = {
   color: "primary"
 };
-const MemoSvgFileSynchronization = React.memo(SvgFileSynchronization);
-export default MemoSvgFileSynchronization;
+export default SvgFileSynchronization;

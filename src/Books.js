@@ -66,5 +66,4 @@ SvgBooks.propTypes = {
 SvgBooks.defaultProps = {
   color: "primary"
 };
-const MemoSvgBooks = React.memo(SvgBooks);
-export default MemoSvgBooks;
+export default SvgBooks;

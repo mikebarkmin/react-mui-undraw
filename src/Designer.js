@@ -159,5 +159,4 @@ SvgDesigner.propTypes = {
 SvgDesigner.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesigner = React.memo(SvgDesigner);
-export default MemoSvgDesigner;
+export default SvgDesigner;

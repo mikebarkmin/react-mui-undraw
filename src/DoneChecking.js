@@ -144,5 +144,4 @@ SvgDoneChecking.propTypes = {
 SvgDoneChecking.defaultProps = {
   color: "primary"
 };
-const MemoSvgDoneChecking = React.memo(SvgDoneChecking);
-export default MemoSvgDoneChecking;
+export default SvgDoneChecking;

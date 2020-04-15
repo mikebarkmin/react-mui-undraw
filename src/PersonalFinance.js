@@ -102,5 +102,4 @@ SvgPersonalFinance.propTypes = {
 SvgPersonalFinance.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalFinance = React.memo(SvgPersonalFinance);
-export default MemoSvgPersonalFinance;
+export default SvgPersonalFinance;

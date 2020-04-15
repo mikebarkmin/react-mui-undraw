@@ -471,5 +471,4 @@ SvgLoading.propTypes = {
 SvgLoading.defaultProps = {
   color: "primary"
 };
-const MemoSvgLoading = React.memo(SvgLoading);
-export default MemoSvgLoading;
+export default SvgLoading;

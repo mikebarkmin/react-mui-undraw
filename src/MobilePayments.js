@@ -636,5 +636,4 @@ SvgMobilePayments.propTypes = {
 SvgMobilePayments.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobilePayments = React.memo(SvgMobilePayments);
-export default MemoSvgMobilePayments;
+export default SvgMobilePayments;

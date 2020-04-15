@@ -181,5 +181,4 @@ SvgMapLight.propTypes = {
 SvgMapLight.defaultProps = {
   color: "primary"
 };
-const MemoSvgMapLight = React.memo(SvgMapLight);
-export default MemoSvgMapLight;
+export default SvgMapLight;

@@ -174,5 +174,4 @@ SvgAbsorbedIn.propTypes = {
 SvgAbsorbedIn.defaultProps = {
   color: "primary"
 };
-const MemoSvgAbsorbedIn = React.memo(SvgAbsorbedIn);
-export default MemoSvgAbsorbedIn;
+export default SvgAbsorbedIn;

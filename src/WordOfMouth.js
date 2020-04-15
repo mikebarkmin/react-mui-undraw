@@ -201,5 +201,4 @@ SvgWordOfMouth.propTypes = {
 SvgWordOfMouth.defaultProps = {
   color: "primary"
 };
-const MemoSvgWordOfMouth = React.memo(SvgWordOfMouth);
-export default MemoSvgWordOfMouth;
+export default SvgWordOfMouth;

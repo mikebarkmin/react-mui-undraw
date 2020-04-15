@@ -122,5 +122,4 @@ SvgImagination.propTypes = {
 SvgImagination.defaultProps = {
   color: "primary"
 };
-const MemoSvgImagination = React.memo(SvgImagination);
-export default MemoSvgImagination;
+export default SvgImagination;

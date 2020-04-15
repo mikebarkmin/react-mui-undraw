@@ -148,5 +148,4 @@ SvgActiveSupport.propTypes = {
 SvgActiveSupport.defaultProps = {
   color: "primary"
 };
-const MemoSvgActiveSupport = React.memo(SvgActiveSupport);
-export default MemoSvgActiveSupport;
+export default SvgActiveSupport;

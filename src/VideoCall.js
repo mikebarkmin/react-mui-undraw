@@ -339,5 +339,4 @@ SvgVideoCall.propTypes = {
 SvgVideoCall.defaultProps = {
   color: "primary"
 };
-const MemoSvgVideoCall = React.memo(SvgVideoCall);
-export default MemoSvgVideoCall;
+export default SvgVideoCall;

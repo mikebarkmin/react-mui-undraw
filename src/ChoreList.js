@@ -102,5 +102,4 @@ SvgChoreList.propTypes = {
 SvgChoreList.defaultProps = {
   color: "primary"
 };
-const MemoSvgChoreList = React.memo(SvgChoreList);
-export default MemoSvgChoreList;
+export default SvgChoreList;

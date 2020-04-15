@@ -673,5 +673,4 @@ SvgUpload.propTypes = {
 SvgUpload.defaultProps = {
   color: "primary"
 };
-const MemoSvgUpload = React.memo(SvgUpload);
-export default MemoSvgUpload;
+export default SvgUpload;

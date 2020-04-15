@@ -308,5 +308,4 @@ SvgGrandSlam.propTypes = {
 SvgGrandSlam.defaultProps = {
   color: "primary"
 };
-const MemoSvgGrandSlam = React.memo(SvgGrandSlam);
-export default MemoSvgGrandSlam;
+export default SvgGrandSlam;

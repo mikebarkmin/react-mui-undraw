@@ -270,5 +270,4 @@ SvgGaming.propTypes = {
 SvgGaming.defaultProps = {
   color: "primary"
 };
-const MemoSvgGaming = React.memo(SvgGaming);
-export default MemoSvgGaming;
+export default SvgGaming;

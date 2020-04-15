@@ -137,5 +137,4 @@ SvgDetailedExamination.propTypes = {
 SvgDetailedExamination.defaultProps = {
   color: "primary"
 };
-const MemoSvgDetailedExamination = React.memo(SvgDetailedExamination);
-export default MemoSvgDetailedExamination;
+export default SvgDetailedExamination;

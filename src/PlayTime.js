@@ -159,5 +159,4 @@ SvgPlayTime.propTypes = {
 SvgPlayTime.defaultProps = {
   color: "primary"
 };
-const MemoSvgPlayTime = React.memo(SvgPlayTime);
-export default MemoSvgPlayTime;
+export default SvgPlayTime;

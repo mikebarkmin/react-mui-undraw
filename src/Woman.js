@@ -298,5 +298,4 @@ SvgWoman.propTypes = {
 SvgWoman.defaultProps = {
   color: "primary"
 };
-const MemoSvgWoman = React.memo(SvgWoman);
-export default MemoSvgWoman;
+export default SvgWoman;

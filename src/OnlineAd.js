@@ -97,5 +97,4 @@ SvgOnlineAd.propTypes = {
 SvgOnlineAd.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineAd = React.memo(SvgOnlineAd);
-export default MemoSvgOnlineAd;
+export default SvgOnlineAd;

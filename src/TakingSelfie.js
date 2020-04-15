@@ -90,5 +90,4 @@ SvgTakingSelfie.propTypes = {
 SvgTakingSelfie.defaultProps = {
   color: "primary"
 };
-const MemoSvgTakingSelfie = React.memo(SvgTakingSelfie);
-export default MemoSvgTakingSelfie;
+export default SvgTakingSelfie;

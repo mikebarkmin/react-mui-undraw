@@ -304,5 +304,4 @@ SvgWallPost.propTypes = {
 SvgWallPost.defaultProps = {
   color: "primary"
 };
-const MemoSvgWallPost = React.memo(SvgWallPost);
-export default MemoSvgWallPost;
+export default SvgWallPost;

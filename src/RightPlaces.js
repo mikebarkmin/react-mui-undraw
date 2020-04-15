@@ -115,5 +115,4 @@ SvgRightPlaces.propTypes = {
 SvgRightPlaces.defaultProps = {
   color: "primary"
 };
-const MemoSvgRightPlaces = React.memo(SvgRightPlaces);
-export default MemoSvgRightPlaces;
+export default SvgRightPlaces;

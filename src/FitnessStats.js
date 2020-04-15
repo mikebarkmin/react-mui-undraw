@@ -80,5 +80,4 @@ SvgFitnessStats.propTypes = {
 SvgFitnessStats.defaultProps = {
   color: "primary"
 };
-const MemoSvgFitnessStats = React.memo(SvgFitnessStats);
-export default MemoSvgFitnessStats;
+export default SvgFitnessStats;

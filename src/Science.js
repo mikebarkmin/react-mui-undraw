@@ -331,5 +331,4 @@ SvgScience.propTypes = {
 SvgScience.defaultProps = {
   color: "primary"
 };
-const MemoSvgScience = React.memo(SvgScience);
-export default MemoSvgScience;
+export default SvgScience;

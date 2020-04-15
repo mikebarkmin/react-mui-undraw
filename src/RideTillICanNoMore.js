@@ -183,5 +183,4 @@ SvgRideTillICanNoMore.propTypes = {
 SvgRideTillICanNoMore.defaultProps = {
   color: "primary"
 };
-const MemoSvgRideTillICanNoMore = React.memo(SvgRideTillICanNoMore);
-export default MemoSvgRideTillICanNoMore;
+export default SvgRideTillICanNoMore;

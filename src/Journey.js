@@ -178,5 +178,4 @@ SvgJourney.propTypes = {
 SvgJourney.defaultProps = {
   color: "primary"
 };
-const MemoSvgJourney = React.memo(SvgJourney);
-export default MemoSvgJourney;
+export default SvgJourney;

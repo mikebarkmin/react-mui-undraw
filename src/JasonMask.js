@@ -470,5 +470,4 @@ SvgJasonMask.propTypes = {
 SvgJasonMask.defaultProps = {
   color: "primary"
 };
-const MemoSvgJasonMask = React.memo(SvgJasonMask);
-export default MemoSvgJasonMask;
+export default SvgJasonMask;

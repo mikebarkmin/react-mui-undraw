@@ -195,5 +195,4 @@ SvgWorkTogether.propTypes = {
 SvgWorkTogether.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorkTogether = React.memo(SvgWorkTogether);
-export default MemoSvgWorkTogether;
+export default SvgWorkTogether;

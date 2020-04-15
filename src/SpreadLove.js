@@ -168,5 +168,4 @@ SvgSpreadLove.propTypes = {
 SvgSpreadLove.defaultProps = {
   color: "primary"
 };
-const MemoSvgSpreadLove = React.memo(SvgSpreadLove);
-export default MemoSvgSpreadLove;
+export default SvgSpreadLove;

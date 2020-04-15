@@ -193,5 +193,4 @@ SvgCreativeWoman.propTypes = {
 SvgCreativeWoman.defaultProps = {
   color: "primary"
 };
-const MemoSvgCreativeWoman = React.memo(SvgCreativeWoman);
-export default MemoSvgCreativeWoman;
+export default SvgCreativeWoman;

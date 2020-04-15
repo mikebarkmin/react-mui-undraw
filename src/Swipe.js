@@ -145,5 +145,4 @@ SvgSwipe.propTypes = {
 SvgSwipe.defaultProps = {
   color: "primary"
 };
-const MemoSvgSwipe = React.memo(SvgSwipe);
-export default MemoSvgSwipe;
+export default SvgSwipe;

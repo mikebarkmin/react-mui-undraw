@@ -203,5 +203,4 @@ SvgSocialMedia.propTypes = {
 SvgSocialMedia.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialMedia = React.memo(SvgSocialMedia);
-export default MemoSvgSocialMedia;
+export default SvgSocialMedia;

@@ -235,5 +235,4 @@ SvgImageFolder.propTypes = {
 SvgImageFolder.defaultProps = {
   color: "primary"
 };
-const MemoSvgImageFolder = React.memo(SvgImageFolder);
-export default MemoSvgImageFolder;
+export default SvgImageFolder;

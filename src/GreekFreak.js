@@ -105,5 +105,4 @@ SvgGreekFreak.propTypes = {
 SvgGreekFreak.defaultProps = {
   color: "primary"
 };
-const MemoSvgGreekFreak = React.memo(SvgGreekFreak);
-export default MemoSvgGreekFreak;
+export default SvgGreekFreak;

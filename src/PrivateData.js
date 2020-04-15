@@ -98,5 +98,4 @@ SvgPrivateData.propTypes = {
 SvgPrivateData.defaultProps = {
   color: "primary"
 };
-const MemoSvgPrivateData = React.memo(SvgPrivateData);
-export default MemoSvgPrivateData;
+export default SvgPrivateData;

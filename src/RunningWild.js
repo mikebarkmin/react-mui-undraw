@@ -384,5 +384,4 @@ SvgRunningWild.propTypes = {
 SvgRunningWild.defaultProps = {
   color: "primary"
 };
-const MemoSvgRunningWild = React.memo(SvgRunningWild);
-export default MemoSvgRunningWild;
+export default SvgRunningWild;

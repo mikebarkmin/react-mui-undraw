@@ -389,5 +389,4 @@ SvgHiring.propTypes = {
 SvgHiring.defaultProps = {
   color: "primary"
 };
-const MemoSvgHiring = React.memo(SvgHiring);
-export default MemoSvgHiring;
+export default SvgHiring;

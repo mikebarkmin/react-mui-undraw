@@ -150,5 +150,4 @@ SvgGardening.propTypes = {
 SvgGardening.defaultProps = {
   color: "primary"
 };
-const MemoSvgGardening = React.memo(SvgGardening);
-export default MemoSvgGardening;
+export default SvgGardening;

@@ -92,5 +92,4 @@ SvgPolaroid.propTypes = {
 SvgPolaroid.defaultProps = {
   color: "primary"
 };
-const MemoSvgPolaroid = React.memo(SvgPolaroid);
-export default MemoSvgPolaroid;
+export default SvgPolaroid;

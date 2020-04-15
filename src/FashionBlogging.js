@@ -196,5 +196,4 @@ SvgFashionBlogging.propTypes = {
 SvgFashionBlogging.defaultProps = {
   color: "primary"
 };
-const MemoSvgFashionBlogging = React.memo(SvgFashionBlogging);
-export default MemoSvgFashionBlogging;
+export default SvgFashionBlogging;

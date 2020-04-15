@@ -221,5 +221,4 @@ SvgImages.propTypes = {
 SvgImages.defaultProps = {
   color: "primary"
 };
-const MemoSvgImages = React.memo(SvgImages);
-export default MemoSvgImages;
+export default SvgImages;

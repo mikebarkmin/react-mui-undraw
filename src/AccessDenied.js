@@ -116,5 +116,4 @@ SvgAccessDenied.propTypes = {
 SvgAccessDenied.defaultProps = {
   color: "primary"
 };
-const MemoSvgAccessDenied = React.memo(SvgAccessDenied);
-export default MemoSvgAccessDenied;
+export default SvgAccessDenied;

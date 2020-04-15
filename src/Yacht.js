@@ -126,5 +126,4 @@ SvgYacht.propTypes = {
 SvgYacht.defaultProps = {
   color: "primary"
 };
-const MemoSvgYacht = React.memo(SvgYacht);
-export default MemoSvgYacht;
+export default SvgYacht;

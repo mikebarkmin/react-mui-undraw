@@ -110,5 +110,4 @@ SvgDesignerGirl.propTypes = {
 SvgDesignerGirl.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesignerGirl = React.memo(SvgDesignerGirl);
-export default MemoSvgDesignerGirl;
+export default SvgDesignerGirl;

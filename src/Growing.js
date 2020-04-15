@@ -354,5 +354,4 @@ SvgGrowing.propTypes = {
 SvgGrowing.defaultProps = {
   color: "primary"
 };
-const MemoSvgGrowing = React.memo(SvgGrowing);
-export default MemoSvgGrowing;
+export default SvgGrowing;

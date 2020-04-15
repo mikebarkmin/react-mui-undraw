@@ -439,5 +439,4 @@ SvgMobileApps.propTypes = {
 SvgMobileApps.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileApps = React.memo(SvgMobileApps);
-export default MemoSvgMobileApps;
+export default SvgMobileApps;

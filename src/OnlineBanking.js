@@ -122,5 +122,4 @@ SvgOnlineBanking.propTypes = {
 SvgOnlineBanking.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineBanking = React.memo(SvgOnlineBanking);
-export default MemoSvgOnlineBanking;
+export default SvgOnlineBanking;

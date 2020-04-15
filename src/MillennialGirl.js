@@ -201,5 +201,4 @@ SvgMillennialGirl.propTypes = {
 SvgMillennialGirl.defaultProps = {
   color: "primary"
 };
-const MemoSvgMillennialGirl = React.memo(SvgMillennialGirl);
-export default MemoSvgMillennialGirl;
+export default SvgMillennialGirl;

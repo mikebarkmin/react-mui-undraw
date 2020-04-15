@@ -132,5 +132,4 @@ SvgOnlineTest.propTypes = {
 SvgOnlineTest.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineTest = React.memo(SvgOnlineTest);
-export default MemoSvgOnlineTest;
+export default SvgOnlineTest;

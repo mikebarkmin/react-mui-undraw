@@ -121,5 +121,4 @@ SvgExcitingNews.propTypes = {
 SvgExcitingNews.defaultProps = {
   color: "primary"
 };
-const MemoSvgExcitingNews = React.memo(SvgExcitingNews);
-export default MemoSvgExcitingNews;
+export default SvgExcitingNews;

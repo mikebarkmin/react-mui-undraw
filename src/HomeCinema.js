@@ -128,5 +128,4 @@ SvgHomeCinema.propTypes = {
 SvgHomeCinema.defaultProps = {
   color: "primary"
 };
-const MemoSvgHomeCinema = React.memo(SvgHomeCinema);
-export default MemoSvgHomeCinema;
+export default SvgHomeCinema;

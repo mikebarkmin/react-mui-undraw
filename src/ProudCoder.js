@@ -93,5 +93,4 @@ SvgProudCoder.propTypes = {
 SvgProudCoder.defaultProps = {
   color: "primary"
 };
-const MemoSvgProudCoder = React.memo(SvgProudCoder);
-export default MemoSvgProudCoder;
+export default SvgProudCoder;

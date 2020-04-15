@@ -398,5 +398,4 @@ SvgAstronaut.propTypes = {
 SvgAstronaut.defaultProps = {
   color: "primary"
 };
-const MemoSvgAstronaut = React.memo(SvgAstronaut);
-export default MemoSvgAstronaut;
+export default SvgAstronaut;

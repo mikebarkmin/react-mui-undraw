@@ -106,5 +106,4 @@ SvgSourceCode.propTypes = {
 SvgSourceCode.defaultProps = {
   color: "primary"
 };
-const MemoSvgSourceCode = React.memo(SvgSourceCode);
-export default MemoSvgSourceCode;
+export default SvgSourceCode;

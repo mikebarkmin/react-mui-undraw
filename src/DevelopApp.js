@@ -184,5 +184,4 @@ SvgDevelopApp.propTypes = {
 SvgDevelopApp.defaultProps = {
   color: "primary"
 };
-const MemoSvgDevelopApp = React.memo(SvgDevelopApp);
-export default MemoSvgDevelopApp;
+export default SvgDevelopApp;

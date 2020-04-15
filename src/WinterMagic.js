@@ -145,5 +145,4 @@ SvgWinterMagic.propTypes = {
 SvgWinterMagic.defaultProps = {
   color: "primary"
 };
-const MemoSvgWinterMagic = React.memo(SvgWinterMagic);
-export default MemoSvgWinterMagic;
+export default SvgWinterMagic;

@@ -730,5 +730,4 @@ SvgBaby.propTypes = {
 SvgBaby.defaultProps = {
   color: "primary"
 };
-const MemoSvgBaby = React.memo(SvgBaby);
-export default MemoSvgBaby;
+export default SvgBaby;

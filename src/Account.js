@@ -133,5 +133,4 @@ SvgAccount.propTypes = {
 SvgAccount.defaultProps = {
   color: "primary"
 };
-const MemoSvgAccount = React.memo(SvgAccount);
-export default MemoSvgAccount;
+export default SvgAccount;

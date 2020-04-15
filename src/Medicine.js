@@ -440,5 +440,4 @@ SvgMedicine.propTypes = {
 SvgMedicine.defaultProps = {
   color: "primary"
 };
-const MemoSvgMedicine = React.memo(SvgMedicine);
-export default MemoSvgMedicine;
+export default SvgMedicine;

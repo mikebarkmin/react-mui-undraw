@@ -589,5 +589,4 @@ SvgCautiousDog.propTypes = {
 SvgCautiousDog.defaultProps = {
   color: "primary"
 };
-const MemoSvgCautiousDog = React.memo(SvgCautiousDog);
-export default MemoSvgCautiousDog;
+export default SvgCautiousDog;

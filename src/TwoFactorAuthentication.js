@@ -117,5 +117,4 @@ SvgTwoFactorAuthentication.propTypes = {
 SvgTwoFactorAuthentication.defaultProps = {
   color: "primary"
 };
-const MemoSvgTwoFactorAuthentication = React.memo(SvgTwoFactorAuthentication);
-export default MemoSvgTwoFactorAuthentication;
+export default SvgTwoFactorAuthentication;

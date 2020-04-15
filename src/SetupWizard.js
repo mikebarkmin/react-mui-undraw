@@ -765,5 +765,4 @@ SvgSetupWizard.propTypes = {
 SvgSetupWizard.defaultProps = {
   color: "primary"
 };
-const MemoSvgSetupWizard = React.memo(SvgSetupWizard);
-export default MemoSvgSetupWizard;
+export default SvgSetupWizard;

@@ -129,5 +129,4 @@ SvgFileSync.propTypes = {
 SvgFileSync.defaultProps = {
   color: "primary"
 };
-const MemoSvgFileSync = React.memo(SvgFileSync);
-export default MemoSvgFileSync;
+export default SvgFileSync;

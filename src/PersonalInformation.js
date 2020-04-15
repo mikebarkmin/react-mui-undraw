@@ -76,5 +76,4 @@ SvgPersonalInformation.propTypes = {
 SvgPersonalInformation.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalInformation = React.memo(SvgPersonalInformation);
-export default MemoSvgPersonalInformation;
+export default SvgPersonalInformation;

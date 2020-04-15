@@ -97,5 +97,4 @@ SvgPenTool.propTypes = {
 SvgPenTool.defaultProps = {
   color: "primary"
 };
-const MemoSvgPenTool = React.memo(SvgPenTool);
-export default MemoSvgPenTool;
+export default SvgPenTool;

@@ -197,5 +197,4 @@ SvgDestination.propTypes = {
 SvgDestination.defaultProps = {
   color: "primary"
 };
-const MemoSvgDestination = React.memo(SvgDestination);
-export default MemoSvgDestination;
+export default SvgDestination;

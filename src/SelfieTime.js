@@ -263,5 +263,4 @@ SvgSelfieTime.propTypes = {
 SvgSelfieTime.defaultProps = {
   color: "primary"
 };
-const MemoSvgSelfieTime = React.memo(SvgSelfieTime);
-export default MemoSvgSelfieTime;
+export default SvgSelfieTime;

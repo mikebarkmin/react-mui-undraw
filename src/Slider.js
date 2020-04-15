@@ -73,5 +73,4 @@ SvgSlider.propTypes = {
 SvgSlider.defaultProps = {
   color: "primary"
 };
-const MemoSvgSlider = React.memo(SvgSlider);
-export default MemoSvgSlider;
+export default SvgSlider;

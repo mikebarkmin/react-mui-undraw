@@ -497,5 +497,4 @@ SvgForSale.propTypes = {
 SvgForSale.defaultProps = {
   color: "primary"
 };
-const MemoSvgForSale = React.memo(SvgForSale);
-export default MemoSvgForSale;
+export default SvgForSale;

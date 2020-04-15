@@ -125,5 +125,4 @@ SvgProgrammer.propTypes = {
 SvgProgrammer.defaultProps = {
   color: "primary"
 };
-const MemoSvgProgrammer = React.memo(SvgProgrammer);
-export default MemoSvgProgrammer;
+export default SvgProgrammer;

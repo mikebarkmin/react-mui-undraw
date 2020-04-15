@@ -105,5 +105,4 @@ SvgPortfolio.propTypes = {
 SvgPortfolio.defaultProps = {
   color: "primary"
 };
-const MemoSvgPortfolio = React.memo(SvgPortfolio);
-export default MemoSvgPortfolio;
+export default SvgPortfolio;

@@ -501,5 +501,4 @@ SvgFireworks.propTypes = {
 SvgFireworks.defaultProps = {
   color: "primary"
 };
-const MemoSvgFireworks = React.memo(SvgFireworks);
-export default MemoSvgFireworks;
+export default SvgFireworks;

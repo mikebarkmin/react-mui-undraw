@@ -108,5 +108,4 @@ SvgPlaylist.propTypes = {
 SvgPlaylist.defaultProps = {
   color: "primary"
 };
-const MemoSvgPlaylist = React.memo(SvgPlaylist);
-export default MemoSvgPlaylist;
+export default SvgPlaylist;

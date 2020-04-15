@@ -416,5 +416,4 @@ SvgPhotoSharing.propTypes = {
 SvgPhotoSharing.defaultProps = {
   color: "primary"
 };
-const MemoSvgPhotoSharing = React.memo(SvgPhotoSharing);
-export default MemoSvgPhotoSharing;
+export default SvgPhotoSharing;

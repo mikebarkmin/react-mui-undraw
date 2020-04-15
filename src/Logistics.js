@@ -244,5 +244,4 @@ SvgLogistics.propTypes = {
 SvgLogistics.defaultProps = {
   color: "primary"
 };
-const MemoSvgLogistics = React.memo(SvgLogistics);
-export default MemoSvgLogistics;
+export default SvgLogistics;

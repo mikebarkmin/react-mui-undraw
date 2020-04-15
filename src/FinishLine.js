@@ -129,5 +129,4 @@ SvgFinishLine.propTypes = {
 SvgFinishLine.defaultProps = {
   color: "primary"
 };
-const MemoSvgFinishLine = React.memo(SvgFinishLine);
-export default MemoSvgFinishLine;
+export default SvgFinishLine;

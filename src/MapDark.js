@@ -107,5 +107,4 @@ SvgMapDark.propTypes = {
 SvgMapDark.defaultProps = {
   color: "primary"
 };
-const MemoSvgMapDark = React.memo(SvgMapDark);
-export default MemoSvgMapDark;
+export default SvgMapDark;

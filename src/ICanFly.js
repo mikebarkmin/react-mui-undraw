@@ -157,5 +157,4 @@ SvgICanFly.propTypes = {
 SvgICanFly.defaultProps = {
   color: "primary"
 };
-const MemoSvgICanFly = React.memo(SvgICanFly);
-export default MemoSvgICanFly;
+export default SvgICanFly;

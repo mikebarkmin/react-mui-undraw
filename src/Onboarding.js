@@ -280,5 +280,4 @@ SvgOnboarding.propTypes = {
 SvgOnboarding.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnboarding = React.memo(SvgOnboarding);
-export default MemoSvgOnboarding;
+export default SvgOnboarding;

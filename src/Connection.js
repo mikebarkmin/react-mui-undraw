@@ -187,5 +187,4 @@ SvgConnection.propTypes = {
 SvgConnection.defaultProps = {
   color: "primary"
 };
-const MemoSvgConnection = React.memo(SvgConnection);
-export default MemoSvgConnection;
+export default SvgConnection;

@@ -290,5 +290,4 @@ SvgInboxCleanup.propTypes = {
 SvgInboxCleanup.defaultProps = {
   color: "primary"
 };
-const MemoSvgInboxCleanup = React.memo(SvgInboxCleanup);
-export default MemoSvgInboxCleanup;
+export default SvgInboxCleanup;

@@ -166,5 +166,4 @@ SvgAWholeYear.propTypes = {
 SvgAWholeYear.defaultProps = {
   color: "primary"
 };
-const MemoSvgAWholeYear = React.memo(SvgAWholeYear);
-export default MemoSvgAWholeYear;
+export default SvgAWholeYear;

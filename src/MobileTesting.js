@@ -388,5 +388,4 @@ SvgMobileTesting.propTypes = {
 SvgMobileTesting.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileTesting = React.memo(SvgMobileTesting);
-export default MemoSvgMobileTesting;
+export default SvgMobileTesting;

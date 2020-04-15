@@ -419,5 +419,4 @@ SvgOnTheWay.propTypes = {
 SvgOnTheWay.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnTheWay = React.memo(SvgOnTheWay);
-export default MemoSvgOnTheWay;
+export default SvgOnTheWay;

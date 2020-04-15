@@ -205,5 +205,4 @@ SvgCoolness.propTypes = {
 SvgCoolness.defaultProps = {
   color: "primary"
 };
-const MemoSvgCoolness = React.memo(SvgCoolness);
-export default MemoSvgCoolness;
+export default SvgCoolness;

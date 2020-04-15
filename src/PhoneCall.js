@@ -169,5 +169,4 @@ SvgPhoneCall.propTypes = {
 SvgPhoneCall.defaultProps = {
   color: "primary"
 };
-const MemoSvgPhoneCall = React.memo(SvgPhoneCall);
-export default MemoSvgPhoneCall;
+export default SvgPhoneCall;

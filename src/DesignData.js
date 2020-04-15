@@ -103,5 +103,4 @@ SvgDesignData.propTypes = {
 SvgDesignData.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesignData = React.memo(SvgDesignData);
-export default MemoSvgDesignData;
+export default SvgDesignData;

@@ -129,5 +129,4 @@ SvgPopular.propTypes = {
 SvgPopular.defaultProps = {
   color: "primary"
 };
-const MemoSvgPopular = React.memo(SvgPopular);
-export default MemoSvgPopular;
+export default SvgPopular;

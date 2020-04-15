@@ -83,5 +83,4 @@ SvgKnowledge.propTypes = {
 SvgKnowledge.defaultProps = {
   color: "primary"
 };
-const MemoSvgKnowledge = React.memo(SvgKnowledge);
-export default MemoSvgKnowledge;
+export default SvgKnowledge;

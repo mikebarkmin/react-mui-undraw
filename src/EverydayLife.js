@@ -202,5 +202,4 @@ SvgEverydayLife.propTypes = {
 SvgEverydayLife.defaultProps = {
   color: "primary"
 };
-const MemoSvgEverydayLife = React.memo(SvgEverydayLife);
-export default MemoSvgEverydayLife;
+export default SvgEverydayLife;

@@ -92,5 +92,4 @@ SvgFittingPiece.propTypes = {
 SvgFittingPiece.defaultProps = {
   color: "primary"
 };
-const MemoSvgFittingPiece = React.memo(SvgFittingPiece);
-export default MemoSvgFittingPiece;
+export default SvgFittingPiece;

@@ -215,5 +215,4 @@ SvgDesignInspiration.propTypes = {
 SvgDesignInspiration.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesignInspiration = React.memo(SvgDesignInspiration);
-export default MemoSvgDesignInspiration;
+export default SvgDesignInspiration;

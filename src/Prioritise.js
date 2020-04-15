@@ -112,5 +112,4 @@ SvgPrioritise.propTypes = {
 SvgPrioritise.defaultProps = {
   color: "primary"
 };
-const MemoSvgPrioritise = React.memo(SvgPrioritise);
-export default MemoSvgPrioritise;
+export default SvgPrioritise;

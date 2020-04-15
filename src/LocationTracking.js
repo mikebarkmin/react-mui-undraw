@@ -77,5 +77,4 @@ SvgLocationTracking.propTypes = {
 SvgLocationTracking.defaultProps = {
   color: "primary"
 };
-const MemoSvgLocationTracking = React.memo(SvgLocationTracking);
-export default MemoSvgLocationTracking;
+export default SvgLocationTracking;

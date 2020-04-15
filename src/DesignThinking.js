@@ -159,5 +159,4 @@ SvgDesignThinking.propTypes = {
 SvgDesignThinking.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesignThinking = React.memo(SvgDesignThinking);
-export default MemoSvgDesignThinking;
+export default SvgDesignThinking;

@@ -74,5 +74,4 @@ SvgCloudFiles.propTypes = {
 SvgCloudFiles.defaultProps = {
   color: "primary"
 };
-const MemoSvgCloudFiles = React.memo(SvgCloudFiles);
-export default MemoSvgCloudFiles;
+export default SvgCloudFiles;

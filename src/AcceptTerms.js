@@ -260,5 +260,4 @@ SvgAcceptTerms.propTypes = {
 SvgAcceptTerms.defaultProps = {
   color: "primary"
 };
-const MemoSvgAcceptTerms = React.memo(SvgAcceptTerms);
-export default MemoSvgAcceptTerms;
+export default SvgAcceptTerms;

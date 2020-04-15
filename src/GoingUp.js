@@ -334,5 +334,4 @@ SvgGoingUp.propTypes = {
 SvgGoingUp.defaultProps = {
   color: "primary"
 };
-const MemoSvgGoingUp = React.memo(SvgGoingUp);
-export default MemoSvgGoingUp;
+export default SvgGoingUp;

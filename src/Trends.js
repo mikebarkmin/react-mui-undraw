@@ -90,5 +90,4 @@ SvgTrends.propTypes = {
 SvgTrends.defaultProps = {
   color: "primary"
 };
-const MemoSvgTrends = React.memo(SvgTrends);
-export default MemoSvgTrends;
+export default SvgTrends;

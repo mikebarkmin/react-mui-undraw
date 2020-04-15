@@ -76,5 +76,4 @@ SvgFillForms.propTypes = {
 SvgFillForms.defaultProps = {
   color: "primary"
 };
-const MemoSvgFillForms = React.memo(SvgFillForms);
-export default MemoSvgFillForms;
+export default SvgFillForms;

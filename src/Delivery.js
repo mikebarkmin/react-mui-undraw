@@ -140,5 +140,4 @@ SvgDelivery.propTypes = {
 SvgDelivery.defaultProps = {
   color: "primary"
 };
-const MemoSvgDelivery = React.memo(SvgDelivery);
-export default MemoSvgDelivery;
+export default SvgDelivery;

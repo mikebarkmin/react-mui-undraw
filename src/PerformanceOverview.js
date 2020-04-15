@@ -115,5 +115,4 @@ SvgPerformanceOverview.propTypes = {
 SvgPerformanceOverview.defaultProps = {
   color: "primary"
 };
-const MemoSvgPerformanceOverview = React.memo(SvgPerformanceOverview);
-export default MemoSvgPerformanceOverview;
+export default SvgPerformanceOverview;

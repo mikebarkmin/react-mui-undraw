@@ -309,5 +309,4 @@ SvgSafe.propTypes = {
 SvgSafe.defaultProps = {
   color: "primary"
 };
-const MemoSvgSafe = React.memo(SvgSafe);
-export default MemoSvgSafe;
+export default SvgSafe;

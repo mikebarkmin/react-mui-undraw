@@ -241,5 +241,4 @@ SvgSmartHome.propTypes = {
 SvgSmartHome.defaultProps = {
   color: "primary"
 };
-const MemoSvgSmartHome = React.memo(SvgSmartHome);
-export default MemoSvgSmartHome;
+export default SvgSmartHome;

@@ -150,5 +150,4 @@ SvgOrderACar.propTypes = {
 SvgOrderACar.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrderACar = React.memo(SvgOrderACar);
-export default MemoSvgOrderACar;
+export default SvgOrderACar;

@@ -191,5 +191,4 @@ SvgHamburger.propTypes = {
 SvgHamburger.defaultProps = {
   color: "primary"
 };
-const MemoSvgHamburger = React.memo(SvgHamburger);
-export default MemoSvgHamburger;
+export default SvgHamburger;

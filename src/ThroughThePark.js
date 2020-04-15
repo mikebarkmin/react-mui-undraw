@@ -183,5 +183,4 @@ SvgThroughThePark.propTypes = {
 SvgThroughThePark.defaultProps = {
   color: "primary"
 };
-const MemoSvgThroughThePark = React.memo(SvgThroughThePark);
-export default MemoSvgThroughThePark;
+export default SvgThroughThePark;

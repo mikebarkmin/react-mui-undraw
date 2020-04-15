@@ -102,5 +102,4 @@ SvgSuccessFactors.propTypes = {
 SvgSuccessFactors.defaultProps = {
   color: "primary"
 };
-const MemoSvgSuccessFactors = React.memo(SvgSuccessFactors);
-export default MemoSvgSuccessFactors;
+export default SvgSuccessFactors;

@@ -301,5 +301,4 @@ SvgSecurity.propTypes = {
 SvgSecurity.defaultProps = {
   color: "primary"
 };
-const MemoSvgSecurity = React.memo(SvgSecurity);
-export default MemoSvgSecurity;
+export default SvgSecurity;

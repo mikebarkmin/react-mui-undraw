@@ -175,5 +175,4 @@ SvgAmongNature.propTypes = {
 SvgAmongNature.defaultProps = {
   color: "primary"
 };
-const MemoSvgAmongNature = React.memo(SvgAmongNature);
-export default MemoSvgAmongNature;
+export default SvgAmongNature;

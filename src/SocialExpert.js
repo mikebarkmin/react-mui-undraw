@@ -117,5 +117,4 @@ SvgSocialExpert.propTypes = {
 SvgSocialExpert.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialExpert = React.memo(SvgSocialExpert);
-export default MemoSvgSocialExpert;
+export default SvgSocialExpert;

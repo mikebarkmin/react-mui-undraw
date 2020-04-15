@@ -437,5 +437,4 @@ SvgBackToSchool.propTypes = {
 SvgBackToSchool.defaultProps = {
   color: "primary"
 };
-const MemoSvgBackToSchool = React.memo(SvgBackToSchool);
-export default MemoSvgBackToSchool;
+export default SvgBackToSchool;

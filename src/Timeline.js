@@ -193,5 +193,4 @@ SvgTimeline.propTypes = {
 SvgTimeline.defaultProps = {
   color: "primary"
 };
-const MemoSvgTimeline = React.memo(SvgTimeline);
-export default MemoSvgTimeline;
+export default SvgTimeline;

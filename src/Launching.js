@@ -159,5 +159,4 @@ SvgLaunching.propTypes = {
 SvgLaunching.defaultProps = {
   color: "primary"
 };
-const MemoSvgLaunching = React.memo(SvgLaunching);
-export default MemoSvgLaunching;
+export default SvgLaunching;

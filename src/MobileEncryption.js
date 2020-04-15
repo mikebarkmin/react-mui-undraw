@@ -254,5 +254,4 @@ SvgMobileEncryption.propTypes = {
 SvgMobileEncryption.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileEncryption = React.memo(SvgMobileEncryption);
-export default MemoSvgMobileEncryption;
+export default SvgMobileEncryption;

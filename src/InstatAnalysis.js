@@ -117,5 +117,4 @@ SvgInstatAnalysis.propTypes = {
 SvgInstatAnalysis.defaultProps = {
   color: "primary"
 };
-const MemoSvgInstatAnalysis = React.memo(SvgInstatAnalysis);
-export default MemoSvgInstatAnalysis;
+export default SvgInstatAnalysis;

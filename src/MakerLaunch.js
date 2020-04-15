@@ -333,5 +333,4 @@ SvgMakerLaunch.propTypes = {
 SvgMakerLaunch.defaultProps = {
   color: "primary"
 };
-const MemoSvgMakerLaunch = React.memo(SvgMakerLaunch);
-export default MemoSvgMakerLaunch;
+export default SvgMakerLaunch;

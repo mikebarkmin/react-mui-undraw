@@ -423,5 +423,4 @@ SvgEnvironment.propTypes = {
 SvgEnvironment.defaultProps = {
   color: "primary"
 };
-const MemoSvgEnvironment = React.memo(SvgEnvironment);
-export default MemoSvgEnvironment;
+export default SvgEnvironment;

@@ -377,5 +377,4 @@ SvgMarilyn.propTypes = {
 SvgMarilyn.defaultProps = {
   color: "primary"
 };
-const MemoSvgMarilyn = React.memo(SvgMarilyn);
-export default MemoSvgMarilyn;
+export default SvgMarilyn;

@@ -524,5 +524,4 @@ SvgNightCalls.propTypes = {
 SvgNightCalls.defaultProps = {
   color: "primary"
 };
-const MemoSvgNightCalls = React.memo(SvgNightCalls);
-export default MemoSvgNightCalls;
+export default SvgNightCalls;

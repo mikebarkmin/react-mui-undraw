@@ -141,5 +141,4 @@ SvgWanderingMind.propTypes = {
 SvgWanderingMind.defaultProps = {
   color: "primary"
 };
-const MemoSvgWanderingMind = React.memo(SvgWanderingMind);
-export default MemoSvgWanderingMind;
+export default SvgWanderingMind;

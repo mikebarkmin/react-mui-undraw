@@ -267,5 +267,4 @@ SvgOuterSpace.propTypes = {
 SvgOuterSpace.defaultProps = {
   color: "primary"
 };
-const MemoSvgOuterSpace = React.memo(SvgOuterSpace);
-export default MemoSvgOuterSpace;
+export default SvgOuterSpace;

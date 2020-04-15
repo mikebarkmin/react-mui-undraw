@@ -296,5 +296,4 @@ SvgFileSearching.propTypes = {
 SvgFileSearching.defaultProps = {
   color: "primary"
 };
-const MemoSvgFileSearching = React.memo(SvgFileSearching);
-export default MemoSvgFileSearching;
+export default SvgFileSearching;

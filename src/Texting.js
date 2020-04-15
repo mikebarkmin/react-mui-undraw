@@ -172,5 +172,4 @@ SvgTexting.propTypes = {
 SvgTexting.defaultProps = {
   color: "primary"
 };
-const MemoSvgTexting = React.memo(SvgTexting);
-export default MemoSvgTexting;
+export default SvgTexting;

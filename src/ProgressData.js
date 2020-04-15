@@ -120,5 +120,4 @@ SvgProgressData.propTypes = {
 SvgProgressData.defaultProps = {
   color: "primary"
 };
-const MemoSvgProgressData = React.memo(SvgProgressData);
-export default MemoSvgProgressData;
+export default SvgProgressData;

@@ -175,5 +175,4 @@ SvgServer.propTypes = {
 SvgServer.defaultProps = {
   color: "primary"
 };
-const MemoSvgServer = React.memo(SvgServer);
-export default MemoSvgServer;
+export default SvgServer;

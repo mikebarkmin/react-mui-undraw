@@ -492,5 +492,4 @@ SvgBalloons.propTypes = {
 SvgBalloons.defaultProps = {
   color: "primary"
 };
-const MemoSvgBalloons = React.memo(SvgBalloons);
-export default MemoSvgBalloons;
+export default SvgBalloons;

@@ -140,5 +140,4 @@ SvgDroneSurveillance.propTypes = {
 SvgDroneSurveillance.defaultProps = {
   color: "primary"
 };
-const MemoSvgDroneSurveillance = React.memo(SvgDroneSurveillance);
-export default MemoSvgDroneSurveillance;
+export default SvgDroneSurveillance;

@@ -353,5 +353,4 @@ SvgSiteStats.propTypes = {
 SvgSiteStats.defaultProps = {
   color: "primary"
 };
-const MemoSvgSiteStats = React.memo(SvgSiteStats);
-export default MemoSvgSiteStats;
+export default SvgSiteStats;

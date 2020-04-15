@@ -598,5 +598,4 @@ SvgLoveIsInTheAir.propTypes = {
 SvgLoveIsInTheAir.defaultProps = {
   color: "primary"
 };
-const MemoSvgLoveIsInTheAir = React.memo(SvgLoveIsInTheAir);
-export default MemoSvgLoveIsInTheAir;
+export default SvgLoveIsInTheAir;

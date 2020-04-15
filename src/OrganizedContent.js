@@ -104,5 +104,4 @@ SvgOrganizedContent.propTypes = {
 SvgOrganizedContent.defaultProps = {
   color: "primary"
 };
-const MemoSvgOrganizedContent = React.memo(SvgOrganizedContent);
-export default MemoSvgOrganizedContent;
+export default SvgOrganizedContent;

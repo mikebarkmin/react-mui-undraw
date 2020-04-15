@@ -339,5 +339,4 @@ SvgFishBowl.propTypes = {
 SvgFishBowl.defaultProps = {
   color: "primary"
 };
-const MemoSvgFishBowl = React.memo(SvgFishBowl);
-export default MemoSvgFishBowl;
+export default SvgFishBowl;

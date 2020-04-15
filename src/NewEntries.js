@@ -212,5 +212,4 @@ SvgNewEntries.propTypes = {
 SvgNewEntries.defaultProps = {
   color: "primary"
 };
-const MemoSvgNewEntries = React.memo(SvgNewEntries);
-export default MemoSvgNewEntries;
+export default SvgNewEntries;

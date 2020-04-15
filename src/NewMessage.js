@@ -436,5 +436,4 @@ SvgNewMessage.propTypes = {
 SvgNewMessage.defaultProps = {
   color: "primary"
 };
-const MemoSvgNewMessage = React.memo(SvgNewMessage);
-export default MemoSvgNewMessage;
+export default SvgNewMessage;

@@ -114,5 +114,4 @@ SvgFall.propTypes = {
 SvgFall.defaultProps = {
   color: "primary"
 };
-const MemoSvgFall = React.memo(SvgFall);
-export default MemoSvgFall;
+export default SvgFall;

@@ -412,5 +412,4 @@ SvgSnowGames.propTypes = {
 SvgSnowGames.defaultProps = {
   color: "primary"
 };
-const MemoSvgSnowGames = React.memo(SvgSnowGames);
-export default MemoSvgSnowGames;
+export default SvgSnowGames;

@@ -155,5 +155,4 @@ SvgResponsiveness.propTypes = {
 SvgResponsiveness.defaultProps = {
   color: "primary"
 };
-const MemoSvgResponsiveness = React.memo(SvgResponsiveness);
-export default MemoSvgResponsiveness;
+export default SvgResponsiveness;

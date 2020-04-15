@@ -174,5 +174,4 @@ SvgLovingIt.propTypes = {
 SvgLovingIt.defaultProps = {
   color: "primary"
 };
-const MemoSvgLovingIt = React.memo(SvgLovingIt);
-export default MemoSvgLovingIt;
+export default SvgLovingIt;

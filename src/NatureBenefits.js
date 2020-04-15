@@ -119,5 +119,4 @@ SvgNatureBenefits.propTypes = {
 SvgNatureBenefits.defaultProps = {
   color: "primary"
 };
-const MemoSvgNatureBenefits = React.memo(SvgNatureBenefits);
-export default MemoSvgNatureBenefits;
+export default SvgNatureBenefits;

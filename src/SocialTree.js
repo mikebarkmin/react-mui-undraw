@@ -421,5 +421,4 @@ SvgSocialTree.propTypes = {
 SvgSocialTree.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialTree = React.memo(SvgSocialTree);
-export default MemoSvgSocialTree;
+export default SvgSocialTree;

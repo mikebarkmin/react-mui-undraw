@@ -107,5 +107,4 @@ SvgDeconstructed.propTypes = {
 SvgDeconstructed.defaultProps = {
   color: "primary"
 };
-const MemoSvgDeconstructed = React.memo(SvgDeconstructed);
-export default MemoSvgDeconstructed;
+export default SvgDeconstructed;

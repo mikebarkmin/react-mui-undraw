@@ -297,5 +297,4 @@ SvgBibliophile.propTypes = {
 SvgBibliophile.defaultProps = {
   color: "primary"
 };
-const MemoSvgBibliophile = React.memo(SvgBibliophile);
-export default MemoSvgBibliophile;
+export default SvgBibliophile;

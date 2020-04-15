@@ -113,5 +113,4 @@ SvgWalkingOutside.propTypes = {
 SvgWalkingOutside.defaultProps = {
   color: "primary"
 };
-const MemoSvgWalkingOutside = React.memo(SvgWalkingOutside);
-export default MemoSvgWalkingOutside;
+export default SvgWalkingOutside;

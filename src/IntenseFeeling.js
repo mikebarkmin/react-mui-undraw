@@ -239,5 +239,4 @@ SvgIntenseFeeling.propTypes = {
 SvgIntenseFeeling.defaultProps = {
   color: "primary"
 };
-const MemoSvgIntenseFeeling = React.memo(SvgIntenseFeeling);
-export default MemoSvgIntenseFeeling;
+export default SvgIntenseFeeling;

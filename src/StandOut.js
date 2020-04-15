@@ -119,5 +119,4 @@ SvgStandOut.propTypes = {
 SvgStandOut.defaultProps = {
   color: "primary"
 };
-const MemoSvgStandOut = React.memo(SvgStandOut);
-export default MemoSvgStandOut;
+export default SvgStandOut;

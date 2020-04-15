@@ -394,5 +394,4 @@ SvgPersonalSettings.propTypes = {
 SvgPersonalSettings.defaultProps = {
   color: "primary"
 };
-const MemoSvgPersonalSettings = React.memo(SvgPersonalSettings);
-export default MemoSvgPersonalSettings;
+export default SvgPersonalSettings;

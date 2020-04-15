@@ -101,5 +101,4 @@ SvgTrendyInterface.propTypes = {
 SvgTrendyInterface.defaultProps = {
   color: "primary"
 };
-const MemoSvgTrendyInterface = React.memo(SvgTrendyInterface);
-export default MemoSvgTrendyInterface;
+export default SvgTrendyInterface;

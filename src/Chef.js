@@ -255,5 +255,4 @@ SvgChef.propTypes = {
 SvgChef.defaultProps = {
   color: "primary"
 };
-const MemoSvgChef = React.memo(SvgChef);
-export default MemoSvgChef;
+export default SvgChef;

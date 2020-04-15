@@ -129,5 +129,4 @@ SvgFillIn.propTypes = {
 SvgFillIn.defaultProps = {
   color: "primary"
 };
-const MemoSvgFillIn = React.memo(SvgFillIn);
-export default MemoSvgFillIn;
+export default SvgFillIn;

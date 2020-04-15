@@ -78,5 +78,4 @@ SvgInnovative.propTypes = {
 SvgInnovative.defaultProps = {
   color: "primary"
 };
-const MemoSvgInnovative = React.memo(SvgInnovative);
-export default MemoSvgInnovative;
+export default SvgInnovative;

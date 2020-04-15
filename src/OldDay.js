@@ -503,5 +503,4 @@ SvgOldDay.propTypes = {
 SvgOldDay.defaultProps = {
   color: "primary"
 };
-const MemoSvgOldDay = React.memo(SvgOldDay);
-export default MemoSvgOldDay;
+export default SvgOldDay;

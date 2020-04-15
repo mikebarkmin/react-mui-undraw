@@ -663,5 +663,4 @@ SvgElectricCar.propTypes = {
 SvgElectricCar.defaultProps = {
   color: "primary"
 };
-const MemoSvgElectricCar = React.memo(SvgElectricCar);
-export default MemoSvgElectricCar;
+export default SvgElectricCar;

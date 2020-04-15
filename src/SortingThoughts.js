@@ -101,5 +101,4 @@ SvgSortingThoughts.propTypes = {
 SvgSortingThoughts.defaultProps = {
   color: "primary"
 };
-const MemoSvgSortingThoughts = React.memo(SvgSortingThoughts);
-export default MemoSvgSortingThoughts;
+export default SvgSortingThoughts;

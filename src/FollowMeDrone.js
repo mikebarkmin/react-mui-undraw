@@ -282,5 +282,4 @@ SvgFollowMeDrone.propTypes = {
 SvgFollowMeDrone.defaultProps = {
   color: "primary"
 };
-const MemoSvgFollowMeDrone = React.memo(SvgFollowMeDrone);
-export default MemoSvgFollowMeDrone;
+export default SvgFollowMeDrone;

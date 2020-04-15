@@ -266,5 +266,4 @@ SvgVault.propTypes = {
 SvgVault.defaultProps = {
   color: "primary"
 };
-const MemoSvgVault = React.memo(SvgVault);
-export default MemoSvgVault;
+export default SvgVault;

@@ -683,5 +683,4 @@ SvgMintTea.propTypes = {
 SvgMintTea.defaultProps = {
   color: "primary"
 };
-const MemoSvgMintTea = React.memo(SvgMintTea);
-export default MemoSvgMintTea;
+export default SvgMintTea;

@@ -175,5 +175,4 @@ SvgInProgress.propTypes = {
 SvgInProgress.defaultProps = {
   color: "primary"
 };
-const MemoSvgInProgress = React.memo(SvgInProgress);
-export default MemoSvgInProgress;
+export default SvgInProgress;

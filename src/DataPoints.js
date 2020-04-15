@@ -552,5 +552,4 @@ SvgDataPoints.propTypes = {
 SvgDataPoints.defaultProps = {
   color: "primary"
 };
-const MemoSvgDataPoints = React.memo(SvgDataPoints);
-export default MemoSvgDataPoints;
+export default SvgDataPoints;

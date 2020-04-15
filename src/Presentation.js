@@ -314,5 +314,4 @@ SvgPresentation.propTypes = {
 SvgPresentation.defaultProps = {
   color: "primary"
 };
-const MemoSvgPresentation = React.memo(SvgPresentation);
-export default MemoSvgPresentation;
+export default SvgPresentation;

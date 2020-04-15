@@ -165,5 +165,4 @@ SvgDollPlay.propTypes = {
 SvgDollPlay.defaultProps = {
   color: "primary"
 };
-const MemoSvgDollPlay = React.memo(SvgDollPlay);
-export default MemoSvgDollPlay;
+export default SvgDollPlay;

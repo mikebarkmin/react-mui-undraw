@@ -113,5 +113,4 @@ SvgMobileDevices.propTypes = {
 SvgMobileDevices.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileDevices = React.memo(SvgMobileDevices);
-export default MemoSvgMobileDevices;
+export default SvgMobileDevices;

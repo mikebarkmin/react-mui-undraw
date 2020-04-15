@@ -69,5 +69,4 @@ SvgRunnerStart.propTypes = {
 SvgRunnerStart.defaultProps = {
   color: "primary"
 };
-const MemoSvgRunnerStart = React.memo(SvgRunnerStart);
-export default MemoSvgRunnerStart;
+export default SvgRunnerStart;

@@ -139,5 +139,4 @@ SvgBrowsing.propTypes = {
 SvgBrowsing.defaultProps = {
   color: "primary"
 };
-const MemoSvgBrowsing = React.memo(SvgBrowsing);
-export default MemoSvgBrowsing;
+export default SvgBrowsing;

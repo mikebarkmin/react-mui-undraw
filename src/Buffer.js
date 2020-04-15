@@ -234,5 +234,4 @@ SvgBuffer.propTypes = {
 SvgBuffer.defaultProps = {
   color: "primary"
 };
-const MemoSvgBuffer = React.memo(SvgBuffer);
-export default MemoSvgBuffer;
+export default SvgBuffer;

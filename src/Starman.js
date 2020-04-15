@@ -269,5 +269,4 @@ SvgStarman.propTypes = {
 SvgStarman.defaultProps = {
   color: "primary"
 };
-const MemoSvgStarman = React.memo(SvgStarman);
-export default MemoSvgStarman;
+export default SvgStarman;

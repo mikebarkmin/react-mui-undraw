@@ -220,5 +220,4 @@ SvgMindfulness.propTypes = {
 SvgMindfulness.defaultProps = {
   color: "primary"
 };
-const MemoSvgMindfulness = React.memo(SvgMindfulness);
-export default MemoSvgMindfulness;
+export default SvgMindfulness;

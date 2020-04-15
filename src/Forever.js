@@ -280,5 +280,4 @@ SvgForever.propTypes = {
 SvgForever.defaultProps = {
   color: "primary"
 };
-const MemoSvgForever = React.memo(SvgForever);
-export default MemoSvgForever;
+export default SvgForever;

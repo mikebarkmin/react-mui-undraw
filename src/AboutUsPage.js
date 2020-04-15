@@ -530,5 +530,4 @@ SvgAboutUsPage.propTypes = {
 SvgAboutUsPage.defaultProps = {
   color: "primary"
 };
-const MemoSvgAboutUsPage = React.memo(SvgAboutUsPage);
-export default MemoSvgAboutUsPage;
+export default SvgAboutUsPage;

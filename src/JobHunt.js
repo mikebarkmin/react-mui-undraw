@@ -66,5 +66,4 @@ SvgJobHunt.propTypes = {
 SvgJobHunt.defaultProps = {
   color: "primary"
 };
-const MemoSvgJobHunt = React.memo(SvgJobHunt);
-export default MemoSvgJobHunt;
+export default SvgJobHunt;

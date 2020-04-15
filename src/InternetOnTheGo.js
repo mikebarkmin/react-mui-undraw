@@ -167,5 +167,4 @@ SvgInternetOnTheGo.propTypes = {
 SvgInternetOnTheGo.defaultProps = {
   color: "primary"
 };
-const MemoSvgInternetOnTheGo = React.memo(SvgInternetOnTheGo);
-export default MemoSvgInternetOnTheGo;
+export default SvgInternetOnTheGo;

@@ -116,5 +116,4 @@ SvgCharts.propTypes = {
 SvgCharts.defaultProps = {
   color: "primary"
 };
-const MemoSvgCharts = React.memo(SvgCharts);
-export default MemoSvgCharts;
+export default SvgCharts;

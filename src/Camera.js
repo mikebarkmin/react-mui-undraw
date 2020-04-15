@@ -157,5 +157,4 @@ SvgCamera.propTypes = {
 SvgCamera.defaultProps = {
   color: "primary"
 };
-const MemoSvgCamera = React.memo(SvgCamera);
-export default MemoSvgCamera;
+export default SvgCamera;

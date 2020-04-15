@@ -934,5 +934,4 @@ SvgBirthdayCake.propTypes = {
 SvgBirthdayCake.defaultProps = {
   color: "primary"
 };
-const MemoSvgBirthdayCake = React.memo(SvgBirthdayCake);
-export default MemoSvgBirthdayCake;
+export default SvgBirthdayCake;

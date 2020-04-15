@@ -327,5 +327,4 @@ SvgPressPlay.propTypes = {
 SvgPressPlay.defaultProps = {
   color: "primary"
 };
-const MemoSvgPressPlay = React.memo(SvgPressPlay);
-export default MemoSvgPressPlay;
+export default SvgPressPlay;

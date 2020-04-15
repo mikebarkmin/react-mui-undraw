@@ -203,5 +203,4 @@ SvgSubway.propTypes = {
 SvgSubway.defaultProps = {
   color: "primary"
 };
-const MemoSvgSubway = React.memo(SvgSubway);
-export default MemoSvgSubway;
+export default SvgSubway;

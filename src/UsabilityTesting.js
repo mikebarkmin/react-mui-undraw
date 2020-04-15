@@ -503,5 +503,4 @@ SvgUsabilityTesting.propTypes = {
 SvgUsabilityTesting.defaultProps = {
   color: "primary"
 };
-const MemoSvgUsabilityTesting = React.memo(SvgUsabilityTesting);
-export default MemoSvgUsabilityTesting;
+export default SvgUsabilityTesting;

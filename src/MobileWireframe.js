@@ -187,5 +187,4 @@ SvgMobileWireframe.propTypes = {
 SvgMobileWireframe.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileWireframe = React.memo(SvgMobileWireframe);
-export default MemoSvgMobileWireframe;
+export default SvgMobileWireframe;

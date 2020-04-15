@@ -584,5 +584,4 @@ SvgBitcoin.propTypes = {
 SvgBitcoin.defaultProps = {
   color: "primary"
 };
-const MemoSvgBitcoin = React.memo(SvgBitcoin);
-export default MemoSvgBitcoin;
+export default SvgBitcoin;

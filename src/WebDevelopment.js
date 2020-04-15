@@ -169,5 +169,4 @@ SvgWebDevelopment.propTypes = {
 SvgWebDevelopment.defaultProps = {
   color: "primary"
 };
-const MemoSvgWebDevelopment = React.memo(SvgWebDevelopment);
-export default MemoSvgWebDevelopment;
+export default SvgWebDevelopment;

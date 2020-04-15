@@ -1231,5 +1231,4 @@ SvgFollowing.propTypes = {
 SvgFollowing.defaultProps = {
   color: "primary"
 };
-const MemoSvgFollowing = React.memo(SvgFollowing);
-export default MemoSvgFollowing;
+export default SvgFollowing;

@@ -88,5 +88,4 @@ SvgPredictiveAnalytics.propTypes = {
 SvgPredictiveAnalytics.defaultProps = {
   color: "primary"
 };
-const MemoSvgPredictiveAnalytics = React.memo(SvgPredictiveAnalytics);
-export default MemoSvgPredictiveAnalytics;
+export default SvgPredictiveAnalytics;

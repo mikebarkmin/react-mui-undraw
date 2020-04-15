@@ -113,5 +113,4 @@ SvgGravitas.propTypes = {
 SvgGravitas.defaultProps = {
   color: "primary"
 };
-const MemoSvgGravitas = React.memo(SvgGravitas);
-export default MemoSvgGravitas;
+export default SvgGravitas;

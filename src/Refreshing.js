@@ -714,5 +714,4 @@ SvgRefreshing.propTypes = {
 SvgRefreshing.defaultProps = {
   color: "primary"
 };
-const MemoSvgRefreshing = React.memo(SvgRefreshing);
-export default MemoSvgRefreshing;
+export default SvgRefreshing;

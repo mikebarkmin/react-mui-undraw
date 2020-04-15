@@ -218,5 +218,4 @@ SvgQuestions.propTypes = {
 SvgQuestions.defaultProps = {
   color: "primary"
 };
-const MemoSvgQuestions = React.memo(SvgQuestions);
-export default MemoSvgQuestions;
+export default SvgQuestions;

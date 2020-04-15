@@ -99,5 +99,4 @@ SvgOnlineResume.propTypes = {
 SvgOnlineResume.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineResume = React.memo(SvgOnlineResume);
-export default MemoSvgOnlineResume;
+export default SvgOnlineResume;

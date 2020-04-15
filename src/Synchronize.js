@@ -180,5 +180,4 @@ SvgSynchronize.propTypes = {
 SvgSynchronize.defaultProps = {
   color: "primary"
 };
-const MemoSvgSynchronize = React.memo(SvgSynchronize);
-export default MemoSvgSynchronize;
+export default SvgSynchronize;

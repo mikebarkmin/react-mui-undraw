@@ -382,5 +382,4 @@ SvgHorrorMovie.propTypes = {
 SvgHorrorMovie.defaultProps = {
   color: "primary"
 };
-const MemoSvgHorrorMovie = React.memo(SvgHorrorMovie);
-export default MemoSvgHorrorMovie;
+export default SvgHorrorMovie;

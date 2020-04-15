@@ -355,5 +355,4 @@ SvgRobotics.propTypes = {
 SvgRobotics.defaultProps = {
   color: "primary"
 };
-const MemoSvgRobotics = React.memo(SvgRobotics);
-export default MemoSvgRobotics;
+export default SvgRobotics;

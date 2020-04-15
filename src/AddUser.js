@@ -164,5 +164,4 @@ SvgAddUser.propTypes = {
 SvgAddUser.defaultProps = {
   color: "primary"
 };
-const MemoSvgAddUser = React.memo(SvgAddUser);
-export default MemoSvgAddUser;
+export default SvgAddUser;

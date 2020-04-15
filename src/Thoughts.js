@@ -449,5 +449,4 @@ SvgThoughts.propTypes = {
 SvgThoughts.defaultProps = {
   color: "primary"
 };
-const MemoSvgThoughts = React.memo(SvgThoughts);
-export default MemoSvgThoughts;
+export default SvgThoughts;

@@ -151,5 +151,4 @@ SvgPieGraph.propTypes = {
 SvgPieGraph.defaultProps = {
   color: "primary"
 };
-const MemoSvgPieGraph = React.memo(SvgPieGraph);
-export default MemoSvgPieGraph;
+export default SvgPieGraph;

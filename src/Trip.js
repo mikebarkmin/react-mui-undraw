@@ -796,5 +796,4 @@ SvgTrip.propTypes = {
 SvgTrip.defaultProps = {
   color: "primary"
 };
-const MemoSvgTrip = React.memo(SvgTrip);
-export default MemoSvgTrip;
+export default SvgTrip;

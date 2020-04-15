@@ -149,5 +149,4 @@ SvgFrozenFigure.propTypes = {
 SvgFrozenFigure.defaultProps = {
   color: "primary"
 };
-const MemoSvgFrozenFigure = React.memo(SvgFrozenFigure);
-export default MemoSvgFrozenFigure;
+export default SvgFrozenFigure;

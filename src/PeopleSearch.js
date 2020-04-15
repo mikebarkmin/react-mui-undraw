@@ -419,5 +419,4 @@ SvgPeopleSearch.propTypes = {
 SvgPeopleSearch.defaultProps = {
   color: "primary"
 };
-const MemoSvgPeopleSearch = React.memo(SvgPeopleSearch);
-export default MemoSvgPeopleSearch;
+export default SvgPeopleSearch;

@@ -95,5 +95,4 @@ SvgContract.propTypes = {
 SvgContract.defaultProps = {
   color: "primary"
 };
-const MemoSvgContract = React.memo(SvgContract);
-export default MemoSvgContract;
+export default SvgContract;

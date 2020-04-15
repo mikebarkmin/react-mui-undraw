@@ -587,5 +587,4 @@ SvgChildren.propTypes = {
 SvgChildren.defaultProps = {
   color: "primary"
 };
-const MemoSvgChildren = React.memo(SvgChildren);
-export default MemoSvgChildren;
+export default SvgChildren;

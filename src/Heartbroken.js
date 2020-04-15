@@ -483,5 +483,4 @@ SvgHeartbroken.propTypes = {
 SvgHeartbroken.defaultProps = {
   color: "primary"
 };
-const MemoSvgHeartbroken = React.memo(SvgHeartbroken);
-export default MemoSvgHeartbroken;
+export default SvgHeartbroken;

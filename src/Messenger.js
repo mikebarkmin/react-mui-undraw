@@ -673,5 +673,4 @@ SvgMessenger.propTypes = {
 SvgMessenger.defaultProps = {
   color: "primary"
 };
-const MemoSvgMessenger = React.memo(SvgMessenger);
-export default MemoSvgMessenger;
+export default SvgMessenger;

@@ -89,5 +89,4 @@ SvgInspection.propTypes = {
 SvgInspection.defaultProps = {
   color: "primary"
 };
-const MemoSvgInspection = React.memo(SvgInspection);
-export default MemoSvgInspection;
+export default SvgInspection;

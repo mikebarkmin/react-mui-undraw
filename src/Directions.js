@@ -235,5 +235,4 @@ SvgDirections.propTypes = {
 SvgDirections.defaultProps = {
   color: "primary"
 };
-const MemoSvgDirections = React.memo(SvgDirections);
-export default MemoSvgDirections;
+export default SvgDirections;

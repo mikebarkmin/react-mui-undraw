@@ -126,5 +126,4 @@ SvgCardPostal.propTypes = {
 SvgCardPostal.defaultProps = {
   color: "primary"
 };
-const MemoSvgCardPostal = React.memo(SvgCardPostal);
-export default MemoSvgCardPostal;
+export default SvgCardPostal;

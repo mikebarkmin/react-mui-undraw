@@ -182,5 +182,4 @@ SvgHomeRun.propTypes = {
 SvgHomeRun.defaultProps = {
   color: "primary"
 };
-const MemoSvgHomeRun = React.memo(SvgHomeRun);
-export default MemoSvgHomeRun;
+export default SvgHomeRun;

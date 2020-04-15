@@ -110,5 +110,4 @@ SvgThingsToSay.propTypes = {
 SvgThingsToSay.defaultProps = {
   color: "primary"
 };
-const MemoSvgThingsToSay = React.memo(SvgThingsToSay);
-export default MemoSvgThingsToSay;
+export default SvgThingsToSay;

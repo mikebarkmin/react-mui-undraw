@@ -158,5 +158,4 @@ SvgNotFound.propTypes = {
 SvgNotFound.defaultProps = {
   color: "primary"
 };
-const MemoSvgNotFound = React.memo(SvgNotFound);
-export default MemoSvgNotFound;
+export default SvgNotFound;

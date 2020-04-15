@@ -98,5 +98,4 @@ SvgYoga.propTypes = {
 SvgYoga.defaultProps = {
   color: "primary"
 };
-const MemoSvgYoga = React.memo(SvgYoga);
-export default MemoSvgYoga;
+export default SvgYoga;

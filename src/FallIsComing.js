@@ -1527,5 +1527,4 @@ SvgFallIsComing.propTypes = {
 SvgFallIsComing.defaultProps = {
   color: "primary"
 };
-const MemoSvgFallIsComing = React.memo(SvgFallIsComing);
-export default MemoSvgFallIsComing;
+export default SvgFallIsComing;

@@ -244,5 +244,4 @@ SvgHello.propTypes = {
 SvgHello.defaultProps = {
   color: "primary"
 };
-const MemoSvgHello = React.memo(SvgHello);
-export default MemoSvgHello;
+export default SvgHello;

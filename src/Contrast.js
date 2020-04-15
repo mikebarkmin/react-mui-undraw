@@ -171,5 +171,4 @@ SvgContrast.propTypes = {
 SvgContrast.defaultProps = {
   color: "primary"
 };
-const MemoSvgContrast = React.memo(SvgContrast);
-export default MemoSvgContrast;
+export default SvgContrast;

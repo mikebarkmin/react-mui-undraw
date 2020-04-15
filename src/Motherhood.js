@@ -220,5 +220,4 @@ SvgMotherhood.propTypes = {
 SvgMotherhood.defaultProps = {
   color: "primary"
 };
-const MemoSvgMotherhood = React.memo(SvgMotherhood);
-export default MemoSvgMotherhood;
+export default SvgMotherhood;

@@ -287,5 +287,4 @@ SvgEthereum.propTypes = {
 SvgEthereum.defaultProps = {
   color: "primary"
 };
-const MemoSvgEthereum = React.memo(SvgEthereum);
-export default MemoSvgEthereum;
+export default SvgEthereum;

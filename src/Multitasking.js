@@ -191,5 +191,4 @@ SvgMultitasking.propTypes = {
 SvgMultitasking.defaultProps = {
   color: "primary"
 };
-const MemoSvgMultitasking = React.memo(SvgMultitasking);
-export default MemoSvgMultitasking;
+export default SvgMultitasking;

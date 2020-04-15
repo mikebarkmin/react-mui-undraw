@@ -242,5 +242,4 @@ SvgRising.propTypes = {
 SvgRising.defaultProps = {
   color: "primary"
 };
-const MemoSvgRising = React.memo(SvgRising);
-export default MemoSvgRising;
+export default SvgRising;

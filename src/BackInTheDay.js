@@ -202,5 +202,4 @@ SvgBackInTheDay.propTypes = {
 SvgBackInTheDay.defaultProps = {
   color: "primary"
 };
-const MemoSvgBackInTheDay = React.memo(SvgBackInTheDay);
-export default MemoSvgBackInTheDay;
+export default SvgBackInTheDay;

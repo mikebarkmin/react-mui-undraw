@@ -508,5 +508,4 @@ SvgPrototypingProcess.propTypes = {
 SvgPrototypingProcess.defaultProps = {
   color: "primary"
 };
-const MemoSvgPrototypingProcess = React.memo(SvgPrototypingProcess);
-export default MemoSvgPrototypingProcess;
+export default SvgPrototypingProcess;

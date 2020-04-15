@@ -281,5 +281,4 @@ SvgShopping.propTypes = {
 SvgShopping.defaultProps = {
   color: "primary"
 };
-const MemoSvgShopping = React.memo(SvgShopping);
-export default MemoSvgShopping;
+export default SvgShopping;

@@ -112,5 +112,4 @@ SvgSegmentAnalysis.propTypes = {
 SvgSegmentAnalysis.defaultProps = {
   color: "primary"
 };
-const MemoSvgSegmentAnalysis = React.memo(SvgSegmentAnalysis);
-export default MemoSvgSegmentAnalysis;
+export default SvgSegmentAnalysis;

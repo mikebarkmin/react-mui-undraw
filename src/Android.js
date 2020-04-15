@@ -106,5 +106,4 @@ SvgAndroid.propTypes = {
 SvgAndroid.defaultProps = {
   color: "primary"
 };
-const MemoSvgAndroid = React.memo(SvgAndroid);
-export default MemoSvgAndroid;
+export default SvgAndroid;

@@ -400,5 +400,4 @@ SvgFreelancer.propTypes = {
 SvgFreelancer.defaultProps = {
   color: "primary"
 };
-const MemoSvgFreelancer = React.memo(SvgFreelancer);
-export default MemoSvgFreelancer;
+export default SvgFreelancer;

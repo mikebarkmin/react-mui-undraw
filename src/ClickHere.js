@@ -176,5 +176,4 @@ SvgClickHere.propTypes = {
 SvgClickHere.defaultProps = {
   color: "primary"
 };
-const MemoSvgClickHere = React.memo(SvgClickHere);
-export default MemoSvgClickHere;
+export default SvgClickHere;

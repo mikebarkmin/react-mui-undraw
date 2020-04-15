@@ -177,5 +177,4 @@ SvgEther.propTypes = {
 SvgEther.defaultProps = {
   color: "primary"
 };
-const MemoSvgEther = React.memo(SvgEther);
-export default MemoSvgEther;
+export default SvgEther;

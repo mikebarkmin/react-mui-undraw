@@ -108,5 +108,4 @@ SvgDataExtraction.propTypes = {
 SvgDataExtraction.defaultProps = {
   color: "primary"
 };
-const MemoSvgDataExtraction = React.memo(SvgDataExtraction);
-export default MemoSvgDataExtraction;
+export default SvgDataExtraction;

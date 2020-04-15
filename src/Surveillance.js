@@ -145,5 +145,4 @@ SvgSurveillance.propTypes = {
 SvgSurveillance.defaultProps = {
   color: "primary"
 };
-const MemoSvgSurveillance = React.memo(SvgSurveillance);
-export default MemoSvgSurveillance;
+export default SvgSurveillance;

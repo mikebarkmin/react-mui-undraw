@@ -112,5 +112,4 @@ SvgEcoConscious.propTypes = {
 SvgEcoConscious.defaultProps = {
   color: "primary"
 };
-const MemoSvgEcoConscious = React.memo(SvgEcoConscious);
-export default MemoSvgEcoConscious;
+export default SvgEcoConscious;

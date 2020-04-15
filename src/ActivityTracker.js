@@ -119,5 +119,4 @@ SvgActivityTracker.propTypes = {
 SvgActivityTracker.defaultProps = {
   color: "primary"
 };
-const MemoSvgActivityTracker = React.memo(SvgActivityTracker);
-export default MemoSvgActivityTracker;
+export default SvgActivityTracker;

@@ -125,5 +125,4 @@ SvgEnvironmentalStudy.propTypes = {
 SvgEnvironmentalStudy.defaultProps = {
   color: "primary"
 };
-const MemoSvgEnvironmentalStudy = React.memo(SvgEnvironmentalStudy);
-export default MemoSvgEnvironmentalStudy;
+export default SvgEnvironmentalStudy;

@@ -228,5 +228,4 @@ SvgSecureServer.propTypes = {
 SvgSecureServer.defaultProps = {
   color: "primary"
 };
-const MemoSvgSecureServer = React.memo(SvgSecureServer);
-export default MemoSvgSecureServer;
+export default SvgSecureServer;

@@ -127,5 +127,4 @@ SvgOnlineCv.propTypes = {
 SvgOnlineCv.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineCv = React.memo(SvgOnlineCv);
-export default MemoSvgOnlineCv;
+export default SvgOnlineCv;

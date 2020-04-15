@@ -474,5 +474,4 @@ SvgQuittingTime.propTypes = {
 SvgQuittingTime.defaultProps = {
   color: "primary"
 };
-const MemoSvgQuittingTime = React.memo(SvgQuittingTime);
-export default MemoSvgQuittingTime;
+export default SvgQuittingTime;

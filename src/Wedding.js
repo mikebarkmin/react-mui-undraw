@@ -559,5 +559,4 @@ SvgWedding.propTypes = {
 SvgWedding.defaultProps = {
   color: "primary"
 };
-const MemoSvgWedding = React.memo(SvgWedding);
-export default MemoSvgWedding;
+export default SvgWedding;

@@ -77,5 +77,4 @@ SvgOnlineVideo.propTypes = {
 SvgOnlineVideo.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineVideo = React.memo(SvgOnlineVideo);
-export default MemoSvgOnlineVideo;
+export default SvgOnlineVideo;

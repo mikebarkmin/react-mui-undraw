@@ -607,5 +607,4 @@ SvgPodcast.propTypes = {
 SvgPodcast.defaultProps = {
   color: "primary"
 };
-const MemoSvgPodcast = React.memo(SvgPodcast);
-export default MemoSvgPodcast;
+export default SvgPodcast;

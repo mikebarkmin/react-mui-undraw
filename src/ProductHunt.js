@@ -346,5 +346,4 @@ SvgProductHunt.propTypes = {
 SvgProductHunt.defaultProps = {
   color: "primary"
 };
-const MemoSvgProductHunt = React.memo(SvgProductHunt);
-export default MemoSvgProductHunt;
+export default SvgProductHunt;

@@ -839,5 +839,4 @@ SvgVoiceControl.propTypes = {
 SvgVoiceControl.defaultProps = {
   color: "primary"
 };
-const MemoSvgVoiceControl = React.memo(SvgVoiceControl);
-export default MemoSvgVoiceControl;
+export default SvgVoiceControl;

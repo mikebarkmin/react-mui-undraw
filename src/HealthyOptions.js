@@ -102,5 +102,4 @@ SvgHealthyOptions.propTypes = {
 SvgHealthyOptions.defaultProps = {
   color: "primary"
 };
-const MemoSvgHealthyOptions = React.memo(SvgHealthyOptions);
-export default MemoSvgHealthyOptions;
+export default SvgHealthyOptions;

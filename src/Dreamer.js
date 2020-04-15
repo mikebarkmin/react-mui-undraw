@@ -394,5 +394,4 @@ SvgDreamer.propTypes = {
 SvgDreamer.defaultProps = {
   color: "primary"
 };
-const MemoSvgDreamer = React.memo(SvgDreamer);
-export default MemoSvgDreamer;
+export default SvgDreamer;

@@ -117,5 +117,4 @@ SvgAircraft.propTypes = {
 SvgAircraft.defaultProps = {
   color: "primary"
 };
-const MemoSvgAircraft = React.memo(SvgAircraft);
-export default MemoSvgAircraft;
+export default SvgAircraft;

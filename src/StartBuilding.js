@@ -86,5 +86,4 @@ SvgStartBuilding.propTypes = {
 SvgStartBuilding.defaultProps = {
   color: "primary"
 };
-const MemoSvgStartBuilding = React.memo(SvgStartBuilding);
-export default MemoSvgStartBuilding;
+export default SvgStartBuilding;

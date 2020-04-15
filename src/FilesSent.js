@@ -180,5 +180,4 @@ SvgFilesSent.propTypes = {
 SvgFilesSent.defaultProps = {
   color: "primary"
 };
-const MemoSvgFilesSent = React.memo(SvgFilesSent);
-export default MemoSvgFilesSent;
+export default SvgFilesSent;

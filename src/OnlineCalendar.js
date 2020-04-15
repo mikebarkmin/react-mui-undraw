@@ -102,5 +102,4 @@ SvgOnlineCalendar.propTypes = {
 SvgOnlineCalendar.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineCalendar = React.memo(SvgOnlineCalendar);
-export default MemoSvgOnlineCalendar;
+export default SvgOnlineCalendar;

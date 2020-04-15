@@ -87,5 +87,4 @@ SvgAddFriends.propTypes = {
 SvgAddFriends.defaultProps = {
   color: "primary"
 };
-const MemoSvgAddFriends = React.memo(SvgAddFriends);
-export default MemoSvgAddFriends;
+export default SvgAddFriends;

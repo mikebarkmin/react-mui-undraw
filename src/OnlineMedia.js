@@ -115,5 +115,4 @@ SvgOnlineMedia.propTypes = {
 SvgOnlineMedia.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineMedia = React.memo(SvgOnlineMedia);
-export default MemoSvgOnlineMedia;
+export default SvgOnlineMedia;

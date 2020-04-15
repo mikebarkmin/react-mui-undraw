@@ -427,5 +427,4 @@ SvgProductTeardown.propTypes = {
 SvgProductTeardown.defaultProps = {
   color: "primary"
 };
-const MemoSvgProductTeardown = React.memo(SvgProductTeardown);
-export default MemoSvgProductTeardown;
+export default SvgProductTeardown;

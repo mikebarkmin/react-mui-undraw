@@ -55,5 +55,4 @@ SvgHologram.propTypes = {
 SvgHologram.defaultProps = {
   color: "primary"
 };
-const MemoSvgHologram = React.memo(SvgHologram);
-export default MemoSvgHologram;
+export default SvgHologram;

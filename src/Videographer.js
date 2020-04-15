@@ -282,5 +282,4 @@ SvgVideographer.propTypes = {
 SvgVideographer.defaultProps = {
   color: "primary"
 };
-const MemoSvgVideographer = React.memo(SvgVideographer);
-export default MemoSvgVideographer;
+export default SvgVideographer;

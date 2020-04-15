@@ -163,5 +163,4 @@ SvgDesignProcess.propTypes = {
 SvgDesignProcess.defaultProps = {
   color: "primary"
 };
-const MemoSvgDesignProcess = React.memo(SvgDesignProcess);
-export default MemoSvgDesignProcess;
+export default SvgDesignProcess;

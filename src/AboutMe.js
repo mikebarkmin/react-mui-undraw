@@ -294,5 +294,4 @@ SvgAboutMe.propTypes = {
 SvgAboutMe.defaultProps = {
   color: "primary"
 };
-const MemoSvgAboutMe = React.memo(SvgAboutMe);
-export default MemoSvgAboutMe;
+export default SvgAboutMe;

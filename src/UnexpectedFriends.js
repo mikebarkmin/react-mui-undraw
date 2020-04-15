@@ -146,5 +146,4 @@ SvgUnexpectedFriends.propTypes = {
 SvgUnexpectedFriends.defaultProps = {
   color: "primary"
 };
-const MemoSvgUnexpectedFriends = React.memo(SvgUnexpectedFriends);
-export default MemoSvgUnexpectedFriends;
+export default SvgUnexpectedFriends;

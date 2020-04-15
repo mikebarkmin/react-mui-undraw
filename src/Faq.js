@@ -124,5 +124,4 @@ SvgFaq.propTypes = {
 SvgFaq.defaultProps = {
   color: "primary"
 };
-const MemoSvgFaq = React.memo(SvgFaq);
-export default MemoSvgFaq;
+export default SvgFaq;

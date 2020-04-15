@@ -145,5 +145,4 @@ SvgWaitingForYou.propTypes = {
 SvgWaitingForYou.defaultProps = {
   color: "primary"
 };
-const MemoSvgWaitingForYou = React.memo(SvgWaitingForYou);
-export default MemoSvgWaitingForYou;
+export default SvgWaitingForYou;

@@ -289,5 +289,4 @@ SvgFollowers.propTypes = {
 SvgFollowers.defaultProps = {
   color: "primary"
 };
-const MemoSvgFollowers = React.memo(SvgFollowers);
-export default MemoSvgFollowers;
+export default SvgFollowers;

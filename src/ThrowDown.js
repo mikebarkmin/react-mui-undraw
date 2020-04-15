@@ -128,5 +128,4 @@ SvgThrowDown.propTypes = {
 SvgThrowDown.defaultProps = {
   color: "primary"
 };
-const MemoSvgThrowDown = React.memo(SvgThrowDown);
-export default MemoSvgThrowDown;
+export default SvgThrowDown;

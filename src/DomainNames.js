@@ -455,5 +455,4 @@ SvgDomainNames.propTypes = {
 SvgDomainNames.defaultProps = {
   color: "primary"
 };
-const MemoSvgDomainNames = React.memo(SvgDomainNames);
-export default MemoSvgDomainNames;
+export default SvgDomainNames;

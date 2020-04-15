@@ -537,5 +537,4 @@ SvgGroupSelfie.propTypes = {
 SvgGroupSelfie.defaultProps = {
   color: "primary"
 };
-const MemoSvgGroupSelfie = React.memo(SvgGroupSelfie);
-export default MemoSvgGroupSelfie;
+export default SvgGroupSelfie;

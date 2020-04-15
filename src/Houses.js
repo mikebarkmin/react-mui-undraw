@@ -346,5 +346,4 @@ SvgHouses.propTypes = {
 SvgHouses.defaultProps = {
   color: "primary"
 };
-const MemoSvgHouses = React.memo(SvgHouses);
-export default MemoSvgHouses;
+export default SvgHouses;

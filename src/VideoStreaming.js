@@ -144,5 +144,4 @@ SvgVideoStreaming.propTypes = {
 SvgVideoStreaming.defaultProps = {
   color: "primary"
 };
-const MemoSvgVideoStreaming = React.memo(SvgVideoStreaming);
-export default MemoSvgVideoStreaming;
+export default SvgVideoStreaming;

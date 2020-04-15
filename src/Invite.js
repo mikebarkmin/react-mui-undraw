@@ -286,5 +286,4 @@ SvgInvite.propTypes = {
 SvgInvite.defaultProps = {
   color: "primary"
 };
-const MemoSvgInvite = React.memo(SvgInvite);
-export default MemoSvgInvite;
+export default SvgInvite;

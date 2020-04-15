@@ -239,5 +239,4 @@ SvgConnectingTeams.propTypes = {
 SvgConnectingTeams.defaultProps = {
   color: "primary"
 };
-const MemoSvgConnectingTeams = React.memo(SvgConnectingTeams);
-export default MemoSvgConnectingTeams;
+export default SvgConnectingTeams;

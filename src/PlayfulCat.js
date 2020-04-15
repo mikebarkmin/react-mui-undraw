@@ -205,5 +205,4 @@ SvgPlayfulCat.propTypes = {
 SvgPlayfulCat.defaultProps = {
   color: "primary"
 };
-const MemoSvgPlayfulCat = React.memo(SvgPlayfulCat);
-export default MemoSvgPlayfulCat;
+export default SvgPlayfulCat;

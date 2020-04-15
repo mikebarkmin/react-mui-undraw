@@ -366,5 +366,4 @@ SvgMusic.propTypes = {
 SvgMusic.defaultProps = {
   color: "primary"
 };
-const MemoSvgMusic = React.memo(SvgMusic);
-export default MemoSvgMusic;
+export default SvgMusic;

@@ -87,5 +87,4 @@ SvgZoomIn.propTypes = {
 SvgZoomIn.defaultProps = {
   color: "primary"
 };
-const MemoSvgZoomIn = React.memo(SvgZoomIn);
-export default MemoSvgZoomIn;
+export default SvgZoomIn;

@@ -148,5 +148,4 @@ SvgWishlist.propTypes = {
 SvgWishlist.defaultProps = {
   color: "primary"
 };
-const MemoSvgWishlist = React.memo(SvgWishlist);
-export default MemoSvgWishlist;
+export default SvgWishlist;

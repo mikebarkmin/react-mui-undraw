@@ -120,5 +120,4 @@ SvgMovingForward.propTypes = {
 SvgMovingForward.defaultProps = {
   color: "primary"
 };
-const MemoSvgMovingForward = React.memo(SvgMovingForward);
-export default MemoSvgMovingForward;
+export default SvgMovingForward;

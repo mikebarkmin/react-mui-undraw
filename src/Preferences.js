@@ -385,5 +385,4 @@ SvgPreferences.propTypes = {
 SvgPreferences.defaultProps = {
   color: "primary"
 };
-const MemoSvgPreferences = React.memo(SvgPreferences);
-export default MemoSvgPreferences;
+export default SvgPreferences;

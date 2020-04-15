@@ -95,5 +95,4 @@ SvgHeavyBox.propTypes = {
 SvgHeavyBox.defaultProps = {
   color: "primary"
 };
-const MemoSvgHeavyBox = React.memo(SvgHeavyBox);
-export default MemoSvgHeavyBox;
+export default SvgHeavyBox;

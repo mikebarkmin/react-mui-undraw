@@ -176,5 +176,4 @@ SvgDogWalking.propTypes = {
 SvgDogWalking.defaultProps = {
   color: "primary"
 };
-const MemoSvgDogWalking = React.memo(SvgDogWalking);
-export default MemoSvgDogWalking;
+export default SvgDogWalking;

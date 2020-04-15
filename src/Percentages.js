@@ -173,5 +173,4 @@ SvgPercentages.propTypes = {
 SvgPercentages.defaultProps = {
   color: "primary"
 };
-const MemoSvgPercentages = React.memo(SvgPercentages);
-export default MemoSvgPercentages;
+export default SvgPercentages;

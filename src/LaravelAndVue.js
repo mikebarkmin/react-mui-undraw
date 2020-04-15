@@ -165,5 +165,4 @@ SvgLaravelAndVue.propTypes = {
 SvgLaravelAndVue.defaultProps = {
   color: "primary"
 };
-const MemoSvgLaravelAndVue = React.memo(SvgLaravelAndVue);
-export default MemoSvgLaravelAndVue;
+export default SvgLaravelAndVue;

@@ -216,5 +216,4 @@ SvgFishing.propTypes = {
 SvgFishing.defaultProps = {
   color: "primary"
 };
-const MemoSvgFishing = React.memo(SvgFishing);
-export default MemoSvgFishing;
+export default SvgFishing;

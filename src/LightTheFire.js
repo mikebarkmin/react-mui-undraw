@@ -112,5 +112,4 @@ SvgLightTheFire.propTypes = {
 SvgLightTheFire.defaultProps = {
   color: "primary"
 };
-const MemoSvgLightTheFire = React.memo(SvgLightTheFire);
-export default MemoSvgLightTheFire;
+export default SvgLightTheFire;

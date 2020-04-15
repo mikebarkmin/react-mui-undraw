@@ -448,5 +448,4 @@ SvgInfluencer.propTypes = {
 SvgInfluencer.defaultProps = {
   color: "primary"
 };
-const MemoSvgInfluencer = React.memo(SvgInfluencer);
-export default MemoSvgInfluencer;
+export default SvgInfluencer;

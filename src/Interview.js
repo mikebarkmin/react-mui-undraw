@@ -268,5 +268,4 @@ SvgInterview.propTypes = {
 SvgInterview.defaultProps = {
   color: "primary"
 };
-const MemoSvgInterview = React.memo(SvgInterview);
-export default MemoSvgInterview;
+export default SvgInterview;

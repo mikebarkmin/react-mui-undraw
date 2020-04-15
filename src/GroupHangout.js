@@ -131,5 +131,4 @@ SvgGroupHangout.propTypes = {
 SvgGroupHangout.defaultProps = {
   color: "primary"
 };
-const MemoSvgGroupHangout = React.memo(SvgGroupHangout);
-export default MemoSvgGroupHangout;
+export default SvgGroupHangout;

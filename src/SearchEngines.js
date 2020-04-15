@@ -436,5 +436,4 @@ SvgSearchEngines.propTypes = {
 SvgSearchEngines.defaultProps = {
   color: "primary"
 };
-const MemoSvgSearchEngines = React.memo(SvgSearchEngines);
-export default MemoSvgSearchEngines;
+export default SvgSearchEngines;

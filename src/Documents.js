@@ -153,5 +153,4 @@ SvgDocuments.propTypes = {
 SvgDocuments.defaultProps = {
   color: "primary"
 };
-const MemoSvgDocuments = React.memo(SvgDocuments);
-export default MemoSvgDocuments;
+export default SvgDocuments;

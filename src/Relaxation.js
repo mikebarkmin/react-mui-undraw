@@ -250,5 +250,4 @@ SvgRelaxation.propTypes = {
 SvgRelaxation.defaultProps = {
   color: "primary"
 };
-const MemoSvgRelaxation = React.memo(SvgRelaxation);
-export default MemoSvgRelaxation;
+export default SvgRelaxation;

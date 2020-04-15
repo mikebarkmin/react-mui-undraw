@@ -289,5 +289,4 @@ SvgEmails.propTypes = {
 SvgEmails.defaultProps = {
   color: "primary"
 };
-const MemoSvgEmails = React.memo(SvgEmails);
-export default MemoSvgEmails;
+export default SvgEmails;

@@ -283,5 +283,4 @@ SvgTarget.propTypes = {
 SvgTarget.defaultProps = {
   color: "primary"
 };
-const MemoSvgTarget = React.memo(SvgTarget);
-export default MemoSvgTarget;
+export default SvgTarget;

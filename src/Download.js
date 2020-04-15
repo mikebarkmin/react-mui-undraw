@@ -335,5 +335,4 @@ SvgDownload.propTypes = {
 SvgDownload.defaultProps = {
   color: "primary"
 };
-const MemoSvgDownload = React.memo(SvgDownload);
-export default MemoSvgDownload;
+export default SvgDownload;

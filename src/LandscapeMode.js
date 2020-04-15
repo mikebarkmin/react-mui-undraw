@@ -104,5 +104,4 @@ SvgLandscapeMode.propTypes = {
 SvgLandscapeMode.defaultProps = {
   color: "primary"
 };
-const MemoSvgLandscapeMode = React.memo(SvgLandscapeMode);
-export default MemoSvgLandscapeMode;
+export default SvgLandscapeMode;

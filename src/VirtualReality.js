@@ -458,5 +458,4 @@ SvgVirtualReality.propTypes = {
 SvgVirtualReality.defaultProps = {
   color: "primary"
 };
-const MemoSvgVirtualReality = React.memo(SvgVirtualReality);
-export default MemoSvgVirtualReality;
+export default SvgVirtualReality;

@@ -111,5 +111,4 @@ SvgListening.propTypes = {
 SvgListening.defaultProps = {
   color: "primary"
 };
-const MemoSvgListening = React.memo(SvgListening);
-export default MemoSvgListening;
+export default SvgListening;

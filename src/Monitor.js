@@ -272,5 +272,4 @@ SvgMonitor.propTypes = {
 SvgMonitor.defaultProps = {
   color: "primary"
 };
-const MemoSvgMonitor = React.memo(SvgMonitor);
-export default MemoSvgMonitor;
+export default SvgMonitor;

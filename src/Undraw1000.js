@@ -173,5 +173,4 @@ SvgUndraw1000.propTypes = {
 SvgUndraw1000.defaultProps = {
   color: "primary"
 };
-const MemoSvgUndraw1000 = React.memo(SvgUndraw1000);
-export default MemoSvgUndraw1000;
+export default SvgUndraw1000;

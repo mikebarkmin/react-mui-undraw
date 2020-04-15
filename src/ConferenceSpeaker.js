@@ -134,5 +134,4 @@ SvgConferenceSpeaker.propTypes = {
 SvgConferenceSpeaker.defaultProps = {
   color: "primary"
 };
-const MemoSvgConferenceSpeaker = React.memo(SvgConferenceSpeaker);
-export default MemoSvgConferenceSpeaker;
+export default SvgConferenceSpeaker;

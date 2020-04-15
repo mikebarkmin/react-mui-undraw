@@ -196,5 +196,4 @@ SvgIntoTheNight.propTypes = {
 SvgIntoTheNight.defaultProps = {
   color: "primary"
 };
-const MemoSvgIntoTheNight = React.memo(SvgIntoTheNight);
-export default MemoSvgIntoTheNight;
+export default SvgIntoTheNight;

@@ -123,5 +123,4 @@ SvgCloseTab.propTypes = {
 SvgCloseTab.defaultProps = {
   color: "primary"
 };
-const MemoSvgCloseTab = React.memo(SvgCloseTab);
-export default MemoSvgCloseTab;
+export default SvgCloseTab;

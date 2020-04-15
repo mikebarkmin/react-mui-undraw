@@ -147,5 +147,4 @@ SvgProfessor.propTypes = {
 SvgProfessor.defaultProps = {
   color: "primary"
 };
-const MemoSvgProfessor = React.memo(SvgProfessor);
-export default MemoSvgProfessor;
+export default SvgProfessor;

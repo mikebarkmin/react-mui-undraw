@@ -268,5 +268,4 @@ SvgInstantSupport.propTypes = {
 SvgInstantSupport.defaultProps = {
   color: "primary"
 };
-const MemoSvgInstantSupport = React.memo(SvgInstantSupport);
-export default MemoSvgInstantSupport;
+export default SvgInstantSupport;

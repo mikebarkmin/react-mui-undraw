@@ -103,5 +103,4 @@ SvgManageChats.propTypes = {
 SvgManageChats.defaultProps = {
   color: "primary"
 };
-const MemoSvgManageChats = React.memo(SvgManageChats);
-export default MemoSvgManageChats;
+export default SvgManageChats;

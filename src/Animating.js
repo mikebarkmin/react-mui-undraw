@@ -94,5 +94,4 @@ SvgAnimating.propTypes = {
 SvgAnimating.defaultProps = {
   color: "primary"
 };
-const MemoSvgAnimating = React.memo(SvgAnimating);
-export default MemoSvgAnimating;
+export default SvgAnimating;

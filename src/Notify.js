@@ -135,5 +135,4 @@ SvgNotify.propTypes = {
 SvgNotify.defaultProps = {
   color: "primary"
 };
-const MemoSvgNotify = React.memo(SvgNotify);
-export default MemoSvgNotify;
+export default SvgNotify;

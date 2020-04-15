@@ -244,5 +244,4 @@ SvgProblemSolving.propTypes = {
 SvgProblemSolving.defaultProps = {
   color: "primary"
 };
-const MemoSvgProblemSolving = React.memo(SvgProblemSolving);
-export default MemoSvgProblemSolving;
+export default SvgProblemSolving;

@@ -616,5 +616,4 @@ SvgTypewriter.propTypes = {
 SvgTypewriter.defaultProps = {
   color: "primary"
 };
-const MemoSvgTypewriter = React.memo(SvgTypewriter);
-export default MemoSvgTypewriter;
+export default SvgTypewriter;

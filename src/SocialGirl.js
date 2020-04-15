@@ -120,5 +120,4 @@ SvgSocialGirl.propTypes = {
 SvgSocialGirl.defaultProps = {
   color: "primary"
 };
-const MemoSvgSocialGirl = React.memo(SvgSocialGirl);
-export default MemoSvgSocialGirl;
+export default SvgSocialGirl;

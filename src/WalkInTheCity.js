@@ -301,5 +301,4 @@ SvgWalkInTheCity.propTypes = {
 SvgWalkInTheCity.defaultProps = {
   color: "primary"
 };
-const MemoSvgWalkInTheCity = React.memo(SvgWalkInTheCity);
-export default MemoSvgWalkInTheCity;
+export default SvgWalkInTheCity;

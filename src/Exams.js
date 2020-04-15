@@ -190,5 +190,4 @@ SvgExams.propTypes = {
 SvgExams.defaultProps = {
   color: "primary"
 };
-const MemoSvgExams = React.memo(SvgExams);
-export default MemoSvgExams;
+export default SvgExams;

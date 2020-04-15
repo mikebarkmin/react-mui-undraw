@@ -114,5 +114,4 @@ SvgVirtualAssistant.propTypes = {
 SvgVirtualAssistant.defaultProps = {
   color: "primary"
 };
-const MemoSvgVirtualAssistant = React.memo(SvgVirtualAssistant);
-export default MemoSvgVirtualAssistant;
+export default SvgVirtualAssistant;

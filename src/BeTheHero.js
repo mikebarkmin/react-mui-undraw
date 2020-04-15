@@ -258,5 +258,4 @@ SvgBeTheHero.propTypes = {
 SvgBeTheHero.defaultProps = {
   color: "primary"
 };
-const MemoSvgBeTheHero = React.memo(SvgBeTheHero);
-export default MemoSvgBeTheHero;
+export default SvgBeTheHero;

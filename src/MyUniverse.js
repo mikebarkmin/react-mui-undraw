@@ -132,5 +132,4 @@ SvgMyUniverse.propTypes = {
 SvgMyUniverse.defaultProps = {
   color: "primary"
 };
-const MemoSvgMyUniverse = React.memo(SvgMyUniverse);
-export default MemoSvgMyUniverse;
+export default SvgMyUniverse;

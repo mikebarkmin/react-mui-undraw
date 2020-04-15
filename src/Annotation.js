@@ -117,5 +117,4 @@ SvgAnnotation.propTypes = {
 SvgAnnotation.defaultProps = {
   color: "primary"
 };
-const MemoSvgAnnotation = React.memo(SvgAnnotation);
-export default MemoSvgAnnotation;
+export default SvgAnnotation;

@@ -155,5 +155,4 @@ SvgPalette.propTypes = {
 SvgPalette.defaultProps = {
   color: "primary"
 };
-const MemoSvgPalette = React.memo(SvgPalette);
-export default MemoSvgPalette;
+export default SvgPalette;

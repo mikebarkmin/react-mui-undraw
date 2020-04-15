@@ -369,5 +369,4 @@ SvgPedestrianCrossing.propTypes = {
 SvgPedestrianCrossing.defaultProps = {
   color: "primary"
 };
-const MemoSvgPedestrianCrossing = React.memo(SvgPedestrianCrossing);
-export default MemoSvgPedestrianCrossing;
+export default SvgPedestrianCrossing;

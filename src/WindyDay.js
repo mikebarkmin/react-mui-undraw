@@ -150,5 +150,4 @@ SvgWindyDay.propTypes = {
 SvgWindyDay.defaultProps = {
   color: "primary"
 };
-const MemoSvgWindyDay = React.memo(SvgWindyDay);
-export default MemoSvgWindyDay;
+export default SvgWindyDay;

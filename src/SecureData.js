@@ -297,5 +297,4 @@ SvgSecureData.propTypes = {
 SvgSecureData.defaultProps = {
   color: "primary"
 };
-const MemoSvgSecureData = React.memo(SvgSecureData);
-export default MemoSvgSecureData;
+export default SvgSecureData;

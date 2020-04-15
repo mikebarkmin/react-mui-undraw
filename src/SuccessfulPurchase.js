@@ -381,5 +381,4 @@ SvgSuccessfulPurchase.propTypes = {
 SvgSuccessfulPurchase.defaultProps = {
   color: "primary"
 };
-const MemoSvgSuccessfulPurchase = React.memo(SvgSuccessfulPurchase);
-export default MemoSvgSuccessfulPurchase;
+export default SvgSuccessfulPurchase;

@@ -219,5 +219,4 @@ SvgGoodDoggy.propTypes = {
 SvgGoodDoggy.defaultProps = {
   color: "primary"
 };
-const MemoSvgGoodDoggy = React.memo(SvgGoodDoggy);
-export default MemoSvgGoodDoggy;
+export default SvgGoodDoggy;

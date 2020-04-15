@@ -122,5 +122,4 @@ SvgOnlineGroceries.propTypes = {
 SvgOnlineGroceries.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineGroceries = React.memo(SvgOnlineGroceries);
-export default MemoSvgOnlineGroceries;
+export default SvgOnlineGroceries;

@@ -144,5 +144,4 @@ SvgArt.propTypes = {
 SvgArt.defaultProps = {
   color: "primary"
 };
-const MemoSvgArt = React.memo(SvgArt);
-export default MemoSvgArt;
+export default SvgArt;

@@ -563,5 +563,4 @@ SvgVoiceInterface.propTypes = {
 SvgVoiceInterface.defaultProps = {
   color: "primary"
 };
-const MemoSvgVoiceInterface = React.memo(SvgVoiceInterface);
-export default MemoSvgVoiceInterface;
+export default SvgVoiceInterface;

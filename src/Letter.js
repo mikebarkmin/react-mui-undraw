@@ -113,5 +113,4 @@ SvgLetter.propTypes = {
 SvgLetter.defaultProps = {
   color: "primary"
 };
-const MemoSvgLetter = React.memo(SvgLetter);
-export default MemoSvgLetter;
+export default SvgLetter;

@@ -230,5 +230,4 @@ SvgGridDesign.propTypes = {
 SvgGridDesign.defaultProps = {
   color: "primary"
 };
-const MemoSvgGridDesign = React.memo(SvgGridDesign);
-export default MemoSvgGridDesign;
+export default SvgGridDesign;

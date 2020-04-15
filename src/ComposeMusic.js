@@ -563,5 +563,4 @@ SvgComposeMusic.propTypes = {
 SvgComposeMusic.defaultProps = {
   color: "primary"
 };
-const MemoSvgComposeMusic = React.memo(SvgComposeMusic);
-export default MemoSvgComposeMusic;
+export default SvgComposeMusic;

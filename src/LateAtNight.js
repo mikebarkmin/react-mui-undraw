@@ -130,5 +130,4 @@ SvgLateAtNight.propTypes = {
 SvgLateAtNight.defaultProps = {
   color: "primary"
 };
-const MemoSvgLateAtNight = React.memo(SvgLateAtNight);
-export default MemoSvgLateAtNight;
+export default SvgLateAtNight;

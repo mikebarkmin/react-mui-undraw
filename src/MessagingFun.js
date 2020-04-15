@@ -148,5 +148,4 @@ SvgMessagingFun.propTypes = {
 SvgMessagingFun.defaultProps = {
   color: "primary"
 };
-const MemoSvgMessagingFun = React.memo(SvgMessagingFun);
-export default MemoSvgMessagingFun;
+export default SvgMessagingFun;

@@ -132,5 +132,4 @@ SvgChasingLove.propTypes = {
 SvgChasingLove.defaultProps = {
   color: "primary"
 };
-const MemoSvgChasingLove = React.memo(SvgChasingLove);
-export default MemoSvgChasingLove;
+export default SvgChasingLove;

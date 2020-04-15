@@ -82,5 +82,4 @@ SvgTheWorldIsMine.propTypes = {
 SvgTheWorldIsMine.defaultProps = {
   color: "primary"
 };
-const MemoSvgTheWorldIsMine = React.memo(SvgTheWorldIsMine);
-export default MemoSvgTheWorldIsMine;
+export default SvgTheWorldIsMine;

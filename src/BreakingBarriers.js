@@ -106,5 +106,4 @@ SvgBreakingBarriers.propTypes = {
 SvgBreakingBarriers.defaultProps = {
   color: "primary"
 };
-const MemoSvgBreakingBarriers = React.memo(SvgBreakingBarriers);
-export default MemoSvgBreakingBarriers;
+export default SvgBreakingBarriers;

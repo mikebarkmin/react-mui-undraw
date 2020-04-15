@@ -98,5 +98,4 @@ SvgDetailedInformation.propTypes = {
 SvgDetailedInformation.defaultProps = {
   color: "primary"
 };
-const MemoSvgDetailedInformation = React.memo(SvgDetailedInformation);
-export default MemoSvgDetailedInformation;
+export default SvgDetailedInformation;

@@ -121,5 +121,4 @@ SvgVideoInfluencer.propTypes = {
 SvgVideoInfluencer.defaultProps = {
   color: "primary"
 };
-const MemoSvgVideoInfluencer = React.memo(SvgVideoInfluencer);
-export default MemoSvgVideoInfluencer;
+export default SvgVideoInfluencer;

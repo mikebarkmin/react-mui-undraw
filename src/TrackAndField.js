@@ -341,5 +341,4 @@ SvgTrackAndField.propTypes = {
 SvgTrackAndField.defaultProps = {
   color: "primary"
 };
-const MemoSvgTrackAndField = React.memo(SvgTrackAndField);
-export default MemoSvgTrackAndField;
+export default SvgTrackAndField;

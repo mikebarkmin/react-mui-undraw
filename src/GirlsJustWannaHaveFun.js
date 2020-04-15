@@ -371,5 +371,4 @@ SvgGirlsJustWannaHaveFun.propTypes = {
 SvgGirlsJustWannaHaveFun.defaultProps = {
   color: "primary"
 };
-const MemoSvgGirlsJustWannaHaveFun = React.memo(SvgGirlsJustWannaHaveFun);
-export default MemoSvgGirlsJustWannaHaveFun;
+export default SvgGirlsJustWannaHaveFun;

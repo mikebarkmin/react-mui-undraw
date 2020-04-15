@@ -136,5 +136,4 @@ SvgNinja.propTypes = {
 SvgNinja.defaultProps = {
   color: "primary"
 };
-const MemoSvgNinja = React.memo(SvgNinja);
-export default MemoSvgNinja;
+export default SvgNinja;

@@ -365,5 +365,4 @@ SvgRideABicycle.propTypes = {
 SvgRideABicycle.defaultProps = {
   color: "primary"
 };
-const MemoSvgRideABicycle = React.memo(SvgRideABicycle);
-export default MemoSvgRideABicycle;
+export default SvgRideABicycle;

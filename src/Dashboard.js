@@ -305,5 +305,4 @@ SvgDashboard.propTypes = {
 SvgDashboard.defaultProps = {
   color: "primary"
 };
-const MemoSvgDashboard = React.memo(SvgDashboard);
-export default MemoSvgDashboard;
+export default SvgDashboard;

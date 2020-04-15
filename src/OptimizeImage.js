@@ -151,5 +151,4 @@ SvgOptimizeImage.propTypes = {
 SvgOptimizeImage.defaultProps = {
   color: "primary"
 };
-const MemoSvgOptimizeImage = React.memo(SvgOptimizeImage);
-export default MemoSvgOptimizeImage;
+export default SvgOptimizeImage;

@@ -188,5 +188,4 @@ SvgWashHands.propTypes = {
 SvgWashHands.defaultProps = {
   color: "primary"
 };
-const MemoSvgWashHands = React.memo(SvgWashHands);
-export default MemoSvgWashHands;
+export default SvgWashHands;

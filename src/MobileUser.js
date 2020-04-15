@@ -240,5 +240,4 @@ SvgMobileUser.propTypes = {
 SvgMobileUser.defaultProps = {
   color: "primary"
 };
-const MemoSvgMobileUser = React.memo(SvgMobileUser);
-export default MemoSvgMobileUser;
+export default SvgMobileUser;

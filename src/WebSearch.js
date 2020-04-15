@@ -84,5 +84,4 @@ SvgWebSearch.propTypes = {
 SvgWebSearch.defaultProps = {
   color: "primary"
 };
-const MemoSvgWebSearch = React.memo(SvgWebSearch);
-export default MemoSvgWebSearch;
+export default SvgWebSearch;

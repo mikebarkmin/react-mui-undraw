@@ -220,5 +220,4 @@ SvgNatureFun.propTypes = {
 SvgNatureFun.defaultProps = {
   color: "primary"
 };
-const MemoSvgNatureFun = React.memo(SvgNatureFun);
-export default MemoSvgNatureFun;
+export default SvgNatureFun;

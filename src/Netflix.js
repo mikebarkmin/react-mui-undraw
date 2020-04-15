@@ -140,5 +140,4 @@ SvgNetflix.propTypes = {
 SvgNetflix.defaultProps = {
   color: "primary"
 };
-const MemoSvgNetflix = React.memo(SvgNetflix);
-export default MemoSvgNetflix;
+export default SvgNetflix;

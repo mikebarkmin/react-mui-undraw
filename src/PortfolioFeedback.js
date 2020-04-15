@@ -127,5 +127,4 @@ SvgPortfolioFeedback.propTypes = {
 SvgPortfolioFeedback.defaultProps = {
   color: "primary"
 };
-const MemoSvgPortfolioFeedback = React.memo(SvgPortfolioFeedback);
-export default MemoSvgPortfolioFeedback;
+export default SvgPortfolioFeedback;

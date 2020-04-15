@@ -147,5 +147,4 @@ SvgActiveOptions.propTypes = {
 SvgActiveOptions.defaultProps = {
   color: "primary"
 };
-const MemoSvgActiveOptions = React.memo(SvgActiveOptions);
-export default MemoSvgActiveOptions;
+export default SvgActiveOptions;

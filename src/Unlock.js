@@ -140,5 +140,4 @@ SvgUnlock.propTypes = {
 SvgUnlock.defaultProps = {
   color: "primary"
 };
-const MemoSvgUnlock = React.memo(SvgUnlock);
-export default MemoSvgUnlock;
+export default SvgUnlock;

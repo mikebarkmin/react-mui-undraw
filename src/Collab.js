@@ -304,5 +304,4 @@ SvgCollab.propTypes = {
 SvgCollab.defaultProps = {
   color: "primary"
 };
-const MemoSvgCollab = React.memo(SvgCollab);
-export default MemoSvgCollab;
+export default SvgCollab;

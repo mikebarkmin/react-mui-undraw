@@ -125,5 +125,4 @@ SvgIceCream.propTypes = {
 SvgIceCream.defaultProps = {
   color: "primary"
 };
-const MemoSvgIceCream = React.memo(SvgIceCream);
-export default MemoSvgIceCream;
+export default SvgIceCream;

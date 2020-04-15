@@ -294,5 +294,4 @@ SvgAlgolia.propTypes = {
 SvgAlgolia.defaultProps = {
   color: "primary"
 };
-const MemoSvgAlgolia = React.memo(SvgAlgolia);
-export default MemoSvgAlgolia;
+export default SvgAlgolia;

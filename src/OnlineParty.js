@@ -173,5 +173,4 @@ SvgOnlineParty.propTypes = {
 SvgOnlineParty.defaultProps = {
   color: "primary"
 };
-const MemoSvgOnlineParty = React.memo(SvgOnlineParty);
-export default MemoSvgOnlineParty;
+export default SvgOnlineParty;

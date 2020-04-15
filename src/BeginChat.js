@@ -401,5 +401,4 @@ SvgBeginChat.propTypes = {
 SvgBeginChat.defaultProps = {
   color: "primary"
 };
-const MemoSvgBeginChat = React.memo(SvgBeginChat);
-export default MemoSvgBeginChat;
+export default SvgBeginChat;

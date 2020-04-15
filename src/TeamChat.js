@@ -148,5 +148,4 @@ SvgTeamChat.propTypes = {
 SvgTeamChat.defaultProps = {
   color: "primary"
 };
-const MemoSvgTeamChat = React.memo(SvgTeamChat);
-export default MemoSvgTeamChat;
+export default SvgTeamChat;

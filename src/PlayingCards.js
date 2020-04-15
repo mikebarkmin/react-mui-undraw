@@ -144,5 +144,4 @@ SvgPlayingCards.propTypes = {
 SvgPlayingCards.defaultProps = {
   color: "primary"
 };
-const MemoSvgPlayingCards = React.memo(SvgPlayingCards);
-export default MemoSvgPlayingCards;
+export default SvgPlayingCards;

@@ -175,5 +175,4 @@ SvgAuthentication.propTypes = {
 SvgAuthentication.defaultProps = {
   color: "primary"
 };
-const MemoSvgAuthentication = React.memo(SvgAuthentication);
-export default MemoSvgAuthentication;
+export default SvgAuthentication;

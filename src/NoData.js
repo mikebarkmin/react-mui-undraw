@@ -162,5 +162,4 @@ SvgNoData.propTypes = {
 SvgNoData.defaultProps = {
   color: "primary"
 };
-const MemoSvgNoData = React.memo(SvgNoData);
-export default MemoSvgNoData;
+export default SvgNoData;

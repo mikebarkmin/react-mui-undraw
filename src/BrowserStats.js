@@ -206,5 +206,4 @@ SvgBrowserStats.propTypes = {
 SvgBrowserStats.defaultProps = {
   color: "primary"
 };
-const MemoSvgBrowserStats = React.memo(SvgBrowserStats);
-export default MemoSvgBrowserStats;
+export default SvgBrowserStats;

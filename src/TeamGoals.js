@@ -141,5 +141,4 @@ SvgTeamGoals.propTypes = {
 SvgTeamGoals.defaultProps = {
   color: "primary"
 };
-const MemoSvgTeamGoals = React.memo(SvgTeamGoals);
-export default MemoSvgTeamGoals;
+export default SvgTeamGoals;

@@ -210,5 +210,4 @@ SvgStepToTheSun.propTypes = {
 SvgStepToTheSun.defaultProps = {
   color: "primary"
 };
-const MemoSvgStepToTheSun = React.memo(SvgStepToTheSun);
-export default MemoSvgStepToTheSun;
+export default SvgStepToTheSun;

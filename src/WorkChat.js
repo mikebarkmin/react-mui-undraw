@@ -726,5 +726,4 @@ SvgWorkChat.propTypes = {
 SvgWorkChat.defaultProps = {
   color: "primary"
 };
-const MemoSvgWorkChat = React.memo(SvgWorkChat);
-export default MemoSvgWorkChat;
+export default SvgWorkChat;

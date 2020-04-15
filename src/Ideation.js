@@ -87,5 +87,4 @@ SvgIdeation.propTypes = {
 SvgIdeation.defaultProps = {
   color: "primary"
 };
-const MemoSvgIdeation = React.memo(SvgIdeation);
-export default MemoSvgIdeation;
+export default SvgIdeation;

@@ -128,5 +128,4 @@ SvgSeasonChange.propTypes = {
 SvgSeasonChange.defaultProps = {
   color: "primary"
 };
-const MemoSvgSeasonChange = React.memo(SvgSeasonChange);
-export default MemoSvgSeasonChange;
+export default SvgSeasonChange;

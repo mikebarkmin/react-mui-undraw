@@ -123,5 +123,4 @@ SvgMoving.propTypes = {
 SvgMoving.defaultProps = {
   color: "primary"
 };
-const MemoSvgMoving = React.memo(SvgMoving);
-export default MemoSvgMoving;
+export default SvgMoving;
