@@ -1,7 +1,7 @@
 
 on: 
   push:
-    paths: ["stories/**", "src/components/**"]
+    paths: ["stories/**", "src/**"]
 
 name: Publish stories if changed
 
