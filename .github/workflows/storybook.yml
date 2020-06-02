@@ -1,9 +1,8 @@
+name: Publish stories if changed
 
 on: 
   push:
-    paths: ["stories/**", "src/components/**"]
-
-name: Publish stories if changed
+    paths: ["stories/**", "src/**"]
 
 jobs:
   build-and-deploy:
