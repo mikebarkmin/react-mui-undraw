@@ -33,11 +33,11 @@ const SvgSecureData = ({ color, ...props }) => {
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="SecureData_svg__b"
-          x1={288.88}
-          y1={378.44}
-          x2={288.88}
-          y2={209.65}
+          id="SecureData_svg__l"
+          x1={778.37}
+          y1={774.41}
+          x2={778.37}
+          y2={713.66}
           xlinkHref="#SecureData_svg__a"
         />
         <linearGradient
@@ -46,6 +46,14 @@ const SvgSecureData = ({ color, ...props }) => {
           y1={328.29}
           x2={288.88}
           y2={223.1}
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__k"
+          x1={778.37}
+          y1={673.86}
+          x2={778.37}
+          y2={569.13}
           xlinkHref="#SecureData_svg__a"
         />
         <linearGradient
@@ -62,6 +70,14 @@ const SvgSecureData = ({ color, ...props }) => {
           y1={544.79}
           x2={288.88}
           y2={439.6}
+          xlinkHref="#SecureData_svg__a"
+        />
+        <linearGradient
+          id="SecureData_svg__b"
+          x1={288.88}
+          y1={378.44}
+          x2={288.88}
+          y2={209.65}
           xlinkHref="#SecureData_svg__a"
         />
         <linearGradient
@@ -88,22 +104,6 @@ const SvgSecureData = ({ color, ...props }) => {
           y1={754.12}
           x2={637.66}
           y2={601.05}
-          xlinkHref="#SecureData_svg__a"
-        />
-        <linearGradient
-          id="SecureData_svg__k"
-          x1={778.37}
-          y1={673.86}
-          x2={778.37}
-          y2={569.13}
-          xlinkHref="#SecureData_svg__a"
-        />
-        <linearGradient
-          id="SecureData_svg__l"
-          x1={778.37}
-          y1={774.41}
-          x2={778.37}
-          y2={713.66}
           xlinkHref="#SecureData_svg__a"
         />
         <clipPath id="SecureData_svg__d" transform="translate(-140.93 -67.23)">

@@ -21,6 +21,15 @@ const SvgFilter = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Filter_svg__i"
+          x1={396.83}
+          y1={225.01}
+          x2={396.83}
+          y2={121.04}
+          gradientTransform="rotate(-31.8 415.167 305.877)"
+          xlinkHref="#Filter_svg__a"
+        />
+        <linearGradient
           id="Filter_svg__a"
           x1={728.85}
           y1={502.58}
@@ -33,15 +42,6 @@ const SvgFilter = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Filter_svg__b"
-          x1={715.36}
-          y1={501.1}
-          x2={715.36}
-          y2={446.22}
-          gradientTransform="rotate(-31.73 411.518 305.328)"
-          xlinkHref="#Filter_svg__a"
-        />
         <linearGradient
           id="Filter_svg__c"
           x1={769.97}
@@ -94,12 +94,12 @@ const SvgFilter = ({ color, ...props }) => {
           xlinkHref="#Filter_svg__a"
         />
         <linearGradient
-          id="Filter_svg__i"
-          x1={396.83}
-          y1={225.01}
-          x2={396.83}
-          y2={121.04}
-          gradientTransform="rotate(-31.8 415.167 305.877)"
+          id="Filter_svg__b"
+          x1={715.36}
+          y1={501.1}
+          x2={715.36}
+          y2={446.22}
+          gradientTransform="rotate(-31.73 411.518 305.328)"
           xlinkHref="#Filter_svg__a"
         />
         <linearGradient

@@ -21,6 +21,14 @@ const SvgInvite = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Invite_svg__i"
+          x1={104.29}
+          y1={521.29}
+          x2={104.29}
+          y2={371.66}
+          xlinkHref="#Invite_svg__a"
+        />
+        <linearGradient
           id="Invite_svg__a"
           x1={209.37}
           y1={265.13}
@@ -32,14 +40,6 @@ const SvgInvite = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Invite_svg__c"
-          x1={103.29}
-          y1={228.29}
-          x2={103.29}
-          y2={78.66}
-          xlinkHref="#Invite_svg__a"
-        />
         <linearGradient
           id="Invite_svg__d"
           x1={654.37}
@@ -81,11 +81,11 @@ const SvgInvite = ({ color, ...props }) => {
           xlinkHref="#Invite_svg__a"
         />
         <linearGradient
-          id="Invite_svg__i"
-          x1={104.29}
-          y1={521.29}
-          x2={104.29}
-          y2={371.66}
+          id="Invite_svg__c"
+          x1={103.29}
+          y1={228.29}
+          x2={103.29}
+          y2={78.66}
           xlinkHref="#Invite_svg__a"
         />
         <linearGradient

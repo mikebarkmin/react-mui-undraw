@@ -21,6 +21,14 @@ const SvgCamping = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Camping_svg__n"
+          x1={614.568}
+          y1={470.127}
+          x2={614.568}
+          y2={340.524}
+          xlinkHref="#Camping_svg__a"
+        />
+        <linearGradient
           id="Camping_svg__a"
           x1={278.014}
           y1={525.899}
@@ -32,14 +40,6 @@ const SvgCamping = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Camping_svg__b"
-          x1={279.178}
-          y1={452.949}
-          x2={279.178}
-          y2={292.376}
-          xlinkHref="#Camping_svg__a"
-        />
         <linearGradient
           id="Camping_svg__c"
           x1={278.79}
@@ -129,11 +129,11 @@ const SvgCamping = ({ color, ...props }) => {
           xlinkHref="#Camping_svg__a"
         />
         <linearGradient
-          id="Camping_svg__n"
-          x1={614.568}
-          y1={470.127}
-          x2={614.568}
-          y2={340.524}
+          id="Camping_svg__b"
+          x1={279.178}
+          y1={452.949}
+          x2={279.178}
+          y2={292.376}
           xlinkHref="#Camping_svg__a"
         />
         <linearGradient

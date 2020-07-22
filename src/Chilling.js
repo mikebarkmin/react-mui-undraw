@@ -21,6 +21,14 @@ const SvgChilling = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Chilling_svg__g"
+          x1={752.69}
+          y1={339.56}
+          x2={752.69}
+          y2={202.23}
+          xlinkHref="#Chilling_svg__a"
+        />
+        <linearGradient
           id="Chilling_svg__a"
           x1={600}
           y1={675.47}
@@ -32,15 +40,6 @@ const SvgChilling = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Chilling_svg__b"
-          x1={1718.23}
-          y1={-1648.44}
-          x2={1718.23}
-          y2={-1862.67}
-          gradientTransform="rotate(-18.87 7510.01 3049.535)"
-          xlinkHref="#Chilling_svg__a"
-        />
         <linearGradient
           id="Chilling_svg__c"
           x1={1731.89}
@@ -78,11 +77,12 @@ const SvgChilling = ({ color, ...props }) => {
           xlinkHref="#Chilling_svg__a"
         />
         <linearGradient
-          id="Chilling_svg__g"
-          x1={752.69}
-          y1={339.56}
-          x2={752.69}
-          y2={202.23}
+          id="Chilling_svg__b"
+          x1={1718.23}
+          y1={-1648.44}
+          x2={1718.23}
+          y2={-1862.67}
+          gradientTransform="rotate(-18.87 7510.01 3049.535)"
           xlinkHref="#Chilling_svg__a"
         />
         <linearGradient

@@ -21,6 +21,14 @@ const SvgPosts = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Posts_svg__i"
+          x1={440}
+          y1={514.29}
+          x2={440}
+          y2={387.43}
+          xlinkHref="#Posts_svg__b"
+        />
+        <linearGradient
           id="Posts_svg__b"
           x1={440}
           y1={126.86}
@@ -30,18 +38,6 @@ const SvgPosts = ({ color, ...props }) => {
           <stop offset={0} stopColor="gray" stopOpacity={0.25} />
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
-        </linearGradient>
-        <linearGradient
-          id="Posts_svg__a"
-          x1={87.3}
-          y1={109.38}
-          x2={87.3}
-          y2={20.06}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
-          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
-          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
         </linearGradient>
         <linearGradient
           id="Posts_svg__c"
@@ -92,13 +88,17 @@ const SvgPosts = ({ color, ...props }) => {
           xlinkHref="#Posts_svg__a"
         />
         <linearGradient
-          id="Posts_svg__i"
-          x1={440}
-          y1={514.29}
-          x2={440}
-          y2={387.43}
-          xlinkHref="#Posts_svg__b"
-        />
+          id="Posts_svg__a"
+          x1={87.3}
+          y1={109.38}
+          x2={87.3}
+          y2={20.06}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
+          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
+        </linearGradient>
         <linearGradient
           id="Posts_svg__j"
           x1={87.3}

@@ -21,6 +21,14 @@ const SvgSchedule = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Schedule_svg__g"
+          x1={834.86}
+          y1={251.48}
+          x2={834.86}
+          y2={206.82}
+          xlinkHref="#Schedule_svg__a"
+        />
+        <linearGradient
           id="Schedule_svg__a"
           x1={421.86}
           y1={330.48}
@@ -32,14 +40,6 @@ const SvgSchedule = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Schedule_svg__b"
-          x1={516.9}
-          y1={320.8}
-          x2={516.9}
-          y2={276.14}
-          xlinkHref="#Schedule_svg__a"
-        />
         <linearGradient
           id="Schedule_svg__c"
           x1={699.9}
@@ -73,11 +73,11 @@ const SvgSchedule = ({ color, ...props }) => {
           xlinkHref="#Schedule_svg__a"
         />
         <linearGradient
-          id="Schedule_svg__g"
-          x1={834.86}
-          y1={251.48}
-          x2={834.86}
-          y2={206.82}
+          id="Schedule_svg__b"
+          x1={516.9}
+          y1={320.8}
+          x2={516.9}
+          y2={276.14}
           xlinkHref="#Schedule_svg__a"
         />
         <linearGradient

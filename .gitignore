@@ -1,3 +1,6 @@
+.svgrrc.js
+templates.py
+converter.py
 __pycache__
 node_modules
 illustrations

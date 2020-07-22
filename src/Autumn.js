@@ -21,6 +21,14 @@ const SvgAutumn = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Autumn_svg__A"
+          x1={539.41}
+          y1={551.57}
+          x2={539.41}
+          y2={528.36}
+          xlinkHref="#Autumn_svg__a"
+        />
+        <linearGradient
           id="Autumn_svg__a"
           x1={512.48}
           y1={232.1}
@@ -32,14 +40,6 @@ const SvgAutumn = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Autumn_svg__b"
-          x1={513.04}
-          y1={284.1}
-          x2={513.04}
-          y2={234.1}
-          xlinkHref="#Autumn_svg__a"
-        />
         <linearGradient
           id="Autumn_svg__c"
           x1={513.59}
@@ -233,11 +233,11 @@ const SvgAutumn = ({ color, ...props }) => {
           xlinkHref="#Autumn_svg__a"
         />
         <linearGradient
-          id="Autumn_svg__A"
-          x1={539.41}
-          y1={551.57}
-          x2={539.41}
-          y2={528.36}
+          id="Autumn_svg__b"
+          x1={513.04}
+          y1={284.1}
+          x2={513.04}
+          y2={234.1}
           xlinkHref="#Autumn_svg__a"
         />
         <linearGradient

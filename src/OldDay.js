@@ -21,6 +21,14 @@ const SvgOldDay = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="OldDay_svg__k"
+          x1={415.6}
+          y1={557.88}
+          x2={415.6}
+          y2={281.14}
+          xlinkHref="#OldDay_svg__a"
+        />
+        <linearGradient
           id="OldDay_svg__a"
           x1={615.84}
           y1={778.42}
@@ -32,14 +40,6 @@ const SvgOldDay = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="OldDay_svg__b"
-          x1={523.24}
-          y1={450.57}
-          x2={523.24}
-          y2={415.61}
-          xlinkHref="#OldDay_svg__a"
-        />
         <linearGradient
           id="OldDay_svg__c"
           x1={492.75}
@@ -105,11 +105,11 @@ const SvgOldDay = ({ color, ...props }) => {
           xlinkHref="#OldDay_svg__a"
         />
         <linearGradient
-          id="OldDay_svg__k"
-          x1={415.6}
-          y1={557.88}
-          x2={415.6}
-          y2={281.14}
+          id="OldDay_svg__b"
+          x1={523.24}
+          y1={450.57}
+          x2={523.24}
+          y2={415.61}
           xlinkHref="#OldDay_svg__a"
         />
         <linearGradient

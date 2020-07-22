@@ -21,6 +21,15 @@ const SvgResumeFolder = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="ResumeFolder_svg__g"
+          x1={612.39}
+          y1={329.04}
+          x2={615.85}
+          y2={411.61}
+          gradientTransform="rotate(173.26 626.965 354.401)"
+          xlinkHref="#ResumeFolder_svg__c"
+        />
+        <linearGradient
           id="ResumeFolder_svg__a"
           x1={459.12}
           y1={621}
@@ -32,19 +41,6 @@ const SvgResumeFolder = ({ color, ...props }) => {
           <stop offset={0} stopColor="gray" stopOpacity={0.25} />
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
-        </linearGradient>
-        <linearGradient
-          id="ResumeFolder_svg__b"
-          x1={459.12}
-          y1={355.96}
-          x2={459.12}
-          y2={192.97}
-          gradientTransform="translate(-44.96 -24.28)"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
-          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
-          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
         </linearGradient>
         <linearGradient
           id="ResumeFolder_svg__c"
@@ -86,14 +82,18 @@ const SvgResumeFolder = ({ color, ...props }) => {
           xlinkHref="#ResumeFolder_svg__b"
         />
         <linearGradient
-          id="ResumeFolder_svg__g"
-          x1={612.39}
-          y1={329.04}
-          x2={615.85}
-          y2={411.61}
-          gradientTransform="rotate(173.26 626.965 354.401)"
-          xlinkHref="#ResumeFolder_svg__c"
-        />
+          id="ResumeFolder_svg__b"
+          x1={459.12}
+          y1={355.96}
+          x2={459.12}
+          y2={192.97}
+          gradientTransform="translate(-44.96 -24.28)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
+          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
+        </linearGradient>
         <linearGradient
           id="ResumeFolder_svg__h"
           x1={382.92}

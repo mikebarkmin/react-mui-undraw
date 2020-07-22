@@ -21,6 +21,14 @@ const SvgProcessing = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Processing_svg__f"
+          x1={587}
+          y1={666}
+          x2={587}
+          y2={505}
+          xlinkHref="#Processing_svg__a"
+        />
+        <linearGradient
           id="Processing_svg__a"
           x1={194}
           y1={524}
@@ -31,14 +39,6 @@ const SvgProcessing = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Processing_svg__b"
-          x1={256.5}
-          y1={341}
-          x2={256.5}
-          y2={261}
-          xlinkHref="#Processing_svg__a"
-        />
         <linearGradient
           id="Processing_svg__c"
           x1={698.41}
@@ -64,11 +64,11 @@ const SvgProcessing = ({ color, ...props }) => {
           xlinkHref="#Processing_svg__a"
         />
         <linearGradient
-          id="Processing_svg__f"
-          x1={587}
-          y1={666}
-          x2={587}
-          y2={505}
+          id="Processing_svg__b"
+          x1={256.5}
+          y1={341}
+          x2={256.5}
+          y2={261}
           xlinkHref="#Processing_svg__a"
         />
         <linearGradient

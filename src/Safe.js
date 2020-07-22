@@ -21,6 +21,14 @@ const SvgSafe = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Safe_svg__g"
+          x1={455.07}
+          y1={464.48}
+          x2={455.07}
+          y2={10.48}
+          xlinkHref="#Safe_svg__a"
+        />
+        <linearGradient
           id="Safe_svg__a"
           x1={790.94}
           y1={640.76}
@@ -33,15 +41,6 @@ const SvgSafe = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Safe_svg__b"
-          x1={785.97}
-          y1={446.14}
-          x2={785.97}
-          y2={321.91}
-          gradientTransform="rotate(90 783.305 383.365)"
-          xlinkHref="#Safe_svg__a"
-        />
         <linearGradient
           id="Safe_svg__c"
           x1={660.92}
@@ -79,11 +78,12 @@ const SvgSafe = ({ color, ...props }) => {
           xlinkHref="#Safe_svg__a"
         />
         <linearGradient
-          id="Safe_svg__g"
-          x1={455.07}
-          y1={464.48}
-          x2={455.07}
-          y2={10.48}
+          id="Safe_svg__b"
+          x1={785.97}
+          y1={446.14}
+          x2={785.97}
+          y2={321.91}
+          gradientTransform="rotate(90 783.305 383.365)"
           xlinkHref="#Safe_svg__a"
         />
         <linearGradient

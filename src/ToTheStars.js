@@ -21,6 +21,14 @@ const SvgToTheStars = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="ToTheStars_svg__m"
+          x1={665.03}
+          y1={751.98}
+          x2={665.03}
+          y2={831.37}
+          xlinkHref="#ToTheStars_svg__c"
+        />
+        <linearGradient
           id="ToTheStars_svg__b"
           x1={580.55}
           y1={759}
@@ -31,18 +39,6 @@ const SvgToTheStars = ({ color, ...props }) => {
           <stop offset={0} stopColor="gray" stopOpacity={0.25} />
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
-        </linearGradient>
-        <linearGradient
-          id="ToTheStars_svg__a"
-          x1={345.9}
-          y1={617.2}
-          x2={345.9}
-          y2={679.83}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#e0e0e0" />
-          <stop offset={0.31} stopColor="#fccc63" />
-          <stop offset={0.77} stopColor="#f55f44" />
         </linearGradient>
         <linearGradient
           id="ToTheStars_svg__d"
@@ -129,13 +125,17 @@ const SvgToTheStars = ({ color, ...props }) => {
           xlinkHref="#ToTheStars_svg__c"
         />
         <linearGradient
-          id="ToTheStars_svg__m"
-          x1={665.03}
-          y1={751.98}
-          x2={665.03}
-          y2={831.37}
-          xlinkHref="#ToTheStars_svg__c"
-        />
+          id="ToTheStars_svg__a"
+          x1={345.9}
+          y1={617.2}
+          x2={345.9}
+          y2={679.83}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopColor="#e0e0e0" />
+          <stop offset={0.31} stopColor="#fccc63" />
+          <stop offset={0.77} stopColor="#f55f44" />
+        </linearGradient>
         <linearGradient
           id="ToTheStars_svg__n"
           x1={802.69}

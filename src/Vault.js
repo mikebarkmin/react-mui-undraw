@@ -21,6 +21,14 @@ const SvgVault = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Vault_svg__h"
+          x1={339.15}
+          y1={423.21}
+          x2={339.15}
+          y2={255.09}
+          xlinkHref="#Vault_svg__a"
+        />
+        <linearGradient
           id="Vault_svg__a"
           x1={585.48}
           y1={733}
@@ -32,13 +40,6 @@ const SvgVault = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Vault_svg__b"
-          x1={93.98}
-          x2={93.98}
-          y2={673.63}
-          xlinkHref="#Vault_svg__a"
-        />
         <linearGradient
           id="Vault_svg__c"
           x1={339.15}
@@ -82,11 +83,10 @@ const SvgVault = ({ color, ...props }) => {
           xlinkHref="#Vault_svg__a"
         />
         <linearGradient
-          id="Vault_svg__h"
-          x1={339.15}
-          y1={423.21}
-          x2={339.15}
-          y2={255.09}
+          id="Vault_svg__b"
+          x1={93.98}
+          x2={93.98}
+          y2={673.63}
           xlinkHref="#Vault_svg__a"
         />
         <linearGradient

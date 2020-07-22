@@ -21,6 +21,14 @@ const SvgGoldenGateBridge = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="GoldenGateBridge_svg__i"
+          x1={444.209}
+          y1={442.388}
+          x2={444.209}
+          y2={438.02}
+          xlinkHref="#GoldenGateBridge_svg__a"
+        />
+        <linearGradient
           id="GoldenGateBridge_svg__a"
           x1={331.454}
           y1={247.789}
@@ -32,14 +40,6 @@ const SvgGoldenGateBridge = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="GoldenGateBridge_svg__b"
-          x1={732.112}
-          y1={433.301}
-          x2={732.112}
-          y2={428.933}
-          xlinkHref="#GoldenGateBridge_svg__a"
-        />
         <linearGradient
           id="GoldenGateBridge_svg__c"
           x1={732.161}
@@ -89,11 +89,11 @@ const SvgGoldenGateBridge = ({ color, ...props }) => {
           xlinkHref="#GoldenGateBridge_svg__a"
         />
         <linearGradient
-          id="GoldenGateBridge_svg__i"
-          x1={444.209}
-          y1={442.388}
-          x2={444.209}
-          y2={438.02}
+          id="GoldenGateBridge_svg__b"
+          x1={732.112}
+          y1={433.301}
+          x2={732.112}
+          y2={428.933}
           xlinkHref="#GoldenGateBridge_svg__a"
         />
         <linearGradient

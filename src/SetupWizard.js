@@ -21,6 +21,14 @@ const SvgSetupWizard = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="SetupWizard_svg__r"
+          x1={609.77}
+          y1={606.98}
+          x2={609.77}
+          y2={588.96}
+          xlinkHref="#SetupWizard_svg__a"
+        />
+        <linearGradient
           id="SetupWizard_svg__a"
           x1={643.38}
           y1={527.87}
@@ -32,14 +40,6 @@ const SvgSetupWizard = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="SetupWizard_svg__b"
-          x1={601.44}
-          y1={846.53}
-          x2={601.44}
-          y2={825.32}
-          xlinkHref="#SetupWizard_svg__a"
-        />
         <linearGradient
           id="SetupWizard_svg__c"
           x1={567.25}
@@ -161,11 +161,11 @@ const SvgSetupWizard = ({ color, ...props }) => {
           xlinkHref="#SetupWizard_svg__a"
         />
         <linearGradient
-          id="SetupWizard_svg__r"
-          x1={609.77}
-          y1={606.98}
-          x2={609.77}
-          y2={588.96}
+          id="SetupWizard_svg__b"
+          x1={601.44}
+          y1={846.53}
+          x2={601.44}
+          y2={825.32}
           xlinkHref="#SetupWizard_svg__a"
         />
         <linearGradient

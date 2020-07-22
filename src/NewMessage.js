@@ -21,6 +21,15 @@ const SvgNewMessage = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="NewMessage_svg__i"
+          x1={-38.47}
+          y1={742.22}
+          x2={-38.47}
+          y2={677.84}
+          gradientTransform="matrix(0 -1 -1 0 1237.91 453)"
+          xlinkHref="#NewMessage_svg__a"
+        />
+        <linearGradient
           id="NewMessage_svg__a"
           x1={8.15}
           y1={612.92}
@@ -33,15 +42,6 @@ const SvgNewMessage = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="NewMessage_svg__b"
-          x1={-193.49}
-          y1={331.29}
-          x2={-193.49}
-          y2={266.91}
-          gradientTransform="matrix(0 -1 -1 0 1165.49 229)"
-          xlinkHref="#NewMessage_svg__a"
-        />
         <linearGradient
           id="NewMessage_svg__c"
           x1={-246.01}
@@ -97,12 +97,12 @@ const SvgNewMessage = ({ color, ...props }) => {
           xlinkHref="#NewMessage_svg__a"
         />
         <linearGradient
-          id="NewMessage_svg__i"
-          x1={-38.47}
-          y1={742.22}
-          x2={-38.47}
-          y2={677.84}
-          gradientTransform="matrix(0 -1 -1 0 1237.91 453)"
+          id="NewMessage_svg__b"
+          x1={-193.49}
+          y1={331.29}
+          x2={-193.49}
+          y2={266.91}
+          gradientTransform="matrix(0 -1 -1 0 1165.49 229)"
           xlinkHref="#NewMessage_svg__a"
         />
         <linearGradient

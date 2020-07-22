@@ -21,6 +21,14 @@ const SvgSocialTree = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="SocialTree_svg__n"
+          x1={154}
+          y1={385.37}
+          x2={154}
+          y2={321.37}
+          xlinkHref="#SocialTree_svg__a"
+        />
+        <linearGradient
           id="SocialTree_svg__a"
           x1={299.55}
           y1={771}
@@ -32,14 +40,6 @@ const SvgSocialTree = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="SocialTree_svg__b"
-          x1={301.36}
-          y1={657.58}
-          x2={301.36}
-          y2={407.94}
-          xlinkHref="#SocialTree_svg__a"
-        />
         <linearGradient
           id="SocialTree_svg__c"
           x1={300.76}
@@ -131,11 +131,11 @@ const SvgSocialTree = ({ color, ...props }) => {
           xlinkHref="#SocialTree_svg__a"
         />
         <linearGradient
-          id="SocialTree_svg__n"
-          x1={154}
-          y1={385.37}
-          x2={154}
-          y2={321.37}
+          id="SocialTree_svg__b"
+          x1={301.36}
+          y1={657.58}
+          x2={301.36}
+          y2={407.94}
           xlinkHref="#SocialTree_svg__a"
         />
         <linearGradient

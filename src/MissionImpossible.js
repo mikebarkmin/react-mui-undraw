@@ -21,6 +21,14 @@ const SvgMissionImpossible = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="MissionImpossible_svg__g"
+          x1={573.5}
+          y1={324.54}
+          x2={573.5}
+          y2={254}
+          xlinkHref="#MissionImpossible_svg__a"
+        />
+        <linearGradient
           id="MissionImpossible_svg__a"
           x1={252.52}
           y1={136}
@@ -32,12 +40,11 @@ const SvgMissionImpossible = ({ color, ...props }) => {
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="MissionImpossible_svg__b"
-          x1={557.5}
-          y1={392.04}
-          x2={557.52}
-          y2={251.94}
-          gradientTransform="matrix(.99 0 0 1 5.9 -.04)"
+          id="MissionImpossible_svg__k"
+          x1={343.02}
+          y1={704}
+          x2={343.02}
+          y2={540}
           xlinkHref="#MissionImpossible_svg__a"
         />
         <linearGradient
@@ -65,11 +72,12 @@ const SvgMissionImpossible = ({ color, ...props }) => {
           xlinkHref="#MissionImpossible_svg__a"
         />
         <linearGradient
-          id="MissionImpossible_svg__g"
-          x1={573.5}
-          y1={324.54}
-          x2={573.5}
-          y2={254}
+          id="MissionImpossible_svg__b"
+          x1={557.5}
+          y1={392.04}
+          x2={557.52}
+          y2={251.94}
+          gradientTransform="matrix(.99 0 0 1 5.9 -.04)"
           xlinkHref="#MissionImpossible_svg__a"
         />
         <linearGradient
@@ -94,14 +102,6 @@ const SvgMissionImpossible = ({ color, ...props }) => {
           y1={533}
           x2={481.02}
           y2={408}
-          xlinkHref="#MissionImpossible_svg__a"
-        />
-        <linearGradient
-          id="MissionImpossible_svg__k"
-          x1={343.02}
-          y1={704}
-          x2={343.02}
-          y2={540}
           xlinkHref="#MissionImpossible_svg__a"
         />
         <linearGradient

@@ -21,6 +21,14 @@ const SvgRealTimeSync = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Real-TimeSync_svg__i"
+          x1={939.46}
+          y1={435.64}
+          x2={939.46}
+          y2={351.13}
+          xlinkHref="#Real-TimeSync_svg__a"
+        />
+        <linearGradient
           id="Real-TimeSync_svg__a"
           x1={300.81}
           y1={541.67}
@@ -33,14 +41,6 @@ const SvgRealTimeSync = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Real-TimeSync_svg__b"
-          x1={158.98}
-          y1={409.32}
-          x2={158.98}
-          y2={343.76}
-          xlinkHref="#Real-TimeSync_svg__a"
-        />
         <linearGradient
           id="Real-TimeSync_svg__c"
           x1={300.75}
@@ -92,11 +92,11 @@ const SvgRealTimeSync = ({ color, ...props }) => {
           xlinkHref="#Real-TimeSync_svg__a"
         />
         <linearGradient
-          id="Real-TimeSync_svg__i"
-          x1={939.46}
-          y1={435.64}
-          x2={939.46}
-          y2={351.13}
+          id="Real-TimeSync_svg__b"
+          x1={158.98}
+          y1={409.32}
+          x2={158.98}
+          y2={343.76}
           xlinkHref="#Real-TimeSync_svg__a"
         />
         <linearGradient

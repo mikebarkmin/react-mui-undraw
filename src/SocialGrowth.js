@@ -21,6 +21,14 @@ const SvgSocialGrowth = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="SocialGrowth_svg__j"
+          x1={447.82}
+          y1={598.3}
+          x2={447.82}
+          y2={475.25}
+          xlinkHref="#SocialGrowth_svg__a"
+        />
+        <linearGradient
           id="SocialGrowth_svg__a"
           x1={168.14}
           y1={160.3}
@@ -31,14 +39,6 @@ const SvgSocialGrowth = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="SocialGrowth_svg__b"
-          x1={168.04}
-          y1={696}
-          x2={168.04}
-          y2={609.92}
-          xlinkHref="#SocialGrowth_svg__a"
-        />
         <linearGradient
           id="SocialGrowth_svg__c"
           x1={168.54}
@@ -96,11 +96,11 @@ const SvgSocialGrowth = ({ color, ...props }) => {
           xlinkHref="#SocialGrowth_svg__a"
         />
         <linearGradient
-          id="SocialGrowth_svg__j"
-          x1={447.82}
-          y1={598.3}
-          x2={447.82}
-          y2={475.25}
+          id="SocialGrowth_svg__b"
+          x1={168.04}
+          y1={696}
+          x2={168.04}
+          y2={609.92}
           xlinkHref="#SocialGrowth_svg__a"
         />
         <linearGradient

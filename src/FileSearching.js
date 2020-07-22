@@ -33,12 +33,12 @@ const SvgFileSearching = ({ color, ...props }) => {
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
         <linearGradient
-          id="FileSearching_svg__c"
-          x1={274.44}
-          y1={409.32}
-          x2={274.44}
-          y2={248.16}
-          xlinkHref="#FileSearching_svg__a"
+          id="FileSearching_svg__l"
+          x1={774.99}
+          y1={484.73}
+          x2={774.99}
+          y2={425.15}
+          xlinkHref="#FileSearching_svg__b"
         />
         <linearGradient
           id="FileSearching_svg__d"
@@ -48,6 +48,18 @@ const SvgFileSearching = ({ color, ...props }) => {
           y2={261.01}
           xlinkHref="#FileSearching_svg__a"
         />
+        <linearGradient
+          id="FileSearching_svg__b"
+          x1={685.49}
+          y1={507.08}
+          x2={685.49}
+          y2={487.6}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopOpacity={0.12} />
+          <stop offset={0.55} stopOpacity={0.09} />
+          <stop offset={1} stopOpacity={0.02} />
+        </linearGradient>
         <linearGradient
           id="FileSearching_svg__f"
           x1={274.44}
@@ -62,6 +74,14 @@ const SvgFileSearching = ({ color, ...props }) => {
           y1={568.15}
           x2={274.44}
           y2={467.72}
+          xlinkHref="#FileSearching_svg__a"
+        />
+        <linearGradient
+          id="FileSearching_svg__c"
+          x1={274.44}
+          y1={409.32}
+          x2={274.44}
+          y2={248.16}
           xlinkHref="#FileSearching_svg__a"
         />
         <linearGradient
@@ -94,26 +114,6 @@ const SvgFileSearching = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
           <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
         </linearGradient>
-        <linearGradient
-          id="FileSearching_svg__b"
-          x1={685.49}
-          y1={507.08}
-          x2={685.49}
-          y2={487.6}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopOpacity={0.12} />
-          <stop offset={0.55} stopOpacity={0.09} />
-          <stop offset={1} stopOpacity={0.02} />
-        </linearGradient>
-        <linearGradient
-          id="FileSearching_svg__l"
-          x1={774.99}
-          y1={484.73}
-          x2={774.99}
-          y2={425.15}
-          xlinkHref="#FileSearching_svg__b"
-        />
         <clipPath id="FileSearching_svg__e" transform="translate(-179 -60.54)">
           <path
             data-name="&lt;Rectangle&gt;"

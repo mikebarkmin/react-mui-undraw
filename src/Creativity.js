@@ -21,6 +21,14 @@ const SvgCreativity = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Creativity_svg__X"
+          x1={862.64}
+          y1={812.46}
+          x2={862.64}
+          y2={774.6}
+          xlinkHref="#Creativity_svg__a"
+        />
+        <linearGradient
           id="Creativity_svg__a"
           x1={418.19}
           y1={540.35}
@@ -32,14 +40,6 @@ const SvgCreativity = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Creativity_svg__b"
-          x1={561.46}
-          y1={451.84}
-          x2={561.46}
-          y2={451.78}
-          xlinkHref="#Creativity_svg__a"
-        />
         <linearGradient
           id="Creativity_svg__c"
           x1={566.83}
@@ -417,11 +417,11 @@ const SvgCreativity = ({ color, ...props }) => {
           xlinkHref="#Creativity_svg__a"
         />
         <linearGradient
-          id="Creativity_svg__X"
-          x1={862.64}
-          y1={812.46}
-          x2={862.64}
-          y2={774.6}
+          id="Creativity_svg__b"
+          x1={561.46}
+          y1={451.84}
+          x2={561.46}
+          y2={451.78}
           xlinkHref="#Creativity_svg__a"
         />
         <linearGradient

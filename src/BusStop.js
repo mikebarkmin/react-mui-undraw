@@ -21,6 +21,14 @@ const SvgBusStop = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="BusStop_svg__g"
+          x1={292.853}
+          y1={449.064}
+          x2={292.853}
+          y2={444.852}
+          xlinkHref="#BusStop_svg__a"
+        />
+        <linearGradient
           id="BusStop_svg__a"
           x1={130.353}
           y1={391.064}
@@ -32,14 +40,6 @@ const SvgBusStop = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="BusStop_svg__b"
-          x1={234.353}
-          y1={374.064}
-          x2={234.353}
-          y2={369.852}
-          xlinkHref="#BusStop_svg__a"
-        />
         <linearGradient
           id="BusStop_svg__c"
           x1={279.353}
@@ -73,11 +73,11 @@ const SvgBusStop = ({ color, ...props }) => {
           xlinkHref="#BusStop_svg__a"
         />
         <linearGradient
-          id="BusStop_svg__g"
-          x1={292.853}
-          y1={449.064}
-          x2={292.853}
-          y2={444.852}
+          id="BusStop_svg__b"
+          x1={234.353}
+          y1={374.064}
+          x2={234.353}
+          y2={369.852}
           xlinkHref="#BusStop_svg__a"
         />
         <linearGradient

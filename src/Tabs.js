@@ -21,6 +21,15 @@ const SvgTabs = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Tabs_svg__j"
+          x1={-261.96}
+          y1={370.91}
+          x2={-229.82}
+          y2={370.91}
+          gradientTransform="translate(735.15 153.86)"
+          xlinkHref="#Tabs_svg__b"
+        />
+        <linearGradient
           id="Tabs_svg__c"
           x1={-121.09}
           y1={464.11}
@@ -32,19 +41,6 @@ const SvgTabs = ({ color, ...props }) => {
           <stop offset={0} stopColor="gray" stopOpacity={0.25} />
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
-        </linearGradient>
-        <linearGradient
-          id="Tabs_svg__a"
-          x1={-402.3}
-          y1={269.44}
-          x2={-402.3}
-          y2={170.67}
-          gradientTransform="rotate(-15.27 695.59 -2294.214)"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopOpacity={0.12} />
-          <stop offset={0.55} stopOpacity={0.09} />
-          <stop offset={1} stopOpacity={0.02} />
         </linearGradient>
         <linearGradient
           id="Tabs_svg__d"
@@ -112,14 +108,18 @@ const SvgTabs = ({ color, ...props }) => {
           xlinkHref="#Tabs_svg__b"
         />
         <linearGradient
-          id="Tabs_svg__j"
-          x1={-261.96}
-          y1={370.91}
-          x2={-229.82}
-          y2={370.91}
-          gradientTransform="translate(735.15 153.86)"
-          xlinkHref="#Tabs_svg__b"
-        />
+          id="Tabs_svg__a"
+          x1={-402.3}
+          y1={269.44}
+          x2={-402.3}
+          y2={170.67}
+          gradientTransform="rotate(-15.27 695.59 -2294.214)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopOpacity={0.12} />
+          <stop offset={0.55} stopOpacity={0.09} />
+          <stop offset={1} stopOpacity={0.02} />
+        </linearGradient>
         <linearGradient
           id="Tabs_svg__k"
           x1={-91.63}

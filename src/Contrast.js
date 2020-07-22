@@ -21,6 +21,14 @@ const SvgContrast = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Contrast_svg__g"
+          x1={634}
+          y1={378}
+          x2={634}
+          y2={362}
+          xlinkHref="#Contrast_svg__b"
+        />
+        <linearGradient
           id="Contrast_svg__a"
           x1={424.5}
           y1={675}
@@ -31,14 +39,6 @@ const SvgContrast = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Contrast_svg__c"
-          x1={191.5}
-          y1={281}
-          x2={191.5}
-          y2={256}
-          xlinkHref="#Contrast_svg__a"
-        />
         <linearGradient
           id="Contrast_svg__b"
           x1={627.5}
@@ -76,12 +76,12 @@ const SvgContrast = ({ color, ...props }) => {
           xlinkHref="#Contrast_svg__b"
         />
         <linearGradient
-          id="Contrast_svg__g"
-          x1={634}
-          y1={378}
-          x2={634}
-          y2={362}
-          xlinkHref="#Contrast_svg__b"
+          id="Contrast_svg__c"
+          x1={191.5}
+          y1={281}
+          x2={191.5}
+          y2={256}
+          xlinkHref="#Contrast_svg__a"
         />
         <linearGradient
           id="Contrast_svg__h"

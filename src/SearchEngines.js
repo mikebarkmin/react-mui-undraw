@@ -21,6 +21,14 @@ const SvgSearchEngines = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="SearchEngines_svg__k"
+          x1={708.4}
+          y1={487.94}
+          x2={708.4}
+          y2={415.88}
+          xlinkHref="#SearchEngines_svg__b"
+        />
+        <linearGradient
           id="SearchEngines_svg__b"
           x1={435.95}
           y1={538.91}
@@ -31,18 +39,6 @@ const SvgSearchEngines = ({ color, ...props }) => {
           <stop offset={0} stopColor="gray" stopOpacity={0.25} />
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
-        </linearGradient>
-        <linearGradient
-          id="SearchEngines_svg__c"
-          x1={895.46}
-          y1={705.26}
-          x2={895.46}
-          y2={584.97}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
-          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
-          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
         </linearGradient>
         <linearGradient
           id="SearchEngines_svg__a"
@@ -70,6 +66,14 @@ const SvgSearchEngines = ({ color, ...props }) => {
           y1={337.11}
           x2={547.45}
           y2={180.55}
+          xlinkHref="#SearchEngines_svg__b"
+        />
+        <linearGradient
+          id="SearchEngines_svg__s"
+          x1={976.13}
+          y1={379.79}
+          x2={976.13}
+          y2={324.99}
           xlinkHref="#SearchEngines_svg__b"
         />
         <linearGradient
@@ -105,13 +109,17 @@ const SvgSearchEngines = ({ color, ...props }) => {
           xlinkHref="#SearchEngines_svg__b"
         />
         <linearGradient
-          id="SearchEngines_svg__k"
-          x1={708.4}
-          y1={487.94}
-          x2={708.4}
-          y2={415.88}
-          xlinkHref="#SearchEngines_svg__b"
-        />
+          id="SearchEngines_svg__c"
+          x1={895.46}
+          y1={705.26}
+          x2={895.46}
+          y2={584.97}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopColor="#b3b3b3" stopOpacity={0.25} />
+          <stop offset={0.54} stopColor="#b3b3b3" stopOpacity={0.1} />
+          <stop offset={1} stopColor="#b3b3b3" stopOpacity={0.05} />
+        </linearGradient>
         <linearGradient
           id="SearchEngines_svg__l"
           x1={744.45}
@@ -166,14 +174,6 @@ const SvgSearchEngines = ({ color, ...props }) => {
           y1={381.19}
           x2={816.78}
           y2={323.68}
-          xlinkHref="#SearchEngines_svg__b"
-        />
-        <linearGradient
-          id="SearchEngines_svg__s"
-          x1={976.13}
-          y1={379.79}
-          x2={976.13}
-          y2={324.99}
           xlinkHref="#SearchEngines_svg__b"
         />
         <linearGradient

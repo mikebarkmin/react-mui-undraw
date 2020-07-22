@@ -21,6 +21,14 @@ const SvgDepi = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Depi_svg__ao"
+          x1={467.3}
+          y1={447.82}
+          x2={467.3}
+          y2={377.73}
+          xlinkHref="#Depi_svg__a"
+        />
+        <linearGradient
           id="Depi_svg__a"
           x1={648.26}
           y1={607.3}
@@ -32,14 +40,6 @@ const SvgDepi = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Depi_svg__b"
-          x1={407.4}
-          y1={649.38}
-          x2={407.4}
-          y2={648.35}
-          xlinkHref="#Depi_svg__a"
-        />
         <linearGradient
           id="Depi_svg__c"
           x1={311.56}
@@ -553,11 +553,11 @@ const SvgDepi = ({ color, ...props }) => {
           xlinkHref="#Depi_svg__a"
         />
         <linearGradient
-          id="Depi_svg__ao"
-          x1={467.3}
-          y1={447.82}
-          x2={467.3}
-          y2={377.73}
+          id="Depi_svg__b"
+          x1={407.4}
+          y1={649.38}
+          x2={407.4}
+          y2={648.35}
           xlinkHref="#Depi_svg__a"
         />
         <linearGradient

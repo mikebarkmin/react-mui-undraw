@@ -21,6 +21,14 @@ const SvgWelcome = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Welcome_svg__k"
+          x1={731.5}
+          y1={573}
+          x2={731.5}
+          y2={542}
+          xlinkHref="#Welcome_svg__b"
+        />
+        <linearGradient
           id="Welcome_svg__a"
           x1={731.5}
           y1={630}
@@ -32,14 +40,6 @@ const SvgWelcome = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Welcome_svg__c"
-          x1={136.5}
-          y1={632}
-          x2={136.5}
-          y2={107}
-          xlinkHref="#Welcome_svg__a"
-        />
         <linearGradient
           id="Welcome_svg__b"
           x1={136.5}
@@ -109,12 +109,12 @@ const SvgWelcome = ({ color, ...props }) => {
           xlinkHref="#Welcome_svg__b"
         />
         <linearGradient
-          id="Welcome_svg__k"
-          x1={731.5}
-          y1={573}
-          x2={731.5}
-          y2={542}
-          xlinkHref="#Welcome_svg__b"
+          id="Welcome_svg__c"
+          x1={136.5}
+          y1={632}
+          x2={136.5}
+          y2={107}
+          xlinkHref="#Welcome_svg__a"
         />
         <linearGradient
           id="Welcome_svg__l"

@@ -21,6 +21,14 @@ const SvgCustomerSurvey = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="CustomerSurvey_svg__f"
+          x1={309.06}
+          y1={550}
+          x2={309.06}
+          y2={468}
+          xlinkHref="#CustomerSurvey_svg__a"
+        />
+        <linearGradient
           id="CustomerSurvey_svg__a"
           x1={441}
           y1={598}
@@ -32,14 +40,6 @@ const SvgCustomerSurvey = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="CustomerSurvey_svg__b"
-          x1={441.5}
-          y1={91}
-          x2={441.5}
-          y2={44.98}
-          xlinkHref="#CustomerSurvey_svg__a"
-        />
         <linearGradient
           id="CustomerSurvey_svg__c"
           x1={604.72}
@@ -65,11 +65,11 @@ const SvgCustomerSurvey = ({ color, ...props }) => {
           xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient
-          id="CustomerSurvey_svg__f"
-          x1={309.06}
-          y1={550}
-          x2={309.06}
-          y2={468}
+          id="CustomerSurvey_svg__b"
+          x1={441.5}
+          y1={91}
+          x2={441.5}
+          y2={44.98}
           xlinkHref="#CustomerSurvey_svg__a"
         />
         <linearGradient

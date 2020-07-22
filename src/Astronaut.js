@@ -21,6 +21,14 @@ const SvgAstronaut = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Astronaut_svg__k"
+          x1={499.538}
+          y1={258.447}
+          x2={499.538}
+          y2={239.849}
+          xlinkHref="#Astronaut_svg__a"
+        />
+        <linearGradient
           id="Astronaut_svg__a"
           x1={266.721}
           y1={350.676}
@@ -32,14 +40,6 @@ const SvgAstronaut = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Astronaut_svg__b"
-          x1={540.721}
-          y1={246.676}
-          x2={540.721}
-          y2={216.446}
-          xlinkHref="#Astronaut_svg__a"
-        />
         <linearGradient
           id="Astronaut_svg__c"
           x1={817.721}
@@ -105,11 +105,11 @@ const SvgAstronaut = ({ color, ...props }) => {
           xlinkHref="#Astronaut_svg__a"
         />
         <linearGradient
-          id="Astronaut_svg__k"
-          x1={499.538}
-          y1={258.447}
-          x2={499.538}
-          y2={239.849}
+          id="Astronaut_svg__b"
+          x1={540.721}
+          y1={246.676}
+          x2={540.721}
+          y2={216.446}
           xlinkHref="#Astronaut_svg__a"
         />
         <linearGradient

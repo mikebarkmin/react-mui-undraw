@@ -21,6 +21,14 @@ const SvgAboutUsPage = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="AboutUsPage_svg__g"
+          x1={548.75}
+          y1={462.81}
+          x2={548.75}
+          y2={367.31}
+          xlinkHref="#AboutUsPage_svg__a"
+        />
+        <linearGradient
           id="AboutUsPage_svg__a"
           x1={600}
           y1={749.5}
@@ -32,14 +40,6 @@ const SvgAboutUsPage = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="AboutUsPage_svg__b"
-          x1={322.6}
-          y1={356.71}
-          x2={322.6}
-          y2={261.21}
-          xlinkHref="#AboutUsPage_svg__a"
-        />
         <linearGradient
           id="AboutUsPage_svg__c"
           x1={433.18}
@@ -73,11 +73,11 @@ const SvgAboutUsPage = ({ color, ...props }) => {
           xlinkHref="#AboutUsPage_svg__a"
         />
         <linearGradient
-          id="AboutUsPage_svg__g"
-          x1={548.75}
-          y1={462.81}
-          x2={548.75}
-          y2={367.31}
+          id="AboutUsPage_svg__b"
+          x1={322.6}
+          y1={356.71}
+          x2={322.6}
+          y2={261.21}
           xlinkHref="#AboutUsPage_svg__a"
         />
         <linearGradient

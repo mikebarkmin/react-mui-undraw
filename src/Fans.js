@@ -21,6 +21,14 @@ const SvgFans = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Fans_svg__Z"
+          x1={352.64}
+          y1={450.52}
+          x2={352.64}
+          y2={442.52}
+          xlinkHref="#Fans_svg__a"
+        />
+        <linearGradient
           id="Fans_svg__a"
           x1={375.25}
           y1={786.7}
@@ -32,14 +40,6 @@ const SvgFans = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Fans_svg__b"
-          x1={418.66}
-          y1={485.68}
-          x2={535.12}
-          y2={485.68}
-          xlinkHref="#Fans_svg__a"
-        />
         <linearGradient
           id="Fans_svg__c"
           x1={579.88}
@@ -433,11 +433,11 @@ const SvgFans = ({ color, ...props }) => {
           xlinkHref="#Fans_svg__a"
         />
         <linearGradient
-          id="Fans_svg__Z"
-          x1={352.64}
-          y1={450.52}
-          x2={352.64}
-          y2={442.52}
+          id="Fans_svg__b"
+          x1={418.66}
+          y1={485.68}
+          x2={535.12}
+          y2={485.68}
           xlinkHref="#Fans_svg__a"
         />
         <linearGradient
@@ -809,14 +809,6 @@ const SvgFans = ({ color, ...props }) => {
           xlinkHref="#Fans_svg__a"
         />
         <linearGradient
-          id="Fans_svg__aV"
-          x1={583.48}
-          y1={539.94}
-          x2={583.48}
-          y2={454.34}
-          xlinkHref="#Fans_svg__a"
-        />
-        <linearGradient
           id="Fans_svg__aW"
           x1={583.37}
           y1={507.31}
@@ -828,6 +820,14 @@ const SvgFans = ({ color, ...props }) => {
           <stop offset={0.55} stopOpacity={0.09} />
           <stop offset={1} stopOpacity={0.02} />
         </linearGradient>
+        <linearGradient
+          id="Fans_svg__aV"
+          x1={583.48}
+          y1={539.94}
+          x2={583.48}
+          y2={454.34}
+          xlinkHref="#Fans_svg__a"
+        />
         <linearGradient
           id="Fans_svg__aX"
           x1={816.05}

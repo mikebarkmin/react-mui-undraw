@@ -21,6 +21,14 @@ const SvgMovieNight = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="MovieNight_svg__R"
+          x1={157.49}
+          y1={442.59}
+          x2={157.49}
+          y2={412.32}
+          xlinkHref="#MovieNight_svg__a"
+        />
+        <linearGradient
           id="MovieNight_svg__a"
           x1={727.96}
           y1={757.2}
@@ -32,14 +40,6 @@ const SvgMovieNight = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="MovieNight_svg__c"
-          x1={463.13}
-          y1={554.16}
-          x2={463.13}
-          y2={196.77}
-          xlinkHref="#MovieNight_svg__a"
-        />
         <linearGradient
           id="MovieNight_svg__d"
           x1={615.25}
@@ -361,11 +361,11 @@ const SvgMovieNight = ({ color, ...props }) => {
           xlinkHref="#MovieNight_svg__a"
         />
         <linearGradient
-          id="MovieNight_svg__R"
-          x1={157.49}
-          y1={442.59}
-          x2={157.49}
-          y2={412.32}
+          id="MovieNight_svg__c"
+          x1={463.13}
+          y1={554.16}
+          x2={463.13}
+          y2={196.77}
           xlinkHref="#MovieNight_svg__a"
         />
         <linearGradient
@@ -569,6 +569,14 @@ const SvgMovieNight = ({ color, ...props }) => {
           xlinkHref="#MovieNight_svg__a"
         />
         <linearGradient
+          id="MovieNight_svg__aE"
+          x1={759.61}
+          y1={142.75}
+          x2={759.61}
+          y2={0}
+          xlinkHref="#MovieNight_svg__a"
+        />
+        <linearGradient
           id="MovieNight_svg__as"
           x1={787.61}
           y1={694.3}
@@ -674,14 +682,6 @@ const SvgMovieNight = ({ color, ...props }) => {
           y1={671.54}
           x2={274.28}
           y2={641.26}
-          xlinkHref="#MovieNight_svg__a"
-        />
-        <linearGradient
-          id="MovieNight_svg__aE"
-          x1={759.61}
-          y1={142.75}
-          x2={759.61}
-          y2={0}
           xlinkHref="#MovieNight_svg__a"
         />
         <linearGradient

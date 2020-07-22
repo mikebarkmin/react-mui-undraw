@@ -21,6 +21,14 @@ const SvgControlPanel = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="ControlPanel_svg__n"
+          x1={577.21}
+          y1={593.88}
+          x2={577.21}
+          y2={547.54}
+          xlinkHref="#ControlPanel_svg__a"
+        />
+        <linearGradient
           id="ControlPanel_svg__a"
           x1={426.78}
           y1={651.11}
@@ -32,14 +40,6 @@ const SvgControlPanel = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="ControlPanel_svg__b"
-          x1={263.53}
-          y1={255.6}
-          x2={263.53}
-          y2={205.12}
-          xlinkHref="#ControlPanel_svg__a"
-        />
         <linearGradient
           id="ControlPanel_svg__c"
           x1={129.53}
@@ -129,11 +129,11 @@ const SvgControlPanel = ({ color, ...props }) => {
           xlinkHref="#ControlPanel_svg__a"
         />
         <linearGradient
-          id="ControlPanel_svg__n"
-          x1={577.21}
-          y1={593.88}
-          x2={577.21}
-          y2={547.54}
+          id="ControlPanel_svg__b"
+          x1={263.53}
+          y1={255.6}
+          x2={263.53}
+          y2={205.12}
           xlinkHref="#ControlPanel_svg__a"
         />
         <linearGradient

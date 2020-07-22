@@ -21,6 +21,14 @@ const SvgMeeting = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Meeting_svg__s"
+          x1={298.397}
+          y1={574.455}
+          x2={298.397}
+          y2={479.854}
+          xlinkHref="#Meeting_svg__a"
+        />
+        <linearGradient
           id="Meeting_svg__a"
           x1={402.824}
           y1={111}
@@ -31,14 +39,6 @@ const SvgMeeting = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Meeting_svg__b"
-          x1={156.149}
-          y1={155.608}
-          x2={156.149}
-          y2={44.608}
-          xlinkHref="#Meeting_svg__a"
-        />
         <linearGradient
           id="Meeting_svg__c"
           x1={600.824}
@@ -169,11 +169,11 @@ const SvgMeeting = ({ color, ...props }) => {
           xlinkHref="#Meeting_svg__a"
         />
         <linearGradient
-          id="Meeting_svg__s"
-          x1={298.397}
-          y1={574.455}
-          x2={298.397}
-          y2={479.854}
+          id="Meeting_svg__b"
+          x1={156.149}
+          y1={155.608}
+          x2={156.149}
+          y2={44.608}
           xlinkHref="#Meeting_svg__a"
         />
         <linearGradient

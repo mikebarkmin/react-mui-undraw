@@ -21,6 +21,14 @@ const SvgScrumBoard = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="ScrumBoard_svg__m"
+          x1={742.73}
+          y1={247.13}
+          x2={742.73}
+          y2={202.46}
+          xlinkHref="#ScrumBoard_svg__a"
+        />
+        <linearGradient
           id="ScrumBoard_svg__a"
           x1={232.43}
           y1={292.26}
@@ -32,14 +40,6 @@ const SvgScrumBoard = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="ScrumBoard_svg__b"
-          x1={408.15}
-          y1={247.13}
-          x2={408.15}
-          y2={202.46}
-          xlinkHref="#ScrumBoard_svg__a"
-        />
         <linearGradient
           id="ScrumBoard_svg__c"
           x1={616.5}
@@ -121,10 +121,10 @@ const SvgScrumBoard = ({ color, ...props }) => {
           xlinkHref="#ScrumBoard_svg__a"
         />
         <linearGradient
-          id="ScrumBoard_svg__m"
-          x1={742.73}
+          id="ScrumBoard_svg__b"
+          x1={408.15}
           y1={247.13}
-          x2={742.73}
+          x2={408.15}
           y2={202.46}
           xlinkHref="#ScrumBoard_svg__a"
         />

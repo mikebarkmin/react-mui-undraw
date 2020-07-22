@@ -21,6 +21,14 @@ const SvgCreationProcess = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="CreationProcess_svg__k"
+          x1={348.287}
+          y1={195.445}
+          x2={348.287}
+          y2={150.782}
+          xlinkHref="#CreationProcess_svg__a"
+        />
+        <linearGradient
           id="CreationProcess_svg__a"
           x1={444}
           y1={377.208}
@@ -31,14 +39,6 @@ const SvgCreationProcess = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="CreationProcess_svg__b"
-          x1={565.578}
-          y1={184.629}
-          x2={565.578}
-          y2={139.966}
-          xlinkHref="#CreationProcess_svg__a"
-        />
         <linearGradient
           id="CreationProcess_svg__c"
           x1={296.266}
@@ -104,11 +104,11 @@ const SvgCreationProcess = ({ color, ...props }) => {
           xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient
-          id="CreationProcess_svg__k"
-          x1={348.287}
-          y1={195.445}
-          x2={348.287}
-          y2={150.782}
+          id="CreationProcess_svg__b"
+          x1={565.578}
+          y1={184.629}
+          x2={565.578}
+          y2={139.966}
           xlinkHref="#CreationProcess_svg__a"
         />
         <linearGradient

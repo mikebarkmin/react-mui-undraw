@@ -21,6 +21,14 @@ const SvgInfluencer = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Influencer_svg__k"
+          x1={468.48}
+          y1={558.97}
+          x2={468.48}
+          y2={297.1}
+          xlinkHref="#Influencer_svg__a"
+        />
+        <linearGradient
           id="Influencer_svg__a"
           x1={523.15}
           y1={270.5}
@@ -32,14 +40,6 @@ const SvgInfluencer = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Influencer_svg__b"
-          x1={499.54}
-          y1={486.65}
-          x2={499.54}
-          y2={196.24}
-          xlinkHref="#Influencer_svg__a"
-        />
         <linearGradient
           id="Influencer_svg__c"
           x1={333.19}
@@ -105,11 +105,11 @@ const SvgInfluencer = ({ color, ...props }) => {
           xlinkHref="#Influencer_svg__a"
         />
         <linearGradient
-          id="Influencer_svg__k"
-          x1={468.48}
-          y1={558.97}
-          x2={468.48}
-          y2={297.1}
+          id="Influencer_svg__b"
+          x1={499.54}
+          y1={486.65}
+          x2={499.54}
+          y2={196.24}
           xlinkHref="#Influencer_svg__a"
         />
         <linearGradient

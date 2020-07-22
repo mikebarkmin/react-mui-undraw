@@ -21,6 +21,14 @@ const SvgBitcoin = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Bitcoin_svg__m"
+          x1={567.15}
+          y1={551.13}
+          x2={605.05}
+          y2={551.13}
+          xlinkHref="#Bitcoin_svg__a"
+        />
+        <linearGradient
           id="Bitcoin_svg__a"
           x1={133.13}
           y1={136.42}
@@ -32,14 +40,6 @@ const SvgBitcoin = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Bitcoin_svg__b"
-          x1={489.15}
-          y1={260.63}
-          x2={489.15}
-          y2={85.48}
-          xlinkHref="#Bitcoin_svg__a"
-        />
         <linearGradient
           id="Bitcoin_svg__c"
           x1={513.83}
@@ -121,11 +121,11 @@ const SvgBitcoin = ({ color, ...props }) => {
           xlinkHref="#Bitcoin_svg__a"
         />
         <linearGradient
-          id="Bitcoin_svg__m"
-          x1={567.15}
-          y1={551.13}
-          x2={605.05}
-          y2={551.13}
+          id="Bitcoin_svg__b"
+          x1={489.15}
+          y1={260.63}
+          x2={489.15}
+          y2={85.48}
           xlinkHref="#Bitcoin_svg__a"
         />
         <linearGradient

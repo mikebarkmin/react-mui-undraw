@@ -21,6 +21,15 @@ const SvgMessenger = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Messenger_svg__j"
+          x1={516.74}
+          y1={89.41}
+          x2={516.74}
+          y2={25.26}
+          gradientTransform="matrix(-1 0 0 1 708.54 220.35)"
+          xlinkHref="#Messenger_svg__a"
+        />
+        <linearGradient
           id="Messenger_svg__a"
           x1={28.76}
           y1={305.07}
@@ -33,15 +42,6 @@ const SvgMessenger = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Messenger_svg__b"
-          x1={-12.78}
-          y1={348.28}
-          x2={-12.78}
-          y2={256.1}
-          gradientTransform="matrix(-1 0 0 1 761.21 12.96)"
-          xlinkHref="#Messenger_svg__a"
-        />
         <linearGradient
           id="Messenger_svg__c"
           x1={-251.56}
@@ -106,12 +106,12 @@ const SvgMessenger = ({ color, ...props }) => {
           xlinkHref="#Messenger_svg__a"
         />
         <linearGradient
-          id="Messenger_svg__j"
-          x1={516.74}
-          y1={89.41}
-          x2={516.74}
-          y2={25.26}
-          gradientTransform="matrix(-1 0 0 1 708.54 220.35)"
+          id="Messenger_svg__b"
+          x1={-12.78}
+          y1={348.28}
+          x2={-12.78}
+          y2={256.1}
+          gradientTransform="matrix(-1 0 0 1 761.21 12.96)"
           xlinkHref="#Messenger_svg__a"
         />
         <linearGradient

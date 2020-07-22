@@ -21,6 +21,15 @@ const SvgPhotoSharing = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="PhotoSharing_svg__j"
+          x1={860.68}
+          y1={449.38}
+          x2={860.68}
+          y2={279.02}
+          gradientTransform="translate(8.03 216.15)"
+          xlinkHref="#PhotoSharing_svg__a"
+        />
+        <linearGradient
           id="PhotoSharing_svg__a"
           x1={425.06}
           y1={600.05}
@@ -32,14 +41,6 @@ const SvgPhotoSharing = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="PhotoSharing_svg__b"
-          x1={258.38}
-          y1={294.87}
-          x2={258.38}
-          y2={252.24}
-          xlinkHref="#PhotoSharing_svg__a"
-        />
         <linearGradient
           id="PhotoSharing_svg__c"
           x1={659.41}
@@ -99,12 +100,11 @@ const SvgPhotoSharing = ({ color, ...props }) => {
           xlinkHref="#PhotoSharing_svg__a"
         />
         <linearGradient
-          id="PhotoSharing_svg__j"
-          x1={860.68}
-          y1={449.38}
-          x2={860.68}
-          y2={279.02}
-          gradientTransform="translate(8.03 216.15)"
+          id="PhotoSharing_svg__b"
+          x1={258.38}
+          y1={294.87}
+          x2={258.38}
+          y2={252.24}
           xlinkHref="#PhotoSharing_svg__a"
         />
         <linearGradient

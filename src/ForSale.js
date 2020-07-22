@@ -21,6 +21,14 @@ const SvgForSale = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="ForSale_svg__n"
+          x1={558.44}
+          y1={741.68}
+          x2={558.44}
+          y2={691.68}
+          xlinkHref="#ForSale_svg__a"
+        />
+        <linearGradient
           id="ForSale_svg__a"
           x1={709}
           y1={237.54}
@@ -32,14 +40,6 @@ const SvgForSale = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="ForSale_svg__b"
-          x1={816}
-          y1={110}
-          x2={816}
-          y2={0}
-          xlinkHref="#ForSale_svg__a"
-        />
         <linearGradient
           id="ForSale_svg__c"
           x1={347.64}
@@ -129,11 +129,11 @@ const SvgForSale = ({ color, ...props }) => {
           xlinkHref="#ForSale_svg__a"
         />
         <linearGradient
-          id="ForSale_svg__n"
-          x1={558.44}
-          y1={741.68}
-          x2={558.44}
-          y2={691.68}
+          id="ForSale_svg__b"
+          x1={816}
+          y1={110}
+          x2={816}
+          y2={0}
           xlinkHref="#ForSale_svg__a"
         />
         <linearGradient

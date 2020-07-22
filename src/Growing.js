@@ -21,6 +21,14 @@ const SvgGrowing = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Growing_svg__f"
+          x1={588.964}
+          y1={317.444}
+          x2={588.964}
+          y2={271.412}
+          xlinkHref="#Growing_svg__a"
+        />
+        <linearGradient
           id="Growing_svg__a"
           x1={132.793}
           y1={581.522}
@@ -32,14 +40,6 @@ const SvgGrowing = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Growing_svg__b"
-          x1={226.069}
-          y1={494.303}
-          x2={226.069}
-          y2={448.271}
-          xlinkHref="#Growing_svg__a"
-        />
         <linearGradient
           id="Growing_svg__c"
           x1={314.17}
@@ -65,11 +65,11 @@ const SvgGrowing = ({ color, ...props }) => {
           xlinkHref="#Growing_svg__a"
         />
         <linearGradient
-          id="Growing_svg__f"
-          x1={588.964}
-          y1={317.444}
-          x2={588.964}
-          y2={271.412}
+          id="Growing_svg__b"
+          x1={226.069}
+          y1={494.303}
+          x2={226.069}
+          y2={448.271}
           xlinkHref="#Growing_svg__a"
         />
         <linearGradient

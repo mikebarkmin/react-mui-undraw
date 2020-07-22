@@ -21,6 +21,14 @@ const SvgJasonMask = ({ color, ...props }) => {
     >
       <defs>
         <radialGradient
+          id="JasonMask_svg__q"
+          cx={481.47}
+          cy={378.09}
+          r={10.92}
+          gradientTransform="matrix(-.36 0 0 1 959.68 -23.07)"
+          xlinkHref="#JasonMask_svg__a"
+        />
+        <radialGradient
           id="JasonMask_svg__a"
           cx={513.55}
           cy={208.68}
@@ -32,13 +40,6 @@ const SvgJasonMask = ({ color, ...props }) => {
           <stop offset={0.63} stopColor="#1c183b" stopOpacity={0.81} />
           <stop offset={1} stopColor="#170f2c" stopOpacity={0.6} />
         </radialGradient>
-        <radialGradient
-          id="JasonMask_svg__b"
-          cx={517.23}
-          cy={248.39}
-          r={10.92}
-          xlinkHref="#JasonMask_svg__a"
-        />
         <radialGradient
           id="JasonMask_svg__c"
           cx={513.55}
@@ -151,11 +152,10 @@ const SvgJasonMask = ({ color, ...props }) => {
           xlinkHref="#JasonMask_svg__a"
         />
         <radialGradient
-          id="JasonMask_svg__q"
-          cx={481.47}
-          cy={378.09}
+          id="JasonMask_svg__b"
+          cx={517.23}
+          cy={248.39}
           r={10.92}
-          gradientTransform="matrix(-.36 0 0 1 959.68 -23.07)"
           xlinkHref="#JasonMask_svg__a"
         />
         <radialGradient

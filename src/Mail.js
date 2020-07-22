@@ -21,6 +21,14 @@ const SvgMail = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Mail_svg__g"
+          x1={544.65}
+          y1={339.86}
+          x2={544.65}
+          y2={212}
+          xlinkHref="#Mail_svg__a"
+        />
+        <linearGradient
           id="Mail_svg__a"
           x1={589.65}
           y1={790.71}
@@ -33,14 +41,6 @@ const SvgMail = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Mail_svg__c"
-          x1={411.34}
-          y1={295.04}
-          x2={411.34}
-          y2={145.7}
-          xlinkHref="#Mail_svg__a"
-        />
         <linearGradient
           id="Mail_svg__d"
           x1={545.52}
@@ -80,11 +80,11 @@ const SvgMail = ({ color, ...props }) => {
           <stop offset={1} stopOpacity={0.02} />
         </linearGradient>
         <linearGradient
-          id="Mail_svg__g"
-          x1={544.65}
-          y1={339.86}
-          x2={544.65}
-          y2={212}
+          id="Mail_svg__c"
+          x1={411.34}
+          y1={295.04}
+          x2={411.34}
+          y2={145.7}
           xlinkHref="#Mail_svg__a"
         />
         <linearGradient

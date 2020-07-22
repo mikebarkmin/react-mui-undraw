@@ -21,6 +21,15 @@ const SvgNews = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="News_svg__k"
+          x1={953.34}
+          y1={715.38}
+          x2={953.34}
+          y2={700.26}
+          gradientTransform="rotate(10.2 3222.283 -953.082)"
+          xlinkHref="#News_svg__a"
+        />
+        <linearGradient
           id="News_svg__a"
           x1={214.76}
           y1={345.82}
@@ -32,15 +41,6 @@ const SvgNews = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="News_svg__b"
-          x1={370.41}
-          y1={529.73}
-          x2={370.41}
-          y2={514.61}
-          gradientTransform="rotate(-3.75 -7075.346 3773.69)"
-          xlinkHref="#News_svg__a"
-        />
         <linearGradient
           id="News_svg__c"
           x1={472.13}
@@ -114,12 +114,12 @@ const SvgNews = ({ color, ...props }) => {
           xlinkHref="#News_svg__a"
         />
         <linearGradient
-          id="News_svg__k"
-          x1={953.34}
-          y1={715.38}
-          x2={953.34}
-          y2={700.26}
-          gradientTransform="rotate(10.2 3222.283 -953.082)"
+          id="News_svg__b"
+          x1={370.41}
+          y1={529.73}
+          x2={370.41}
+          y2={514.61}
+          gradientTransform="rotate(-3.75 -7075.346 3773.69)"
           xlinkHref="#News_svg__a"
         />
         <linearGradient

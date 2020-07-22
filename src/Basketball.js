@@ -21,6 +21,14 @@ const SvgBasketball = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Basketball_svg__g"
+          x1={379.43}
+          y1={528.7}
+          x2={379.43}
+          y2={399.85}
+          xlinkHref="#Basketball_svg__a"
+        />
+        <linearGradient
           id="Basketball_svg__a"
           x1={281.77}
           y1={766.42}
@@ -32,14 +40,6 @@ const SvgBasketball = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Basketball_svg__b"
-          x1={282.79}
-          y1={784.76}
-          x2={282.79}
-          y2={753.17}
-          xlinkHref="#Basketball_svg__a"
-        />
         <linearGradient
           id="Basketball_svg__c"
           x1={376}
@@ -73,11 +73,11 @@ const SvgBasketball = ({ color, ...props }) => {
           xlinkHref="#Basketball_svg__a"
         />
         <linearGradient
-          id="Basketball_svg__g"
-          x1={379.43}
-          y1={528.7}
-          x2={379.43}
-          y2={399.85}
+          id="Basketball_svg__b"
+          x1={282.79}
+          y1={784.76}
+          x2={282.79}
+          y2={753.17}
           xlinkHref="#Basketball_svg__a"
         />
         <linearGradient

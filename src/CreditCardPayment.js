@@ -21,6 +21,14 @@ const SvgCreditCardPayment = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="CreditCardPayment_svg__g"
+          x1={875.32}
+          y1={362.48}
+          x2={875.32}
+          y2={315.28}
+          xlinkHref="#CreditCardPayment_svg__b"
+        />
+        <linearGradient
           id="CreditCardPayment_svg__a"
           x1={560.63}
           y1={784.03}
@@ -32,14 +40,6 @@ const SvgCreditCardPayment = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="CreditCardPayment_svg__c"
-          x1={425.22}
-          y1={487.8}
-          x2={425.22}
-          y2={0}
-          xlinkHref="#CreditCardPayment_svg__a"
-        />
         <linearGradient
           id="CreditCardPayment_svg__b"
           x1={808.39}
@@ -77,12 +77,12 @@ const SvgCreditCardPayment = ({ color, ...props }) => {
           xlinkHref="#CreditCardPayment_svg__b"
         />
         <linearGradient
-          id="CreditCardPayment_svg__g"
-          x1={875.32}
-          y1={362.48}
-          x2={875.32}
-          y2={315.28}
-          xlinkHref="#CreditCardPayment_svg__b"
+          id="CreditCardPayment_svg__c"
+          x1={425.22}
+          y1={487.8}
+          x2={425.22}
+          y2={0}
+          xlinkHref="#CreditCardPayment_svg__a"
         />
         <linearGradient
           id="CreditCardPayment_svg__h"

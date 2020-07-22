@@ -21,6 +21,14 @@ const SvgHouses = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Houses_svg__i"
+          x1={65.62}
+          y1={281.17}
+          x2={65.62}
+          y2={163.34}
+          xlinkHref="#Houses_svg__a"
+        />
+        <linearGradient
           id="Houses_svg__a"
           x1={369.42}
           y1={281.2}
@@ -32,14 +40,6 @@ const SvgHouses = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Houses_svg__b"
-          x1={325.25}
-          y1={122.25}
-          x2={325.25}
-          y2={79.83}
-          xlinkHref="#Houses_svg__a"
-        />
         <linearGradient
           id="Houses_svg__c"
           x1={260.16}
@@ -89,11 +89,11 @@ const SvgHouses = ({ color, ...props }) => {
           xlinkHref="#Houses_svg__a"
         />
         <linearGradient
-          id="Houses_svg__i"
-          x1={65.62}
-          y1={281.17}
-          x2={65.62}
-          y2={163.34}
+          id="Houses_svg__b"
+          x1={325.25}
+          y1={122.25}
+          x2={325.25}
+          y2={79.83}
           xlinkHref="#Houses_svg__a"
         />
         <linearGradient

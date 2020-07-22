@@ -21,6 +21,14 @@ const SvgPresentation = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Presentation_svg__h"
+          x1={349.246}
+          y1={103.142}
+          x2={349.246}
+          y2={82.509}
+          xlinkHref="#Presentation_svg__a"
+        />
+        <linearGradient
           id="Presentation_svg__a"
           x1={345.271}
           y1={402.374}
@@ -31,14 +39,6 @@ const SvgPresentation = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Presentation_svg__b"
-          x1={24.7}
-          y1={22.443}
-          x2={24.7}
-          y2={10.757}
-          xlinkHref="#Presentation_svg__a"
-        />
         <linearGradient
           id="Presentation_svg__c"
           x1={37.98}
@@ -80,11 +80,11 @@ const SvgPresentation = ({ color, ...props }) => {
           xlinkHref="#Presentation_svg__a"
         />
         <linearGradient
-          id="Presentation_svg__h"
-          x1={349.246}
-          y1={103.142}
-          x2={349.246}
-          y2={82.509}
+          id="Presentation_svg__b"
+          x1={24.7}
+          y1={22.443}
+          x2={24.7}
+          y2={10.757}
           xlinkHref="#Presentation_svg__a"
         />
         <linearGradient

@@ -21,6 +21,14 @@ const SvgCollecting = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Collecting_svg__Q"
+          x1={366.37}
+          y1={565.47}
+          x2={608.5}
+          y2={565.47}
+          xlinkHref="#Collecting_svg__a"
+        />
+        <linearGradient
           id="Collecting_svg__a"
           x1={366.37}
           y1={536.32}
@@ -32,14 +40,6 @@ const SvgCollecting = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Collecting_svg__b"
-          x1={124.23}
-          y1={536.32}
-          x2={366.37}
-          y2={536.32}
-          xlinkHref="#Collecting_svg__a"
-        />
         <linearGradient
           id="Collecting_svg__c"
           x1={366.37}
@@ -361,11 +361,11 @@ const SvgCollecting = ({ color, ...props }) => {
           xlinkHref="#Collecting_svg__a"
         />
         <linearGradient
-          id="Collecting_svg__Q"
-          x1={366.37}
-          y1={565.47}
-          x2={608.5}
-          y2={565.47}
+          id="Collecting_svg__b"
+          x1={124.23}
+          y1={536.32}
+          x2={366.37}
+          y2={536.32}
           xlinkHref="#Collecting_svg__a"
         />
         <linearGradient

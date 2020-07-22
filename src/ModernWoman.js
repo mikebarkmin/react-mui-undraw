@@ -21,6 +21,14 @@ const SvgModernWoman = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="ModernWoman_svg__j"
+          x1={692.711}
+          y1={612.918}
+          x2={692.711}
+          y2={593.159}
+          xlinkHref="#ModernWoman_svg__a"
+        />
+        <linearGradient
           id="ModernWoman_svg__a"
           x1={651.652}
           y1={694.574}
@@ -33,14 +41,6 @@ const SvgModernWoman = ({ color, ...props }) => {
           <stop offset={0.535} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="ModernWoman_svg__b"
-          x1={568.032}
-          y1={694.574}
-          x2={568.032}
-          y2={680.032}
-          xlinkHref="#ModernWoman_svg__a"
-        />
         <linearGradient
           id="ModernWoman_svg__c"
           x1={597.258}
@@ -98,11 +98,11 @@ const SvgModernWoman = ({ color, ...props }) => {
           xlinkHref="#ModernWoman_svg__a"
         />
         <linearGradient
-          id="ModernWoman_svg__j"
-          x1={692.711}
-          y1={612.918}
-          x2={692.711}
-          y2={593.159}
+          id="ModernWoman_svg__b"
+          x1={568.032}
+          y1={694.574}
+          x2={568.032}
+          y2={680.032}
           xlinkHref="#ModernWoman_svg__a"
         />
         <linearGradient

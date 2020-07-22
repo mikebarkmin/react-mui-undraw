@@ -21,6 +21,15 @@ const SvgCalendar = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Calendar_svg__i"
+          x1={364.44}
+          y1={766.03}
+          x2={364.44}
+          y2={756.99}
+          gradientTransform="rotate(30 707.775 31.032)"
+          xlinkHref="#Calendar_svg__a"
+        />
+        <linearGradient
           id="Calendar_svg__a"
           x1={435.61}
           y1={529}
@@ -31,14 +40,6 @@ const SvgCalendar = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Calendar_svg__b"
-          x1={435.61}
-          y1={488}
-          x2={435.61}
-          y2={95}
-          xlinkHref="#Calendar_svg__a"
-        />
         <linearGradient
           id="Calendar_svg__c"
           x1={171.55}
@@ -90,12 +91,11 @@ const SvgCalendar = ({ color, ...props }) => {
           xlinkHref="#Calendar_svg__a"
         />
         <linearGradient
-          id="Calendar_svg__i"
-          x1={364.44}
-          y1={766.03}
-          x2={364.44}
-          y2={756.99}
-          gradientTransform="rotate(30 707.775 31.032)"
+          id="Calendar_svg__b"
+          x1={435.61}
+          y1={488}
+          x2={435.61}
+          y2={95}
           xlinkHref="#Calendar_svg__a"
         />
         <linearGradient

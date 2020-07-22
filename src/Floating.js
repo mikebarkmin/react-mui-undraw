@@ -21,6 +21,14 @@ const SvgFloating = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Floating_svg__o"
+          x1={269.97}
+          y1={167.89}
+          x2={269.97}
+          y2={149.53}
+          xlinkHref="#Floating_svg__a"
+        />
+        <linearGradient
           id="Floating_svg__a"
           x1={739.11}
           y1={600.75}
@@ -32,14 +40,6 @@ const SvgFloating = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Floating_svg__b"
-          x1={686.68}
-          y1={717.39}
-          x2={686.68}
-          y2={670.55}
-          xlinkHref="#Floating_svg__a"
-        />
         <linearGradient
           id="Floating_svg__c"
           x1={645.13}
@@ -137,11 +137,11 @@ const SvgFloating = ({ color, ...props }) => {
           xlinkHref="#Floating_svg__a"
         />
         <linearGradient
-          id="Floating_svg__o"
-          x1={269.97}
-          y1={167.89}
-          x2={269.97}
-          y2={149.53}
+          id="Floating_svg__b"
+          x1={686.68}
+          y1={717.39}
+          x2={686.68}
+          y2={670.55}
           xlinkHref="#Floating_svg__a"
         />
         <linearGradient

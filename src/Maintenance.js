@@ -21,6 +21,14 @@ const SvgMaintenance = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="Maintenance_svg__n"
+          x1={351.42}
+          y1={198.2}
+          x2={351.42}
+          y2={69}
+          xlinkHref="#Maintenance_svg__a"
+        />
+        <linearGradient
           id="Maintenance_svg__a"
           x1={459.65}
           y1={738.32}
@@ -32,14 +40,6 @@ const SvgMaintenance = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="Maintenance_svg__b"
-          x1={600.72}
-          y1={403}
-          x2={600.72}
-          y2={323.66}
-          xlinkHref="#Maintenance_svg__a"
-        />
         <linearGradient
           id="Maintenance_svg__c"
           x1={600.72}
@@ -129,11 +129,11 @@ const SvgMaintenance = ({ color, ...props }) => {
           xlinkHref="#Maintenance_svg__a"
         />
         <linearGradient
-          id="Maintenance_svg__n"
-          x1={351.42}
-          y1={198.2}
-          x2={351.42}
-          y2={69}
+          id="Maintenance_svg__b"
+          x1={600.72}
+          y1={403}
+          x2={600.72}
+          y2={323.66}
           xlinkHref="#Maintenance_svg__a"
         />
         <linearGradient

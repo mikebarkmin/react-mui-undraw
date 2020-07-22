@@ -21,6 +21,15 @@ const SvgCloudSync = ({ color, ...props }) => {
     >
       <defs>
         <linearGradient
+          id="CloudSync_svg__g"
+          x1={359.21}
+          y1={674.95}
+          x2={359.21}
+          y2={188.22}
+          gradientTransform="translate(-163.09 -79.23)"
+          xlinkHref="#CloudSync_svg__a"
+        />
+        <linearGradient
           id="CloudSync_svg__a"
           x1={690.86}
           y1={478.35}
@@ -32,14 +41,6 @@ const SvgCloudSync = ({ color, ...props }) => {
           <stop offset={0.54} stopColor="gray" stopOpacity={0.12} />
           <stop offset={1} stopColor="gray" stopOpacity={0.1} />
         </linearGradient>
-        <linearGradient
-          id="CloudSync_svg__b"
-          x1={817.66}
-          y1={176.95}
-          x2={817.66}
-          y2={105.63}
-          xlinkHref="#CloudSync_svg__a"
-        />
         <linearGradient
           id="CloudSync_svg__c"
           x1={817.66}
@@ -75,12 +76,11 @@ const SvgCloudSync = ({ color, ...props }) => {
           xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
-          id="CloudSync_svg__g"
-          x1={359.21}
-          y1={674.95}
-          x2={359.21}
-          y2={188.22}
-          gradientTransform="translate(-163.09 -79.23)"
+          id="CloudSync_svg__b"
+          x1={817.66}
+          y1={176.95}
+          x2={817.66}
+          y2={105.63}
           xlinkHref="#CloudSync_svg__a"
         />
         <linearGradient
