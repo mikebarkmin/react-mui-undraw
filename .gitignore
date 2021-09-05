@@ -8,3 +8,4 @@ illustrations.json
 fetch.py
 .mypy_cache
 lib
+yarn-error.log
